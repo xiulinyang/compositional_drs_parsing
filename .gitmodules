@@ -1,6 +1,6 @@
 [submodule "SBN-evaluation-tool"]
 	path = SBN-evaluation-tool
-	url = https://github.com/xiulinyang/compositional_drs_parsing.git
+	url = https://github.com/xiulinyang/SBN-evaluation-tool.git
 [submodule "am-tools"]
 	path = am-tools
 	url = https://github.com/xiulinyang/am-tools.git
