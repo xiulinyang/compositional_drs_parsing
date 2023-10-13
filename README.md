@@ -19,5 +19,5 @@ Provide a concise and clear summary of your project, highlighting the problem, m
 ## Installation
 ```bash
 # Example of how to clone your repository
-git clone https://github.com/YourUsername/YourThesisRepository.git
+git clone https://github.com/xiulinyang/compositional_drs_parsing.git
 
