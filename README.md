@@ -38,10 +38,11 @@ For more details, try ```python sbn_drg_generator.py```
 
 2. Preprocessing data to convert DRGs to amconll for training.
    To generate training data
-   ```
+```
 java -cp build/libs/am-tools.jar de.saar.coli.amtools.decomposition.SourceAutomataCLI -t examples/decomposition_input/mini.dm.sdp -d examples/decomposition_input/mini.dm.sdp -o examples/decomposition_input/dm_out/ -dt DMDecompositionToolset -s 2 -f
-   ```
+```
 To generate dev and test data
+
 ```
 java -cp build/libs/am-tools.jar de.saar.coli.amtools.decomposition.SourceAutomataCLI -t examples/decomposition_input/mini.dm.sdp -d examples/decomposition_input/mini.dm.sdp -o examples/decomposition_input/dm_out/ -dt de.saar.coli.amtools.decomposition.formalisms.toolsets.DMDecompositionToolset -s 2 -f
 ```
@@ -51,13 +52,16 @@ java -cp build/libs/am-tools.jar de.saar.coli.amtools.decomposition.SourceAutoma
 5. Training Dependency Parser
 6. Mapping the scope back
    ```python scope_match.py -i /split/file -a /alignment/file -s /scope/parse/ -o /save/directory```
+
 7. Evaluation
 ```
 cd 2.evaluation-tool-detail
 bash evaluation.sh pred.txt gold.txt
 ```
+
 ## Result
-## Results of AM-parser on PMB 4.0.0
+
+### Results of AM-parser and baselines on PMB 4.0.0
 
 | **TrainingData** | **Models** | **Dev P** | **Dev R** | **Dev F1** | **Dev Err** | **Test P** | **Test R** | **Test F1** | **Test Err** | **Eval P** | **Eval R** | **Eval F1** | **Eval Err** |
 |------------------|------------|----------|----------|-----------|------------|----------|----------|-----------|------------|----------|----------|-----------|------------|
