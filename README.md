@@ -76,7 +76,7 @@ To generate dev and test data
 ```
 java -cp build/libs/am-tools.jar de.saar.coli.amtools.decomposition.SourceAutomataCLI -t examples/decomposition_input/mini.dm.sdp -d examples/decomposition_input/mini.dm.sdp -o examples/decomposition_input/dm_out/ -dt de.saar.coli.amtools.decomposition.formalisms.toolsets.DMDecompositionToolset -s 2 -f
 ```
-   Please see the [wiki](https://github.com/coli-saar/am-parser/wiki/Learning-compositional-structures) page
+   Please see the [wiki](https://github.com/coli-saar/am-parser/wiki/Learning-compositional-structures) page for further details for training instructions.
 
 ### Training AM-Parser
    
