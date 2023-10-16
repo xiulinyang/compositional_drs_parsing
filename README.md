@@ -101,7 +101,9 @@ $ python -u -m supar.cmds.dep.crf2o train -b -d 0 -c dep-crf2o-en -p model -f ch
     --proj
 ```
 ### Mapping the scope back
-   ```python scope_match.py -i /split/file -a /alignment/file -s /scope/parse/ -o /save/directory```
+```
+python scope_match.py -i /split/file -a /alignment/file -s /scope/parse/ -o /save/directory
+```
 
 ### Evaluation
 ```
