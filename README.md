@@ -5,7 +5,7 @@ This repository is for my master's thesis on compositional DRS parsing. It build
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
+- [Pipeline](#pipeline)
 - [Results](#results)
 - [Acknowledgements](#acknowledgements)
 
@@ -41,7 +41,7 @@ Other useful repositories could be useful and we do not make changes to the code
 * [vulcan](https://github.com/jgroschwitz/vulcan): to visualize AM-tree for error analysis
 
   
-## Usage
+## Pipeline
 The pipeline works as below:
 ### Preprocessing
 The preprocessing procedure is designed to transform SBNs into DRGs. Once the process is complete, you can expect three distinct outputs:
