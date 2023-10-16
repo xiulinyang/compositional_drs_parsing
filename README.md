@@ -10,6 +10,13 @@ This repository is for my master's thesis on compositional DRS parsing. It build
 - [Acknowledgements](#acknowledgements)
 
 ## Installation
+What you need to make everything run smoothly.
+* Python 3.9
+* Java JKD 11
+* Gradle 0.8
+* Dependencies of UD-Boxer, AM-Parser, and AM-Tools.
+
+
 This project tailored the code from four repositories.
 
 * [Ud-boxer](https://github.com/xiulinyang/ud-boxer/tree/colab): preprocessing, converting SBN files in PMB4 and PMB5 to DRGs, and postprocessing.
