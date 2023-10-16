@@ -29,6 +29,23 @@ To use the code, please
 ``` git clone https://github.com/xiulinyang/compositional_drs_parsing.git```
 
 Other useful repositories could be useful and we do not make changes to the code.
-* 
-Please 
 
+## Usage
+The pipeline works as below:
+1. Preprocessing data to convert SBNs to DRGs, ```cd ud_boxer```
+```python sbn_drg_generator.py -s the/starting/path/of/pmb -f split/file/of/four/splits/(in the order of train, dev, test, other) -v 4 or 5 -e name of the directory to store penman info and split```
+
+For more details, try ```python sbn_drg_generator.py```
+
+2. Preprocessing data to convert DRGs to amconll for training.
+   Please see the wiki page
+
+3. Training AM-Parser
+4. Training Dependency Parser
+5. Mapping the scope back
+   ```python scope_match.py -i /split/file -a /alignment/file -s /scope/parse/ -o /save/directory```
+6. Evaluation
+```
+cd 2.evaluation-tool-detail
+bash evaluation.sh pred.txt gold.txt
+```
