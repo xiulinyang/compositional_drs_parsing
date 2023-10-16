@@ -24,13 +24,16 @@ This project tailored the code from four repositories.
 * [AM-Tools](https://github.com/xiulinyang/am-tools): preparing training data for AM-Parser.
 * [SBN-Evaluation](https://github.com/xiulinyang/SBN-evaluation-tool): providing a fine-grained evaluation of the results in different experiments.
 
-To use the code, please 
+To use the code, please follow the following steps:
 (1) create a conda virtual environment by 
 
-```conda create -n drsparsing python=3.9```
+```
+conda create -n drsparsing python=3.9
+```
 
 (2) clone our repository
-``` git clone https://github.com/xiulinyang/compositional_drs_parsing.git```
+``` git clone https://github.com/xiulinyang/compositional_drs_parsing.git
+```
 
 Other useful repositories could be useful and we do not make changes to the code.
 * [Supar](https://github.com/yzhangcs/parser): to train the dependency parser
@@ -39,14 +42,28 @@ Other useful repositories could be useful and we do not make changes to the code
   
 ## Usage
 The pipeline works as below:
-1. Preprocessing data to convert SBNs to DRGs, ```cd ud_boxer```
+The preprocessing procedure is designed to transform SBNs into DRGs. Once the process is complete, you can expect three distinct outputs:
+1. Penman Notation File
+- **Location**: Stored under each specific file directory.
+2. Penman Information File
+- **Location**: Also found under each individual file directory.
+3. Data Split Folder
+- **Location**: Located in the working directory.
+- **Contents**: This folder contains a total of eight files:
+  - **Data Splits**: Four files that represent different splits of the data.
+  - **Gold Data**: Four files that correspond to the gold standard data for each of the data splits.
+
 ```
+cd ud_boxer
 python sbn_drg_generator.py -s the/starting/path/of/pmb -f split/file/of/four/splits/(in the order of train, dev, test, other) -v 4 or 5 -e name of the directory to store penman info and split
 ```
 
-For more details, try ```python sbn_drg_generator.py```
+For more details, try 
 
-2. Preprocessing data to convert DRGs to amconll for training.
+```python sbn_drg_generator.py
+```
+
+2. Preprocessing data to convert DRGs to .amconll for training.
    To generate training data
 ```
 java -cp build/libs/am-tools.jar de.saar.coli.amtools.decomposition.SourceAutomataCLI -t examples/decomposition_input/mini.dm.sdp -d examples/decomposition_input/mini.dm.sdp -o examples/decomposition_input/dm_out/ -dt DMDecompositionToolset -s 2 -f
