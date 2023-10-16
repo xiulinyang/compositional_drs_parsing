@@ -61,7 +61,8 @@ python sbn_drg_generator.py -s the/starting/path/of/pmb -f split/file/of/four/sp
 
 For more details, try 
 
-```python sbn_drg_generator.py
+```
+python sbn_drg_generator.py
 ```
 
 2. Preprocessing data to convert DRGs to .amconll for training.
