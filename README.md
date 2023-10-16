@@ -17,7 +17,7 @@ What you need to make everything run smoothly.
 * Dependencies of UD-Boxer, AM-Parser, and AM-Tools.
 
 
-This project tailored the code from four repositories.
+This project tailored the code from branches of the four repositories.
 
 * [Ud-boxer](https://github.com/xiulinyang/ud-boxer/tree/colab): preprocessing, converting SBN files in PMB4 and PMB5 to DRGs, and postprocessing.
 * [AM-Parser](https://github.com/xiulinyang/am-parser/tree/unsupervised2020): training a compositional parser to parse scopeless and simplified DRGs.
