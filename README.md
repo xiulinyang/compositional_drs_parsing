@@ -26,7 +26,10 @@ To use the code, please
 ``` git clone https://github.com/xiulinyang/compositional_drs_parsing.git```
 
 Other useful repositories could be useful and we do not make changes to the code.
+* [Supar](https://github.com/yzhangcs/parser): to train the dependency parser
+* [vulcan](https://github.com/jgroschwitz/vulcan): to visualize AM-tree for error analysis
 
+  
 ## Usage
 The pipeline works as below:
 1. Preprocessing data to convert SBNs to DRGs, ```cd ud_boxer```
@@ -49,11 +52,15 @@ java -cp build/libs/am-tools.jar de.saar.coli.amtools.decomposition.SourceAutoma
    Please see the [wiki](https://github.com/coli-saar/am-parser/wiki/Learning-compositional-structures) page
 
 4. Training AM-Parser
-5. Training Dependency Parser
-6. Mapping the scope back
+```python -u train.py </path/to/drs_scopeless5.jsonnet> -s <where to save the model>  -f --file-friendly-logging  -o ' {"trainer" : {"cuda_device" :  <your cuda device>  } }'
+````
+6. Training Dependency Parser
+```
+```
+8. Mapping the scope back
    ```python scope_match.py -i /split/file -a /alignment/file -s /scope/parse/ -o /save/directory```
 
-7. Evaluation
+9. Evaluation
 ```
 cd 2.evaluation-tool-detail
 bash evaluation.sh pred.txt gold.txt
