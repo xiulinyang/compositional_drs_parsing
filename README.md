@@ -43,6 +43,7 @@ Other useful repositories could be useful and we do not make changes to the code
   
 ## Usage
 The pipeline works as below:
+### Preprocessing
 The preprocessing procedure is designed to transform SBNs into DRGs. Once the process is complete, you can expect three distinct outputs:
 1. Penman Notation File
 - **Location**: Stored under each specific file directory.
@@ -65,8 +66,8 @@ For more details, try
 python sbn_drg_generator.py
 ```
 
-2. Preprocessing data to convert DRGs to .amconll for training.
-   To generate training data
+### Preprocessing data to convert DRGs to .amconll for training.
+To generate training data
 ```
 java -cp build/libs/am-tools.jar de.saar.coli.amtools.decomposition.SourceAutomataCLI -t examples/decomposition_input/mini.dm.sdp -d examples/decomposition_input/mini.dm.sdp -o examples/decomposition_input/dm_out/ -dt DMDecompositionToolset -s 2 -f
 ```
@@ -77,12 +78,12 @@ java -cp build/libs/am-tools.jar de.saar.coli.amtools.decomposition.SourceAutoma
 ```
    Please see the [wiki](https://github.com/coli-saar/am-parser/wiki/Learning-compositional-structures) page
 
-4. Training AM-Parser
+### Training AM-Parser
    
 ```
 python -u train.py </path/to/drs_scopeless5.jsonnet> -s <where to save the model>  -f --file-friendly-logging  -o ' {"trainer" : {"cuda_device" :  <your cuda device>  } }'
 ````
-6. Training Dependency Parser
+### Training Dependency Parser
 ```
 # biaffine
 $ python -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en -p model -f char  \
@@ -99,10 +100,10 @@ $ python -u -m supar.cmds.dep.crf2o train -b -d 0 -c dep-crf2o-en -p model -f ch
     --mbr  \
     --proj
 ```
-8. Mapping the scope back
+### Mapping the scope back
    ```python scope_match.py -i /split/file -a /alignment/file -s /scope/parse/ -o /save/directory```
 
-9. Evaluation
+### Evaluation
 ```
 cd 2.evaluation-tool-detail
 bash evaluation.sh pred.txt gold.txt
