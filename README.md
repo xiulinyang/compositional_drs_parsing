@@ -60,10 +60,10 @@ cd ud_boxer
 python sbn_drg_generator.py -s the/starting/path/of/pmb -f split/file/of/four/splits/(in the order of train, dev, test, other) -v 4 or 5 -e name of the directory to store penman info and split
 ```
 
-For more details, try 
+For more details, please try 
 
 ```
-python sbn_drg_generator.py
+python sbn_drg_generator.py -h
 ```
 
 ### Preprocessing data to convert DRGs to .amconll for training.
