@@ -52,10 +52,26 @@ java -cp build/libs/am-tools.jar de.saar.coli.amtools.decomposition.SourceAutoma
    Please see the [wiki](https://github.com/coli-saar/am-parser/wiki/Learning-compositional-structures) page
 
 4. Training AM-Parser
-```python -u train.py </path/to/drs_scopeless5.jsonnet> -s <where to save the model>  -f --file-friendly-logging  -o ' {"trainer" : {"cuda_device" :  <your cuda device>  } }'
+   
+```
+python -u train.py </path/to/drs_scopeless5.jsonnet> -s <where to save the model>  -f --file-friendly-logging  -o ' {"trainer" : {"cuda_device" :  <your cuda device>  } }'
 ````
 6. Training Dependency Parser
 ```
+# biaffine
+$ python -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en -p model -f char  \
+    --train ptb/train.conllx  \
+    --dev ptb/dev.conllx  \
+    --test ptb/test.conllx  \
+    --embed glove-6b-100
+# crf2o
+$ python -u -m supar.cmds.dep.crf2o train -b -d 0 -c dep-crf2o-en -p model -f char  \
+    --train ptb/train.conllx  \
+    --dev ptb/dev.conllx  \
+    --test ptb/test.conllx  \
+    --embed glove-6b-100  \
+    --mbr  \
+    --proj
 ```
 8. Mapping the scope back
    ```python scope_match.py -i /split/file -a /alignment/file -s /scope/parse/ -o /save/directory```
