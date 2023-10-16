@@ -32,7 +32,8 @@ conda create -n drsparsing python=3.9
 ```
 
 (2) clone our repository
-``` git clone https://github.com/xiulinyang/compositional_drs_parsing.git
+```
+git clone https://github.com/xiulinyang/compositional_drs_parsing.git
 ```
 
 Other useful repositories could be useful and we do not make changes to the code.
