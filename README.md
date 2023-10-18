@@ -62,12 +62,12 @@ cd ud_boxer
 python sbn_drg_generator.py -s the/starting/path/of/pmb -f split/file/of/four/splits/(in the order of train, dev, test, other) -v 4 or 5 -e name of the directory to store penman info and split
 ```
 
-For more details, please try 
+For more details, please run:
 
 ```
 python sbn_drg_generator.py -h
 ```
-
+_Note that in PMB5, the test-long dataset hasn't been manually corrected yet and the gold SBN files are not stored in the released data yet. Therefore, when generating the test-long data split, please comment on the last line._
 ### Preprocessing data to convert DRGs to .amconll for training.
 To generate training data
 ```
