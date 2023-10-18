@@ -39,6 +39,8 @@ git clone https://github.com/xiulinyang/compositional_drs_parsing.git
 Other useful repositories could be useful and we do not make changes to the code.
 * [Supar](https://github.com/yzhangcs/parser): to train the dependency parser
 * [vulcan](https://github.com/jgroschwitz/vulcan): to visualize AM-tree for error analysis
+* [SMATCH++](https://github.com/flipz357/smatchpp): to evaluate the performance of different parsers
+* [SMATCH_RE](https://github.com/mdtux89/amr-evaluation): to evaluate the performance of the parsers on reentrancies
 
   
 ## Pipeline
