@@ -1,7 +1,7 @@
 # Compositional DRS Parsing
 
 ## Overview
-This repository is for my master's thesis on compositional DRS parsing. It builds a system based on AM-Parser and is able to process the non-compositional and compositional information efficiently. 
+This repository contains my master's thesis project, which focuses on compositional Discourse Representation Structure (DRS) parsing. The project involves developing a system that utilizes AM-Parser, effectively handling both non-compositional and compositional information. Our system demonstrates enhanced capabilities in parsing longer and more complex sentences, delivering robust performance. Additionally, our system performs competitively in parsing elements like scope, coreference, and reentrancies, holding its own against other well-established baseline systems.
 
 ## Table of Contents
 - [Installation](#installation)
