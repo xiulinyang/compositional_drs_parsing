@@ -118,7 +118,7 @@ $ python -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en -p model
 ```
 ### Mapping the scope back
 ```
-python scope_match.py -i /split/file -a /alignment/file -s /scope/parse/ -o /save/directory
+python scope_match.py -i /split/parse/file -a /alignment/file -s /scope/parse/ -o /save/directory
 ```
 
 ### Evaluation
