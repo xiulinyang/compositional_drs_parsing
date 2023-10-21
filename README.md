@@ -42,7 +42,7 @@ cd compositional_drs_parsing
 git clone -b unsupervised2020 https://github.com/xiulinyang/am-parser.git
 git clone https://github.com/xiulinyang/am-tools.git
 git clone https://github.com/xiulinyang/SBN-evaluation-tool.git
-
+git clone https://github.com/yzhangcs/parser
 ```
 
 Other useful repositories could be useful and we do not make changes to the code.
