@@ -68,6 +68,9 @@ For more details, please run:
 python sbn_drg_generator.py -h
 ```
 _Note that in PMB5, the test-long dataset hasn't been manually corrected yet and the gold SBN files are not stored in the released data yet. Therefore, when generating the test-long data split, please comment on the last line._
+
+The split data has been generated in the ```data/data_split``` folder. If you need files for penman information, node-token alignment, and visualization data for each DRS, please contact me and I will send you a google drive link. 
+
 ### Preprocessing data to convert DRGs to .amconll for training.
 To generate training data
 ```
@@ -93,14 +96,6 @@ $ python -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en -p model
     --dev ptb/dev.conllx  \
     --test ptb/test.conllx  \
     --embed glove-6b-100
-# crf2o
-$ python -u -m supar.cmds.dep.crf2o train -b -d 0 -c dep-crf2o-en -p model -f char  \
-    --train ptb/train.conllx  \
-    --dev ptb/dev.conllx  \
-    --test ptb/test.conllx  \
-    --embed glove-6b-100  \
-    --mbr  \
-    --proj
 ```
 ### Mapping the scope back
 ```
@@ -108,6 +103,7 @@ python scope_match.py -i /split/file -a /alignment/file -s /scope/parse/ -o /sav
 ```
 
 ### Evaluation
+The evaluation script should be run in the [SBN-Evaluation](https://github.com/xiulinyang/SBN-evaluation-tool) repository.
 ```
 cd 2.evaluation-tool-detail
 bash evaluation.sh pred.txt gold.txt
