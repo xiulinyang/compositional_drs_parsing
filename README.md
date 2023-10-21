@@ -7,7 +7,7 @@ This repository contains my master's thesis project, which focuses on compositio
 - [Installation](#installation)
 - [Pipeline](#pipeline)
 - [Results](#results)
-- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 ## Installation
 What you need to make everything run smoothly.
@@ -155,4 +155,7 @@ bash evaluation.sh pred.txt gold.txt
 | **Gold+Silver(MUL)**      | DRS-MLM         | **94.7\|94.7** | **90.5\|90.5**  | **92.5\|92.5**  | 3%         | **94.4\|94.4**  | **88.7\|88.7**  | **91.5\|91.5**  | 4%          | **82.0\|81.9**  | 5.5\|5.7        | 10.2\|10.6      | 82%              |
 
 *SMATCH (left) and SMATCH++ (right) of all models on PMB4 (Top) and PMB5 (Bottom) Datasets - the model trained exclusively on gold data is denoted in bold, while the overall best-performing model is indicated with underlining.*
+
+## Result
+If you have any questions, please feel free to reach out to me at [xiulin.yang.compling@gmail.com](mailto:xiulin.yang.compling@gmail.com).
 
