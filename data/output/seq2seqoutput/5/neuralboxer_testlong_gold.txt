@@ -1,0 +1,2086 @@
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTINUATION (b2 / box
+			:CONTINUATION (b3 / box
+				:CONTINUATION (b4 / box
+					:CONTINUATION (b5 / box
+						:CONTINUATION (b6 / box
+							:member (s48 / ample.a.01
+								:Attribute-of (s50 / produce.n.01
+									:Theme (s51 / generally.a.01)))
+							:member (s49 / vital.a.01
+								:Attribute-of s50)
+							:member s50
+							:member s51
+							:member (s52 / generally.a.01)
+							:member (s53 / put.v.01
+								:Agent s50
+								:Manner s52
+								:Time (s54 / time.n.08
+									:EQU "now")
+								:Theme (s55 / price.n.01))
+							:member s54
+							:member s55
+							:member (s56 / low.a.01
+								:Attribute-of s55))
+						:member (s44 / measure.n.02
+							:Unit (s45 / quantity.n.01
+								:MOR "2000000")
+							:Quantity "2"
+							:EQU (s47 / hour.n.01
+								:Quantity (s46 / quantity.n.01
+									:EQU "2")))
+						:member s45
+						:member s46
+						:member s47)
+					:member (s34 / tournament.n.01)
+					:member (s35 / come.v.01
+						:Theme s34
+						:Time (s36 / time.n.08
+							:TPR "now")
+						:Attribute (s38 / ton.n.01)
+						:Duration (s42 / quantity.n.01
+							:EQU "2"))
+					:member s36
+					:member (s37 / total.a.01
+						:Attribute-of (s39 / entity.n.01
+							:Sub s38
+							:Sub (s40 / crude_oil.n.01)))
+					:member s38
+					:member s39
+					:member s40
+					:member (s41 / quantity.n.01
+						:BOT s42)
+					:member s42
+					:member (s43 / year.n.01
+						:Quantity s41))
+				:member (s26 / decline.n.01)
+				:member (s27 / come.v.01
+					:Theme s26
+					:Time (s28 / time.n.08
+						:TPR "now")
+					:Attribute (s30 / report.n.01
+						:Theme (s29 / government.n.01)
+						:Part (s32 / entity.n.01
+							:Sub (s31 / crude_oil.n.01)
+							:Sub (s33 / crude_oil.n.01))))
+				:member s28
+				:member s29
+				:member s30
+				:member s31
+				:member s32
+				:member s33)
+			:member (s17 / time.n.08
+				:TPR "now")
+			:member (s18 / off.a.01
+				:Attribute-of (s11 / quantity.n.01
+					:EQU "2")
+				:Time s17
+				:Manner (s19 / more.r.01
+					:Theme (s21 / entity.n.01
+						:Quantity (s20 / quantity.n.01
+							:EQU "2000")))
+				:Duration s21)
+			:member s19
+			:member s20
+			:member s21
+			:member (s22 / as.r.01
+				:Theme s21)
+			:member (s23 / low.a.01
+				:Attribute-of s21
+				:Degree (s24 / more.r.01
+					:Theme s21
+					:Co-Theme (s25 / entity.n.01)))
+			:member s24
+			:member s25)
+		:member (s13 / entity.n.01
+			:Value (s15 / measure.n.02
+				:Quantity (s14 / quantity.n.01
+					:EQU "1")
+				:Unit (s16 / year.n.01)))
+		:member s14
+		:member s15
+		:member s16)
+	:member (s0 / price.n.01
+		:Theme (s1 / crude_oil.n.01))
+	:member s1
+	:member (s2 / close.v.01
+		:Agent s0
+		:Time (s3 / time.n.08
+			:TPR "now")
+		:Theme (s6 / percent.n.01
+			:Quantity (s4 / quantity.n.01
+				:MOR (s5 / quantity.n.01
+					:EQU "2")))
+		:Duration (s8 / fall.v.01
+			:Theme s3
+			:Time (s9 / time.n.08
+				:TPR "now")
+			:Destination (s12 / percent.n.01
+				:Quantity (s10 / quantity.n.01
+					:BOT s11))))
+	:member s3
+	:member s4
+	:member s5
+	:member s6
+	:member (s7 / city.n.03
+		:Name "New York")
+	:member s8
+	:member s9
+	:member s10
+	:member s11
+	:member s12)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTINUATION (b2 / box
+			:POSSIBILITY (b3 / box
+				:CONTINUATION (b4 / box
+					:CONTINUATION (b5 / box
+						:CONTINUATION (b6 / box
+							:CONTINUATION (b7 / box
+								:member (s29 / company.n.01
+									:Name "Heinz Márquez")
+								:member (s30 / female.n.02
+									:EQU s29)
+								:member (s31 / have.v.01
+									:Pivot s30
+									:Time (s32 / time.n.08
+										:EQU "now")
+									:Theme (s33 / entity.n.01
+										:Quantity "1")
+									:Location (s36 / georgian.n.03))
+								:member s32
+								:member s33
+								:member (s34 / quantity.n.01
+									:EQU "1")
+								:member (s35 / cowboy_hat.n.01
+									:Quantity s34
+									:Location s36)
+								:member s36)
+							:member (s23 / time.n.08
+								:EQU "now")
+							:member (s24 / conduct.v.01
+								:Theme (s16 / generally.a.01)
+								:Time s23
+								:Duration (s25 / very.r.01
+									:Attribute (s28 / cd.n.04
+										:User (s27 / italian.n.02))))
+							:member s25
+							:member (s26 / comfortable.a.01
+								:Attribute-of s25)
+							:member s27
+							:member s28)
+						:member (s19 / time.n.08
+							:EQU "now")
+						:member (s20 / highly.r.01)
+						:member (s21 / hold.v.01
+							:Theme (s18 / week.n.01)
+							:Time s19
+							:Manner s20
+							:Duration (s22 / week.n.01))
+						:member s22)
+					:member (s13 / person.n.01
+						:Role (s14 / republican.n.01))
+					:member s14
+					:member (s15 / time.n.08
+						:EQU "now")
+					:member s16
+					:member (s17 / hold.v.02
+						:Theme s13
+						:Time s15
+						:Manner s16
+						:Duration s18)
+					:member s18)
+				:member (s8 / shy.a.01
+					:Experiencer (s7 / person.n.01)
+					:Stimulus (s11 / person.n.01
+						:Source (s10 / location.n.01
+							:Name "china")
+						:Role (s12 / tennis_player.n.01))
+					:Manner s12)
+				:member (s9 / traditional.a.01
+					:Attribute-of s11)
+				:member s10
+				:member s11
+				:member s12))
+		:member (s3 / rugby.n.01)
+		:member (s4 / person.n.01
+			:Name "?"
+			:Role s3)
+		:member (s5 / time.n.08
+			:EQU "now")
+		:member (s6 / attract.v.01
+			:Theme (s1 / area.n.01
+				:Quantity "+"
+				:Attribute (s2 / state.n.01
+					:Name "North America"))
+			:Agent s4
+			:Time s5
+			:Theme s7)
+		:member s7)
+	:member (s0 / rural.a.01
+		:Attribute-of s1)
+	:member s1
+	:member s2)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:NEGATION (b2 / box
+			:NEGATION (b3 / box
+				:NECESSITY (b4 / box
+					:member (s15 / import.v.01
+						:Patient (s14 / food.n.01))))
+			:member s14))
+	:member (s0 / economic.a.01
+		:Attribute-of (s1 / innovation.n.01))
+	:member s1
+	:member (s2 / time.n.08
+		:EQU "now")
+	:member (s3 / subject.a.01
+		:Attribute-of s1
+		:Time s2
+		:Theme (s5 / provide.v.01
+			:Agent (s4 / entity.n.01)
+			:Theme (s6 / service.n.01)))
+	:member s4
+	:member s5
+	:member s6
+	:member (s7 / person.n.01
+		:Role (s8 / expert.n.01))
+	:member s8
+	:member (s9 / entity.n.01
+		:Sub s7
+		:Sub (s10 / person.n.01
+			:Role (s11 / contractor.n.01)))
+	:member s10
+	:member s11
+	:member (s12 / located.a.01
+		:Theme s9
+		:Location (s13 / island.n.01))
+	:member s13)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:member (s12 / expect.v.01
+			:Agent (s5 / plan.v.01
+				:Agent (s1 / company.n.01
+					:Location (s0 / technology.n.01)
+					:Location (s4 / country.n.02
+						:Name "us"))
+				:Time (s6 / time.n.08
+					:EQU "now")
+				:Topic (s7 / install.v.01
+					:Agent (s2 / sunny.a.01
+						:Attribute-of s4)
+					:Theme (s8 / solar_panel.n.01)
+					:Destination (s9 / entity.n.01
+						:Part (s11 / building.n.01))))
+			:Theme (s14 / alcoholic_drink.n.01))
+		:member (s13 / healthy.a.01
+			:Attribute-of s14)
+		:member s14)
+	:member s0
+	:member s1
+	:member s2
+	:member (s3 / western.a.01
+		:Attribute-of s4)
+	:member s4
+	:member s5
+	:member s6
+	:member s7
+	:member s8
+	:member s9
+	:member (s10 / industrial.a.01
+		:Attribute-of s11)
+	:member s11)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTINUATION (b2 / box
+			:CONTINUATION (b3 / box
+				:CONTINUATION (b4 / box
+					:CONTINUATION (b5 / box
+						:member (s47 / agency.n.01
+							:Name "VOA")
+						:member (s48 / female.n.02
+							:Name "Alex Villarreal"
+							:Agent s47
+							:Time (s49 / time.n.08
+								:EQU "now")
+							:Theme (s50 / town.n.01
+								:Name "Beijing"))
+						:member s49
+						:member s50)
+					:member (s27 / final.a.01
+						:Attribute-of (s28 / production.n.01
+							:Part-of (s30 / agency.n.01
+								:Name "Paralympics")))
+					:member s28
+					:member (s29 / old-fashioned.a.01
+						:Attribute-of s30)
+					:member s30
+					:member (s31 / present.v.01
+						:Agent s30
+						:Time (s32 / time.n.08
+							:TPR "now")
+						:Theme (s34 / production.n.01
+							:Part-of (s36 / combine.n.01
+								:Attribute (s35 / old.a.02
+									:Value "+"))))
+					:member s32
+					:member (s33 / new.a.01
+						:Attribute-of s34)
+					:member s34
+					:member s35
+					:member s36
+					:member (s37 / present.v.01
+						:Theme s34
+						:Time (s38 / time.n.08
+							:EQU "now")
+						:Co-Theme (s39 / image.n.01
+							:Content (s41 / worship.n.01)))
+					:member s38
+					:member s39
+					:member (s40 / old-fashioned.a.01
+						:Attribute-of s41)
+					:member s41
+					:member (s42 / present.v.01
+						:Agent s34
+						:Time (s43 / time.n.08
+							:EQU "now")
+						:Theme (s44 / image.n.01
+							:Content (s46 / democracy.n.01)))
+					:member s43
+					:member s44
+					:member (s45 / power-sharing.v.01
+						:Theme s46)
+					:member s46)
+				:member (s19 / entity.n.01)
+				:member (s20 / wring.v.01
+					:Agent s19
+					:Time (s21 / time.n.08
+						:TPR "now")
+					:Theme (s23 / breakfast.n.01)
+					:Destination (s24 / close.v.01
+						:Agent (s17 / mountain.n.01
+							:Source (s16 / continent.n.01
+								:Name "asia"))
+						:Time (s25 / time.n.08
+							:TPR "now")
+						:Theme s27))
+				:member s21
+				:member (s22 / olympic.a.01
+					:Attribute-of s23)
+				:member s23
+				:member s24
+				:member s25
+				:member (s26 / paralympic_games.n.01))
+			:member (s13 / entity.n.01)
+			:member (s14 / wring.v.01
+				:Agent s13
+				:Time (s15 / time.n.08
+					:TPR "now")
+				:Theme s17
+				:Destination (s18 / headline.n.01))
+			:member s15
+			:member s16
+			:member s17
+			:member s18)
+		:member (s8 / angry.a.01
+			:Experiencer (s9 / demonstration.n.01
+				:Location (s11 / capital.n.01
+					:Location (s10 / location.n.01
+						:Name "Tibetan")
+					:Part-of (s12 / rally.n.01))))
+		:member s9
+		:member s10
+		:member s11
+		:member s12)
+	:member (s0 / entity.n.01)
+	:member (s1 / issue.n.01
+		:Part-of (s2 / city.n.01
+			:Name "Tibet"))
+	:member s2
+	:member (s3 / be.v.01
+		:Theme s0
+		:Time (s4 / time.n.08
+			:TPR "now")
+		:Manner (s5 / time.n.08
+			:TPR "now")
+		:Manner (s6 / time.n.01)
+		:Co-Theme (s7 / news.n.01))
+	:member s4
+	:member s5
+	:member s6
+	:member s7)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTINUATION (b2 / box
+			:member (s18 / entity.n.01
+				:Quantity (s19 / quantity.n.01
+					:EQU "4")
+				:Part-of (s20 / person.n.01
+					:Role (s21 / suspect.n.01)))
+			:member s19
+			:member s20
+			:member s21
+			:member (s22 / time.n.08
+				:EQU "now")
+			:member (s23 / believe.v.01
+				:Experiencer (s17 / tie.n.01)
+				:Time s22
+				:Stimulus (s24 / have.v.01
+					:Pivot s18
+					:Theme (s25 / tie.n.01
+						:Destination (s27 / movement.n.01
+							:Source (s26 / location.n.01
+								:Name "mexico")
+							:Goal (s29 / party.n.01
+								:Creator (s28 / organization.n.01
+									:Name "al-Qaida")
+								:Goal (s30 / organization.n.01
+									:Name "Althing"))))))
+			:member s24
+			:member s25
+			:member s26
+			:member s27
+			:member s28
+			:member s29
+			:member s30
+			:member (s31 / form.v.01
+				:Agent s24
+				:Time (s32 / time.n.08
+					:TPR "now")
+				:Theme (s33 / company.n.01
+					:Name "CDA")
+				:Result (s34 / form.v.01
+					:Agent s33
+					:Time (s35 / time.n.08
+						:TPR "now")
+					:Result (s36 / credentials.n.01
+						:Source (s37 / city.n.01
+							:Name "Qa"))))
+			:member s32
+			:member s33
+			:member s34
+			:member s35
+			:member s36
+			:member s37)
+		:member (s10 / entity.n.01
+			:Quantity (s11 / quantity.n.01
+				:EQU "7")
+			:Part-of (s12 / person.n.01
+				:Role (s13 / suspect.n.01)))
+		:member s11
+		:member s12
+		:member s13
+		:member (s14 / time.n.08
+			:EQU "now")
+		:member (s15 / believe.v.01
+			:Experiencer (s9 / quarter.n.01)
+			:Time s14
+			:Stimulus (s16 / have.v.01
+				:Pivot s10
+				:Theme s17))
+		:member s16
+		:member s17)
+	:member (s0 / country.n.02
+		:Name "france")
+	:member (s1 / police.n.01
+		:Source s0)
+	:member (s2 / detain.v.01
+		:Agent s1
+		:Time (s3 / time.n.08
+			:TPR "now")
+		:Patient (s5 / person.n.01
+			:Quantity (s4 / quantity.n.01
+				:EQU "9"))
+		:Manner (s6 / city.n.01
+			:Name "Paris")
+		:Location (s8 / entity.n.01
+			:Sub (s7 / area.n.01
+				:Source s6)
+			:Sub s9))
+	:member s3
+	:member s4
+	:member s5
+	:member s6
+	:member s7
+	:member s8
+	:member s9)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / entity.n.01))
+
+(b0 / box)
+
+(b0 / box
+	:NEGATION (b1 / box
+		:CONTINUATION (b2 / box
+			:CONTINUATION (b3 / box
+				:CONTINUATION (b4 / box
+					:member (s17 / entity.n.01
+						:Quantity "?"
+						:Part-of (s21 / traditional.a.01
+							:Attribute-of (s22 / opinion.n.01
+								:User (s18 / entity.n.01)
+								:Quantity (s19 / quantity.n.01
+									:TOP (s20 / quantity.n.01)))))
+					:member s18
+					:member s19
+					:member s20
+					:member s21
+					:member s22
+					:member (s23 / be.v.01
+						:Theme s22
+						:Time (s24 / time.n.08
+							:EQU "now")
+						:Location (s25 / danger.n.01
+							:EQU (s27 / report.v.01
+								:Agent (s26 / male.n.02
+									:Name "Simon and Garfunkel")
+								:Time (s28 / time.n.08
+									:EQU "now")
+								:Source (s29 / location.n.01
+									:Name "Beijing"))))
+					:member s24
+					:member s25
+					:member s26
+					:member s27
+					:member s28
+					:member s29)
+				:member (s11 / entity.n.01)
+				:member (s12 / person.n.01
+					:Role (s13 / wife.n.01
+						:Of s11))
+				:member s13
+				:member (s14 / be.v.01
+					:Theme s12
+					:Time (s15 / time.n.08
+						:EQU "now")
+					:Co-Theme (s16 / danger.n.01))
+				:member s15
+				:member s16)
+			:member (s7 / person.n.01)
+			:member (s8 / be.v.01
+				:Theme s7
+				:Time (s9 / time.n.08
+					:EQU "now")
+				:Co-Theme (s10 / morning_star.n.01))
+			:member s9
+			:member s10)
+		:member (s4 / be.v.01
+			:Theme (s1 / game.n.01)
+			:Time (s5 / time.n.08
+				:EQU "now")
+			:Co-Theme (s6 / sport.n.01))
+		:member s5
+		:member s6)
+	:member (s0 / olympic.a.01
+		:Attribute-of s1)
+	:member s1
+	:member (s2 / time.n.08
+		:EQU "now")
+	:member (s3 / diligent.a.01
+		:Attribute-of s1
+		:Time s2))
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTINUATION (b2 / box
+			:CONTINUATION (b3 / box
+				:CONTINUATION (b4 / box
+					:CONTINUATION (b5 / box
+						:CONTINUATION (b6 / box
+							:member (s27 / agency.n.01
+								:Name "VOA")
+							:member (s28 / male.n.02
+								:Name "Lojban")
+							:member (s29 / report.v.01
+								:Agent s27
+								:Time (s30 / time.n.08
+									:EQU "now"))
+							:member s30)
+						:member (s22 / time.n.08
+							:TSU "now")
+						:member (s23 / dead.a.01
+							:Attribute-of (s21 / production.n.01
+								:Source (s20 / company.n.01))
+							:Time s22)
+						:member (s24 / cut.v.01
+							:Agent s21
+							:Patient (s26 / production.n.01
+								:Source (s25 / company.n.01)))
+						:member s25
+						:member s26)
+					:member (s19 / cut.v.01
+						:Agent (s16 / entity.n.01)
+						:Patient s21)
+					:member s20
+					:member s21)
+				:member s16
+				:member (s17 / time.n.08
+					:TSU "now")
+				:member (s18 / dead.a.01
+					:Attribute-of s16
+					:Time s17))
+			:member (s13 / cut.v.01
+				:Agent (s6 / corporate.a.01
+					:Attribute-of (s8 / firm.n.01
+						:Creator (s7 / campaign.n.01)))
+				:Time (s14 / time.n.08
+					:TPR "now")
+				:Patient (s15 / plan.n.01))
+			:member s14
+			:member s15)
+		:member (s5 / international.a.01
+			:Attribute-of s7)
+		:member s6
+		:member s7
+		:member s8
+		:member (s9 / begin.v.01
+			:Agent s8
+			:Time (s10 / time.n.08
+				:TPR "now")
+			:Theme (s11 / plan.n.01))
+		:member s10
+		:member s11
+		:member (s12 / time.n.08
+			:DayOfWeek "tuesday"))
+	:member (s0 / rise.v.01
+		:Attribute (s2 / price.n.01
+			:Theme (s1 / gasoline.n.01)))
+	:member s1
+	:member s2
+	:member (s3 / entity.n.01
+		:Sub s2
+		:Sub (s4 / referendum.n.01))
+	:member s4)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:NEGATION (b1 / box
+		:NEGATION (b2 / box
+			:CONTINUATION (b3 / box
+				:member (s17 / economic.a.01
+					:Attribute-of (s18 / injury.n.01))
+				:member s18
+				:member (s19 / contain.v.01
+					:Agent s18
+					:Time (s20 / time.n.08
+						:EQU "now")
+					:Theme (s23 / seed.n.01))
+				:member s20
+				:member (s21 / considerable.a.01
+					:Attribute-of s23)
+				:member (s22 / mechanical.a.01
+					:Attribute-of s23)
+				:member s23)
+			:member (s5 / be.v.01
+				:Theme (s0 / male.n.02
+					:Name "Jan De Bont"
+					:Source "-1")
+				:Time (s6 / time.n.08
+					:EQU "now")
+				:Co-Theme (s8 / support.v.01
+					:Theme (s7 / ocean.n.01)
+					:Time (s9 / time.n.08
+						:EQU "now")
+					:Attribute (s12 / seed.n.01
+						:MadeOf (s11 / fish.n.01))))
+			:member s6
+			:member s7
+			:member s8
+			:member s9
+			:member (s10 / considerable.a.01
+				:Attribute-of s12)
+			:member s11
+			:member s12
+			:member (s13 / entity.n.01
+				:Sub s12
+				:Sub (s16 / asset.n.01))
+			:member (s14 / potential.a.01
+				:Attribute-of s16)
+			:member (s15 / recover.v.01
+				:Theme s16)
+			:member s16)
+		:member (s1 / be.v.01
+			:Theme "-2"
+			:Time (s2 / time.n.08
+				:EQU "now")
+			:Co-Theme (s4 / island.n.01))
+		:member s2
+		:member (s3 / volcanic.a.01
+			:Attribute-of s4)
+		:member s4)
+	:member s0)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:NEGATION (b1 / box
+		:NEGATION (b2 / box
+			:NECESSITY (b3 / box
+				:member (s16 / import.v.01
+					:Patient (s14 / terra_incognita.n.01
+						:EQU (s5 / provide.v.01
+							:Agent (s4 / entity.n.01)
+							:Theme (s6 / service.n.01)
+							:Destination (s7 / military.n.01))
+						:Sub (s13 / food.n.01)
+						:Sub (s15 / cart.n.01))))
+			:member s14
+			:member s15)
+		:member s13)
+	:member (s0 / economic.a.01
+		:Attribute-of (s1 / innovation.n.01))
+	:member s1
+	:member (s2 / time.n.08
+		:EQU "now")
+	:member (s3 / subject.a.01
+		:Attribute-of s1
+		:Time s2
+		:Theme s5)
+	:member s4
+	:member s5
+	:member s6
+	:member s7
+	:member (s8 / entity.n.01
+		:Sub s7
+		:Sub (s10 / family.n.01
+			:User (s9 / person.n.01)))
+	:member s9
+	:member s10
+	:member (s11 / located.a.01
+		:Theme s10
+		:Location (s12 / city.n.01
+			:Name "Hohenems"))
+	:member s12)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTINUATION (b2 / box
+			:CONTINUATION (b3 / box
+				:CONTINUATION (b4 / box
+					:CONTINUATION (b5 / box
+						:CONTINUATION (b6 / box
+							:CONTINUATION (b7 / box
+								:member (s46 / country.n.02
+									:Name "Yugoslavia")
+								:member (s47 / attempt.v.01
+									:Agent s46
+									:Time (s48 / time.n.08
+										:TPR "now")
+									:Location (s49 / location.n.01
+										:Name "Celaya")
+									:Theme (s50 / location.n.01
+										:Name "Russia"
+										:Location (s51 / location.n.01
+											:Name "Russia"
+											:Location (s52 / location.n.01
+												:Name "Russia"
+												:Location (s53 / frontier.n.01)))))
+								:member s48
+								:member s49
+								:member s50
+								:member s51
+								:member s52
+								:member s53)
+							:member (s40 / country.n.02
+								:Name "Russia")
+							:member (s41 / continue.v.01
+								:Theme s40
+								:Time (s42 / time.n.08
+									:TPR "now")
+								:Location (s43 / location.n.01
+									:Name "China"
+									:Location (s44 / country.n.02
+										:Name "Russia"
+										:Location (s45 / location.n.01
+											:Name "Russia"))))
+							:member s42
+							:member s43
+							:member s44
+							:member s45)
+						:member (s32 / state.n.04
+							:Name "Russia")
+						:member (s33 / continue.v.01
+							:Theme s32
+							:Time (s34 / time.n.08
+								:TPR "now")
+							:Attribute (s36 / agency.n.01
+								:Name "Russia")
+							:Source (s38 / country.n.02
+								:Name "China")
+							:Source s41)
+						:member s34
+						:member (s35 / follow.v.01
+							:Theme s36)
+						:member s36
+						:member (s37 / entity.n.01
+							:Sub s36
+							:Sub s38)
+						:member s38
+						:member (s39 / location.n.01
+							:Name "Russia"))
+					:member (s26 / time.n.08
+						:EQU "now")
+					:member (s27 / involve.v.01
+						:Agent (s23 / helmet.n.01)
+						:Time s26
+						:Theme (s30 / entity.n.01
+							:Sub (s28 / person.n.01
+								:Role (s29 / legislator.n.01))
+							:Sub (s31 / country.n.02
+								:Name "China")))
+					:member s28
+					:member s29
+					:member s30
+					:member s31)
+				:member (s18 / entity.n.01)
+				:member (s19 / three.n.01)
+				:member (s20 / begin.v.01
+					:Agent s18
+					:Manner s19
+					:Theme (s21 / helmet.n.01))
+				:member s21
+				:member (s22 / carry.v.01
+					:Agent s18
+					:Theme s23)
+				:member s23
+				:member (s24 / carry.v.01
+					:Agent s20
+					:Theme (s25 / jacket.n.01))
+				:member s25)
+			:member (s14 / trial.n.04
+				:Part-of (s16 / building.n.01)
+				:Location (s17 / complete.a.01
+					:Attribute-of s16))
+			:member (s15 / comfort.v.01
+				:Theme s16)
+			:member s16
+			:member s17)
+		:member (s9 / event.n.01)
+		:member (s10 / begin.v.01
+			:Theme s9
+			:Time (s11 / time.n.08
+				:TPR "now")
+			:Manner (s12 / time.n.08
+				:DayOfWeek "tuesday")
+			:Instrument (s13 / theory_of_relativity.n.01))
+		:member s11
+		:member s12
+		:member s13)
+	:member (s0 / country.n.02
+		:Name "Russia")
+	:member (s1 / entity.n.01
+		:Sub s0
+		:Sub (s2 / country.n.02
+			:Name "China"))
+	:member s2
+	:member (s3 / time.n.08
+		:EQU "now")
+	:member (s4 / operate.v.01
+		:Agent s1
+		:Time s3
+		:Theme (s6 / day.n.01
+			:Quantity (s5 / quantity.n.01
+				:EQU "3")
+			:Part (s8 / pornography.n.01
+				:Attribute (s7 / joint.n.01))))
+	:member s5
+	:member s6
+	:member s7
+	:member s8)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTINUATION (b2 / box
+			:CONTINUATION (b3 / box
+				:CONTINUATION (b4 / box
+					:CONTINUATION (b5 / box
+						:CONTINUATION (b6 / box
+							:CONTINUATION (b7 / box
+								:CONTINUATION (b8 / box
+									:CONTINUATION (b9 / box
+										:member (s46 / agency.n.01
+											:Name "VOA")
+										:member (s47 / female.n.02
+											:Name "Chris Sisco"
+											:Part-of s46)
+										:member (s48 / time.n.08
+											:EQU "now")
+										:member (s49 / help.v.01
+											:Agent s47
+											:Time s48
+											:Beneficiary (s50 / person.n.01))
+										:member s50
+										:member (s51 / save.v.01
+											:Agent s50
+											:Theme (s53 / home.n.01
+												:User (s52 / person.n.01)))
+										:member s52
+										:member s53)
+									:member (s38 / agency.n.01
+										:Name "VOA")
+									:member (s39 / female.n.02
+										:Name "Chris Simkins"
+										:Part-of s38)
+									:member (s40 / recommend.v.01
+										:Agent s39
+										:Time (s41 / time.n.08
+											:EQU "now")
+										:Theme (s43 / entity.n.01
+											:Theme (s42 / credit_card.n.01)
+											:Location (s45 / home.n.01
+												:User (s44 / person.n.01))))
+									:member s41
+									:member s42
+									:member s43
+									:member s44
+									:member s45)
+								:member (s33 / person.n.01
+									:Role (s34 / borrower.n.01))
+								:member s34
+								:member (s35 / specialize.v.01
+									:Agent s33
+									:Theme (s37 / payment.n.01
+										:Theme (s36 / laptop.n.01)))
+								:member s36
+								:member s37)
+							:member (s31 / event.v.01
+								:Participant (s32 / ļaužu.n.01))
+							:member s32)
+						:member (s25 / entity.n.01
+							:Quantity (s26 / quantity.n.01
+								:EQU "63"))
+						:member s26
+						:member (s27 / compare.v.01
+							:Theme s25
+							:Co-Theme (s29 / quantity.n.01
+								:EQU "63"))
+						:member (s28 / year.n.01
+							:Quantity s29)
+						:member s29
+						:member (s30 / percent.n.01
+							:Quantity s29))
+					:member (s21 / number.n.01
+						:Part-of (s22 / home.n.01))
+					:member s22
+					:member (s23 / time.n.08
+						:EQU "now")
+					:member (s24 / close_at_hand.a.02
+						:Attribute-of s21
+						:Time s22
+						:Time s23))
+				:member (s19 / number.n.01
+					:Of (s20 / home.n.01))
+				:member s20)
+			:member (s17 / entity.n.01
+				:Theme (s18 / home.n.01))
+			:member s18)
+		:member (s9 / time.n.08
+			:YearOfCentury "2009")
+		:member (s10 / region.n.03
+			:Name "United States")
+		:member (s11 / time.n.08
+			:EQU "now")
+		:member (s12 / occur.v.01
+			:Time (s6 / person.n.01)
+			:Theme s10
+			:Time s11
+			:Location (s16 / time.n.01))
+		:member (s13 / high.a.01
+			:Degree (s14 / most.r.01))
+		:member s14
+		:member (s15 / rate.n.01
+			:Attribute s13
+			:Part-of s16)
+		:member s16)
+	:member (s0 / entity.n.01
+		:Quantity (s1 / quantity.n.01
+			:MOR "2000000")
+		:EQU (s2 / person.n.01
+			:Role (s3 / america.n.01)))
+	:member s1
+	:member s2
+	:member s3
+	:member (s4 / time.n.08
+		:TSU "now")
+	:member (s5 / lose.v.01
+		:Agent s0
+		:Time s4
+		:Theme (s7 / home.n.01
+			:User s6)
+		:Time (s8 / time.n.01))
+	:member s6
+	:member s7
+	:member s8)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:NEGATION (b2 / box
+			:NEGATION (b3 / box
+				:NECESSITY (b4 / box
+					:member (s14 / import.v.01
+						:Theme (s13 / food.n.01))))
+			:member s13))
+	:member (s0 / economic.a.01
+		:Attribute-of (s1 / innovation.n.01))
+	:member s1
+	:member (s2 / time.n.08
+		:EQU "now")
+	:member (s3 / subject.a.01
+		:Attribute-of s1
+		:Time s2
+		:Theme (s5 / provide.v.01
+			:Agent (s4 / entity.n.01)
+			:Theme (s6 / service.n.01)
+			:Destination (s7 / military.n.01)))
+	:member s4
+	:member s5
+	:member s6
+	:member s7
+	:member (s8 / entity.n.01
+		:Sub s7
+		:Sub (s10 / family.n.01
+			:User (s9 / person.n.01)))
+	:member s9
+	:member s10
+	:member (s11 / located.a.01
+		:Theme s10
+		:Location (s12 / city.n.01
+			:Name "Canada"))
+	:member s12)
+
+(b0 / box)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTINUATION (b2 / box
+			:member (s14 / female.n.02
+				:Name "VOA")
+			:member (s15 / female.n.02
+				:Name "Carol Pearson"
+				:Part-of s14)
+			:member (s16 / have.v.01
+				:Pivot s15
+				:Time (s17 / time.n.08
+					:EQU "now")
+				:Theme (s18 / entity.n.01))
+			:member s17
+			:member s18)
+		:member (s10 / best.n.01)
+		:member (s11 / be.v.08
+			:Theme s10
+			:Time (s12 / time.n.08
+				:EQU "now")
+			:Co-Theme (s13 / drug.n.01))
+		:member s12
+		:member s13)
+	:member (s0 / quantity.n.01
+		:EQU "2")
+	:member (s1 / new.a.01
+		:Attribute-of (s2 / study.n.01
+			:Quantity s0))
+	:member s2
+	:member (s3 / offer.v.01
+		:Agent s2
+		:Time (s4 / time.n.08
+			:EQU "now")
+		:Theme (s6 / news.n.01)
+		:Recipient (s7 / entity.n.01
+			:Part (s9 / blood_pressure.n.01
+				:Attribute (s8 / high.a.01
+					:Value "+"))))
+	:member s4
+	:member (s5 / good.a.01
+		:Attribute-of s6)
+	:member s6
+	:member s7
+	:member s8
+	:member s9)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTINUATION (b2 / box
+			:CONTINUATION (b3 / box
+				:CONTINUATION (b4 / box
+					:CONTINUATION (b5 / box
+						:CONTINUATION (b6 / box
+							:member (s40 / receive.v.01
+								:Agent (s33 / vote.n.01
+									:Creator (s32 / vote.n.01))
+								:Time (s41 / time.n.08
+									:TPR "now")
+								:Theme (s42 / treaty.n.01)
+								:Goal (s43 / time.n.08
+									:MonthOfYear "12"))
+							:member s41
+							:member s42
+							:member s43)
+						:member (s34 / prepare.v.01
+							:Agent (s27 / join.v.01
+								:Agent (s26 / male.n.02
+									:Name "UN")
+								:Time (s28 / time.n.08
+									:TPR "now")
+								:Theme (s30 / help.n.01
+									:Creator (s29 / party.n.01
+										:Name "NATO"))
+								:Manner (s31 / prepare.v.01
+									:Agent s30
+									:Theme s33))
+							:Time (s35 / time.n.08
+								:TPR "now")
+							:Theme (s37 / help.n.01
+								:Creator (s36 / party.n.01
+									:Name "NATO"))
+							:Manner (s38 / prepare.v.01
+								:Agent s37
+								:Theme (s39 / vote.n.01)))
+						:member s35
+						:member s36
+						:member s37
+						:member s38
+						:member s39)
+					:member s26
+					:member s27
+					:member s28
+					:member s29
+					:member s30
+					:member s31
+					:member s32
+					:member s33)
+				:member (s23 / male.n.02
+					:Name "UN")
+				:member (s24 / sign.v.01
+					:Agent s23
+					:Theme (s25 / document.n.01))
+				:member s25)
+			:member (s19 / organization.n.01
+				:Name "UN")
+			:member (s20 / sign.v.01
+				:Agent s19
+				:Time (s21 / time.n.08
+					:TPR "now")
+				:Theme (s22 / statement.n.01))
+			:member s21
+			:member s22)
+		:member (s13 / hold.v.01
+			:Theme (s6 / jacket.n.01
+				:User (s5 / country.n.02
+					:Name "Iraq"))
+			:Time (s14 / time.n.08
+				:TPR "now")
+			:Manner (s15 / time.n.08
+				:EQU "now")
+			:Agent (s17 / prime_minister.n.01))
+		:member s14
+		:member s15
+		:member (s16 / location.n.01
+			:Name "united kingdom")
+		:member s17
+		:member (s18 / male.n.02
+			:Name "Tony Blair"
+			:Source s16
+			:Title s17))
+	:member (s0 / company.n.01
+		:Name "European Union")
+	:member (s1 / welcome.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s4 / publication.n.01
+			:Part-of s5))
+	:member s2
+	:member (s3 / time.n.08
+		:TPR "now")
+	:member s4
+	:member s5
+	:member s6
+	:member (s7 / hold.v.01
+		:Theme s3
+		:Time (s8 / time.n.08
+			:TPR "now")
+		:Manner (s9 / time.n.08
+			:EQU "now")
+		:Agent (s11 / prime_minister.n.01))
+	:member s8
+	:member s9
+	:member (s10 / country.n.02
+		:Name "united kingdom")
+	:member s11
+	:member (s12 / male.n.02
+		:Name "Tony Blair"
+		:Source s10
+		:Title s11))
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTINUATION (b2 / box
+			:CONTINUATION (b3 / box
+				:CONTINUATION (b4 / box
+					:member (s40 / money_laundering.n.01)
+					:member (s41 / time.n.08
+						:EQU "now")
+					:member (s42 / charge.v.01
+						:Agent s40
+						:Time s41
+						:Time (s43 / time.n.08
+							:TPR "now")
+						:Theme (s44 / theft.n.01
+							:Theme (s47 / transaction.n.01
+								:Creator (s45 / government.n.01))))
+					:member s43
+					:member s44
+					:member s45
+					:member (s46 / property.a.01
+						:Attribute-of s47)
+					:member s47)
+				:member (s31 / company.n.01
+					:Name "National Bank")
+				:member (s32 / person.n.01
+					:Source (s30 / male.n.02
+						:Name "Vietnam")
+					:Role s31
+					:Role (s33 / player.n.01))
+				:member s33
+				:member (s34 / time.n.08
+					:EQU "now")
+				:member (s35 / charge.v.06
+					:Context s32
+					:Time s34
+					:Time (s36 / time.n.08
+						:TPR "now")
+					:Theme (s37 / theft.n.01
+						:Theme (s39 / furniture.n.01
+							:Creator (s38 / government.n.01))))
+				:member s36
+				:member s37
+				:member s38
+				:member s39)
+			:member (s23 / time.n.08
+				:TPR "now")
+			:member (s24 / arrest.v.01
+				:Patient (s16 / country.n.02
+					:Name "Afghanistan")
+				:Time s23
+				:Causer (s25 / money.n.01)
+				:Start (s27 / company.n.01
+					:Source (s26 / location.n.01
+						:Name "us")))
+			:member s25
+			:member s26
+			:member s27
+			:member (s28 / record.v.02
+				:Agent (s21 / steal.v.01
+					:Agent (s20 / entity.n.01)
+					:Theme (s22 / money.n.01))
+				:Time (s29 / time.n.08
+					:TPR "now")
+				:Theme s30
+				:Manner s31)
+			:member s29
+			:member s30)
+		:member (s17 / male.n.02
+			:Name "Michael Crichton")
+		:member (s18 / time.n.08
+			:EQU "now")
+		:member (s19 / accuse.v.01
+			:Theme s17
+			:Time s18
+			:Attribute s21
+			:Manner s22)
+		:member s20
+		:member s21
+		:member s22)
+	:member (s0 / country.n.02
+		:Name "us")
+	:member (s1 / person.n.01
+		:Source s0
+		:Role (s2 / police_officer.n.01))
+	:member s2
+	:member (s3 / time.n.08
+		:TPR "now")
+	:member (s4 / charge.v.06
+		:Agent s1
+		:Time s3
+		:Theme (s6 / steal.v.01
+			:Agent (s5 / entity.n.01)
+			:Theme (s7 / entity.n.01
+				:Quantity (s8 / quantity.n.01
+					:MOR (s9 / quantity.n.01
+						:EQU "170000"))
+				:EQU (s10 / person.n.01
+					:Role (s11 / delegate.n.01)))
+			:Duration s10))
+	:member s5
+	:member s6
+	:member s7
+	:member s8
+	:member s9
+	:member s10
+	:member s11
+	:member (s12 / humanitarian.a.01
+		:Attribute-of (s13 / relief.n.01
+			:Location (s15 / entity.n.01
+				:Sub (s14 / country.n.02
+					:Name "Iraq")
+				:Sub s16)))
+	:member s13
+	:member s14
+	:member s15
+	:member s16)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:CONTRAST (b1 / box
+		:CONTINUATION (b2 / box
+			:CONTINUATION (b3 / box
+				:CONTINUATION (b4 / box
+					:CONTRAST (b5 / box
+						:member (s25 / time.n.08
+							:TPR "now")
+						:member (s26 / close.v.01
+							:Theme (s18 / open.v.01
+								:Theme (s17 / mine.n.01
+									:EQU (s16 / mine.n.01
+										:EQU (s15 / time.n.08
+											:YearOfCentury "1991")))
+								:Agent s16
+								:Time (s19 / time.n.08
+									:TPR "now")
+								:Time (s20 / time.n.08
+									:YearOfCentury "1993"))
+							:Time s25
+							:Time (s27 / time.n.08
+								:TPR "now")
+							:Time (s28 / time.n.08
+								:YearOfCentury "1993"))
+						:member s27
+						:member s28)
+					:member (s21 / time.n.08
+						:TPR "now")
+					:member (s22 / close.v.01
+						:Theme s15
+						:Time s21
+						:Time (s23 / time.n.08
+							:TPR "now")
+						:Time (s24 / time.n.08
+							:YearOfCentury "1993"))
+					:member s23
+					:member s24)
+				:member s15
+				:member s16
+				:member s17
+				:member s18
+				:member s19
+				:member s20)
+			:member (s9 / country.n.02
+				:Name "australia")
+			:member (s10 / government.n.01
+				:Source s9)
+			:member (s11 / close.v.01
+				:Agent s10
+				:Time (s12 / time.n.08
+					:TPR "now")
+				:Patient (s13 / mine.n.01)
+				:Time (s14 / time.n.08
+					:YearOfCentury "1991"))
+			:member s12
+			:member s13
+			:member s14)
+		:member (s7 / time.n.08
+			:MonthOfYear "12"
+			:EQU (s8 / time.n.08
+				:YearOfCentury "1987"))
+		:member s8)
+	:member (s0 / company.n.01
+		:Name "Curiosity")
+	:member (s1 / crawl.v.03
+		:Location s0)
+	:member (s2 / be.v.02
+		:Theme s1
+		:Time (s3 / time.n.08
+			:TPR "now")
+		:Co-Theme (s6 / injury.n.01))
+	:member s3
+	:member (s4 / significant.a.01
+		:Attribute-of s6)
+	:member (s5 / economic.a.01
+		:Attribute-of s6)
+	:member s6)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:NEGATION (b2 / box
+			:NEGATION (b3 / box
+				:member (s3 / time.n.08
+					:TPR "now")
+				:member (s4 / transfer.v.01
+					:Theme (s2 / entity.n.01)
+					:Time s3
+					:Source (s5 / company.n.01
+						:Name "UK")
+					:Destination (s6 / country.n.02
+						:Name "Australia")
+					:Time (s7 / time.n.08
+						:YearOfCentury "1947"))
+				:member s5
+				:member s6
+				:member s7
+				:member (s8 / support.v.01
+					:Theme (s1 / hebrew.n.01)
+					:Time (s9 / time.n.08
+						:TPR "now")
+					:Agent (s11 / number.n.01
+						:Attribute (s10 / large.a.01
+							:Value "+")
+						:Part (s13 / entity.n.01
+							:Sub (s12 / seal.n.01)
+							:Sub (s15 / animal.n.01))))
+				:member s9
+				:member s10
+				:member s11
+				:member s12
+				:member s13
+				:member (s14 / bird.n.01
+					:Attribute-of s15)
+				:member s15)
+			:member s2))
+	:member (s0 / uninhabited.a.01
+		:Attribute-of s1)
+	:member s1)
+
+(b0 / box)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTRAST (b2 / box
+			:NEGATION (b3 / box
+				:member (s17 / time.n.08
+					:EQU "now")
+				:member (s18 / rule.v.01
+					:Theme (s16 / island.n.01)
+					:Time s17
+					:Time (s19 / time.n.08
+						:TPR "now")
+					:Manner (s21 / basis.n.01))
+				:member s19
+				:member (s20 / permanent.a.01
+					:Attribute-of s21)
+				:member s21)
+			:member s16)
+		:member (s9 / water.n.01
+			:Location (s10 / location.n.01
+				:SXY (s11 / island.n.01)))
+		:member s10
+		:member s11
+		:member (s12 / support.v.01
+			:Theme s9
+			:Time (s13 / time.n.08
+				:EQU "now")
+			:Goal (s15 / fishing.n.01))
+		:member s13
+		:member (s14 / musical.a.01
+			:Attribute-of s15)
+		:member s15)
+	:member (s0 / island.n.01)
+	:member (s1 / have.v.01
+		:Pivot s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s3 / potential.n.01
+			:Theme (s6 / fuel.n.01)))
+	:member s2
+	:member s3
+	:member (s4 / oil.n.01)
+	:member (s5 / entity.n.01
+		:Sub s4
+		:Sub (s8 / entity.n.01
+			:Attribute s6
+			:Colour (s7 / oil.n.03)))
+	:member s6
+	:member s7
+	:member s8)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:CONTRAST (b1 / box
+		:CONTINUATION (b2 / box
+			:member (s13 / agency.n.01
+				:Name "VOA")
+			:member (s14 / female.n.02
+				:Name "Carol Pearson"
+				:Part-of s13)
+			:member (s15 / report.v.01
+				:Agent s14
+				:Time (s16 / time.n.08
+					:EQU "now")
+				:Theme (s18 / interpretation.n.01
+					:Attribute (s17 / high.a.01
+						:Value "+")))
+			:member s16
+			:member s17
+			:member s18)
+		:member (s7 / high.a.01
+			:Value "+")
+		:member (s8 / seat_belt.n.01
+			:Creator s7
+			:APX (s9 / film.n.01
+				:EQU "now"))
+		:member s9
+		:member (s10 / time.n.08
+			:EQU "now")
+		:member (s11 / in_effect.a.01
+			:Attribute-of s8
+			:Time s9
+			:Degree s10
+			:Theme (s12 / radio.n.01))
+		:member s12)
+	:member (s0 / multi-purpose.n.01)
+	:member (s1 / tv.n.01
+		:Attribute s0)
+	:member (s2 / provide.v.01
+		:Agent s1
+		:Time (s3 / time.n.08
+			:EQU "now")
+		:Theme (s5 / most.r.01))
+	:member s3
+	:member (s4 / sharp.a.02
+		:Degree s5)
+	:member s5
+	:member (s6 / image.n.01
+		:Attribute s4))
+
+(b0 / box)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTINUATION (b2 / box
+			:CONTINUATION (b3 / box
+				:CONTINUATION (b4 / box
+					:CONTINUATION (b5 / box
+						:member (s44 / agency.n.01
+							:Name "VOA")
+						:member (s45 / female.n.02
+							:Name "Paul Sisco")
+						:member (s46 / have.v.01
+							:Pivot s44
+							:Theme s45
+							:Time (s47 / time.n.08
+								:EQU "now"))
+						:member s47)
+					:member (s38 / event.v.01
+						:Participant (s39 / agency.n.01
+							:Name "VOA"))
+					:member s39
+					:member (s40 / female.n.02
+						:Name "Paul Sisco"
+						:Part-of s39)
+					:member (s41 / have.v.01
+						:Pivot s40
+						:Time (s42 / time.n.08
+							:EQU "now")
+						:Theme (s43 / book.n.02))
+					:member s42
+					:member s43)
+				:member (s35 / time.n.08
+					:EQU "now")
+				:member (s36 / give.v.01
+					:Theme (s22 / be.v.01
+						:Agent (s20 / location.n.01
+							:Name "National Islands"
+							:Part-of (s21 / region.n.03
+								:Name "Althing"))
+						:Time (s23 / time.n.08
+							:EQU "now")
+						:Topic (s24 / protect.v.01
+							:Agent s20
+							:Theme (s25 / entity.n.01
+								:Quantity (s26 / ton.n.01)
+								:EQU (s27 / entity.n.01
+									:Quantity "+"
+									:EQU (s28 / seed.n.01)))))
+					:Time s35
+					:Attribute (s37 / source.n.01))
+				:member s37)
+			:member (s29 / time.n.08
+				:EQU "now")
+			:member (s30 / earmark.v.01
+				:Time s29
+				:Attribute (s32 / entity.n.01
+					:Sub (s31 / source.n.01)
+					:Sub (s34 / disaster.n.01)))
+			:member s31
+			:member s32
+			:member (s33 / disaster.n.01
+				:NEQ s34)
+			:member s34)
+		:member (s16 / lengthier.a.01
+			:Attribute-of (s17 / argument.n.01))
+		:member s17
+		:member (s18 / be.v.01
+			:Theme s17
+			:Time (s19 / time.n.08
+				:EQU "now")
+			:Location s20)
+		:member s19
+		:member s20
+		:member s21
+		:member s22
+		:member s23
+		:member s24
+		:member s25
+		:member s26
+		:member s27
+		:member s28)
+	:member (s0 / global.a.01
+		:Attribute-of (s1 / seed.n.01))
+	:member s1
+	:member (s2 / branch.n.01
+		:EQU s1)
+	:member (s3 / open.v.01
+		:Theme s2
+		:Time (s4 / time.n.08
+			:TPR "now")
+		:Location (s5 / location.n.01
+			:APX (s6 / sea.n.01
+				:Name "North Liberty"))
+		:Time (s7 / time.n.08
+			:Sub s6
+			:Sub (s8 / project.n.01)))
+	:member s4
+	:member s5
+	:member s6
+	:member s7
+	:member s8
+	:member (s9 / aim.v.01
+		:Theme s7
+		:Time (s10 / time.n.08
+			:TPR "now")
+		:Goal (s12 / diversity.n.01))
+	:member s10
+	:member (s11 / promote.v.01
+		:Theme s12)
+	:member s12
+	:member (s13 / go.v.01
+		:Theme s6
+		:Time (s14 / time.n.08
+			:TPR "now")
+		:Location (s15 / line.n.01))
+	:member s14
+	:member s15)
+
+(b0 / box)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTINUATION (b2 / box
+			:CONTINUATION (b3 / box
+				:CONTINUATION (b4 / box
+					:NEGATION (b5 / box
+						:CONTINUATION (b6 / box
+							:NEGATION (b7 / box
+								:CONTINUATION (b8 / box
+									:NEGATION (b9 / box
+										:CONTINUATION (b10 / box
+											:NEGATION (b11 / box
+												:CONTINUATION (b12 / box
+													:NEGATION (b13 / box
+														:CONTINUATION (b14 / box
+															:member (s57 / male.n.02
+																:Name "René Lacoste")
+															:member (s58 / entity.n.01
+																:Sub s57
+																:Sub (s59 / male.n.02
+																	:Name "Roger Clark")
+																:Sub (s61 / male.n.02
+																	:Name "Billie Smith"))
+															:member s59
+															:member (s60 / entity.n.01
+																:Sub s58
+																:Sub s61)
+															:member s61)
+														:member (s49 / entity.n.01
+															:EQU (s48 / wedding_ring.n.01))
+														:member (s50 / be.v.01
+															:Theme s49
+															:Time (s51 / time.n.08
+																:EQU "now")
+															:Co-Theme (s53 / match.n.01
+																:Creator (s52 / phone_number.n.01
+																	:Name "911")))
+														:member s51
+														:member s52
+														:member s53
+														:member (s54 / include.v.01
+															:Agent s53
+															:Time (s55 / time.n.08
+																:EQU "now")
+															:Theme (s56 / entity.n.01)
+															:Attribute s57)
+														:member s55
+														:member s56))
+												:member (s45 / entity.n.01
+													:EQU (s44 / wedding_ring.n.01))
+												:member (s46 / be.v.01
+													:Theme s45
+													:Time (s47 / time.n.08
+														:EQU "now")
+													:Co-Theme s48)
+												:member s47
+												:member s48))
+										:member (s41 / entity.n.01
+											:EQU (s40 / wedding_ring.n.01))
+										:member (s42 / be.v.01
+											:Theme s41
+											:Time (s43 / time.n.08
+												:EQU "now")
+											:Co-Theme s44)
+										:member s43
+										:member s44))
+								:member (s37 / entity.n.01
+									:EQU (s36 / acqui.n.01))
+								:member (s38 / be.v.01
+									:Theme s37
+									:Time (s39 / time.n.08
+										:EQU "now")
+									:Co-Theme s40)
+								:member s39
+								:member s40))
+						:member (s31 / entity.n.01
+							:NEQ (s32 / illustration.n.01))
+						:member s32
+						:member (s33 / time.n.08
+							:TPR "now")
+						:member (s34 / uncover.v.01
+							:Patient s31
+							:Time s33
+							:Time (s35 / time.n.08
+								:TPR "now")
+							:Result s36)
+						:member s35
+						:member s36))
+				:member (s25 / hear.v.01
+					:Experiencer (s18 / dalai_lama.n.01)
+					:Time (s26 / time.n.08
+						:TPR "now")
+					:Stimulus (s28 / public_prosecutor.n.01))
+				:member s26
+				:member (s27 / announcement.n.01
+					:Attribute s28)
+				:member s28
+				:member (s29 / entity.n.01
+					:Sub s27
+					:Sub (s30 / smackdown.n.01))
+				:member s30)
+			:member (s19 / hear.v.01
+				:Experiencer (s13 / time.n.08
+					:EQU "now")
+				:Time (s20 / time.n.08
+					:EQU "now")
+				:Stimulus (s22 / lab.n.01))
+			:member s20
+			:member (s21 / pornographic.a.01
+				:Attribute-of s22)
+			:member s22
+			:member (s23 / person.n.01
+				:Role (s24 / public_prosecutor.n.01
+					:Of s22))
+			:member s24)
+		:member (s4 / receive.v.01
+			:Agent (s0 / male.n.02
+				:Name "David Beckham")
+			:Theme (s5 / alcohol.n.01)
+			:Beneficiary (s8 / quantity.n.01
+				:EQU "29"))
+		:member s5
+		:member (s6 / alcohol.n.01
+			:Creator s5)
+		:member (s7 / entity.n.01
+			:Quantity s8)
+		:member s8
+		:member (s9 / location.n.01
+			:Name "ireland")
+		:member (s10 / person.n.01
+			:Source s9
+			:Role (s11 / actor.n.01))
+		:member s11
+		:member (s12 / entity.n.01
+			:EQU s10)
+		:member s13
+		:member (s14 / time.n.08
+			:EQU "now")
+		:member (s15 / bear.v.02
+			:Location s12
+			:Time s13
+			:Time s14
+			:Theme (s17 / person.n.01
+				:Role s18))
+		:member (s16 / angry.a.01
+			:Attribute-of s17)
+		:member s17
+		:member s18)
+	:member s0
+	:member (s1 / enter.v.01
+		:Theme s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Destination (s3 / rehabilitation.n.01))
+	:member s2
+	:member s3)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTINUATION (b2 / box
+			:CONTINUATION (b3 / box
+				:CONTINUATION (b4 / box
+					:member (s23 / personal.a.01
+						:Attribute-of (s24 / person.n.01
+							:Role (s25 / dentist.n.01)))
+					:member s24
+					:member s25
+					:member (s26 / put_in.v.01
+						:Agent s24
+						:Theme (s29 / agency.n.01
+							:Quantity (s28 / quantity.n.01
+								:EQU "1")))
+					:member (s27 / person.n.01
+						:MOR s28)
+					:member s28
+					:member s29
+					:member (s30 / recently.a.01)
+					:member (s31 / write.v.01
+						:Agent s27
+						:Manner s30
+						:Time (s32 / time.n.08
+							:TPR "now")
+						:Theme (s34 / attention.n.01))
+					:member s32
+					:member (s33 / national.a.01
+						:Attribute-of s34)
+					:member s34)
+				:member (s20 / time.n.08
+					:EQU "now")
+				:member (s21 / use.v.01
+					:Agent (s13 / time.n.08
+						:TPR "now")
+					:Time s20
+					:Theme (s22 / database.n.01))
+				:member s22)
+			:member (s11 / time.n.08
+				:EQU "now")
+			:member (s12 / use.v.01
+				:Time s11
+				:Theme (s9 / fear.n.01
+					:Creator (s10 / cancer.n.01))
+				:Time s13
+				:Destination (s14 / country.n.02
+					:Name "america"))
+			:member s13
+			:member s14
+			:member (s15 / person.n.01
+				:Source s14
+				:Role (s16 / muslims.n.01))
+			:member s16
+			:member (s17 / time.n.08
+				:EQU "now")
+			:member (s18 / use.v.01
+				:Agent s15
+				:Time s17
+				:Theme (s19 / database.n.01))
+			:member s19)
+		:member s9
+		:member s10)
+	:member (s0 / person.n.01
+		:Quantity "+"
+		:Location (s1 / location.n.01
+			:SXY (s2 / world.n.01)))
+	:member s1
+	:member s2
+	:member (s3 / time.n.08
+		:EQU "now")
+	:member (s4 / use.v.01
+		:Agent s0
+		:Time s3
+		:Theme (s5 / ocean.n.01
+			:Name "Earth"))
+	:member s5
+	:member (s6 / express.v.01
+		:Agent s1
+		:Theme (s8 / opinion.n.01
+			:Creator (s7 / person.n.01)))
+	:member s7
+	:member s8)
+

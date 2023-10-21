@@ -1,0 +1,2088 @@
+(b0 / box :member (s1 / come.v.02 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now) :TIN (s5 / day.n.03 :TAB (s4 / day.n.03))) :Source (s3 / city.n.01 :Name (c1 / Tokyo))) :member (s6 / terra_incognita.n.01 :EQU (c2 / now) :TIN s4))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Location (s3 / office.n.01 :User (c2 / speaker))))
+
+(b0 / box :member (s2 / live.v.01 :Theme (s0 / male.n.02 :Name (c0 / "David Beckham")) :Time (s1 / time.n.08 :EQU (c1 / now)) :Location (s3 / country.n.02 :Name (c2 / America))))
+
+(b0 / box :member (s1 / be.v.08 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / volleyball_player.n.01))))
+
+(b0 / box :member (s3 / white.a.01 :Colour-of (s1 / tooth.n.01 :Part-of (s0 / female.n.02)) :Time (s2 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s1 / hear.v.02 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Stimulus (s3 / entity.n.01) :TIN (s5 / dumbfounded.a.01 :Time s2 :Experiencer (s4 / person.n.01 :EQU (c2 / speaker)))))
+
+(b0 / box :member (s1 / receive.v.01 :Pivot (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / award.n.02) :Manner (s4 / posthumously.r.01)))
+
+(b0 / box :member (s1 / produce.v.02 :Agent (s0 / factory.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Result (s3 / cd_player.n.01)))
+
+(b0 / box :member (s2 / be.v.02 :Theme (s0 / calculator.n.02 :Location (s1 / table.n.02)) :Time (s3 / time.n.08 :EQU (c0 / now)) :Co-Theme (s4 / entity.n.01 :User (c1 / speaker))))
+
+(b0 / box :member (s2 / big.a.01 :Time (s0 / time.n.08 :EQU (c0 / now)) :Value (c1 / +) :Attribute-of (s1 / entity.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / reimburse.v.01 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Beneficiary (s3 / person.n.01 :EQU (c1 / speaker)))))
+
+(b0 / box :CONTINUATION (b1 / box :member (s4 / put.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / letter.n.01) :Destination (s7 / envelope.n.01)) :member (s6 / entity.n.01 :EQU s3) :member (s5 / time.n.08 :TPR (c2 / now))) :member (s1 / fold.v.01 :Agent s0 :Time s2 :Patient s3))
+
+(b0 / box :member (s1 / have.v.01 :Pivot (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s4 / mitten.n.01 :Quantity (s3 / pair.n.02))))
+
+(b0 / box :member (s1 / want.v.01 :Pivot (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s3 / person.n.01 :EQU (c1 / hearer))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / japanese.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / mother_tongue.n.01 :User (c1 / speaker))))
+
+(b0 / box :member (s1 / come.v.08 :Theme (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Source (s3 / country.n.02 :Name (c2 / Sweden))))
+
+(b0 / box :NEGATION (b1 / box :POSSIBILITY (b2 / box :member (s1 / help.v.01 :Agent (s0 / person.n.01) :Beneficiary (s2 / person.n.01 :EQU (c0 / speaker))))))
+
+(b0 / box :member (s2 / fall.v.11 :Patient (s0 / crude_oil.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)) :Attribute (s3 / price.n.01)))
+
+(b0 / box :member (s1 / weigh.v.01 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Value (s3 / measure.n.02 :Quantity (c1 / 270) :Unit (s4 / pound.n.01))))
+
+(b0 / box :member (s1 / bring.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Destination (s3 / person.n.01 :EQU (c2 / hearer)) :Theme (s4 / entity.n.01)))
+
+(b0 / box :member (s2 / criticize.v.01 :Theme (s0 / law.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)) :Agent (s3 / trade_union.n.01)))
+
+(b0 / box :member (s1 / applaud.v.01 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :NEGATION (b1 / box :POSSIBILITY (b2 / box :member (s1 / come.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Destination (s2 / birthday_party.n.01)))))
+
+(b0 / box :member (s1 / sail.v.01 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Path (s3 / sea.n.01 :Quantity (c1 / 7))))
+
+(b0 / box :member (s2 / interested.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Stimulus (s4 / history.n.02 :Source (s3 / continent.n.01 :Name (c2 / asia)))))
+
+(b0 / box :member (s4 / do.v.02 :Time (s0 / time.n.08 :TPR (c0 / now)) :Agent (s1 / person.n.01 :EQU (c1 / speaker)) :Duration (s2 / measure.n.02 :Quantity (c2 / 3) :Unit (s3 / hour.n.01)) :Theme (s5 / homework.n.01 :Recipient (c3 / speaker))))
+
+(b0 / box :member (s1 / paint.v.02 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / house.n.01) :Result (s4 / green.a.01 :Colour-of s3)))
+
+(b0 / box :member (s4 / use.v.01 :Theme (s0 / entity.n.01 :Instance-of (s1 / inhaler.n.01) :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Agent (s3 / person.n.01 :EQU (c2 / hearer))))
+
+(b0 / box :member (s4 / economical.a.01 :Attribute-of (s1 / car.n.01 :Attribute (s0 / small.a.01 :Value (c0 / +))) :Time (s2 / time.n.08 :EQU (c1 / now)) :Degree (s3 / more.r.01 :Theme s1 :Co-Theme (s6 / car.n.01 :Attribute (s5 / large.a.01 :Value (c2 / +))))))
+
+(b0 / box :member (s1 / love.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / vanilla_ice_cream.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / far.a.01 :Location (s0 / bus_stop.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / person.n.01 :EQU (c1 / speaker)))))
+
+(b0 / box :member (s1 / roar.v.01 :Agent (s0 / thunder.n.02) :Time (s2 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s1 / accompany.v.02 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / person.n.01 :EQU (c1 / speaker)) :Destination (s4 / hospital.n.01)))
+
+(b0 / box :member (s2 / open.a.01 :Attribute-of (s0 / fly.n.03 :User (c0 / hearer)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / latin.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / dead_language.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / simple.a.01 :Attribute-of (s0 / entity.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)))))
+
+(b0 / box :member (s2 / name.v.01 :Agent (s0 / person.n.01 :Role (s1 / parent.n.01)) :Time (s3 / time.n.08 :TPR (c0 / now)) :Theme (s4 / baby.n.01) :Result (s5 / name.n.01 :EQU (c1 / Akiyoshi))))
+
+(b0 / box :member (s2 / speak.v.03 :Time (s0 / time.n.08 :EQU (c0 / now)) :Agent (s1 / person.n.01 :EQU (c1 / hearer)) :Theme (s3 / georgian.n.03)))
+
+(b0 / box :member (s2 / pleased.a.01 :Experiencer (s0 / male.n.02) :Time (s1 / time.n.08 :TPR (c0 / now)) :Stimulus (s3 / performance.n.03 :Creator (c1 / speaker))))
+
+(b0 / box :member (s2 / be.v.01 :Co-Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s4 / entity.n.01 :Instance-of (s5 / book.n.01))) :member (s3 / favorite.a.02 :Experiencer (c2 / hearer) :Stimulus s4))
+
+(b0 / box :member (s1 / grab.v.03 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / bag.n.01 :User s0)))
+
+(b0 / box :member (s1 / deposit.v.03 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / box.n.01) :Destination (s4 / table.n.02)))
+
+(b0 / box :member (s1 / start.v.02 :Time (s2 / time.n.08 :TPR (c0 / now)) :Part-of (s3 / sob.v.01 :Agent (s0 / girl.n.01))))
+
+(b0 / box :member (s5 / die.n.01 :Manner (s0 / manner.n.01 :EQU (c0 / ?)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Patient (s3 / person.n.01 :Role (s4 / son.n.01 :Of (s2 / male.n.02 :Name (c2 / "Julius Irving"))))))
+
+(b0 / box :member (s1 / come.v.02 :Theme (s0 / person.n.01 :Quantity (c0 / 6)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Destination (s3 / party.n.04)))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Source (s3 / country.n.02 :Name (c2 / Portugal))))
+
+(b0 / box :member (s1 / scoff.v.02 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Stimulus (s3 / poem.n.01 :Creator (c1 / speaker))))
+
+(b0 / box :member (s1 / roll_up.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / sleeve.n.01 :User s0)))
+
+(b0 / box :member (s1 / erase.v.02 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Source (s3 / blackboard.n.01) :Beneficiary (s4 / person.n.01 :Role (s5 / teacher.n.01))))
+
+(b0 / box :member (s1 / fill.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Destination (s3 / vase.n.01) :Theme (s4 / water.n.01)))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s5 / boastful.a.01 :Attribute-of (s6 / talk.n.01 :Creator (s4 / male.n.02))) :member (s3 / bored.a.01 :Experiencer (s1 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now) :EQU (s0 / time.n.08)) :Stimulus s6))))
+
+(b0 / box :member (s4 / beautiful.a.01 :Attribute-of (s1 / rose.n.01 :Colour (s0 / blue.a.01)) :Time (s2 / time.n.08 :EQU (c0 / now)) :Degree (s3 / very.r.01)))
+
+(b0 / box :member (s1 / run_away.v.01 :Theme (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Manner (s3 / tear.n.01 :Location (s4 / eye.n.01 :Part-of s0))))
+
+(b0 / box :member (s3 / find.v.02 :Theme (s1 / remains.n.02 :Part-of (s0 / dinosaur.n.01)) :Time (s2 / time.n.08 :TPR (c0 / now)) :Location (s4 / continent.n.01 :Name (c1 / Asia))))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s2 / orange.n.01) :Location (s3 / table.n.02)))
+
+(b0 / box :member (s2 / begin.v.01 :Manner (s0 / suddenly.r.01) :Time (s3 / time.n.08 :TPR (c0 / now)) :Part-of (s4 / fall.v.05 :Theme (s1 / rain.n.02))))
+
+(b0 / box :member (s1 / pick_up.v.03 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / female.n.02 :Name (c2 / Mary)) :Location (s4 / station.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / be.v.03 :Theme (s0 / name.n.01 :User (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Location (s3 / list.n.01))))
+
+(b0 / box :member (s2 / exciting.a.01 :Attribute-of (s0 / show.n.01) :Time (s1 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / simple.a.01 :Attribute-of (s0 / entity.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / work.v.04 :Theme (s0 / traffic_light.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)))))
+
+(b0 / box :member (s3 / addicted.a.01 :Experiencer (s0 / person.n.01 :Quantity (c0 / ?) :Location (s1 / country.n.02 :Name (c1 / Netherlands))) :Time (s2 / time.n.08 :EQU (c2 / now)) :Stimulus (s4 / hard_drug.n.01)))
+
+(b0 / box :member (s2 / moo.v.01 :Agent (s0 / bull.n.11) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s2 / pale.v.01 :Experiencer (s0 / female.n.02 :Name (c0 / Taninna)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s3 / be.v.01 :Co-Theme (s0 / person.n.01 :Role (s1 / genius.n.01)) :Theme (s2 / male.n.02) :Time (s4 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / be.v.08 :Co-Theme (s0 / person.n.01 :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / male.n.02 :Name (c2 / "Allen Iverson"))))
+
+(b0 / box :member (s4 / remove.v.01 :Source (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Theme (s3 / tooth.n.01 :Part-of (c2 / speaker) :Attribute (s2 / decayed.a.01))))
+
+(b0 / box :member (s3 / award.v.01 :Theme (s0 / prize.n.01 :EQU (c0 / ?)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Goal (s2 / female.n.02 :Name (c2 / "Elizabeth Neufeld"))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / eat.v.01 :Agent (s0 / female.n.02 :Name (c0 / Millie)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Patient (s3 / apple.n.01))))
+
+(b0 / box :member (s1 / book.v.02 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / field.n.08)))
+
+(b0 / box :member (s1 / like.v.02 :Experiencer (s0 / female.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Stimulus (s4 / pop.n.04 :Source (s3 / country.n.02 :Name (c1 / russia)))))
+
+(b0 / box :member (s1 / expire.v.01 :Patient (s0 / yogurt.n.01 :Consumer (c0 / speaker)) :Time (s2 / time.n.08 :YearOfCentury (c1 / 2014) :TSU (c2 / now))))
+
+(b0 / box :member (s2 / timid.a.01 :Attribute-of (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s2 / die.v.01 :Patient (s0 / person.n.01 :Quantity (c0 / +) :Role (s1 / peasant.n.01)) :Time (s3 / time.n.08 :TPR (c1 / now)) :Duration (s4 / drought.n.01)))
+
+(b0 / box :member (s1 / feel.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Stimulus (s4 / pain.n.01 :Attribute (s3 / deep.a.05))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s2 / leave.v.01 :Time (s0 / time.n.08 :DayOfWeek (c0 / monday)) :Theme (s1 / ship.n.01)) :member (s3 / time.n.08 :TPR (c1 / now)))))
+
+(b0 / box :NEGATION (b1 / box :CONSEQUENCE (b2 / box :member (s5 / come.v.02 :Theme (s3 / male.n.02) :Time (s4 / time.n.08 :TSU (c1 / now)))) :member (s2 / ill.a.01 :Attribute-of (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)))))
+
+(b0 / box :member (s2 / proficient.a.02 :Attribute-of (s0 / female.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / french.n.01)))
+
+(b0 / box :member (s1 / check.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / entity.n.01) :Frequency (s4 / time.n.01 :Quantity (c2 / 2))))
+
+(b0 / box :member (s1 / be.v.08 :Theme (s0 / female.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / real_estate_agent.n.01))))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / female.n.02 :Name (c0 / "Judith Miller")) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / member.n.01 :Part-of (s5 / agency.n.01 :Name (c2 / CIA))))))
+
+(b0 / box :member (s3 / occupied.a.01 :Theme (s1 / room.n.01 :Goal (s0 / fitting.n.04)) :Time (s2 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / bake.v.02 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Result (s3 / muffin.n.01)))
+
+(b0 / box :member (s3 / be.v.01 :Theme (s1 / entity.n.01 :Sub (s0 / male.n.02 :Name (c0 / "Liu Bei")) :Sub (s2 / male.n.02 :Name (c1 / "Zhuge Liang"))) :Time (s4 / time.n.08 :EQU (c2 / now)) :Co-Theme (s6 / team.n.01 :Attribute (s5 / unbeatable.a.01))))
+
+(b0 / box :member (s1 / spring.v.01 :Theme (s0 / cat.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Destination (s3 / bird.n.01)))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / male.n.02 :Name (c0 / Yamamoto)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / friend.n.01 :Of (s5 / person.n.01 :EQU (c2 / speaker))))))
+
+(b0 / box :member (s2 / swim.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Location (s3 / river.n.01)))
+
+(b0 / box :member (s1 / win.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / race.n.02 :Quantity (c2 / +))))
+
+(b0 / box :member (s2 / be.v.01 :Co-Theme (s0 / entity.n.01 :Instance-of (s1 / stone.n.01) :EQU (c0 / ?)) :Time (s3 / time.n.08 :EQU (c1 / now)) :Theme (s4 / entity.n.01)))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s4 / present.a.02 :Attribute-of (s0 / entity.n.01 :Part-of (s1 / person.n.01 :Role (s2 / student.n.01))) :Time (s3 / time.n.08 :EQU (c0 / now))))))
+
+(b0 / box :CONTINUATION (b1 / box :member (s5 / watch.v.01 :Experiencer (s3 / spectator.n.01) :Time (s4 / time.n.08 :EQU (c2 / now)))) :member (s2 / kickbox.v.01 :Agent (s0 / person.n.01 :Quantity (c0 / 2)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s2 / fish.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s2 / brilliant.a.01 :Attribute-of (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / shake.v.09 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / head.n.01 :Part-of (c2 / speaker))))
+
+(b0 / box :member (s1 / live.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Location (s3 / slum.n.01)))
+
+(b0 / box :member (s2 / buy.v.01 :Theme (s0 / furniture.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)) :Source (s3 / auction.n.02)))
+
+(b0 / box :member (s1 / buy.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / stamp.n.04 :Quantity (c2 / -))))
+
+(b0 / box :member (s1 / cost.v.01 :Theme (s0 / cd.n.04) :Time (s2 / time.n.08 :EQU (c0 / now)) :Value (s3 / measure.n.02 :Unit (s4 / dollar.n.01) :Quantity (c1 / 10))))
+
+(b0 / box :member (s2 / allergic.a.02 :Experiencer (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Stimulus (s3 / cat.n.01)))
+
+(b0 / box :member (s4 / want.v.01 :Theme (s0 / entity.n.01 :Instance-of (s1 / gift.n.01) :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Pivot (s3 / person.n.01 :EQU (c2 / hearer))))
+
+(b0 / box :member (s1 / bow.v.03 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Recipient (s3 / person.n.01 :Role (s4 / teacher.n.01 :Of s0))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / french.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s4 / mother_tongue.n.01 :User (s3 / female.n.02))))
+
+(b0 / box :member (s0 / deep.a.03 :Value (c0 / +) :Attribute-of (s1 / lake.n.01) :Time (s2 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s2 / angry.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / female.n.02)))
+
+(b0 / box :member (s3 / take_place.v.01 :Theme (s1 / dinner.n.01 :Attribute (s0 / official.a.01)) :Time (s2 / time.n.08 :TPR (c0 / now)) :Location (s4 / house.n.01 :Name (c1 / "White House"))))
+
+(b0 / box :member (s1 / pull_out.v.02 :Agent (s0 / female.n.02 :Name (c0 / Mary)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / knitting_needle.n.01 :User s0)))
+
+(b0 / box :member (s2 / in_love.a.01 :Time (s0 / time.n.08 :EQU (c0 / now)) :Experiencer (s1 / person.n.01 :EQU (c1 / hearer)) :Stimulus (s3 / person.n.01 :Role (s4 / wife.n.01 :Of (c2 / hearer)))))
+
+(b0 / box :member (s2 / bear.v.02 :Patient (s0 / male.n.02 :Name (c0 / "John Kerry")) :Time (s1 / time.n.08 :YearOfCentury (c1 / 1943) :TPR (c2 / now)) :Location (s3 / state.n.01 :Name (c3 / Colorado))))
+
+(b0 / box :member (s1 / sit_down.v.01 :Agent (s0 / female.n.02 :Name (c0 / Ai)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Location (s3 / location.n.01 :SY1 (s4 / person.n.01 :EQU (c2 / speaker)))))
+
+(b0 / box :member (s2 / take_care.v.02 :Time (s0 / time.n.08 :EQU (c0 / now)) :Agent (s1 / person.n.01) :Theme (s3 / entity.n.01)))
+
+(b0 / box :member (s2 / giggle.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s2 / expel.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Source (s3 / private_school.n.01)))
+
+(b0 / box :member (s1 / wring.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s4 / neck.n.01 :Part-of (s3 / chicken.n.02))))
+
+(b0 / box :member (s2 / visit.v.07 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TSU (c1 / now)) :Co-Agent (s3 / person.n.01 :EQU (c2 / hearer))))
+
+(b0 / box :member (s1 / study.v.05 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Finish (s3 / time.n.08 :ClockTime (c2 / "20:00") :ClockTime (c3 / "23:00"))))
+
+(b0 / box :member (s1 / want.v.01 :Pivot (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / potato.n.01)))
+
+(b0 / box :member (s2 / fantastic.a.02 :Attribute-of (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s5 / flirt.v.01 :Agent (s2 / entity.n.01 :Sub (s1 / male.n.02 :Name (c0 / Tom)) :Sub (s3 / female.n.02 :Name (c1 / Mary))) :Time (s4 / time.n.08 :EQU (c2 / now) :EQU (s0 / time.n.08))))))
+
+(b0 / box :member (s1 / mispronounce.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / word.n.01 :Quantity (c2 / +))))
+
+(b0 / box :member (s2 / cold.a.01 :Attribute-of (s0 / foot.n.01 :Part-of (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s2 / be.v.06 :Co-Theme (c0 / 0) :Theme (s1 / value.n.01 :Theme (s0 / default.n.04)) :Time (s3 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s3 / be.v.01 :Theme (s2 / room.n.01 :User (s1 / male.n.02 :Name (c0 / Johnson) :Title (s0 / mr.n.01))) :Time (s4 / time.n.08 :TPR (c1 / now)) :Co-Theme (s6 / room.n.01 :Attribute (s5 / large.a.01 :Value (c2 / +)))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / male.n.02 :Name (c2 / Samuel))))
+
+(b0 / box :member (s1 / eat.v.01 :Agent (s0 / cat.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s3 / mouse.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / be.v.01 :Theme (s1 / female.n.02 :Name (c0 / Davis) :Title (s0 / mrs.n.01)) :Time (s3 / time.n.08 :TPR (c1 / now)) :Co-Theme (s5 / person.n.01 :Role (s6 / wife.n.01 :Attribute (s4 / perfect.a.01))))))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / luggage.n.01 :User (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Location (s3 / boot.n.02)))
+
+(b0 / box :member (s1 / arrive.v.01 :Theme (s0 / flight.n.02 :User (c0 / speaker)) :Time (s2 / time.n.08 :ClockTime (c1 / "14:30") :TPR (c2 / now))))
+
+(b0 / box :member (s1 / pay.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Asset (s3 / measure.n.02 :Quantity (c2 / 20000) :Unit (s4 / yen.n.02)) :Theme (s5 / hearing_aid.n.01)))
+
+(b0 / box :member (s1 / like.v.03 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / chocolate_ice_cream.n.01)))
+
+(b0 / box :member (s0 / say.v.01 :Agent (c0 / speaker) :Theme (s1 / hi.n.01)))
+
+(b0 / box :ATTRIBUTION (b1 / box :member (s5 / right.a.02 :Attribute-of (s3 / person.n.01 :EQU (c2 / speaker)) :Time (s4 / time.n.08 :EQU (c3 / now)))) :member (s2 / convinced.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Proposition s3))
+
+(b0 / box :member (s2 / examine.v.02 :Agent (s0 / person.n.01 :Role (s1 / doctor.n.01)) :Time (s3 / time.n.08 :TPR (c0 / now)) :Theme (s4 / person.n.01 :Role (s5 / patient.n.01))))
+
+(b0 / box :member (s2 / eat.v.01 :Agent (s0 / female.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Patient (s3 / entity.n.01)))
+
+(b0 / box :member (s1 / stir.v.08 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s3 / milk.n.01) :Co-Patient (s4 / coffee.n.01 :User s0)))
+
+(b0 / box :member (s2 / have.v.04 :Time (s0 / time.n.08 :EQU (c0 / now)) :Pivot (s1 / person.n.01 :EQU (c1 / hearer)) :Theme (s3 / credit_card.n.01)))
+
+(b0 / box :member (s2 / unfashionable.a.01 :Attribute-of (s0 / entity.n.01) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / grab.v.05 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s4 / hand.n.01 :Part-of (s3 / female.n.02 :Name (c2 / Mary)))))
+
+(b0 / box :member (s1 / hire.v.01 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / person.n.01 :Role (s4 / private_investigator.n.01))))
+
+(b0 / box :member (s1 / fire.v.04 :Agent (s0 / female.n.02 :Name (c0 / Lucy)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / female.n.02 :Name (c2 / Mary))))
+
+(b0 / box :member (s1 / take.v.08 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s4 / shake.n.02 :MadeOf (s3 / protein.n.01))))
+
+(b0 / box :member (s1 / manage.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Topic (s3 / sell.v.01 :Agent s0 :Theme (s4 / car.n.01 :Owner s0) :Asset (s6 / money.n.01 :Quantity (s5 / quantity.n.01 :EQU (c2 / +))))))
+
+(b0 / box :member (s1 / be.v.08 :Co-Theme (s0 / person.n.01 :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / male.n.02 :Name (c2 / "Andrew Carnegie"))))
+
+(b0 / box :member (s2 / allergic.a.02 :Time (s0 / time.n.08 :EQU (c0 / now)) :Experiencer (s1 / person.n.01 :EQU (c1 / hearer)) :Stimulus (s3 / entity.n.01)))
+
+(b0 / box :member (s1 / climb.v.01 :Theme (s0 / male.n.02 :Name (c0 / Daisuke)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Destination (s3 / summit.n.02)))
+
+(b0 / box :member (s2 / kneel.v.01 :Agent (s0 / female.n.02 :Name (c0 / Mary)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s2 / crawl.v.01 :Theme (s0 / baby.n.01) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / hurt.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / elbow.n.01 :Part-of (c2 / speaker))))
+
+(b0 / box :member (s2 / be.v.03 :Theme (s0 / museum.n.01 :Quantity (c0 / ?)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Location (s3 / city.n.01 :Name (c2 / Oslo))))
+
+(b0 / box :member (s2 / play.v.05 :Agent (s0 / child.n.01 :Quantity (c0 / 2)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Instrument (s3 / ball.n.01) :Location (s4 / park.n.02)))
+
+(b0 / box :NEGATION (b1 / box :POSSIBILITY (b2 / box :member (s1 / fix.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Patient (s2 / computer.n.01)))))
+
+(b0 / box :member (s1 / run_into.v.04 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Co-Agent (s3 / person.n.01 :Role (s4 / friend.n.01 :Of (s5 / person.n.01 :EQU (c2 / speaker)))) :Location (s6 / bus.n.01)))
+
+(b0 / box :member (s2 / change.v.03 :Patient (s0 / entity.n.01 :Part-of (s1 / male.n.02 :Name (c0 / Dan))) :Time (s3 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s2 / cost.v.01 :Theme (s0 / entity.n.01) :Time (s1 / time.n.08 :TSU (c0 / now)) :Value (s3 / measure.n.02 :Unit (s4 / euro.n.01) :Quantity (c1 / 30))))
+
+(b0 / box :member (s1 / chop_down.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / tree.n.01)))
+
+(b0 / box :member (s1 / buy.v.01 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Beneficiary (s3 / person.n.02) :Theme (s4 / sugar.n.01)))
+
+(b0 / box :member (s1 / buy.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s4 / lamp.n.02 :Attribute (s3 / old.a.02 :Value (c2 / +)))))
+
+(b0 / box :member (s1 / grab.v.05 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / male.n.02 :Name (c2 / Tom)) :Theme (s4 / elbow.n.01)))
+
+(b0 / box :member (s1 / abate.v.01 :Patient (s0 / wind.n.01) :Time (s2 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Source (s3 / country.n.02 :Name (c2 / Egypt))))
+
+(b0 / box :member (s1 / do.v.02 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / entity.n.01) :Frequency (s4 / time.n.01 :Quantity (c1 / -))))
+
+(b0 / box :member (s1 / be.v.03 :Location (s0 / location.n.01 :Name (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / university.n.03 :Name (c2 / "Prairie View A&M University"))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / entity.n.01 :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / maiden_name.n.01 :Bearer (c2 / hearer))))
+
+(b0 / box :member (s1 / leave.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :ClockTime (c1 / "19:00") :TPR (c2 / now)) :Source (s3 / home.n.01)))
+
+(b0 / box :member (s1 / want.v.01 :Pivot (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / hear.v.02 :Agent s0 :Theme (s4 / entity.n.01 :Attribute (s5 / funny.a.01)))))
+
+(b0 / box :member (s1 / be.v.06 :Theme (s0 / name.n.01 :User (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / name.n.01 :EQU (c2 / "Edgar Degas"))))
+
+(b0 / box :member (s1 / arm.v.02 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Recipient (s3 / person.n.02) :Theme (s4 / gun.n.01)))
+
+(b0 / box :member (s4 / sentence.v.01 :Patient (s3 / person.n.01)) :member (s5 / appeal.v.01 :Agent (s2 / entity.n.01 :Sub (s0 / person.n.01 :Role (s1 / public_prosecutor.n.01)) :Sub s3) :Time (s6 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s1 / look_like.v.01 :Theme (s0 / boy.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / grownup.n.01))))
+
+(b0 / box :member (s1 / do_away_with.v.01 :Agent (s0 / state.n.04 :Name (c0 / America)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / slavery.n.02)))
+
+(b0 / box :member (s2 / kidnap.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s2 / ring.v.01 :Theme (s0 / cellphone.n.01 :User (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s2 / destroy.v.01 :Patient (s0 / vehicle.n.01 :Quantity (c0 / 7)) :Time (s1 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s1 / be.v.08 :Theme (s0 / male.n.02 :Name (c0 / "joseph john thomson")) :Time (s2 / time.n.08 :TPR (c1 / now)) :Co-Theme (s4 / person.n.01 :Source (s3 / country.n.02 :Name (c2 / English)) :Role (s5 / scientist.n.01))))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / rose.n.01 :Colour (s2 / red.a.01)) :Location (s4 / pot.n.04)))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / country.n.02 :Name (c0 / Russia) :Attribute (s4 / big.a.01 :Degree (s3 / very.r.01) :Value (c2 / +))) :Time (s2 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / acquire.v.01 :Agent (s0 / company.n.01 :Name (c0 / "Spartan Air Lines")) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / company.n.01 :Name (c2 / "United Airways"))))
+
+(b0 / box :member (s1 / warm.v.02 :Patient (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Location (s3 / fire.n.04)))
+
+(b0 / box :NEGATION (b1 / box :POSSIBILITY (b2 / box :member (s3 / cook.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom))))) :member (s2 / lazy.a.02 :Attribute-of s0 :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / smile.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s1 / buy.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / gift.n.01) :Beneficiary (s4 / male.n.02 :Name (c2 / Tom))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / tell.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Recipient (s3 / person.n.01 :EQU (c2 / speaker)) :Topic (s4 / entity.n.01))))
+
+(b0 / box :CONSEQUENCE (b1 / box :POSSIBILITY (b2 / box :member (s4 / eat.v.01 :Agent (s3 / person.n.01 :EQU (c2 / hearer)) :Patient (s5 / bread.n.01)))) :member (s2 / hungry.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / have.v.07 :Pivot (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s4 / person.n.01 :Quantity (s3 / quantity.n.01 :EQU (c2 / +)) :Role (s5 / girlfriend.n.02))))
+
+(b0 / box :member (s1 / love.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s4 / egg.n.02 :Attribute (s3 / hard-boiled.a.03))))
+
+(b0 / box :member (s2 / brave.a.01 :Attribute-of (s0 / female.n.02) :Time (s1 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s3 / sticky.a.01 :Attribute-of (s0 / entity.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s2 / very.r.01)))
+
+(b0 / box :member (s2 / diet.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / amount.v.02 :Theme (s0 / bill.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Value (s3 / measure.n.02 :Quantity (c1 / 5000) :Unit (s4 / yen.n.02))))
+
+(b0 / box :member (s1 / admire.v.02 :Experiencer (s0 / person.n.01 :Quantity (c0 / +)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / city.n.01 :Name (c2 / Nikko))))
+
+(b0 / box :member (s1 / leave.v.01 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now) :TAB (s3 / measure.n.02 :Quantity (c1 / 10) :Unit (s4 / minute.n.01) :TAB (c2 / now)))))
+
+(b0 / box :member (s1 / trust.v.01 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Stimulus (s3 / female.n.02)))
+
+(b0 / box :member (s2 / proficient.a.02 :Attribute-of (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / farsi.n.02)))
+
+(b0 / box :member (s1 / like.v.02 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s4 / book.n.01 :Topic (s3 / male.n.02 :Name (c2 / "Harry Potter")))))
+
+(b0 / box :member (s2 / important.a.01 :Time (s0 / time.n.08 :EQU (c0 / now)) :Stimulus (s1 / money.n.02) :Experiencer (s3 / person.n.01 :EQU (c1 / hearer))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / speak.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :TPR (c1 / now))) :member (s3 / male.n.02)))
+
+(b0 / box :member (s2 / break_out.v.01 :Theme (s0 / war.n.01 :Location (s1 / country.n.02 :Name (c0 / Iraq))) :Time (s3 / time.n.08 :TPR (c1 / now) :TAB (s4 / measure.n.02 :Quantity (c2 / 10) :Unit (s5 / year.n.01) :TAB (c3 / now)))))
+
+(b0 / box :member (s1 / have.v.04 :Pivot (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s4 / book.n.02 :Quantity (s3 / quantity.n.01 :MOR (c2 / 200)))))
+
+(b0 / box :NECESSITY (b1 / box :member (s2 / take.v.02 :Theme (s0 / flight.n.02 :Destination (s1 / city.n.01 :Name (c0 / Boston))) :Value (s5 / measure.n.02 :Quantity (s3 / quantity.n.01 :APX (s4 / quantity.n.01 :EQU (c1 / 90))) :Unit (s6 / minute.n.01)))))
+
+(b0 / box :member (s1 / be.v.08 :Co-Theme (s0 / person.n.01 :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / female.n.02 :Name (c2 / "Althea Gibson"))))
+
+(b0 / box :member (s1 / instal.v.01 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / program.n.07)))
+
+(b0 / box :member (s1 / acquire.v.05 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / russian.n.02) :Manner (s4 / quickly.r.02)))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / amused.a.01 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)))))
+
+(b0 / box :member (s2 / put_out.v.03 :Agent (s0 / person.n.01 :Role (s1 / fire_fighter.n.01)) :Time (s3 / time.n.08 :TPR (c0 / now)) :Patient (s4 / fire.n.01)))
+
+(b0 / box :member (s2 / be.v.02 :Theme (s0 / play.v.01 :Theme (s1 / go.n.04)) :Time (s3 / time.n.08 :EQU (c0 / now)) :Co-Theme (s5 / pastime.n.01)) :member (s4 / favorite.a.02 :Experiencer (c1 / speaker) :Stimulus s5))
+
+(b0 / box :member (s3 / hit.v.08 :Theme (s0 / home_run.n.01 :Quantity (c0 / ?)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Agent (s2 / male.n.02 :Name (c2 / "Babe Ruth"))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s2 / shower.v.03 :Time (s0 / morning.n.01) :Agent (s1 / female.n.02)))))
+
+(b0 / box :member (s1 / shine.v.10 :Agent (s0 / female.n.02 :Name (c0 / Susan)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Source (s5 / shoe.n.01 :User (s3 / person.n.01 :Role (s4 / father.n.01 :Of (c2 / hearer))))))
+
+(b0 / box :member (s2 / addicted.a.01 :Experiencer (s0 / female.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Stimulus (s3 / alcohol.n.01)))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / female.n.02 :Name (c0 / Heather)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s5 / girl.n.01 :Attribute (s4 / beautiful.a.01 :Degree (s3 / very.r.01)))))
+
+(b0 / box :member (s2 / shoot.v.02 :Agent (s0 / person.n.01 :Role (s1 / hunter.n.01)) :Time (s3 / time.n.08 :TPR (c0 / now)) :Patient (s4 / bear.n.01)))
+
+(b0 / box :NEGATION (b1 / box :POSSIBILITY (b2 / box :member (s3 / study.v.05 :Agent (s0 / female.n.02)))) :member (s2 / tired.a.01 :Experiencer s0 :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / work.v.01 :Agent (s0 / person.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)))))
+
+(b0 / box :member (s2 / wear.v.01 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s3 / sweater.n.01 :User (c2 / hearer)) :Manner (s4 / inside_out.r.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / receive.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / entity.n.01))))
+
+(b0 / box :member (s3 / thin.a.01 :Attribute-of (s0 / laptop_computer.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s2 / very.r.01)))
+
+(b0 / box :member (s2 / elect.v.01 :Agent (s0 / person.n.01 :Role (s1 / cardinal.n.01)) :Time (s3 / time.n.08 :TPR (c0 / now)) :Theme (s5 / person.n.01 :Role (s6 / pope.n.01 :Attribute (s4 / new.a.01)))))
+
+(b0 / box :ATTRIBUTION (b1 / box :member (s5 / be.v.03 :Time (s0 / time.n.08 :EQU (c0 / now)) :Theme (s4 / watch.n.01 :Location (s3 / location.n.01 :EQU (c2 / ?)) :User (c3 / speaker))) :member (s6 / time.n.08 :EQU (c4 / now))) :member (s2 / know.v.01 :Time s0 :Experiencer (s1 / person.n.01 :EQU (c1 / hearer)) :Proposition s3))
+
+(b0 / box :member (s1 / live.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tony)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Location (s3 / city.n.01 :Name (c2 / Kobe))))
+
+(b0 / box :member (s1 / die.v.01 :Patient (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now) :TAB (s3 / measure.n.02 :Quantity (c2 / 3) :Unit (s4 / year.n.01) :TAB (c3 / now)))))
+
+(b0 / box :member (s2 / be.v.01 :Co-Theme (s1 / book.n.02 :User (s0 / person.n.01 :Name (c0 / ?))) :Time (s3 / time.n.08 :EQU (c1 / now)) :Theme (s4 / entity.n.01)))
+
+(b0 / box :member (s1 / tap.v.03 :Agent (s0 / male.n.02 :Name (c0 / Bill)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Experiencer (s3 / person.n.01 :EQU (c2 / speaker)) :Patient (s4 / shoulder.n.01)))
+
+(b0 / box :CONTINUATION (b1 / box :member (s4 / get_out.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s6 / ice_cream.n.01)) :member (s5 / time.n.08 :TPR (c2 / now))) :member (s1 / open.v.01 :Agent s0 :Time s2 :Patient (s3 / freezer.n.01)))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s1 / shake.v.09 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s3 / hand.n.01)))))
+
+(b0 / box :member (s1 / invent.v.01 :Agent (s0 / male.n.02 :Name (c0 / "Thomas Edison")) :Time (s2 / time.n.08 :TPR (c1 / now)) :Result (s3 / light_bulb.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s6 / terra_incognita.n.01 :EQU (s1 / put.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / honey.n.01) :Destination (s4 / tea.n.01 :Consumer s0)) :Theme (s5 / sugar.n.01))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s3 / jog.v.03 :Theme (s1 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now) :EQU (s0 / morning.n.01))))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / entity.n.01 :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s4 / name.n.01 :Bearer (s5 / tobacco.n.01) :Attribute (s3 / scientific.a.01))))
+
+(b0 / box :member (s2 / drop.v.02 :Time (s0 / time.n.08 :YearOfCentury (c0 / 1945) :TPR (c1 / now)) :Theme (s1 / atomic_bomb.n.01) :Destination (s3 / city.n.01 :Name (c2 / Hiroshima))))
+
+(b0 / box :member (s2 / kidnap.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Agent (s3 / person.n.01 :Role (s4 / terrorist.n.01))))
+
+(b0 / box :member (s1 / hoot.v.02 :Agent (s0 / owl.n.01) :Time (s2 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s4 / station.v.01 :Theme (s1 / person.n.01 :Role (s2 / son.n.01 :Of (s0 / female.n.02))) :Time (s3 / time.n.08 :EQU (c0 / now)) :Goal (s5 / country.n.02 :Name (c1 / "West Germany"))))
+
+(b0 / box :member (s1 / want.v.01 :Pivot (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / marry.v.01 :Agent s0 :Co-Agent (s4 / female.n.02 :Name (c2 / Martyna)))))
+
+(b0 / box :member (s1 / brush.v.03 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / tooth.n.01 :Part-of s0)))
+
+(b0 / box :member (s1 / open.v.01 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s3 / window.n.01)))
+
+(b0 / box :member (s2 / celebrate.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / sacred.a.01 :Attribute-of (s0 / entity.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)))))
+
+(b0 / box :member (s1 / drink.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / wine.n.01)))
+
+(b0 / box :member (s1 / owe.v.03 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Beneficiary (s3 / male.n.02) :Theme (s4 / measure.n.02 :Unit (s5 / dollar.n.01) :Quantity (c2 / 100))))
+
+(b0 / box :member (s1 / give.v.03 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Recipient (s3 / person.n.01 :EQU (c2 / speaker)) :Theme (s4 / pen.n.01)))
+
+(b0 / box :NECESSITY (b1 / box :member (s1 / coil.v.03 :Theme (s0 / rope.n.01))))
+
+(b0 / box :member (s1 / add.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s3 / sugar.n.01 :Quantity (c1 / -)) :Co-Patient (s4 / coffee.n.01)))
+
+(b0 / box :member (s1 / appoint.v.01 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s4 / male.n.02 :Name (c1 / White) :Title (s3 / mr.n.01)) :Result (s5 / manager.n.01)))
+
+(b0 / box :member (s1 / steal.v.01 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / bag.n.01 :Owner (c1 / speaker))))
+
+(b0 / box :member (s2 / speak.v.03 :Time (s0 / time.n.08 :EQU (c0 / now)) :Agent (s1 / male.n.02) :Theme (s3 / english.n.01)))
+
+(b0 / box :member (s2 / have.v.04 :Pivot (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Theme (s3 / sports_car.n.01)))
+
+(b0 / box :member (s2 / interested.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / music.n.01)))
+
+(b0 / box :member (s1 / buy.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s4 / rug.n.01 :Source (s3 / country.n.02 :Name (c2 / persia)))))
+
+(b0 / box :member (s2 / cost.v.01 :Theme (s0 / entity.n.01) :Time (s1 / time.n.08 :TSU (c0 / now)) :Value (s5 / measure.n.02 :Quantity (s3 / quantity.n.01 :APX (s4 / quantity.n.01 :EQU (c1 / 10000))) :Unit (s6 / yen.n.02))))
+
+(b0 / box :member (s2 / dream.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Stimulus (s3 / trip.n.01) :Duration (s5 / time.n.03 :Attribute (s4 / long.a.01 :Value (c2 / +)))))
+
+(b0 / box :member (s3 / check.v.01 :Beneficiary (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Theme (s2 / eye.n.01 :Part-of (c2 / speaker))))
+
+(b0 / box :member (s1 / wear.v.02 :Agent (s0 / female.n.02 :Name (c0 / Mayuko)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s4 / crown.n.04 :MadeOf (s3 / flower.n.01))))
+
+(b0 / box :member (s1 / like.v.03 :Experiencer (s0 / female.n.02 :Name (c0 / Lucy)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / female.n.02 :Name (c2 / Mary))))
+
+(b0 / box :member (s2 / be.v.08 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / dancer.n.01))))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / complain.v.01 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Topic (s3 / entity.n.01))))
+
+(b0 / box :member (s1 / be.v.08 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s4 / person.n.01 :Role (s5 / carpenter.n.01 :Attribute (s3 / good.a.08)))))
+
+(b0 / box :member (s2 / stop.v.02 :Time (s0 / time.n.08 :TSU (c0 / now)) :Part-of (s3 / babble.v.01 :Agent (s1 / person.n.01 :EQU (c1 / hearer)))))
+
+(b0 / box :member (s1 / fall_off.v.01 :Theme (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Source (s3 / horse.n.01 :User s0)))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / person.n.01 :Name (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / president.n.03 :Of (s5 / state.n.03 :Name (c2 / "United States"))))))
+
+(b0 / box :member (s2 / throw.v.01 :Agent (s0 / person.n.01 :Role (s1 / witch.n.01)) :Time (s3 / time.n.08 :TPR (c0 / now)) :Theme (s4 / toad.n.01) :Destination (s6 / cauldron.n.01 :User (s5 / female.n.02))))
+
+(b0 / box :member (s2 / marry.v.01 :Agent (s0 / person.n.01 :Role (s1 / sister.n.01 :Of (c0 / speaker))) :Time (s3 / time.n.08 :TPR (c1 / now)) :Co-Agent (s4 / person.n.01 :Role (s5 / doctor.n.01))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s2 / hungry.a.01 :Experiencer (s0 / person.n.01) :Time (s1 / time.n.08 :TPR (c0 / now))))))
+
+(b0 / box :NEGATION (b1 / box :POSSIBILITY (b2 / box :member (s1 / afford.v.03 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Theme (s2 / buy.v.01 :Agent s0 :Theme (s3 / laptop.n.01)) :Beneficiary (s4 / person.n.01 :Role (s5 / son.n.01 :Of (c1 / speaker)))))))
+
+(b0 / box :member (s1 / buy.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Beneficiary (s3 / person.n.01 :EQU (c1 / speaker)) :Theme (s4 / drink.n.01)))
+
+(b0 / box :CONSEQUENCE (b1 / box :NEGATION (b2 / box :member (s4 / come.v.02 :Theme (s2 / male.n.02) :Time (s3 / time.n.08 :TSU (c1 / now))))) :member (s0 / rain.v.01 :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / survive.v.01 :Theme (s0 / person.n.01 :Quantity (c0 / ?)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Location (s3 / concentration_camp.n.01 :Name (c2 / Auschwitz))))
+
+(b0 / box :member (s0 / hide.v.01 :Time (s1 / time.n.08 :TPR (c0 / now)) :Theme (s2 / face.n.01 :Part-of (s3 / female.n.02 :Name (c1 / Maria))) :Agent s3 :Destination (s4 / hand.n.01 :Part-of s3)))
+
+(b0 / box :member (s1 / live.v.01 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Location (s3 / location.n.01 :APX (s4 / beach.n.01))))
+
+(b0 / box :member (s1 / wave.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / flag.n.04)))
+
+(b0 / box :ATTRIBUTION (b1 / box :member (s5 / be.v.01 :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s4 / person.n.01 :EQU (c1 / speaker)) :Co-Theme (s7 / boy.n.01)) :member (s6 / time.n.08 :TPR (c2 / now))) :member (s1 / say.v.02 :Agent (s0 / male.n.02) :Time s2 :Manner (s3 / impatiently.r.01)))
+
+(b0 / box :member (s1 / score.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / point.n.10 :Quantity (c2 / 30))))
+
+(b0 / box :member (s1 / enter.v.01 :Theme (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Destination (s3 / room.n.01)))
+
+(b0 / box :member (s1 / draw.v.03 :Agent (s0 / child.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Result (s4 / triangle.n.01 :Attribute (s3 / spherical.a.01))))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / female.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / control_freak.n.01))))
+
+(b0 / box :member (s2 / based.a.02 :Theme (s0 / company.n.01 :Name (c0 / Wehkamp)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Location (s3 / country.n.02 :Name (c2 / UK))))
+
+(b0 / box :member (s2 / live.v.01 :Theme (s1 / cat.n.01 :Attribute (s0 / wild.a.02)) :Time (s3 / time.n.08 :EQU (c0 / now)) :Location (s4 / location.n.01 :SZN (s7 / house.n.01 :User (s5 / person.n.01 :Role (s6 / neighbor.n.01 :Of (c1 / speaker)))))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s2 / lure.v.01 :Agent (s0 / music.n.01) :Patient (s1 / person.n.01) :Time (s3 / time.n.08 :TPR (c0 / now))))))
+
+(b0 / box :member (s1 / gain.v.09 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Value (s3 / measure.n.02 :Quantity (c2 / 5) :Unit (s4 / kilogram.n.01))))
+
+(b0 / box :member (s1 / stretch_out.v.03 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / leg.n.01 :Part-of (c2 / speaker))))
+
+(b0 / box :member (s2 / naughty.a.02 :Attribute-of (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s2 / famous.a.01 :Attribute-of (s0 / city.n.01 :Name (c0 / Rome)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / work.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Finish (s3 / time.n.08 :ClockTime (c2 / "18:00") :ClockTime (c3 / "00:00"))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s4 / put.v.01 :Theme (s1 / entity.n.01 :Part-of (s3 / money.n.01 :Owner (s2 / male.n.02 :EQU (s0 / male.n.02)))) :Agent s2 :Time (s5 / time.n.08 :TPR (c0 / now)) :Destination (s6 / box.n.01)))))
+
+(b0 / box :member (s2 / capture.v.06 :Agent (s1 / man.n.01 :Attribute (s0 / old.a.01 :Value (c0 / +))) :Time (s3 / time.n.08 :TPR (c1 / now)) :Theme (s5 / fish.n.01 :Attribute (s4 / big.a.01 :Value (c2 / +)))))
+
+(b0 / box :member (s1 / drive.v.03 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / car.n.01 :User s0) :Destination (s4 / city.n.01 :Name (c1 / Yokohama))))
+
+(b0 / box :NEGATION (b1 / box :member (s0 / be.v.02 :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s2 / person.n.01) :Co-Theme (s3 / person.n.01 :Role (s4 / parent.n.01 :Of (c1 / hearer))))))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :TPR (c0 / now)) :Theme (s2 / person.n.01 :Quantity (c1 / +) :Role (s3 / student.n.01)) :Location (s4 / room.n.01)))
+
+(b0 / box :member (s1 / weigh.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Value (s5 / measure.n.02 :Quantity (s3 / quantity.n.01 :MOR (s4 / quantity.n.01 :EQU (c2 / 90))) :Unit (s6 / kilogram.n.01))))
+
+(b0 / box :member (s1 / have.v.02 :Pivot (s0 / hamster.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s4 / cheek.n.01)) :member (s3 / stuffed.a.01 :Theme s4))
+
+(b0 / box :member (s2 / wear.v.02 :Agent (s0 / male.n.02) :Time (s1 / time.n.08 :TPR (c0 / now)) :Theme (s3 / mask.n.01)))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / entity.n.01 :Name (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s4 / entity.n.01 :Instance-of (s5 / chocolate.n.02))) :member (s3 / favorite.a.02 :Experiencer (c2 / hearer) :Stimulus s4))
+
+(b0 / box :member (s1 / make.v.06 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Beneficiary (s3 / female.n.02) :Product (s4 / bookshelf.n.01)))
+
+(b0 / box :member (s1 / make.v.24 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s4 / mistake.n.01 :Attribute (s3 / huge.a.01))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / female.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / guardian_angel.n.01 :Of (c1 / speaker)))))
+
+(b0 / box :member (s1 / chew.v.01 :Agent (s0 / rat.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Result (s3 / hole.n.02 :Location (s4 / wall.n.01))))
+
+(b0 / box :member (s3 / heavy.a.01 :Attribute-of (s0 / bag.n.01 :Owner (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s2 / very.r.01)))
+
+(b0 / box :member (s1 / misunderstand.v.01 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s1 / trick.v.01 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s3 / person.n.01 :EQU (c1 / speaker))))
+
+(b0 / box :member (s1 / pick_up.v.02 :Agent (s0 / female.n.02 :Name (c0 / Sue)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / pencil.n.01) :Source (s4 / floor.n.01)))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s1 / have.v.02 :Pivot (s0 / elephant.n.01) :Theme (s3 / nose.n.01 :Attribute (s2 / long.a.02 :Value (c0 / +)))))))
+
+(b0 / box :member (s1 / read.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Source (s3 / letter.n.01)))
+
+(b0 / box :member (s1 / bear.v.02 :Patient (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :DayOfMonth (c1 / 22) :MonthOfYear (c2 / 11) :YearOfCentury (c3 / 1948) :TPR (c4 / now))))
+
+(b0 / box :member (s3 / simple.a.01 :Attribute-of (s0 / entity.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s2 / super.r.01)))
+
+(b0 / box :member (s2 / divorce.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Patient (s3 / female.n.02 :Name (c2 / Mary))))
+
+(b0 / box :member (s2 / come.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Destination (s3 / party.n.04)))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / city.n.01 :Name (c0 / Tehran)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s4 / town.n.01)) :member (s3 / favourite.a.02 :Experiencer (c2 / speaker) :Stimulus s4))
+
+(b0 / box :member (s4 / pregnant.a.01 :Theme (s0 / female.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Duration (s2 / measure.n.02 :Quantity (c1 / 8) :Unit (s3 / month.n.02))))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Location (s3 / hospital.n.01)))
+
+(b0 / box :member (s2 / bar.v.02 :Agent (s0 / person.n.01 :Role (s1 / soldier.n.01)) :Time (s3 / time.n.08 :TPR (c0 / now)) :Patient (s4 / way.n.06 :Destination (s5 / city.n.01))))
+
+(b0 / box :member (s1 / drink.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s3 / orange_juice.n.01) :Source (s4 / bottle.n.01)))
+
+(b0 / box :member (s0 / snow.v.01 :Time (s1 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s1 / approach.v.01 :Theme (s0 / female.n.02 :Name (c0 / Patricia)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Destination (s3 / house.n.01)))
+
+(b0 / box :member (s1 / teach.v.01 :Agent (s0 / male.n.02 :Name (c0 / Dawson)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Location (s3 / university.n.03 :Name (c2 / "Monash University"))))
+
+(b0 / box :member (s1 / hit.v.08 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / jackpot.n.01)))
+
+(b0 / box :member (s2 / win.v.01 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :POSSIBILITY (b1 / box :member (s1 / drive.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)))))
+
+(b0 / box :member (s1 / fall.v.03 :Patient (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Result (s3 / in_love.a.01 :Experiencer s0 :Stimulus (s4 / female.n.02 :Name (c2 / Emily)))))
+
+(b0 / box :member (s1 / exaggerate.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s1 / bear.v.02 :Patient (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :MonthOfYear (c1 / 4) :DayOfMonth (c2 / 3) :YearOfCentury (c3 / 1950) :TPR (c4 / now))))
+
+(b0 / box :member (s2 / take_off.v.03 :Theme (s0 / aircraft.n.01) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s4 / kill.v.01 :Agent (s3 / person.n.01) :Time (s5 / time.n.08 :TPR (c2 / now)) :Patient (s6 / female.n.02)) :member (s1 / be.v.02 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme s3))
+
+(b0 / box :member (s1 / prepare.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Product (s3 / lunch.n.01) :Beneficiary (s4 / female.n.02 :Name (c2 / Mary))))
+
+(b0 / box :member (s3 / vote.v.01 :Theme (s0 / person.n.01 :Name (c0 / ?)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Agent (s2 / person.n.01 :EQU (c2 / hearer))))
+
+(b0 / box :member (s1 / have.v.12 :Experiencer (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Stimulus (s3 / parkinson's_disease.n.01)))
+
+(b0 / box :member (s1 / bear.v.01 :Patient (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :DayOfMonth (c1 / 23) :MonthOfYear (c2 / 3) :YearOfCentury (c3 / 1969) :TPR (c4 / now)) :Location (s3 / city.n.01 :Name (c5 / Barcelona))))
+
+(b0 / box :member (s0 / male.n.02 :Name (c0 / Tom) :Attribute (s2 / old.a.01 :Time (s1 / time.n.08 :TPR (c1 / now)) :Value (s3 / measure.n.02 :Quantity (c2 / 30) :Unit (c3 / year)))))
+
+(b0 / box :CONTINUATION (b1 / box :member (s4 / knock_down.v.01 :Time (s1 / time.n.08 :TPR (c0 / now)) :Agent (s3 / male.n.02 :Name (c1 / Chris)) :Patient (s6 / female.n.02 :Name (c3 / Beth))) :member (s5 / time.n.08 :TPR (c2 / now))) :member (s2 / quarrel.v.01 :Agent (s0 / couple.n.02) :Time s1))
+
+(b0 / box :member (s3 / tall.a.01 :Time (s1 / time.n.08 :EQU (c0 / now)) :Attribute-of (s0 / female.n.02) :Degree (s2 / very.r.01) :Value (c1 / +)))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s1 / like.v.03 :Experiencer (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Stimulus (s3 / male.n.02 :Name (c1 / Tom))))))
+
+(b0 / box :member (s1 / name.v.01 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s4 / baby.n.01 :Creator (s3 / female.n.02)) :Result (s5 / name.n.01 :EQU (c1 / Jane))))
+
+(b0 / box :member (s2 / young.a.01 :Attribute-of (s0 / male.n.02 :Name (c0 / Edward)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s3 / more.r.01 :Theme s0 :Co-Theme (s4 / male.n.02 :Name (c2 / Robert)))))
+
+(b0 / box :member (s1 / pocket.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / money.n.01)) :member (s5 / give.v.03 :Beneficiary s0 :Time s2 :Theme s3 :Agent (s4 / female.n.02 :Name (c2 / Mary))))
+
+(b0 / box :member (s2 / dye.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Patient (s3 / hair.n.01 :Part-of s0)))
+
+(b0 / box :member (s2 / eat.v.01 :Agent (s0 / male.n.02) :Time (s1 / time.n.08 :TPR (c0 / now)) :Patient (s3 / sandwich.n.01)))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Location (s3 / country.n.02 :Name (c1 / France)) :Frequency (s4 / time.n.01 :Quantity (c2 / 3))))
+
+(b0 / box :member (s2 / stand.v.01 :Theme (s0 / person.n.01 :Role (s1 / queen.n.02)) :Time (s3 / time.n.08 :TPR (c0 / now)) :Location (s4 / location.n.01 :SY1 (s5 / person.n.01 :Role (s6 / king.n.01)))))
+
+(b0 / box :member (s1 / take_off.v.06 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / gasmask.n.01 :User s0)))
+
+(b0 / box :member (s2 / declare.v.04 :Patient (s0 / will.n.03) :Time (s1 / time.n.08 :TPR (c0 / now)) :Result (s3 / void.a.01 :Attribute-of s0) :Agent (s4 / court.n.01)))
+
+(b0 / box :member (s2 / valid.a.02 :Attribute-of (s0 / ticket.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Finish (s3 / time.n.08 :MonthOfYear (c1 / 4) :DayOfMonth (c2 / 29))))
+
+(b0 / box :CONSEQUENCE (b1 / box :POSSIBILITY (b2 / box :member (s4 / come.v.01 :Theme (s3 / male.n.02)))) :member (s1 / invite.v.02 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Theme (s2 / male.n.02)))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Source (s3 / country.n.02 :Name (c2 / Georgia))))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :TPR (c0 / now)) :Theme (s2 / person.n.01 :Role (s3 / soldier.n.01)) :Location (s4 / ship.n.01)))
+
+(b0 / box :member (s1 / work.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Agent (s3 / bank.n.02)))
+
+(b0 / box :member (s1 / hate.v.01 :Experiencer (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Stimulus (s3 / secret.n.01)))
+
+(b0 / box :member (s2 / listen.v.01 :Time (s0 / time.n.08 :TSU (c0 / now)) :Agent (s1 / person.n.01 :EQU (c1 / speaker)) :Theme (s3 / song.n.01)))
+
+(b0 / box :member (s4 / accuse.v.01 :Agent (s3 / office.n.02 :User (s1 / person.n.01 :Location (s0 / city.n.01 :Name (c0 / Berlin)) :Role (s2 / public_prosecutor.n.01))) :Time (s5 / time.n.08 :TPR (c1 / now)) :Theme (s8 / male.n.02 :Name (c2 / Weinrich) :Role (s7 / terrorist.n.01)) :Attribute (s9 / murder.n.01 :Quantity (c3 / 5) :NEQ (s10 / murder.n.01))) :member (s6 / suspect.v.03 :Theme s8))
+
+(b0 / box :member (s0 / male.n.02 :EQU (s2 / person.n.01 :Role (s3 / traitor.n.01 :Time (s1 / time.n.08 :EQU (c0 / now))))))
+
+(b0 / box :member (s1 / play.v.03 :Agent (s0 / brass_band.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / march.n.06 :Quantity (c1 / 3))))
+
+(b0 / box :member (s1 / break.v.02 :Patient (s0 / condom.n.01) :Time (s2 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / love.v.01 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / cheese.n.01))))
+
+(b0 / box :member (s2 / outgoing.a.03 :Attribute-of (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Location (s3 / city.n.01 :Name (c2 / Boston)) :Frequency (s5 / time.n.01 :Quantity (s4 / quantity.n.01 :EQU (c3 / +)))))
+
+(b0 / box :member (s2 / meet.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TSU (c1 / now))))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / entity.n.01 :Name (c0 / ?)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Co-Theme (s3 / entity.n.01 :Quantity (c2 / 1) :Sub-of (s5 / god.n.02 :Source (s4 / country.n.02 :Name (c3 / egypt))))))
+
+(b0 / box :member (s2 / awake.a.01 :Attribute-of (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s2 / sensitive.a.03 :Experiencer (s0 / dog.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Stimulus (s3 / smell.n.01)))))
+
+(b0 / box :member (s1 / love.v.01 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / risotto.n.01)))
+
+(b0 / box :member (s1 / blow_out.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / candle.n.01)))
+
+(b0 / box :ATTRIBUTION (b1 / box :member (s5 / detain.v.01 :Patient (s2 / person.n.01 :Quantity (c0 / 89)) :Time (s3 / time.n.08 :TPR (c1 / now)) :Manner (s4 / temporarily.r.01))) :member (s0 / according.a.02 :Source (s1 / police.n.01)))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / entity.n.01 :EQU (c0 / ?)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Co-Theme (s4 / last_name.n.01 :Bearer (s3 / male.n.02 :Name (c2 / Tom)))))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / see.v.03 :Experiencer (s0 / female.n.02 :Name (c0 / Mary)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Stimulus (s3 / entity.n.01))))
+
+(b0 / box :member (s2 / import.v.01 :Theme (s0 / champagne.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Source (s3 / country.n.02 :Name (c1 / France))))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / cookie.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Location (s3 / location.n.01 :SZN (s4 / table.n.02))))
+
+(b0 / box :member (s1 / google.v.01 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / female.n.02)))
+
+(b0 / box :member (s1 / sharpen.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / pencil.n.01)))
+
+(b0 / box :member (s2 / bluff.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s5 / win.v.01 :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / gold_medal.n.01 :Order (c1 / 1)) :Agent (s4 / female.n.02)) :member (s1 / be.v.02 :Theme (s0 / entity.n.01) :Time s2 :Co-Theme s3))
+
+(b0 / box :member (s5 / splendid.a.01 :Attribute-of (s6 / firework.n.01)) :member (s4 / absorbed.a.01 :Experiencer (s1 / person.n.01 :Role (s2 / nephew.n.01 :Of (s0 / male.n.02))) :Time (s3 / time.n.08 :TPR (c0 / now)) :Stimulus s6))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s2 / apple.n.01) :Location (s3 / basket.n.01)))
+
+(b0 / box :member (s2 / fill.v.01 :Agent (s0 / man.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Destination (s4 / container.n.01 :MadeOf (s3 / plastic.n.01))))
+
+(b0 / box :member (s2 / abduct.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Agent (s3 / alien.n.03)))
+
+(b0 / box :member (s3 / die.v.01 :TIN (s0 / old.a.01 :Value (c0 / ?) :Time (s1 / time.n.08 :TPR (c1 / now)) :Attribute-of (s2 / male.n.02 :Name (c2 / Elvis))) :Time s1 :Patient s2))
+
+(b0 / box :member (s1 / take_out.v.11 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / page.n.01)))
+
+(b0 / box :member (s1 / hate.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / peanut_butter.n.01)))
+
+(b0 / box :member (s2 / pat.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Experiencer (s3 / dog.n.01 :Owner s0)))
+
+(b0 / box :member (s2 / incredible.a.01 :Attribute-of (s0 / entity.n.01) :Time (s1 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s1 / name.v.01 :Agent (s0 / male.n.02 :Name (c0 / Mifune)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / dog.n.01 :Owner s0) :Result (s4 / name.n.01 :EQU (c2 / "Maggy May"))))
+
+(b0 / box :member (s3 / happy.a.01 :Experiencer (s0 / male.n.02 :Name (c0 / Bob)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Degree (s2 / very.r.01)))
+
+(b0 / box :member (s1 / lend.v.02 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Recipient (s3 / person.n.01 :EQU (c1 / speaker)) :Theme (s4 / measure.n.02 :Quantity (c2 / 30) :Unit (s5 / peso.n.03))))
+
+(b0 / box :member (s2 / leak.v.03 :Theme (s0 / water.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Source (s3 / elbow.n.03 :Part-of (s4 / pipe.n.02))))
+
+(b0 / box :member (s2 / take.v.22 :Theme (s1 / male.n.02 :Name (c0 / Jenninger) :Title (s0 / mr.n.01)) :Location (s3 / witness_stand.n.01) :Time (s4 / time.n.08 :DayOfMonth (c1 / 13) :MonthOfYear (c2 / 5) :TSU (c3 / now))))
+
+(b0 / box :member (s2 / adjourn.v.01 :Theme (s0 / court.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Finish (s3 / time.n.08 :ClockTime (c1 / "15:00") :MonthOfYear (c2 / 3) :DayOfMonth (c3 / 1))))
+
+(b0 / box :member (s1 / belong.v.05 :Theme (s0 / male.n.02 :Name (c0 / "Tony Blair")) :Time (s2 / time.n.08 :EQU (c1 / now)) :Pivot (s3 / party.n.01 :Name (c2 / "Labor Party"))))
+
+(b0 / box :member (s2 / boil.v.02 :Agent (s0 / person.n.01 :Role (s1 / mother.n.01 :Of (c0 / speaker))) :Time (s3 / time.n.08 :TPR (c1 / now)) :Patient (s4 / egg.n.02 :Quantity (c2 / 10))))
+
+(b0 / box :member (s2 / murder.v.01 :Patient (s0 / male.n.02 :Name (c0 / "Vladislav Listyev")) :Time (s1 / time.n.08 :TPR (c1 / now)) :Location (s3 / city.n.01 :Name (c2 / Moscow))))
+
+(b0 / box :member (s1 / write.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Result (s3 / poem.n.01)))
+
+(b0 / box :member (s1 / iron.v.01 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s4 / shirt.n.01 :User (s3 / male.n.02))))
+
+(b0 / box :member (s2 / exit.v.01 :Theme (s1 / woman.n.01 :Attribute (s0 / old.n.01 :Value (c0 / +))) :Time (s3 / time.n.08 :TPR (c1 / now)) :Source (s4 / bus.n.01)))
+
+(b0 / box :member (s3 / be.v.01 :Co-Theme (s1 / novel.n.01) :Theme (s2 / entity.n.01) :Time (s4 / time.n.08 :EQU (c0 / now))) :member (s0 / interesting.a.01 :Stimulus s1))
+
+(b0 / box :member (s1 / bite.v.01 :Agent (s0 / entity.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s3 / male.n.02)))
+
+(b0 / box :member (s0 / event.v.01 :Participant (s1 / url.n.01 :Name (c0 / "http://www.anl.siemens.de/news/press.html"))))
+
+(b0 / box :member (s2 / donate.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s3 / blood.n.01)))
+
+(b0 / box :member (s2 / walk.v.09 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s3 / dog.n.01 :Owner s0)))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / blackmailer.n.01))))
+
+(b0 / box :member (s2 / learn.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Topic (s3 / chinese.n.01)))
+
+(b0 / box :member (s1 / be.v.03 :Location (s0 / location.n.01 :Name (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / sea.n.01 :Name (c2 / "Salton Sea"))))
+
+(b0 / box :member (s1 / leave.v.01 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :ClockTime (c0 / "20:00") :TPR (c1 / now)) :Source (s3 / house.n.01)))
+
+(b0 / box :member (s1 / spill.v.01 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / ketchup.n.01) :Destination (s4 / tie.n.01 :User (c2 / hearer))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / bite.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TSU (c1 / now)))))
+
+(b0 / box :member (s2 / allergic.a.02 :Time (s0 / time.n.08 :EQU (c0 / now)) :Experiencer (s1 / person.n.01 :EQU (c1 / hearer)) :Stimulus (s3 / plant.n.02)))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s3 / smoke.v.01 :Agent (s1 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now) :EQU (s0 / time.n.08))))))
+
+(b0 / box :member (s1 / wash.v.09 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / blood.n.01) :Source (s4 / hand.n.01 :Part-of s0)))
+
+(b0 / box :member (s0 / high.a.02 :Value (c0 / ?) :Time (s1 / time.n.08 :EQU (c1 / now)) :Attribute-of (s2 / pitcher's_mound.n.01)))
+
+(b0 / box :member (s1 / dance.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s1 / love.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / comic_book.n.01)))
+
+(b0 / box :member (s1 / amount.v.02 :Theme (s0 / loss.n.06) :Time (s2 / time.n.08 :EQU (c0 / now)) :Value (s3 / measure.n.02 :Quantity (c1 / 1000000) :Unit (s4 / dollar.n.01))))
+
+(b0 / box :member (s5 / sink.v.04 :TIN (s3 / die.v.01 :Patient (s2 / person.n.01 :Quantity (s0 / quantity.n.01 :MOR (s1 / quantity.n.01 :EQU (c0 / 1500)))) :Time (s6 / time.n.08 :YearOfCentury (c2 / 1912) :TPR (c3 / now))) :Patient (s4 / vehicle.n.01 :Name (c1 / Titanic)) :Time s6))
+
+(b0 / box :member (s1 / arrive.v.01 :Theme (s0 / express.n.02) :Time (s2 / time.n.08 :ClockTime (c0 / "18:30") :TSU (c1 / now))))
+
+(b0 / box :member (s1 / change.v.02 :Patient (s0 / climate.n.01) :Time (s2 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s1 / hate.v.01 :Experiencer (s0 / person.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Stimulus (s3 / spider.n.01)))
+
+(b0 / box :member (s1 / hate.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / male.n.02 :Name (c2 / "Justin Bieber"))))
+
+(b0 / box :member (s2 / wet.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Patient (s3 / handkerchief.n.01 :User (c2 / speaker))))
+
+(b0 / box :member (s1 / chop_down.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / branch.n.02) :Instrument (s4 / ax.n.01)))
+
+(b0 / box :member (s3 / blue.a.01 :Colour-of (s1 / hair.n.01 :Part-of (s0 / female.n.02 :Name (c0 / Jeannie))) :Time (s2 / time.n.08 :TPR (c1 / now)) :Degree (s4 / more.r.01 :Theme s1 :Co-Theme (s5 / eye.n.01 :Part-of s0))))
+
+(b0 / box :member (s3 / make.v.06 :Material (s0 / entity.n.01 :EQU (c0 / ?)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Product (s2 / brake_pad.n.01)))
+
+(b0 / box :member (s1 / see.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now) :TAB (s4 / measure.n.02 :Quantity (c3 / 3) :Unit (s5 / hour.n.01) :TAB (c4 / now))) :Stimulus (s3 / male.n.02 :Name (c2 / Tom))))
+
+(b0 / box :NEGATION (b1 / box :ATTRIBUTION (b2 / box :member (s6 / be.v.03 :Time (s1 / time.n.08 :EQU (c1 / now)) :Location (s3 / location.n.01 :EQU (c2 / ?)) :Theme (s5 / office.n.01 :User (s4 / male.n.02 :Name (c3 / Tom)))) :member (s7 / time.n.08 :EQU (c4 / now))) :member (s2 / know.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time s1 :Proposition s3)))
+
+(b0 / box :member (s3 / pick_up.v.02 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s4 / telephone.n.01)) :member (s1 / sit_down.v.01 :Agent s0 :Time s2))
+
+(b0 / box :member (s1 / have.v.01 :Pivot (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s3 / book.n.02)))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :NEGATION (b3 / box :NEGATION (b4 / box :member (s2 / know.v.04 :Experiencer (s0 / person.n.01) :Stimulus (s1 / person.n.01) :Time (s3 / time.n.08 :EQU (c0 / now))))))))
+
+(b0 / box :member (s2 / come.v.08 :Theme (s0 / person.n.01 :Quantity (c0 / +) :Role (s1 / philosopher.n.01)) :Time (s3 / time.n.08 :EQU (c1 / now)) :Source (s4 / country.n.02 :Name (c2 / Greece))))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Destination (s3 / city.n.01 :Name (c2 / Tokyo)) :Frequency (s4 / time.n.01 :Quantity (c3 / +))))
+
+(b0 / box :member (s1 / adore.v.01 :Stimulus (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s2 / good.a.01 :Attribute-of (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Theme (s3 / play.v.01 :Theme (s4 / chess.n.02))))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / person.n.01 :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / male.n.02 :Name (c2 / "Alexander Hamilton"))))
+
+(b0 / box :member (s1 / buzz.v.01 :Agent (s0 / fly.n.01)))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s5 / go.v.01 :Theme (s4 / female.n.02 :Name (c2 / Mary)) :Time (s6 / time.n.08 :EQU (c3 / now)) :Destination (s7 / store.n.01))) :member (s1 / go.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Destination (s3 / store.n.01))))
+
+(b0 / box :member (s2 / located.a.01 :Theme (s0 / country.n.02 :Name (c0 / Tunisia)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Location (s3 / continent.n.01 :Name (c2 / Africa))))
+
+(b0 / box :CONTINUATION (b1 / box :member (s6 / be.v.02 :Time (s3 / time.n.08 :EQU (c1 / now)) :Theme (s5 / entity.n.01 :EQU (s1 / shoe.n.01 :User (s0 / person.n.01 :Name (c0 / ?)))) :Co-Theme (s10 / shoe.n.01 :User (s8 / person.n.01 :Role (s9 / brother.n.01 :Of (c3 / speaker))))) :member (s7 / time.n.08 :EQU (c2 / now))) :member (s2 / be.v.02 :Co-Theme s1 :Time s3 :Theme (s4 / entity.n.01)))
+
+(b0 / box :member (s1 / quarrel.v.01 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s2 / sick.a.04 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Stimulus (s4 / eat.v.01 :Agent (s3 / entity.n.01) :Patient (s5 / fast_food.n.01))))
+
+(b0 / box :member (s1 / eat.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / apple.n.01)))
+
+(b0 / box :NECESSITY (b1 / box :member (s2 / joke.v.02 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s1 / time.n.08 :EQU (c1 / now)))))
+
+(b0 / box :CONSEQUENCE (b1 / box :member (s7 / sorry.a.01 :Attribute-of (s4 / person.n.01 :EQU (c3 / speaker)) :Time (s5 / time.n.08 :EQU (c4 / now)) :Degree (s6 / terribly.r.01))) :member (s1 / misjudge.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / person.n.01 :EQU (c2 / hearer))))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / show.v.06 :Agent (s0 / boy.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / fear.n.01))))
+
+(b0 / box :member (s1 / need.v.02 :Pivot (s0 / female.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s3 / coat.n.01)))
+
+(b0 / box :ATTRIBUTION (b1 / box :member (s4 / like.v.02 :Experiencer (s3 / female.n.02) :Time (s5 / time.n.08 :EQU (c2 / now)) :Stimulus (s6 / swimming.n.01))) :member (s1 / say.v.01 :Agent (s0 / female.n.02 :Name (c0 / Melanie)) :Time (s2 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / man.n.01 :Attribute (s2 / strange.a.02)) :Location (s4 / door.n.01)))
+
+(b0 / box :member (s2 / addicted.a.01 :Experiencer (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Stimulus (s3 / drug.n.01)))
+
+(b0 / box :member (s1 / win.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / bronze_medal.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / tidy.a.01 :Attribute-of (s0 / room.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)))))
+
+(b0 / box :member (s1 / be.v.08 :Co-Theme (s0 / person.n.01 :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / female.n.02 :Name (c2 / "Alice Rivlin"))))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / state.n.01 :Name (c0 / Nebraska)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Location (s3 / plain.n.01)))
+
+(b0 / box :member (s2 / adjourn.v.01 :Theme (s0 / negotiation.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)) :Finish (s3 / time.n.08 :DayOfMonth (c1 / 18) :MonthOfYear (c2 / 6))))
+
+(b0 / box :member (s4 / old.a.01 :Theme (s0 / female.n.02 :Name (c0 / Helen)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Value (s2 / measure.n.02 :Quantity (c2 / 17) :Unit (s3 / year.n.01))))
+
+(b0 / box :member (s0 / fucking.a.01 :Attribute-of (s1 / earthquake.n.01 :Attribute (s3 / terrible.a.01 :Time (s2 / time.n.08 :TPR (c0 / now))))))
+
+(b0 / box :member (s3 / tall.a.01 :Attribute-of (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s2 / as.r.01 :Theme s0 :Co-Theme (s4 / male.n.02))))
+
+(b0 / box :member (s2 / pull.v.15 :Agent (s0 / person.n.01 :Role (s1 / dentist.n.01)) :Time (s3 / time.n.08 :TPR (c0 / now)) :Theme (s5 / tooth.n.01 :Part-of (c1 / speaker) :Attribute (s4 / bad.a.03))))
+
+(b0 / box :member (s1 / accompany.v.03 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / female.n.02) :Instrument (s4 / piano.n.01)))
+
+(b0 / box :member (s1 / explore.v.02 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Location (s3 / lake.n.01 :Name (c1 / "Lake Tanganyika") :Location (s4 / region.n.03 :Name (c2 / "East Africa")))))
+
+(b0 / box :member (s1 / have.v.16 :Experiencer (s0 / baby.n.01 :Creator (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s4 / disease.n.01 :Attribute (s3 / hereditary.a.01))))
+
+(b0 / box :member (s3 / hungry.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s2 / slightly.r.01)))
+
+(b0 / box :member (s1 / be.v.08 :Co-Theme (s0 / person.n.01 :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / male.n.02 :Name (c2 / "Niels Bohr"))))
+
+(b0 / box :member (s2 / go.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Destination (s3 / restaurant.n.01)))
+
+(b0 / box :member (s2 / bear.v.02 :Patient (s0 / male.n.02 :Name (c0 / "george walker bush")) :Time (s1 / time.n.08 :YearOfCentury (c1 / 1946) :TPR (c2 / now)) :Location (s3 / state.n.01 :Name (c3 / Connecticut))))
+
+(b0 / box :member (s1 / grunt.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :NEGATION (b1 / box :CONSEQUENCE (b2 / box :member (s5 / miss.v.05 :Agent (s3 / person.n.01 :EQU (c2 / speaker)) :Time (s4 / time.n.08 :TSU (c3 / now)) :Theme (s6 / train.n.01 :User (c4 / speaker)))) :member (s2 / hurry.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)))))
+
+(b0 / box :member (s2 / put.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TSU (c1 / now)) :Theme (s3 / entity.n.01) :Location (s4 / location.n.01 :Attribute (s5 / safe.a.01))))
+
+(b0 / box :member (s2 / play.v.07 :Agent (s0 / man.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / guitar.n.01)))
+
+(b0 / box :member (s1 / be.v.03 :Co-Theme (s0 / location.n.01 :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s4 / town.n.01 :Name (c3 / Eynaten) :Part-of (s3 / country.n.02 :Name (c2 / Belgian)))))
+
+(b0 / box :member (s3 / pink.a.01 :Colour-of (s1 / skirt.n.01 :Attribute (s0 / small.a.01 :Value (c0 / +))) :Time (s2 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s2 / sick.a.04 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Stimulus (s4 / excuse.n.01 :Creator (s3 / female.n.02))))
+
+(b0 / box :member (s2 / plastered.a.03 :Attribute-of (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / have.v.12 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / athlete's_foot.n.01)))
+
+(b0 / box :member (s2 / go.v.01 :Theme (s0 / car.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Value (s5 / division.n.11 :Theme (s3 / measure.n.02 :Quantity (c1 / 60) :Unit (s4 / km.n.01)) :Co-Theme (s6 / measure.n.02 :Quantity (c2 / 1) :Unit (s7 / hour.n.01)))))
+
+(b0 / box :member (s2 / steal.v.01 :Theme (s0 / car.n.01) :Time (s1 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :POSSIBILITY (b1 / box :member (s1 / borrow.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Theme (s2 / hair_dryer.n.01))))
+
+(b0 / box :CONTRAST (b1 / box :NEGATION (b2 / box :POSSIBILITY (b3 / box :member (s6 / swim.v.01 :Theme (s5 / female.n.02))))) :member (s1 / live.v.01 :Theme (s0 / female.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Location (s3 / location.n.01 :APX (s4 / beach.n.01))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / study.v.05 :Agent (s0 / male.n.02) :Time (s1 / time.n.08 :TPR (c0 / now)))))
+
+(b0 / box :member (s1 / drop_off.v.03 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / person.n.01 :EQU (c1 / speaker)) :Destination (s4 / apartment.n.01 :Owner (c2 / speaker))))
+
+(b0 / box :member (s1 / have.v.04 :Pivot (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / book.n.02 :Quantity (c2 / 3000))))
+
+(b0 / box :member (s3 / clever.a.02 :Attribute-of (s0 / male.n.02 :Name (c0 / John)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s2 / more.r.01 :Theme s0 :Co-Theme (s4 / male.n.02 :Name (c2 / Bill)))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :NEGATION (b3 / box :member (s5 / hump.n.01 :Quantity (c2 / 2) :EQU (s3 / entity.n.01))) :member (s4 / hump.n.01 :Quantity (c1 / 1) :EQU s3))) :member (s1 / have.v.02 :Pivot (s0 / camel.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme s3))
+
+(b0 / box :member (s1 / break_down.v.03 :Patient (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Manner (s3 / all_at_once.r.02)))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s2 / lake.n.01) :Location (s3 / east.n.05 :Of (s4 / village.n.02))))
+
+(b0 / box :member (s2 / empty.a.01 :Attribute-of (s0 / restaurant.n.01) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s2 / write.v.01 :Result (s0 / book.n.01 :Name (c0 / "Consuming Kids")) :Time (s1 / time.n.08 :TPR (c1 / now)) :Agent (s3 / female.n.02 :Name (c2 / "Susan Linn"))))
+
+(b0 / box :member (s1 / pull_out.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / pen.n.01)))
+
+(b0 / box :member (s1 / dye.v.01 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s4 / skirt.n.01 :User s0 :Colour (s3 / white.a.01)) :Result (s5 / red.a.01 :Colour-of s4)))
+
+(b0 / box :member (s1 / pull.v.04 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / trigger.n.01)))
+
+(b0 / box :member (s1 / substitute.v.01 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Co-Theme (s4 / person.n.01 :Role (s5 / player.n.01) :Attribute (s3 / injured.a.01))))
+
+(b0 / box :member (s1 / borrow.v.01 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / ruler.n.02)))
+
+(b0 / box :member (s5 / antisocial.a.01 :Theme (s1 / person.n.01 :Role (s2 / boyfriend.n.01 :Of (s0 / female.n.02 :Name (c0 / Yumi)))) :Time (s3 / time.n.08 :EQU (c1 / now)) :Value (s4 / measure.n.02 :Quantity (c2 / -))))
+
+(b0 / box :member (s1 / drink.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s4 / coffee.n.01 :Quantity (s3 / cup.n.02 :Quantity (c2 / 2)))))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / encourage.v.02 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Recipient (s3 / male.n.02))))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s2 / movie_theater.n.01 :Quantity (c1 / +)) :Location (s3 / city.n.01)))
+
+(b0 / box :member (s4 / old.a.01 :Attribute-of (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Value (s2 / measure.n.02 :Quantity (c2 / 30) :Unit (s3 / year.n.01))))
+
+(b0 / box :member (s2 / accompany.v.04 :Theme (s0 / male.n.02) :Time (s1 / time.n.08 :TPR (c0 / now)) :Agent (s3 / person.n.01 :Role (s4 / wife.n.01 :Of s0))))
+
+(b0 / box :member (s1 / sit.v.03 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Location (s3 / desk.n.01 :User s0)))
+
+(b0 / box :member (s2 / resist.v.02 :Agent (s0 / person.n.01 :Role (s1 / soldier.n.01)) :Time (s3 / time.n.08 :TPR (c0 / now)) :Theme (s5 / attack.n.01 :Creator (s4 / enemy.n.01))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / entity.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s5 / hotel.n.01 :Attribute (s3 / big.a.01 :Degree (s4 / most.r.01)) :Location (s6 / city.n.01))))
+
+(b0 / box :member (s1 / climb.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Path (s3 / mountain.n.01 :Name (c2 / "Mt. Fuji"))))
+
+(b0 / box :member (s1 / reel.v.03 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now) :TIN (s6 / day.n.03 :TAB (s5 / day.n.03))) :Theme (s4 / fish.n.01 :Attribute (s3 / huge.a.01))) :member (s7 / terra_incognita.n.01 :EQU (c1 / now) :TIN s5) :member s3)
+
+(b0 / box :member (s0 / be.v.01 :Theme (s1 / entity.n.01) :Co-Theme (s3 / place.n.01 :Attribute (s2 / beautiful.a.01))))
+
+(b0 / box :member (s2 / unhappy.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / entity.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / entity.n.01 :User (s4 / person.n.01))))
+
+(b0 / box :member (s2 / play.v.05 :Agent (s0 / cat.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)) :Theme (s4 / mouse.n.01 :Attribute (s3 / live.a.03))))
+
+(b0 / box :member (s1 / shriek.v.01 :Agent (s0 / female.n.02 :Name (c0 / Mary)) :Time (s2 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s3 / sharpen.v.01 :Patient (s1 / pencil.n.01 :User (s0 / male.n.02)) :Time (s2 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s2 / cope.v.01 :Agent (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / jet_lag.n.01)))
+
+(b0 / box :member (s1 / die.v.01 :Patient (s0 / male.n.02 :Name (c0 / Alexander)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Location (s3 / city.n.01 :Name (c2 / Babylon))))
+
+(b0 / box :member (s2 / tall.a.01 :Attribute-of (s0 / wall.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s3 / more.r.01 :Theme s0 :Co-Theme (s4 / wall.n.01))))
+
+(b0 / box :member (s2 / sticky.a.01 :Attribute-of (s0 / rice.n.01) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / strike.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / wall.n.01) :Instrument (s4 / fist.n.01 :Part-of (c2 / speaker))))
+
+(b0 / box :member (s2 / ask.v.02 :Agent (s0 / person.n.01 :Role (s1 / little_brother.n.01 :Of (c0 / speaker))) :Time (s3 / time.n.08 :TPR (c1 / now)) :Theme (s4 / money.n.01)))
+
+(b0 / box :member (s2 / located.a.01 :Theme (s0 / farm.n.01 :Owner (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Location (s4 / state.n.01 :Name (c2 / Nebraska) :Attribute (s3 / rural.a.02))))
+
+(b0 / box :member (s4 / steal.v.01 :Beneficiary (s1 / female.n.02 :Name (c0 / Baker) :Title (s0 / mrs.n.01)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / purse.n.01 :Owner s1)))
+
+(b0 / box :member (s1 / weigh.v.01 :Theme (s0 / parcel.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Value (s5 / measure.n.02 :Quantity (s3 / quantity.n.01 :MOR (s4 / quantity.n.01 :EQU (c1 / 1))) :Unit (s6 / pound.n.03))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / want.v.01 :Pivot (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s3 / clean_up.v.03 :Agent s0 :Theme (s5 / poop.n.01 :Creator (s4 / dog.n.01))))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / name.n.01 :Bearer (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / name.n.01 :EQU (c2 / Paola))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :NEGATION (b3 / box :NEGATION (b4 / box :member (s10 / terra_incognita.n.01 :EQU (s1 / entity.n.01 :Sub (s2 / male.n.02 :Name (c0 / Luis))) :Sub (s8 / entity.n.01 :Sub-of (s9 / female.n.02 :Name (c2 / Cristina) :Quantity (c3 / 2)))))) :member (s3 / dream.v.01 :Time (s0 / time.n.08) :Experiencer s1 :Stimulus (s6 / study.v.04 :Agent (s5 / entity.n.01) :Theme (s7 / medicine.n.03))) :member (s4 / time.n.08 :TPR (c1 / now)))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / entity.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / entity.n.01 :User (s4 / person.n.01))))
+
+(b0 / box :member (s1 / get_up.v.02 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :ClockTime (c1 / "06:00") :TPR (c2 / now))))
+
+(b0 / box :member (s4 / meet.v.08 :Location (s0 / location.n.01 :Name (c0 / ?)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Agent (s3 / guy.n.01 :Sub-of (s2 / person.n.01 :EQU (c2 / hearer)))))
+
+(b0 / box :member (s1 / like.v.04 :Experiencer (s0 / female.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Stimulus (s4 / skirt.n.02 :Attribute (s3 / short.a.02 :Value (c1 / +)))))
+
+(b0 / box :member (s3 / secret.a.01 :Attribute-of (s0 / entity.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)) :Degree (s2 / totally.r.01)))
+
+(b0 / box :CONDITION (b1 / box :CONSEQUENCE (b2 / box :member (s3 / go.v.01 :Theme (c2 / hearer) :Destination (s4 / bed.n.01))) :member (s2 / tired.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s1 / time.n.08 :EQU (c1 / now)))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / busy.a.01 :Attribute-of (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)))))
+
+(b0 / box :member (s1 / pay.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Instrument (s3 / credit_card.n.01)))
+
+(b0 / box :member (s6 / old.a.01 :Attribute-of (s3 / person.n.01 :Attribute (s1 / old.a.01 :Degree (s2 / more.r.01)) :Role (s4 / sister.n.01 :Of (s0 / male.n.02))) :Time (s5 / time.n.08 :EQU (c0 / now)) :Degree (s7 / more.r.01 :Theme s3 :Co-Theme (s10 / person.n.01 :Attribute (s8 / old.a.01 :Degree (s9 / most.r.01)) :Role (s11 / brother.n.01 :Of (c1 / speaker))))))
+
+(b0 / box :member (s1 / make.v.39 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Result (s3 / cookie.n.01)))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s2 / hate.v.01 :Time (s0 / time.n.08) :Experiencer (s1 / person.n.01 :EQU (c0 / speaker)) :Stimulus (s4 / male.n.02 :Name (c2 / Tom))) :member (s3 / time.n.08 :TPR (c1 / now)))))
+
+(b0 / box :member (s5 / do.v.02 :Theme (s3 / entity.n.01) :Agent (s4 / female.n.02) :Time (s6 / time.n.08 :TPR (c2 / now))) :member (s2 / grateful.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Stimulus s3))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / be.v.01 :Theme (s0 / entity.n.01 :Sub-of (s1 / entity.n.01)) :Time (s3 / time.n.08 :TPR (c0 / now)) :Co-Theme (s4 / fault.n.01 :Creator (c1 / hearer)))))
+
+(b0 / box :NEGATION (b1 / box :ATTRIBUTION (b2 / box :member (s4 / have_on.v.01 :Time (s1 / time.n.08 :TPR (c1 / now)) :Agent (s3 / male.n.02) :Theme (s6 / sweater.n.01 :User s3) :Manner (s7 / inside_out.r.01)) :member (s5 / time.n.08 :TPR (c2 / now))) :member (s2 / realize.v.01 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time s1 :Proposition s3)))
+
+(b0 / box :member (s1 / start.v.01 :Time (s2 / time.n.08 :TPR (c1 / now)) :Part-of (s3 / run.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)))))
+
+(b0 / box :member (s1 / attempt.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / suicide.n.01) :Frequency (s4 / time.n.01 :Quantity (c2 / 2))))
+
+(b0 / box :member (s3 / wear.v.02 :Agent (s0 / person.n.01 :Role (s1 / policeman.n.01)) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s4 / gasmask.n.01)))
+
+(b0 / box :member (s2 / bustle.v.01 :Location (s0 / city.n.01 :Name (c0 / Tokyo)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s3 / life.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / loaded.a.02 :Attribute-of (s0 / gun.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s2 / learn.v.03 :Agent (s0 / person.n.01 :Part-of (s1 / class.n.02)) :Time (s3 / time.n.08 :TPR (c0 / now)) :Topic (s4 / poem.n.01) :Manner (s5 / by_heart.r.01)))))
+
+(b0 / box :CONTINUATION (b1 / box :member (s6 / be.v.02 :Time (s3 / time.n.08 :EQU (c1 / now)) :Theme (s5 / entity.n.01 :EQU (s1 / document.n.01 :User (s0 / person.n.01 :Name (c0 / ?)))) :Co-Theme (s9 / 's.n.01 :User (s8 / male.n.02 :Name (c3 / Michael)))) :member (s7 / time.n.08 :EQU (c2 / now))) :member (s2 / be.v.02 :Co-Theme s1 :Time s3 :Theme (s4 / entity.n.01)))
+
+(b0 / box :member (s2 / play.v.05 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s3 / toy.n.01 :User s0 :APX (s4 / truck.n.01))))
+
+(b0 / box :member (s2 / sting.v.02 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Agent (s3 / bee.n.01)))
+
+(b0 / box :member (s2 / be.v.01 :Theme (s1 / name.n.01 :User (s0 / male.n.02 :Name (c0 / Tom))) :Time (s3 / time.n.08 :TPR (c1 / now)) :Location (s4 / box.n.01)))
+
+(b0 / box :POSSIBILITY (b1 / box :member (s1 / whistle.v.01 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s2 / time.n.08 :EQU (c1 / now)))))
+
+(b0 / box :member (s2 / suffer.v.03 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s3 / be.v.01 :Co-Theme (s0 / person.n.01 :Role (s1 / nuisance.n.02)) :Theme (s2 / child.n.01) :Time (s4 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :CONTINUATION (b1 / box :member (s6 / have.v.02 :Pivot (s5 / male.n.02 :Name (c3 / "Domenic Ianiero")) :Time (s7 / time.n.08 :TPR (c4 / now)) :Theme (s9 / citizenship.n.01 :Source (s8 / country.n.02 :Name (c5 / canada))))) :member (s1 / have.v.02 :Pivot (s0 / female.n.02 :Name (c0 / "nancy ianiero")) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s4 / citizenship.n.01 :Source (s3 / country.n.02 :Name (c2 / canada)))))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s2 / tennis_court.n.01) :Location (s3 / park.n.02)))
+
+(b0 / box :member (s1 / offer.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Beneficiary (s3 / female.n.02 :Name (c2 / Mary)) :Theme (s4 / handkerchief.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / be.v.03 :Theme (s0 / male.n.02 :Name (c0 / Chen)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Source (s3 / country.n.02 :Name (c2 / korea)))))
+
+(b0 / box :member (s2 / bear.v.02 :Patient (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :YearOfCentury (c1 / 1968) :TPR (c2 / now)) :Location (s3 / city.n.01 :Name (c3 / Tokyo))))
+
+(b0 / box :member (s2 / similar.a.01 :Theme (s0 / planet.n.03 :Name (c0 / Uranus)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / planet.n.03 :Name (c2 / Neptune))))
+
+(b0 / box :member (s4 / have.v.02 :Theme (s0 / person.n.01 :Quantity (c0 / ?) :Role (s1 / inhabitant.n.01)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Pivot (s3 / island.n.01 :Name (c2 / Aruba))))
+
+(b0 / box :member (s2 / hit.v.02 :Patient (s0 / dog.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)) :Agent (s3 / car.n.01)))
+
+(b0 / box :member (s1 / have.v.02 :Pivot (s0 / pasture.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s3 / area.n.06 :Value (s4 / measure.n.02 :Quantity (c1 / 10) :Unit (s5 / acre.n.01)))))
+
+(b0 / box :member (s3 / shy.a.01 :Attribute-of (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s2 / extremely.r.02)))
+
+(b0 / box :NECESSITY (b1 / box :member (s2 / abolish.v.01 :Theme (s0 / death_penalty.n.01) :Time (s1 / time.n.08 :TSU (c0 / now)))))
+
+(b0 / box :member (s2 / arrest.v.01 :Patient (s0 / female.n.02 :Name (c0 / Mary)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Theme (s3 / shoplifting.n.01)))
+
+(b0 / box :member (s1 / cost.v.01 :Theme (s0 / hat.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Value (s5 / measure.n.02 :Quantity (s3 / quantity.n.01 :APX (s4 / quantity.n.01 :EQU (c1 / 50))) :Unit (s6 / dollar.n.01))))
+
+(b0 / box :member (s1 / drip.v.01 :Theme (s0 / drop.n.01) :Time (s2 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s3 / fill.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Destination (s2 / entity.n.01 :Sub-of (s1 / glasses.n.03 :Quantity (c1 / 2))) :Time (s4 / time.n.08 :TPR (c2 / now)) :Theme (s5 / wine.n.01)))))
+
+(b0 / box :member (s3 / arrive.v.01 :Theme (s1 / male.n.02 :Name (c0 / White) :Title (s0 / mr.n.01)) :Time (s2 / time.n.08 :ClockTime (c1 / "10:30") :TSU (c2 / now)) :Destination (s4 / city.n.01 :Name (c3 / Tokyo))))
+
+(b0 / box :member (s1 / steal.v.01 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s4 / money.n.01 :Owner (s3 / female.n.02))))
+
+(b0 / box :member (s3 / haunted.a.03 :Attribute-of (s1 / house.n.01 :Attribute (s0 / old.a.02 :Value (c0 / +))) :Time (s2 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s4 / have.v.02 :Theme (s0 / person.n.01 :Quantity (c0 / ?) :Role (s1 / inhabitant.n.01)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Pivot (s3 / country.n.02 :Name (c2 / Vietnam))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / entity.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / leftovers.n.01 :Source (s4 / lunch.n.01))))
+
+(b0 / box :member (s1 / steal.v.01 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / driving_licence.n.01 :Owner (c1 / speaker))))
+
+(b0 / box :NEGATION (b1 / box :POSSIBILITY (b2 / box :member (s4 / work.v.02 :Agent (s1 / female.n.02 :Name (c0 / Yoko) :Title (s0 / aunt.n.01))))) :member (s3 / weak.a.07 :Attribute-of s1 :Time (s2 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s3 / unfriendly.a.02 :Attribute-of (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s2 / extremely.r.02)))
+
+(b0 / box :member (s1 / cost.v.01 :Theme (s0 / entity.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Value (s3 / measure.n.02 :Quantity (c1 / 30) :Unit (s4 / euro.n.01))))
+
+(b0 / box :member (s1 / call.v.03 :Agent (s0 / female.n.02 :Name (c0 / Mary)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Co-Agent (s3 / person.n.01 :EQU (c2 / speaker))))
+
+(b0 / box :member (s2 / disqualify.v.02 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s3 / assassinate.v.01 :Location (s0 / location.n.01 :Name (c0 / ?)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Patient (s2 / male.n.02 :Name (c2 / "Kazem Radjavi"))))
+
+(b0 / box :member (s2 / nice.a.01 :Attribute-of (s0 / entity.n.01) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s2 / paralyze.v.02 :Experiencer (s0 / male.n.02) :Time (s1 / time.n.08 :TPR (c0 / now)) :Stimulus (s3 / terror.n.01)))
+
+(b0 / box :member (s1 / glance.v.01 :Agent (s0 / male.n.02 :Name (c0 / Scrooge)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / phantom.n.01)))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / entity.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / trap.n.03)))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / see.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Stimulus (s3 / entity.n.01 :Attribute (s4 / strange.a.01)))))
+
+(b0 / box :member (s1 / leave.v.01 :Theme (s0 / train.n.01) :Time (s2 / time.n.08 :ClockTime (c0 / "14:30") :TSU (c1 / now))))
+
+(b0 / box :member (s2 / wound.v.01 :Patient (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Instrument (s3 / knife.n.02)))
+
+(b0 / box :member (s1 / milk.v.01 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Source (s3 / cow.n.01)))
+
+(b0 / box :member (s1 / fly.v.01 :Theme (s0 / plane.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Destination (s3 / east.n.05)))
+
+(b0 / box :member (s3 / have.v.02 :Theme (s1 / eye.n.01 :Attribute (s0 / pretty.a.01)) :Pivot (s2 / person.n.01 :EQU (c0 / hearer)) :Time (s4 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / entity.n.01 :Name (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s5 / song.n.01 :Creator (s4 / musical_organization.n.01 :Name (c3 / Beatles)))) :member (s3 / favorite.a.02 :Experiencer (c2 / hearer) :Stimulus s5))
+
+(b0 / box :member (s2 / call.v.01 :Theme (s0 / region.n.03 :Name (c0 / Palestine)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Result (s3 / name.n.01 :EQU (c2 / Filastin)) :Context (s4 / arabic.n.01)))
+
+(b0 / box :member (s2 / happy.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / whistle.v.01 :Agent (s0 / blackbird.n.01) :Time (s2 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / cat.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Location (s3 / table.n.02)))
+
+(b0 / box :member (s2 / eat.v.01 :Agent (s0 / person.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Patient (s3 / apple.n.01)))
+
+(b0 / box :CONTINUATION (b1 / box :member (s4 / knock.v.04 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now))) :member (s5 / time.n.08 :TPR (c2 / now))) :member (s1 / walk.v.01 :Theme s0 :Time s2 :Destination (s3 / front_door.n.01)))
+
+(b0 / box :member (s3 / green.a.01 :Colour-of (s0 / dog.n.01 :Attribute (s4 / beautiful.a.01 :Time (s2 / time.n.08 :EQU (c1 / now)))) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / speak.v.03 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / uzbek.n.03)))
+
+(b0 / box :member (s1 / ruin.v.01 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / entity.n.01)))
+
+(b0 / box :member (s2 / addicted.a.01 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / cocaine.n.01)))
+
+(b0 / box :member (s2 / eat.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Patient (s3 / banana.n.02)))
+
+(b0 / box :NEGATION (b1 / box :member (s3 / hungry.a.01 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s2 / very.r.01))))
+
+(b0 / box :member (s1 / wash.v.01 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s3 / carpet.n.01)))
+
+(b0 / box :member (s1 / see.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Stimulus (s3 / entity.n.01 :Colour (s4 / white.a.01) :Location (s5 / dark.n.03))))
+
+(b0 / box :member (s1 / hate.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / male.n.02)))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / country.n.02 :Name (c0 / Japan)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Location (s3 / east.n.05 :Of (s4 / country.n.02 :Name (c2 / China)))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s1 / batter.v.01 :Agent (s0 / typhoon.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Patient (s3 / country.n.02 :Name (c1 / Philippines))))))
+
+(b0 / box :member (s0 / be.v.01 :Theme (s1 / entity.n.01) :Co-Theme (s3 / pen.n.01 :Quantity (s2 / quantity.n.01 :EQU (c0 / +)))))
+
+(b0 / box :member (s4 / read.v.01 :Time (s0 / time.n.08 :TPR (c0 / now)) :Experiencer (s1 / person.n.01 :EQU (c1 / speaker)) :Duration (s2 / measure.n.02 :Quantity (c2 / 3) :Unit (s3 / day.n.01)) :Stimulus (s5 / book.n.01)))
+
+(b0 / box :member (s2 / christen.v.01 :Theme (s0 / male.n.02) :Time (s1 / time.n.08 :TPR (c0 / now)) :Result (s3 / name.n.01 :EQU (c1 / John))))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Source (s3 / country.n.02 :Name (c2 / Russia))))
+
+(b0 / box :member (s1 / be.v.03 :Location (s0 / location.n.01 :Name (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / sea.n.01 :Name (c2 / "Sea of Tranquility"))))
+
+(b0 / box :member (s2 / rake_in.v.01 :Agent (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / entity.n.01) :Source (s4 / stock_market.n.01)))
+
+(b0 / box :member (s1 / free.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / bird.n.01)))
+
+(b0 / box :ATTRIBUTION (b1 / box :member (s7 / discover.v.01 :Theme (s3 / footprint.n.01 :Creator (s5 / snowman.n.01 :Attribute (s4 / abominable.a.02))) :Time (s6 / time.n.08 :TPR (c2 / now)) :Location (s8 / range.n.04 :Name (c3 / Himalayas)))) :member (s1 / hear.v.02 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s1 / fail.v.07 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / chemistry.n.01)))
+
+(b0 / box :member (s1 / play.v.15 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / trump_card.n.01 :User s0)))
+
+(b0 / box :member (s3 / brown.a.01 :Colour-of (s1 / dog.n.01 :Owner (s0 / male.n.02 :Name (c0 / Tom))) :Time (s2 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / have.v.01 :Pivot (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s3 / number.n.04 :User (c2 / hearer)))))
+
+(b0 / box :member (s3 / tall.a.01 :Attribute-of (s0 / male.n.02 :Name (c0 / George)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s2 / as.r.01 :Theme s0 :Co-Theme (s4 / person.n.01 :Role (s5 / father.n.01 :Of s0)))))
+
+(b0 / box :member (s2 / take_place.v.01 :Theme (s0 / accident.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)) :Location (s3 / corner.n.04)))
+
+(b0 / box :member (s1 / order.v.02 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / book.n.02) :Source (s4 / city.n.01 :Name (c2 / London))))
+
+(b0 / box :member (s2 / bear.v.02 :Patient (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :YearOfCentury (c1 / 199X) :TPR (c2 / now))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s3 / annoy.v.01 :Stimulus (s0 / music.n.01) :Experiencer (s1 / person.n.01) :Time (s2 / time.n.08 :EQU (c0 / now))))))
+
+(b0 / box :member (s1 / see.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Stimulus (s3 / person.n.01 :Role (s4 / bum.n.02)) :Location (s5 / train_station.n.01)))
+
+(b0 / box :ATTRIBUTION (b1 / box :member (s4 / eat.v.01 :Agent (s3 / male.n.02) :Time (s5 / time.n.08 :TPR (c2 / now)) :Patient (s8 / oyster.n.01 :Quantity (s6 / quantity.n.01 :APX (s7 / quantity.n.01 :EQU (c3 / 10)))))) :member (s1 / think.v.02 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s3 / nervous.a.01 :Attribute-of (s0 / male.n.02 :Name (c0 / Maximilian)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Degree (s2 / as.r.01 :Theme s0 :Co-Theme (s4 / female.n.02 :Name (c2 / Sophie)))))
+
+(b0 / box :member (s1 / bang.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s3 / knee.n.01 :Part-of s0)))
+
+(b0 / box :member (s1 / like.v.02 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / play.v.01 :Theme (s5 / entity.n.01 :Sub (s4 / tennis.n.01) :Sub (s6 / golf.n.01)))))
+
+(b0 / box :member (s1 / arm.v.02 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / pistol.n.01)))
+
+(b0 / box :member (s2 / busy.a.01 :Time (s0 / time.n.08 :EQU (c0 / now)) :Attribute-of (s1 / male.n.02 :Name (c1 / Tom))))
+
+(b0 / box :member (s2 / be.v.02 :Co-Theme (s1 / dictionary.n.01 :User (s0 / person.n.01 :Name (c0 / ?))) :Time (s3 / time.n.08 :EQU (c1 / now)) :Theme (s4 / entity.n.01)))
+
+(b0 / box :member (s2 / awesome.a.01 :Attribute-of (s0 / country.n.02 :Name (c0 / Canada)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / be.v.01 :Theme (s1 / bird.n.01 :Colour (s0 / black.a.01)) :Time (s3 / time.n.08 :EQU (c0 / now)) :Co-Theme (s4 / blackbird.n.01))))
+
+(b0 / box :member (s1 / punch.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s3 / female.n.02) :Location (s4 / face.n.01)))
+
+(b0 / box :member (s3 / insure.v.03 :Agent (s0 / organization.n.01 :Name (c0 / ?)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Beneficiary (s2 / person.n.01 :EQU (c2 / hearer))))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s4 / person.n.01 :Role (s5 / marksman.n.01 :Attribute (s3 / excellent.a.01)))))
+
+(b0 / box :member (s1 / be.v.06 :Co-Theme (c2 / 15) :Theme (s0 / times.n.02 :Theme (c0 / 3) :Co-Theme (c1 / 5))))
+
+(b0 / box :member (s3 / fat.a.01 :Attribute-of (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s4 / more.r.01 :Theme s0 :Value (s2 / measure.n.02 :Quantity (c2 / +)) :Co-Theme (s5 / female.n.02 :Name (c3 / Mary)))))
+
+(b0 / box :member (s2 / study.v.05 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / eat.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Patient (s3 / noodle.n.01)))
+
+(b0 / box :member (s2 / open.a.01 :Attribute-of (s0 / refrigerator.n.01) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / give.v.03 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Recipient (s3 / dog.n.01 :Owner s0) :Theme (s4 / bone.n.01)))
+
+(b0 / box :member (s4 / cost.v.01 :Value (s0 / measure.n.02 :Quantity (c0 / ?)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s2 / pill.n.02 :Content (s3 / ecstasy.n.03)) :Location (s5 / country.n.02 :Name (c2 / Holland))))
+
+(b0 / box :member (s5 / hang.v.02 :Theme (s3 / hammock.n.02) :Agent (s4 / person.n.01 :EQU (c2 / speaker)) :Time (s6 / time.n.08 :TPR (c3 / now)) :Destination (s7 / location.n.01 :SZN (s9 / oak_tree.n.01 :Attribute (s8 / old.a.02 :Value (c4 / +))))) :member (s2 / swing.v.02 :Theme (s0 / male.n.02 :Name (c0 / Julio)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Location s3))
+
+(b0 / box :member (s1 / see.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / giraffe.n.01)))
+
+(b0 / box :member (s2 / look.v.04 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s3 / person.n.01)))
+
+(b0 / box :member (s2 / kill.v.01 :Patient (s0 / elephant.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)) :Agent (s3 / person.n.01 :Role (s4 / hunter.n.01))))
+
+(b0 / box :member (s1 / brush.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / hair.n.01 :Part-of s0)))
+
+(b0 / box :member (s2 / bored.a.01 :Experiencer (s0 / child.n.01) :Time (s1 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :CONTRAST (b1 / box :member (s5 / ignore.v.02 :Time (s2 / time.n.08 :TPR (c1 / now)) :Agent (s4 / male.n.02) :Theme (s7 / warning.n.01)) :member (s6 / time.n.08 :TPR (c2 / now))) :member (s1 / warn.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time s2 :Recipient (s3 / male.n.02)))
+
+(b0 / box :NEGATION (b1 / box :member (s3 / work.v.04 :Theme (s1 / computer.n.01) :Time (s2 / time.n.08 :TSU (c0 / now)))) :member (s0 / damned.a.01 :Attribute-of s1))
+
+(b0 / box :member (s1 / break_up.v.13 :Patient (s0 / meeting.n.01) :Time (s2 / time.n.08 :ClockTime (c0 / "19:00") :TPR (c1 / now))))
+
+(b0 / box :member (s1 / fold.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / arm.n.01 :Part-of s0)))
+
+(b0 / box :member (s2 / tall.a.01 :Attribute-of (s0 / male.n.02 :Name (c0 / Bilal)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s3 / more.r.01 :Theme s0 :Co-Theme (s4 / male.n.02 :Name (c2 / Karam)))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / invulnerable.a.01 :Attribute-of (s0 / person.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)))))
+
+(b0 / box :member (s1 / die.v.01 :Patient (s0 / female.n.02 :Name (c0 / "Marilyn Monroe")) :Time (s2 / time.n.08 :TPR (c1 / now) :TAB (s3 / measure.n.02 :Quantity (c2 / 33) :Unit (s4 / year.n.01) :TAB (c3 / now)))))
+
+(b0 / box :member (s1 / miss.v.05 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :ClockTime (c1 / "14:00") :TPR (c2 / now)) :Theme (s3 / plane.n.01 :Time s2)))
+
+(b0 / box :member (s3 / lead.v.07 :Theme (s0 / association.n.01 :Name (c0 / ?)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Agent (s2 / female.n.02 :Name (c2 / "Hope Holcomb"))))
+
+(b0 / box :member (s3 / hungry.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s2 / sort_of.r.01)))
+
+(b0 / box :member (s1 / spend.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Duration (s3 / honeymoon.n.01 :User s0) :Location (s4 / country.n.02 :Name (c1 / Maldives))))
+
+(b0 / box :member (s3 / next.a.02 :Theme (s2 / sit.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now))) :Theme (s4 / male.n.02 :Name (c2 / Tom))))
+
+(b0 / box :member (s2 / employ.v.02 :Agent (s0 / entity.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / person.n.01 :Quantity (c1 / 180))))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s2 / person.n.01) :Location (s3 / room.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / married.a.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / thirsty.a.02 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)))))
+
+(b0 / box :member (s1 / fit.v.02 :Theme (s0 / bolt.n.06) :Time (s2 / time.n.08 :EQU (c0 / now)) :Destination (s3 / nut.n.03)))
+
+(b0 / box :ATTRIBUTION (b1 / box :member (s4 / suffer.v.01 :Experiencer (s2 / person.n.01 :Quantity (c0 / 1000000000)) :Time (s3 / time.n.08 :EQU (c1 / now)) :Stimulus (s5 / poverty.n.01 :Location (s6 / world.n.01)))) :member (s0 / according.a.02 :Source (s1 / survey.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / be.v.08 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s4 / person.n.01 :Role (s5 / driver.n.01 :Attribute (s3 / good.a.08))))))
+
+(b0 / box :member (s1 / buy.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / hat.n.01) :Source (s4 / store.n.01)))
+
+(b0 / box :member (s1 / nip.v.02 :Agent (s0 / dog.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s3 / person.n.01 :EQU (c1 / speaker))))
+
+(b0 / box :member (s1 / charge.v.03 :Agent (s0 / male.n.02 :Name (c0 / Bob)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Asset (s5 / measure.n.02 :Quantity (c2 / 3) :Unit (s6 / division.n.11 :Theme (s3 / measure.n.02 :Unit (s4 / dollar.n.01)) :Co-Theme (s7 / measure.n.02 :Unit (s8 / hour.n.01)))) :Theme (s9 / mow.v.01 :Patient (s10 / lawn.n.01))))
+
+(b0 / box :member (s2 / jealous.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Stimulus (s3 / person.n.01 :Role (s4 / brother.n.01 :Of (c2 / speaker)))))
+
+(b0 / box :member (s1 / sell.v.01 :Agent (s0 / company.n.01 :Name (c0 / Kraft)) :Time (s2 / time.n.08 :YearOfCentury (c1 / 1986) :TPR (c2 / now)) :Theme (s3 / company.n.01 :Name (c3 / "Celestial Seasonings")) :Recipient (s4 / company.n.01 :Name (c4 / Lipton))))
+
+(b0 / box :member (s2 / donate.v.01 :Agent (s0 / female.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / money.n.01) :Recipient (s5 / research.n.01 :Theme (s4 / cancer.n.01))))
+
+(b0 / box :member (s1 / sigh.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s2 / bear.v.02 :Patient (s0 / male.n.02 :Name (c0 / "Gerhard Sundt")) :Time (s1 / time.n.08 :YearOfCentury (c1 / 1957) :TPR (c2 / now)) :Location (s3 / country.n.02 :Name (c3 / Austria))))
+
+(b0 / box :member (s4 / old.a.01 :Attribute-of (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s5 / more.r.01 :Theme s0 :Value (s2 / measure.n.02 :Quantity (c1 / 3) :Unit (s3 / year.n.01)) :Co-Theme (s6 / female.n.02))))
+
+(b0 / box :member (s1 / lose.v.04 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / mobile_phone.n.01 :User (c2 / speaker))))
+
+(b0 / box :member (s1 / stink.v.02 :Theme (s0 / entity.n.01) :Time (s2 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :POSSIBILITY (b3 / box :member (s2 / get.v.01 :Pivot (s0 / person.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / book.n.02))))))
+
+(b0 / box :member (s1 / set_up.v.03 :Agent (s0 / boy.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Result (s3 / ice-hockey_rink.n.01 :Location (s5 / pond.n.01 :Attribute (s4 / frozen.a.01)))))
+
+(b0 / box :member (s0 / old.a.01 :Value (c0 / ?) :Time (s1 / time.n.08 :EQU (c1 / now)) :Attribute-of (s2 / male.n.02 :Name (c2 / "Brian Eno"))))
+
+(b0 / box :member (s2 / confused.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s0 / long.a.02 :Value (c0 / ?) :Time (s1 / time.n.08 :EQU (c1 / now)) :Attribute-of (s2 / bridge.n.01 :Name (c2 / "Golden Gate Bridge"))))
+
+(b0 / box :member (s1 / be.v.08 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s4 / person.n.01 :Role (s5 / watchmaker.n.01 :Attribute (s3 / expert.a.01)))))
+
+(b0 / box :member (s2 / complain.v.01 :Agent (s0 / person.n.01 :Role (s1 / neighbor.n.01 :Of (c0 / speaker))) :Time (s3 / time.n.08 :TPR (c1 / now)) :Theme (s4 / noise.n.01)))
+
+(b0 / box :member (s2 / speak.v.03 :Time (s0 / time.n.08 :EQU (c0 / now)) :Agent (s1 / person.n.01 :EQU (c1 / hearer)) :Theme (s3 / filipino.n.02)))
+
+(b0 / box :member (s1 / arrive.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now) :TAB (s3 / measure.n.02 :Quantity (c2 / 2) :Unit (s4 / day.n.01) :TAB (c3 / now)))))
+
+(b0 / box :member (s1 / hire.v.01 :Agent (s0 / supermarket.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / person.n.01 :Quantity (c1 / +) :Role (s4 / part-timer.n.01))))
+
+(b0 / box :member (s3 / steal.v.01 :Beneficiary (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Theme (s2 / money.n.01 :Owner (c2 / speaker))))
+
+(b0 / box :member (s3 / shy.a.01 :Attribute-of (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s2 / kind_of.r.01)))
+
+(b0 / box :member (s1 / make.v.15 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Product (s5 / sandwich.n.01 :MadeOf (s3 / peanut_butter.n.01) :MadeOf (s4 / jelly.n.02))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s1 / call.v.01 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s4 / cat.n.01 :Attribute (s3 / small.a.01 :Value (c1 / +))) :Result (s5 / name.n.01 :EQU (c2 / Tora))))))
+
+(b0 / box :member (s3 / fall.v.03 :Patient (s1 / person.n.01 :Attribute (s0 / young.a.01 :Value (c0 / +)) :Role (s2 / nurse.n.01)) :Time (s4 / time.n.08 :TPR (c1 / now)) :Result (s5 / in_love.a.01 :Experiencer s1 :Stimulus (s6 / person.n.01 :Role (s7 / patient.n.01)))))
+
+(b0 / box :member (s2 / bring.v.01 :Agent (s0 / person.n.01 :Role (s1 / uncle.n.01 :Of (c0 / speaker))) :Time (s3 / time.n.08 :TPR (c1 / now)) :Theme (s5 / tv_set.n.01 :Attribute (s4 / new.a.05)) :Destination (s6 / person.n.01 :EQU (c2 / speaker))))
+
+(b0 / box :member (s3 / die.v.01 :Manner (s0 / manner.n.01 :EQU (c0 / ?)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Patient (s2 / female.n.02 :Name (c2 / "Anne Frank"))))
+
+(b0 / box :member (s2 / milk.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Source (s3 / goat.n.01 :Owner (c2 / speaker))))
+
+(b0 / box :member (s2 / race.v.02 :Theme (s0 / man.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Goal (s3 / lead.n.01)))
+
+(b0 / box :member (s0 / time.n.08 :ClockTime (c0 / "13:30") :EQU (c1 / now)))
+
+(b0 / box :member (s2 / want.v.01 :Time (s0 / time.n.08 :EQU (c0 / now)) :Pivot (s1 / person.n.01 :EQU (c1 / hearer)) :Theme (s3 / scrambled_eggs.n.01)))
+
+(b0 / box :member (s2 / live.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Location (s3 / city.n.01 :Name (c2 / Boston)) :Duration (s4 / measure.n.02 :Quantity (c3 / 3) :Unit (s5 / year.n.01))))
+
+(b0 / box :member (s3 / famous.a.01 :Attribute-of (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s2 / as.r.01 :Theme s0 :Co-Theme (s4 / person.n.01 :EQU (c2 / hearer)))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / entity.n.01 :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s4 / name.n.01 :Bearer (s5 / leech.n.01) :Attribute (s3 / scientific.a.01))))
+
+(b0 / box :member (s1 / make.v.39 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Result (s3 / dinner.n.01)))
+
+(b0 / box :member (s1 / sit.v.01 :Theme (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Location (s3 / next.a.02 :Theme (s4 / male.n.02)) :Location (s5 / bus.n.01)))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Destination (s3 / continent.n.01 :Name (c2 / Europe)) :Frequency (s4 / time.n.01 :Quantity (c3 / 2))))
+
+(b0 / box :member (s1 / hate.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :DayOfWeek (c1 / monday) :TPR (c2 / now))))
+
+(b0 / box :member (s2 / ill.a.01 :Attribute-of (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / stop.v.02 :Part-of (s2 / kvetch.v.01 :Agent (s0 / person.n.01 :EQU (c0 / hearer)))))
+
+(b0 / box :member (s1 / be.v.06 :Co-Theme (c2 / 20) :Theme (s0 / times.n.02 :Theme (c0 / 4) :Co-Theme (c1 / 5))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s3 / eat.v.01 :Agent (s0 / male.n.02) :Patient (s1 / entity.n.01 :Part-of (s2 / apple.n.01)) :Time (s4 / time.n.08 :TPR (c0 / now))))))
+
+(b0 / box :member (s2 / take_place.v.01 :Theme (s0 / wedding.n.01) :Time (s1 / time.n.08 :DayOfWeek (c0 / saturday) :TSU (c1 / now))))
+
+(b0 / box :member (s1 / buy.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / egg.n.02 :Quantity (c2 / 6))))
+
+(b0 / box :member (s2 / wipe.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Source (s3 / table.n.02)))
+
+(b0 / box :member (s2 / like.v.02 :Experiencer (s0 / person.n.01 :Role (s1 / father.n.01 :Of (c0 / speaker))) :Time (s3 / time.n.08 :EQU (c1 / now)) :Stimulus (s5 / coffee.n.01 :Attribute (s4 / strong.a.04))))
+
+(b0 / box :member (s3 / take_place.v.01 :Theme (s1 / test.n.05 :Location (s2 / island.n.01 :Name (c0 / "Bikini Atoll")) :Attribute (s0 / atomic.a.02)) :Time (s4 / time.n.08 :YearOfCentury (c1 / 1946) :TPR (c2 / now))))
+
+(b0 / box :member (s1 / peel.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Source (s3 / potato.n.01)))
+
+(b0 / box :member (s3 / weigh.v.01 :Value (s0 / measure.n.02 :Unit (c0 / ?) :Quantity (c1 / ?)) :Time (s1 / time.n.08 :EQU (c2 / now)) :Theme (s2 / soccer_ball.n.01)))
+
+(b0 / box :member (s3 / important.a.01 :Attribute-of (s0 / entity.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s2 / kind_of.r.01)))
+
+(b0 / box :member (s2 / go.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Destination (s3 / store.n.01)))
+
+(b0 / box :member (s2 / bear.v.02 :Patient (s0 / male.n.02 :Name (c0 / "John Lennon")) :Time (s1 / time.n.08 :YearOfCentury (c1 / 1940) :TPR (c2 / now))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / climb.v.01 :Theme (s0 / man.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Location (s3 / mountain.n.01))))
+
+(b0 / box :member (s1 / read.v.08 :Theme (s0 / thermometer.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Value (s3 / measure.n.02 :Quantity (c1 / 10) :Unit (s4 / degree_celsius.n.01))))
+
+(b0 / box :CONTRAST (b1 / box :member (s6 / busy.a.05 :Attribute-of (s4 / line.n.15) :Time (s5 / time.n.08 :TPR (c2 / now)))) :member (s1 / call.v.03 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / female.n.02)))
+
+(b0 / box :member (s3 / absent.a.01 :Time (s0 / time.n.08 :TPR (c0 / now)) :Attribute-of (s2 / person.n.01 :NEQ (s1 / person.n.01))))
+
+(b0 / box :member (s4 / capture.v.03 :Theme (s1 / person.n.01 :Quantity (c1 / 500) :Source (s0 / country.n.02 :Name (c0 / "united kingdom")) :Role (s2 / soldier.n.01)) :Time (s3 / time.n.08 :TPR (c2 / now))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s3 / delicious.a.02 :Attribute-of (s1 / entity.n.01 :Sub-of (s0 / entity.n.01)) :Time (s2 / time.n.08 :TPR (c0 / now))))))
+
+(b0 / box :member (s2 / approach.v.01 :Theme (s1 / army.n.01 :Source (s0 / country.n.02 :Name (c0 / mongolia))) :Time (s3 / time.n.08 :TPR (c1 / now)) :Destination (s4 / city.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / be.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / freak.n.01)))))
+
+(b0 / box :member (s1 / love.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / hot_dog.n.02)))
+
+(b0 / box :member (s1 / fell.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Patient (s3 / tree.n.01 :Location (s4 / mountain.n.01))))
+
+(b0 / box :member (s2 / cough.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s1 / be.v.08 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / goalkeeper.n.01))))
+
+(b0 / box :member (s2 / partial.a.03 :Experiencer (s0 / female.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Stimulus (s3 / sweet.n.03)))
+
+(b0 / box :member (s2 / play.v.07 :Agent (s0 / woman.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / flute.n.01)))
+
+(b0 / box :member (s3 / rape.v.01 :Patient (s1 / woman.n.01 :Quantity (s0 / quantity.n.01 :MOR (c0 / 200000))) :Time (s2 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s1 / complain.v.01 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s4 / salary.n.01 :Of (c1 / speaker) :Attribute (s3 / low.a.01))))
+
+(b0 / box :member (s2 / spread.v.04 :Agent (s0 / person.n.01 :Role (s1 / mom.n.01)) :Time (s3 / time.n.08 :TPR (c0 / now)) :Patient (s4 / table.n.02)))
+
+(b0 / box :member (s4 / cheap.a.01 :Attribute-of (s1 / chair.n.01 :MadeOf (s0 / plastic.n.01)) :Time (s2 / time.n.08 :EQU (c0 / now)) :Degree (s3 / very.r.01)))
+
+(b0 / box :EXPLANATION (b1 / box :member (s6 / hungry.a.01 :Experiencer (s4 / person.n.01 :EQU (c2 / speaker)) :Time (s5 / time.n.08 :EQU (c3 / now)))) :member (s1 / eat.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Patient (s3 / fruit.n.01)))
+
+(b0 / box :member (s1 / spill.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / coffee.n.01) :Destination (s4 / tablecloth.n.01 :User (c2 / hearer))))
+
+(b0 / box :member (s4 / lower.v.01 :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / rope.n.01) :Source (s5 / helicopter.n.01)) :member (s1 / grab.v.03 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time s2 :Theme s3))
+
+(b0 / box :member (s2 / spawn.v.01 :Causer (s1 / club.n.07 :Name (c1 / ?) :Location (s0 / city.n.01 :Name (c0 / Liverpool))) :Time (s3 / time.n.08 :TPR (c2 / now)) :Theme (s4 / musical_organization.n.01 :Name (c3 / Beatles))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / break.v.06 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Theme (s3 / law.n.01))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :NEGATION (b3 / box :POSSIBILITY (b4 / box :member (s1 / live.v.01 :Theme (s0 / person.n.01) :Location (s2 / island.n.01)))))))
+
+(b0 / box :member (s2 / be.v.01 :Co-Theme (s0 / entity.n.01 :Instance-of (s1 / monkey.n.01) :EQU (c0 / ?)) :Time (s3 / time.n.08 :EQU (c1 / now)) :Theme (s4 / entity.n.01)))
+
+(b0 / box :member (s2 / return.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :ClockTime (c1 / "18:30") :TSU (c2 / now))))
+
+(b0 / box :CONTINUATION (b1 / box :member (s7 / accept.v.02 :Time (s2 / time.n.08 :TPR (c1 / now)) :Agent (s6 / male.n.02)) :member (s8 / time.n.08 :TPR (c3 / now))) :member (s1 / offer.v.02 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time s2 :Beneficiary (s3 / male.n.02) :Theme (s4 / measure.n.02 :Quantity (c2 / 50) :Unit (s5 / penny.n.01))))
+
+(b0 / box :member (s2 / happy.a.01 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / like.v.02 :Experiencer (s0 / male.n.02 :Name (c0 / Jim)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / apple.n.01))))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :TPR (c0 / now)) :Theme (s3 / apple.n.01 :Quantity (c1 / +) :Attribute (s2 / rotten.a.02)) :Location (s4 / basket.n.01)))
+
+(b0 / box :member (s1 / show.v.04 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / album.n.02 :Owner s0) :Recipient (s4 / person.n.01 :EQU (c1 / speaker))))
+
+(b0 / box :member (s1 / consist.v.04 :Theme (s0 / committee.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Attribute (s3 / person.n.01 :Quantity (c1 / 12) :Role (s4 / member.n.01))))
+
+(b0 / box :member (s1 / grill.v.01 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Product (s3 / steak.n.01)))
+
+(b0 / box :member (s3 / beautiful.a.01 :Attribute-of (s0 / female.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s2 / more.r.01 :Theme s0 :Co-Theme (s4 / person.n.01 :EQU (c1 / speaker)))))
+
+(b0 / box :member (s1 / find.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s4 / love.n.02 :Attribute (s3 / new.a.05))))
+
+(b0 / box :member (s2 / based.a.02 :Theme (s0 / company.n.01 :Name (c0 / MBUSA)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Location (s3 / state.n.01 :Name (c2 / "New Yersey"))))
+
+(b0 / box :member (s2 / like.a.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / mother.n.01 :Of (c2 / speaker)))))
+
+(b0 / box :member (s1 / attend.v.01 :Theme (s0 / person.n.01 :Quantity (c0 / +)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Goal (s3 / conference.n.01)))
+
+(b0 / box :member (s1 / leave.v.01 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :ClockTime (c0 / "20:00") :TSU (c1 / now))))
+
+(b0 / box :member (s1 / be.v.08 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / detective.n.01))))
+
+(b0 / box :member (s1 / pass.v.05 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / glass.n.02 :Content (s4 / milk.n.01)) :Recipient (s5 / female.n.02 :Name (c2 / Mary))))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s2 / bag.n.01) :Location (s3 / room.n.01)))
+
+(b0 / box :member (s2 / know.v.04 :Time (s0 / time.n.08 :EQU (c0 / now)) :Experiencer (s1 / person.n.01 :EQU (c1 / hearer)) :Stimulus (s3 / person.n.01 :Location (s4 / city.n.01 :Name (c2 / Boston)))))
+
+(b0 / box :member (s1 / want.v.01 :Pivot (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / fly.v.01 :Theme s0) :Location (s4 / location.n.01 :SZP (s5 / cloud.n.02))))
+
+(b0 / box :member (s2 / heal.v.02 :Patient (s0 / wound.n.01) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :NEGATION (b1 / box :ATTRIBUTION (b2 / box :member (s5 / be.v.03 :Time (s1 / time.n.08 :EQU (c1 / now)) :Location (s3 / location.n.01 :EQU (c2 / ?)) :Theme (s4 / male.n.02 :Name (c3 / Tom))) :member (s6 / time.n.08 :EQU (c4 / now))) :member (s2 / sure.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time s1 :Proposition s3)))
+
+(b0 / box :member (s2 / love.v.03 :Experiencer (s0 / female.n.02) :Time (s1 / time.n.08 :TPR (c0 / now)) :Stimulus (s3 / male.n.02)))
+
+(b0 / box :member (s1 / be.v.08 :Theme (s0 / male.n.02 :Name (c0 / "Edward Sapir")) :Time (s2 / time.n.08 :TPR (c1 / now)) :Co-Theme (s4 / person.n.01 :Source (s3 / country.n.02 :Name (c2 / america)) :Role (s5 / linguist.n.01))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s2 / bore.v.01 :Stimulus (s0 / male.n.02) :Experiencer (s1 / person.n.01) :Time (s3 / time.n.08 :EQU (c0 / now))))))
+
+(b0 / box :member (s1 / give.v.03 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Recipient (s3 / dog.n.01) :Theme (s4 / bone.n.01)))
+
+(b0 / box :member (s3 / suffer.v.02 :Experiencer (s0 / person.n.01 :Role (s1 / boss.n.01 :Of (c0 / speaker))) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s5 / cold.n.01 :Attribute (s4 / bad.a.02))))
+
+(b0 / box :CONTINUATION (b1 / box :member (s4 / begin.v.03 :Time (s2 / time.n.08 :TPR (c0 / now)) :Part-of (s6 / move.v.01 :Theme (s3 / train.n.01))) :member (s5 / time.n.08 :TPR (c1 / now))) :member (s1 / ring.v.01 :Theme (s0 / bell.n.03) :Time s2))
+
+(b0 / box :member (s2 / outdistance.v.01 :Patient (s0 / hare.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)) :Agent (s3 / tortoise.n.01)))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Source (s3 / city.n.01 :Name (c2 / "Rio de Janeiro") :Part-of (s4 / country.n.02 :Name (c3 / Brazil)))))
+
+(b0 / box :ATTRIBUTION (b1 / box :member (s2 / be.v.03 :Time (s3 / time.n.08 :TPR (c0 / now)) :Theme (s4 / earthquake.n.01) :Location (s5 / country.n.02 :Name (c1 / Mexico)))) :member (s0 / according.a.02 :Source (s1 / newspaper.n.01)))
+
+(b0 / box :member (s1 / make.v.16 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / statement.n.01)))
+
+(b0 / box :member (s1 / leave.v.02 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Source (s3 / cat.n.01) :Location (s4 / location.n.01 :STO (s5 / house.n.01))))
+
+(b0 / box :member (s1 / like.v.02 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / strawberry_ice_cream.n.01)))
+
+(b0 / box :member (s3 / cheap.a.01 :Attribute-of (s1 / chair.n.01 :MadeOf (s0 / plastic.n.01)) :Time (s2 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s2 / clear.v.24 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Source (s3 / throat.n.01 :Part-of (c2 / speaker))))
+
+(b0 / box :member (s1 / make.v.32 :Co-Theme (c2 / 4) :Theme (s0 / plus.n.02 :Co-Theme (c0 / 2) :Theme (c1 / 2))))
+
+(b0 / box :member (s1 / show.v.04 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Recipient (s3 / male.n.02) :Theme (s4 / photo.n.01)))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / egg.n.02 :Quantity (s2 / quantity.n.01 :EQU (c1 / +))) :Location (s4 / box.n.01)))
+
+(b0 / box :member (s1 / visit.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s4 / amusement_park.n.01 :Attribute (s3 / huge.a.01 :Value (c2 / +)) :Location (s5 / city.n.01 :Name (c3 / "São Paulo")))))
+
+(b0 / box :member (s2 / risky.a.01 :Attribute-of (s0 / entity.n.01) :Time (s1 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s1 / study.v.04 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / japanese.n.02) :Duration (s4 / measure.n.02 :Quantity (c2 / 5) :Unit (s5 / year.n.01))))
+
+(b0 / box :member (s1 / scowl.v.01 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Recipient (s4 / person.n.01 :Role (s5 / salesman.n.01) :Attribute (s3 / rude.a.01))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s1 / have.v.02 :Pivot (s0 / building.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s3 / name.n.01)))))
+
+(b0 / box :member (s1 / suffer.v.02 :Experiencer (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Stimulus (s3 / smog.n.01)))
+
+(b0 / box :member (s1 / bite.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / lip.n.01 :Part-of (c2 / speaker))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :ATTRIBUTION (b3 / box :member (s7 / away.a.01 :Theme (s5 / person.n.01 :EQU (c2 / speaker)) :Time (s6 / time.n.08 :EQU (c3 / now)) :Source (s8 / home.n.01))) :member (s4 / say.v.01 :Agent (s3 / person.n.01 :EQU (c1 / hearer)) :Proposition s5)) :member (s1 / come.v.01 :Theme (s0 / person.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / entity.n.01 :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / last_name.n.01 :Bearer (c2 / hearer))))
+
+(b0 / box :member (s1 / be.v.08 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s4 / person.n.01 :Role (s5 / violinist.n.01 :Attribute (s3 / good.a.08)))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / entity.n.01 :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s6 / name.n.01 :Bearer (s4 / male.n.02 :Name (c3 / "Nikki Sixx") :Part-of (s3 / musical_organization.n.01 :Name (c2 / "Motley Crue"))) :Attribute (s5 / real.a.01))))
+
+(b0 / box :member (s1 / be.v.08 :Co-Theme (s0 / person.n.01 :EQU (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / male.n.02 :Name (c2 / Nostradamus))))
+
+(b0 / box :ATTRIBUTION (b1 / box :member (s5 / drunk.a.01 :Attribute-of (s3 / male.n.02 :Name (c2 / Tom)) :Time (s4 / time.n.08 :EQU (c3 / now)))) :member (s1 / think.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s4 / nation.n.01 :Quantity (s2 / quantity.n.01 :MOR (s3 / quantity.n.01 :EQU (c1 / 150)))) :Location (s5 / world.n.04)))
+
+(b0 / box :member (s1 / paint.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Result (s3 / picture.n.02) :TIN (s7 / old.a.01 :Time s2 :Theme (s4 / person.n.01 :EQU (c2 / speaker)) :Value (s5 / measure.n.02 :Quantity (c3 / 23) :Unit (s6 / year.n.01)))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / climb.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Path (s3 / mountain.n.01 :Name (c2 / "Mt. Fuji")))))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / city.n.01 :Name (c0 / Bergen)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s4 / town.n.01 :Part-of (s3 / country.n.02 :Name (c2 / norway)))))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / money.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Location (s3 / table.n.02)))
+
+(b0 / box :member (s1 / chase.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / female.n.02 :Name (c2 / Mary))))
+
+(b0 / box :member (s1 / be.v.06 :Co-Theme (c2 / 20) :Theme (s0 / times.n.02 :Theme (c0 / 4) :Co-Theme (c1 / 5))))
+
+(b0 / box :member (s1 / last.v.01 :Theme (s0 / traffic_jam.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Value (s3 / measure.n.02 :Quantity (c1 / 1) :Unit (s4 / hour.n.01))))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / entity.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s4 / castle.n.02 :Attribute (s3 / old.a.01 :Value (c1 / +)))))
+
+(b0 / box :member (s1 / get.v.01 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Theme (s2 / egg.n.02) :Source (s3 / refrigerator.n.01)))
+
+(b0 / box :member (s1 / open.v.01 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Patient (s2 / book.n.02 :User (c1 / hearer)) :Destination (s3 / page.n.01 :Order (c2 / 9))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s3 / tired.a.01 :Experiencer (s1 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now) :EQU (s0 / time.n.08))))))
+
+(b0 / box :member (s1 / love.v.03 :Experiencer (s0 / male.n.02 :Name (c0 / Ted)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / person.n.01 :Role (s4 / wife.n.01 :Of s0) :EQU (s5 / female.n.02 :Name (c2 / Elizabeth)))))
+
+(b0 / box :member (s1 / cook.v.02 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Product (s3 / dinner.n.01)))
+
+(b0 / box :member (s2 / fine.v.01 :Recipient (s0 / male.n.02 :Name (c0 / Ken)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Asset (s3 / measure.n.02 :Quantity (c2 / 7000) :Unit (s4 / yen.n.02)) :Theme (s5 / speeding.n.01)))
+
+(b0 / box :NEGATION (b1 / box :POSSIBILITY (b2 / box :member (s1 / stand.v.05 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Stimulus (s2 / noise.n.01)))))
+
+(b0 / box :member (s1 / remember.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / meet.v.01 :Theme s0 :Co-Theme (s4 / male.n.02) :Location (s5 / location.n.01))))
+
+(b0 / box :member (s1 / eat.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s4 / apple.n.01 :Colour (s3 / green.a.01))))
+
+(b0 / box :member (s1 / twirl.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / basketball.n.02) :Location (s4 / finger.n.01 :Part-of s0)))
+
+(b0 / box :member (s1 / shiver.v.02 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s1 / floss.v.01 :Agent (s0 / male.n.02 :Name (c0 / Dan)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / tooth.n.01 :Part-of s0)))
+
+(b0 / box :member (s4 / old.a.01 :Attribute-of (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s5 / more.r.01 :Theme s0 :Value (s2 / measure.n.02 :Quantity (c1 / 2) :Unit (s3 / year.n.01)) :Co-Theme (s6 / person.n.01 :EQU (c2 / hearer)))))
+
+(b0 / box :member (s2 / free.a.03 :Attribute-of (s0 / festival.n.02) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s2 / strong.a.01 :Attribute-of (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s3 / more.r.01 :Theme s0 :Co-Theme (s4 / person.n.01 :EQU (c1 / hearer)))))
+
+(b0 / box :member (s1 / buy.v.01 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / vacuum_cleaner.n.01) :Source (s4 / supermarket.n.01)))
+
+(b0 / box :member (s2 / good.a.01 :Attribute-of (s0 / female.n.02 :Name (c0 / Yumi)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s3 / play.v.01 :Theme (s4 / tennis.n.01))))
+
+(b0 / box :member (s0 / female.n.02 :Attribute (s2 / old.a.01 :Time (s1 / time.n.08 :EQU (c0 / now)) :Value (s3 / measure.n.02 :Quantity (c1 / 33) :Unit (c2 / year)))))
+
+(b0 / box :member (s2 / lesbian.a.01 :Attribute-of (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / book.n.01 :Name (c0 / "Reinventing Comics")) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / book.n.01 :Creator (s4 / male.n.02 :Name (c2 / "Scott McCloud")))))
+
+(b0 / box :member (s1 / work.v.05 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Material (s3 / clay.n.01) :Product (s4 / vase.n.01)))
+
+(b0 / box :member (s2 / thirsty.a.02 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s3 / cute.a.01 :Attribute-of (s0 / entity.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s2 / super.r.01)))
+
+(b0 / box :member (s2 / approach.v.01 :Theme (s0 / ship.n.01 :User (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Destination (s3 / harbor.n.01)))
+
+(b0 / box :CONTRAST (b1 / box :NEGATION (b2 / box :member (s7 / hit.v.02 :Destination (s4 / female.n.02 :Name (c2 / Mary)) :Theme (s5 / entity.n.01 :EQU (s3 / rock.n.01)) :Time (s6 / time.n.08 :TPR (c3 / now))) :member (s8 / female.n.02))) :member (s1 / throw.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme s3 :Destination s4))
+
+(b0 / box :member (s1 / climb.v.01 :Agent (s0 / squirrel.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Destination (s3 / tree.n.01)))
+
+(b0 / box :member (s2 / sleep.v.01 :Agent (s0 / dog.n.01) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / owe.v.03 :Agent (s0 / male.n.02 :Name (c0 / Nick)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Beneficiary (s3 / person.n.01 :EQU (c2 / speaker)) :Theme (s4 / measure.n.02 :Quantity (c3 / 10) :Unit (s5 / dollar.n.01))))
+
+(b0 / box :member (s1 / drop.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / glass.n.02 :User s0)))
+
+(b0 / box :member (s2 / skillful.a.01 :Theme (s0 / girl.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Instrument (s4 / finger.n.01 :Part-of (s3 / female.n.02 :EQU s0))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / like.v.02 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / coffee.n.01))))
+
+(b0 / box :member (s1 / go.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Instrument (s3 / foot.n.01)))
+
+(b0 / box :member (s1 / bite.v.01 :Agent (s0 / dog.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s4 / leg.n.01 :Part-of (s3 / female.n.02))))
+
+(b0 / box :member (s1 / break.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tony)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / entity.n.01)))
+
+(b0 / box :member (s2 / establish.v.02 :Theme (s0 / school.n.01) :Time (s1 / time.n.08 :YearOfCentury (c0 / 1650) :TPR (c1 / now))))
+
+(b0 / box :member (s2 / polite.a.01 :Attribute-of (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / die.v.01 :Patient (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now) :TAB (s3 / measure.n.02 :Quantity (c1 / 10) :Unit (s4 / year.n.01) :TAB (c2 / now)))))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / deserve.v.01 :Pivot (s0 / person.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s3 / entity.n.01))))
+
+(b0 / box :member (s2 / bite.v.04 :Patient (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Agent (s3 / mosquito.n.01)))
+
+(b0 / box :member (s1 / put.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / ice_cream.n.01) :Destination (s4 / freezer.n.01)))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Location (s3 / city.n.01 :Name (c2 / Boston)) :Frequency (s4 / time.n.01 :Quantity (c3 / +))))
+
+(b0 / box :member (s2 / escape.v.06 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s2 / unhappy.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :CONTINUATION (b1 / box :member (s4 / continue.v.01 :Time (s2 / time.n.08 :TPR (c1 / now)) :Part-of (s6 / speak.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)))) :member (s5 / time.n.08 :TPR (c2 / now))) :member (s1 / clear.v.24 :Agent s0 :Time s2 :Source (s3 / throat.n.01 :Part-of s0)))
+
+(b0 / box :member (s1 / meet.v.02 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :MonthOfYear (c1 / 1) :TPR (c2 / now)) :Co-Agent (s3 / male.n.02)))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / happy.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / look.n.03 :Creator (c2 / speaker)))))
+
+(b0 / box :member (s1 / leave.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s3 / rude.a.01 :Attribute-of (s0 / entity.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s2 / kind_of.r.01)))
+
+(b0 / box :member (s1 / have.v.01 :Pivot (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s4 / entity.n.01 :Sub (s3 / orange.n.01) :Sub (s5 / apple.n.01))))
+
+(b0 / box :member (s2 / dance.v.02 :Theme (s0 / female.n.02 :Name (c0 / Mayuko)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / music.n.04)))
+
+(b0 / box :member (s3 / call.v.01 :Result (s0 / name.n.01 :EQU (c0 / ?)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Agent (s2 / male.n.02 :Name (c2 / "George Washington")) :Theme (s4 / house.n.01 :User s2)))
+
+(b0 / box :member (s1 / live.v.01 :Theme (s0 / male.n.02 :Name (c0 / Pierce)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Location (s3 / way.n.06 :Name (c2 / "E. 28th Street"))))
+
+(b0 / box :member (s1 / drop.v.01 :Agent (s0 / female.n.02 :Name (c0 / Mayuko)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / ball.n.01)))
+
+(b0 / box :member (s4 / long.a.01 :Theme (s0 / exam.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)) :Value (s2 / measure.n.02 :Quantity (c1 / 2.5) :Unit (s3 / hour.n.01))))
+
+(b0 / box :member (s2 / tall.a.01 :Attribute-of (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s3 / more.r.01 :Theme s0 :Co-Theme (s4 / person.n.01 :EQU (c2 / speaker)))))
+
+(b0 / box :member (s1 / carve.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tony)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / name.n.01 :Bearer s0) :Destination (s4 / tree.n.01) :Instrument (s5 / knife.n.01)))
+
+(b0 / box :member (s1 / eat.v.03 :Agent (s0 / mouse.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Patient (s3 / entity.n.01 :Sub-of (s4 / bread.n.01))))
+
+(b0 / box :member (s1 / come.v.02 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now) :APX (s3 / time.n.08 :ClockTime (c2 / "18:00")))))
+
+(b0 / box :member (s4 / take_place.v.01 :Theme (s1 / reception.n.02 :Part (s2 / person.n.01 :Role (s3 / prisoner.n.01)) :Attribute (s0 / typical.a.01)) :Time (s5 / time.n.08 :MonthOfYear (c0 / 5) :DayOfMonth (c1 / 24) :YearOfCentury (c2 / 1945) :TPR (c3 / now))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / play.v.01 :Agent (s0 / female.n.02 :Name (c0 / Nancy)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s3 / tennis.n.01))))
+
+(b0 / box :member (s1 / owe.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Goal (s3 / female.n.02) :Theme (s4 / measure.n.02 :Quantity (c2 / 30) :Unit (s5 / dollar.n.01))))
+
+(b0 / box :member (s2 / tired.a.01 :Attribute-of (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s3 / destroy.v.01 :Patient (s1 / house.n.01 :User (s0 / male.n.02 :Name (c0 / Tom))) :Time (s2 / time.n.08 :TPR (c1 / now)) :Causer (s4 / hurricane.n.01)))
+
+(b0 / box :member (s1 / own.v.01 :Pivot (s0 / female.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s3 / book.n.02 :Quantity (c1 / 2000))))
+
+(b0 / box :member (s1 / owe.v.03 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Beneficiary (s3 / female.n.02 :Name (c2 / Mary)) :Theme (s4 / measure.n.02 :Quantity (c3 / 300) :Unit (s5 / dollar.n.01))))
+
+(b0 / box :member (s1 / buy.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s4 / glasses.n.01 :Attribute (s3 / new.a.05))))
+
+(b0 / box :member (s1 / wipe_out.v.04 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / male.n.02) :Source (s4 / memory.n.02 :Creator s0)))
+
+(b0 / box :member (s2 / lump.v.01 :Agent (s0 / man.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Patient (s3 / dough.n.01)))
+
+(b0 / box :member (s1 / clear.v.24 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Source (s3 / throat.n.01 :Part-of s0)))
+
+(b0 / box :member (s1 / love.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / ice_cream.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / jealous.a.02 :Experiencer (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / male.n.02 :Name (c0 / "Richard Roberts")) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / author.n.01 :Of (s5 / book.n.01 :Quantity (c2 / +))))))
+
+(b0 / box :member (s3 / knowledgeable.a.01 :Attribute-of (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s2 / very.r.01)))
+
+(b0 / box :member (s1 / bump_into.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / window.n.01)))
+
+(b0 / box :member (s1 / have.v.01 :Pivot (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s5 / person.n.01 :Quantity (c1 / 3) :Attribute (s3 / old.a.01 :Degree (s4 / more.r.01)) :Role (s6 / sister.n.01))))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / suspect.v.01 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / entity.n.01))))
+
+(b0 / box :NEGATION (b1 / box :POSSIBILITY (b2 / box :member (s1 / beat.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Patient (s2 / male.n.02 :Name (c1 / Tom)) :Theme (s3 / chess.n.02)))))
+
+(b0 / box :member (s2 / fold.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Patient (s3 / shirt.n.01 :User s0)))
+
+(b0 / box :member (s2 / relax.v.01 :Stimulus (s1 / bath.n.02 :Attribute (s0 / hot.a.01 :Value (c0 / +))) :Time (s3 / time.n.08 :TPR (c1 / now)) :Experiencer (s4 / female.n.02)))
+
+(b0 / box :member (s1 / get_up.v.02 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :ClockTime (c1 / "07:00") :Part-of (s3 / morning.n.01) :TPR (c2 / now))))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / female.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Location (s3 / city.n.01 :Name (c1 / Boston))))
+
+(b0 / box :NEGATION (b1 / box :CONTINUATION (b2 / box :member (s7 / shy.a.01 :Attribute-of (s4 / female.n.02) :Time (s5 / time.n.08 :EQU (c1 / now)) :Manner (s6 / just.r.01))) :member (s2 / lack.v.01 :Pivot (s0 / female.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / consideration.n.04))))
+
+(b0 / box :member (s2 / notorious.a.01 :Theme (s0 / district.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Causer (s3 / air_pollution.n.01)))
+
+(b0 / box :member (s2 / dishonest.a.01 :Attribute-of (s0 / female.n.02) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / sign.v.01 :Agent (s0 / sioux.n.01) :Time (s2 / time.n.08 :YearOfCentury (c0 / 1868) :TPR (c1 / now)) :Theme (s3 / treaty.n.01) :Co-Agent (s4 / government.n.01)))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / bread.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Location (s3 / oven.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / flirt.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now)))))
+
+(b0 / box :member (s1 / retire.v.01 :Agent (s0 / male.n.02 :Name (c0 / Maler)) :Time (s2 / time.n.08 :YearOfCentury (c1 / 1905) :TPR (c2 / now))))
+
+(b0 / box :member (s1 / shine.v.01 :Theme (s0 / diamond.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Manner (s3 / brightly.r.01)))
+
+(b0 / box :member (s1 / belong.v.01 :Theme (s0 / farm.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Pivot (s3 / family.n.04 :Name (c1 / Jackson))))
+
+(b0 / box :member (s2 / fail.v.02 :Agent (s0 / person.n.01 :Role (s1 / terrorist.n.01)) :Time (s3 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s2 / blue.a.01 :Colour-of (s0 / sky.n.01) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / hate.v.01 :Experiencer (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Stimulus (s3 / person.n.01 :EQU (c1 / speaker))))
+
+(b0 / box :member (s2 / discuss.v.02 :Topic (s0 / problem.n.01) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s0 / be.v.01 :Theme (c0 / 12) :Co-Theme (s2 / number.n.02 :Attribute (s1 / even.a.01))))
+
+(b0 / box :member (s2 / like.v.02 :Experiencer (s1 / too.n.01 :NEQ (s0 / person.n.01 :EQU (c0 / speaker))) :Time (s3 / time.n.08 :EQU (c1 / now)) :Stimulus (s4 / apple.n.01)))
+
+(b0 / box :member (s1 / climb.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Path (s3 / mountain.n.01 :Name (c2 / "Mt. Aso"))))
+
+(b0 / box :member (s1 / run.v.06 :Theme (s0 / river.n.01 :Name (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Path (s3 / city.n.01 :Name (c2 / Dublin))))
+
+(b0 / box :member (s1 / fold.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / letter.n.01)))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s3 / arrest.v.01 :Agent (s0 / police.n.01) :Patient (s1 / person.n.01 :Location (s2 / room.n.01)) :Time (s4 / time.n.08 :TPR (c0 / now))))))
+
+(b0 / box :member (s1 / cook.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Beneficiary (s3 / person.n.01 :EQU (c1 / speaker)) :Product (s4 / dinner.n.01)))
+
+(b0 / box :member (s0 / state.a.01 :Attribute-of (s1 / snack.n.01) :EQU (c0 / ?)))
+
+(b0 / box :member (s1 / slump.v.02 :Theme (s0 / man.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Destination (s3 / floor.n.01)))
+
+(b0 / box :member (s1 / buy.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / book.n.02) :Asset (s4 / measure.n.02 :Quantity (c2 / 10) :Unit (s5 / dollar.n.01))))
+
+(b0 / box :member (s1 / work.v.02 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Agent (s3 / bank.n.02)))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / give_in.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :TSU (c1 / now)))))
+
+(b0 / box :member (s4 / old.a.01 :Attribute-of (s0 / female.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s5 / more.r.01 :Theme s0 :Value (s2 / measure.n.02 :Quantity (c1 / 6) :Unit (s3 / year.n.01)) :Co-Theme (s6 / person.n.01 :EQU (c2 / speaker)))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / accept.v.02 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s3 / tip.n.02))))
+
+(b0 / box :member (s1 / fish.v.02 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Location (s3 / river.n.01 :Name (c2 / "Thames River"))))
+
+(b0 / box :member (s1 / twirl.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / mustache.n.01 :Part-of s0)))
+
+(b0 / box :member (s2 / pregnant.a.01 :Time (s0 / time.n.08 :EQU (c0 / now)) :Attribute-of (s1 / person.n.01 :EQU (c1 / speaker))))
+
+(b0 / box :member (s2 / lose.v.07 :Agent (s0 / casino.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / money.n.01)))
+
+(b0 / box :member (s1 / glance.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / watch.n.01 :User s0)))
+
+(b0 / box :member (s1 / put.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s4 / letter.n.01 :Quantity (s3 / bunch.n.01)) :Destination (s6 / desk.n.01 :User (s5 / female.n.02 :Name (c2 / Mary)))))
+
+(b0 / box :member (s1 / contain.v.01 :Pivot (s0 / dictionary.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s5 / word.n.01 :Quantity (s3 / quantity.n.01 :APX (s4 / quantity.n.01 :EQU (c1 / 500000))))))
+
+(b0 / box :CONTINUATION (b1 / box :member (s5 / send.v.03 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / picture.n.01 :Topic (s4 / dog.n.01 :Owner s0)) :Destination (s8 / female.n.02 :Name (c3 / Mary))) :member (s7 / entity.n.01 :EQU s3) :member (s6 / time.n.08 :TPR (c2 / now))) :member (s1 / take.v.16 :Agent s0 :Time s2 :Theme s3))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / entity.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / poison.n.01)))
+
+(b0 / box :member (s2 / smart.a.01 :Attribute-of (s0 / female.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Degree (s3 / more.r.01 :Theme s0 :Co-Theme (s4 / person.n.01 :EQU (c1 / speaker)))))
+
+(b0 / box :member (s2 / live.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Location (s3 / city.n.01 :Name (c2 / Boston))))
+
+(b0 / box :ATTRIBUTION (b1 / box :member (s4 / lie.v.05 :Agent (s3 / female.n.02 :Name (c2 / Mary)) :Time (s5 / time.n.08 :TPR (c3 / now)))) :member (s1 / know.v.01 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / cute.a.01 :Time (s0 / time.n.08 :EQU (c0 / now)) :Attribute-of (s1 / female.n.02))))
+
+(b0 / box :member (s1 / give.v.12 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Recipient (s2 / person.n.01 :EQU (c1 / speaker)) :Theme (s3 / telephone_number.n.01 :User (c2 / hearer))))
+
+(b0 / box :member (s4 / inject.v.01 :Theme (s1 / substance.n.04 :EQU (c0 / ?) :Attribute (s0 / radioactive.a.01)) :Time (s2 / time.n.08 :YearOfCentury (c1 / 1945) :TPR (c2 / now)) :Destination (s3 / female.n.02 :Name (c3 / "Eda Charlton"))))
+
+(b0 / box :NEGATION (b1 / box :member (s4 / terra_incognita.n.01 :EQU (s1 / be.v.01 :Theme (s0 / elevator.n.01) :Time (s2 / time.n.08 :EQU (c0 / now))) :Co-Theme (s3 / order.n.05))))
+
+(b0 / box :CONTINUATION (b1 / box :member (s4 / enter.v.01 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Destination (s6 / living_room.n.01)) :member (s5 / time.n.08 :TPR (c1 / now))) :member (s1 / leave.v.01 :Theme s0 :Time s2 :Source (s3 / bedroom.n.01)))
+
+(b0 / box :member (s0 / far.a.01 :Value (c0 / ?) :Time (s1 / time.n.08 :EQU (c1 / now)) :Attribute-of (s2 / entity.n.01)))
+
+(b0 / box :member (s1 / draw.v.06 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Result (s3 / tree.n.01)))
+
+(b0 / box :member (s1 / study.v.04 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / law.n.06) :Location (s4 / university.n.03 :Name (c1 / Harvard))))
+
+(b0 / box :member (s2 / fashionable.a.03 :Attribute-of (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Location (s3 / city.n.01 :Name (c2 / Paris))))
+
+(b0 / box :member (s2 / slice.v.03 :Agent (s0 / woman.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Patient (s3 / tofu.n.01)))
+
+(b0 / box :member (s1 / fart.v.01 :Agent (s0 / person.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Location (s3 / elevator.n.01)))
+
+(b0 / box :member (s2 / seat.v.01 :Theme (s0 / person.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)) :Location (s3 / table.n.03) :Location (s4 / restaurant.n.01)))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s2 / eat_out.v.01 :Time (s0 / time.n.08) :Agent (s1 / person.n.01 :EQU (c0 / speaker))) :member (s3 / time.n.08 :EQU (c1 / now)))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s3 / reject.v.01 :Agent (s0 / state.n.04 :Name (c0 / Russia)) :Theme (s2 / entity.n.01 :Sub-of (s1 / demand.n.01 :Quantity (c1 / 2))) :Time (s4 / time.n.08 :TPR (c2 / now))))))
+
+(b0 / box :member (s1 / put.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / bait.n.02) :Destination (s4 / hook.n.04)))
+
+(b0 / box :member (s1 / nod.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :CONTRAST (b1 / box :NEGATION (b2 / box :member (s6 / know.v.04 :Experiencer (s4 / male.n.02) :Time (s5 / time.n.08 :EQU (c2 / now)) :Stimulus (s7 / person.n.01 :EQU (c3 / speaker))))) :member (s1 / know.v.04 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / male.n.02)))
+
+(b0 / box :member (s1 / exaggerate.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now))))
+
+(b0 / box :member (s1 / pay.v.01 :Agent (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Asset (s5 / measure.n.02 :Quantity (s3 / quantity.n.01 :TOP (s4 / quantity.n.01 :EQU (c1 / 10000))) :Unit (s6 / dollar.n.01))))
+
+(b0 / box :member (s1 / yodel.v.01 :Agent (s0 / female.n.02 :Name (c0 / Mary)) :Time (s2 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Co-Theme (s4 / woman.n.01 :Attribute (s3 / middle-aged.a.01))))
+
+(b0 / box :NEGATION (b1 / box :POSSIBILITY (b2 / box :member (s1 / pronounce.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Theme (s3 / last_name.n.01 :User (s2 / female.n.02 :Name (c1 / Mary)))))))
+
+(b0 / box :CONTINUATION (b1 / box :member (s4 / need.v.02 :Pivot (s3 / entity.n.01 :EQU (s0 / clock.n.01)) :Time (s5 / time.n.08 :EQU (c1 / now)) :Theme (s7 / battery.n.02 :Attribute (s6 / new.a.05)))) :member (s1 / stop.v.01 :Theme s0 :Time (s2 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s2 / play.v.07 :Agent (s0 / man.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / trumpet.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / hungry.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)))))
+
+(b0 / box :member (s3 / be.v.08 :Theme (s1 / person.n.01 :Role (s2 / father.n.01 :Of (s0 / female.n.02))) :Time (s4 / time.n.08 :EQU (c0 / now)) :Co-Theme (s6 / person.n.01 :Role (s7 / pianist.n.01 :Attribute (s5 / excellent.a.01)))))
+
+(b0 / box :member (s1 / return.v.01 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Source (s3 / country.n.02 :Name (c1 / China))))
+
+(b0 / box :member (s0 / be.v.03 :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s2 / boy.n.01) :Location (s3 / park.n.02)))
+
+(b0 / box :EXPLANATION (b1 / box :member (s5 / talk.v.01 :Agent (s3 / female.n.02) :Time (s4 / time.n.08 :TPR (c1 / now)) :Instrument (s6 / phone.n.01))) :member (s1 / overflow.v.01 :Theme (s0 / bathtub.n.01) :Time (s2 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / break.v.06 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / law.n.02))))
+
+(b0 / box :member (s1 / vote.v.01 :Agent (s0 / person.n.01 :Quantity (c0 / 9000000)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / election.n.01)))
+
+(b0 / box :member (s1 / escort.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / female.n.02 :Name (c2 / Mary)) :Source (s4 / entity.n.01) :Time (s5 / building.n.01)))
+
+(b0 / box :NEGATION (b1 / box :POSSIBILITY (b2 / box :member (s3 / help.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Beneficiary (s4 / female.n.02)))) :member (s2 / busy.a.01 :Attribute-of s0 :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / entity.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s4 / t-shirt.n.01 :Attribute (s3 / nice.a.01))))
+
+(b0 / box :member (s1 / stab.v.02 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / female.n.02 :Name (c2 / Mary)) :Location (s4 / back.n.01)))
+
+(b0 / box :member (s2 / accompany.v.01 :Theme (s0 / operation.n.06) :Time (s1 / time.n.08 :EQU (c0 / now)) :Co-Theme (s4 / pain.n.01 :Quantity (s3 / quantity.n.01 :EQU (c1 / +)))))
+
+(b0 / box :member (s3 / cost.v.01 :Value (s0 / measure.n.02 :Quantity (c0 / ?)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s2 / entity.n.01) :Beneficiary (s4 / male.n.02)))
+
+(b0 / box :member (s2 / out.a.02 :Attribute-of (s0 / fire.n.04) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :NEGATION (b1 / box :POSSIBILITY (b2 / box :member (s1 / stop.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now))))))
+
+(b0 / box :member (s2 / escape.v.01 :Time (s0 / time.n.08 :TSU (c0 / now)) :Theme (s1 / person.n.01 :EQU (c1 / speaker))))
+
+(b0 / box :member (s1 / need.v.02 :Pivot (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Theme (s3 / shit.v.02 :Agent s0)))
+
+(b0 / box :CONTRAST (b1 / box :member (s7 / interesting.a.01 :Attribute-of (s5 / entity.n.01 :EQU (s0 / book.n.01)) :Time (s6 / time.n.08 :EQU (c2 / now)))) :member (s1 / have.v.02 :Pivot s0 :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s4 / mistake.n.03 :Quantity (s3 / quantity.n.01 :EQU (c1 / +)))))
+
+(b0 / box :member (s1 / be.v.03 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Source (s3 / island.n.01 :Name (c2 / Shikoku))))
+
+(b0 / box :member (s2 / order.v.02 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Theme (s3 / pizza.n.01)))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / male.n.02 :Name (c0 / Filiberto)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / man.n.01 :Attribute (s8 / old.a.01 :Time s2 :Value (s6 / measure.n.02 :Quantity (s4 / quantity.n.01 :MOR (s5 / quantity.n.01 :EQU (c2 / 40))) :Unit (s7 / year.n.01))))))
+
+(b0 / box :member (s1 / tremble.v.01 :Experiencer (s0 / male.n.02 :Name (c0 / Scrooge)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Manner (s3 / more_and_more.r.01)))
+
+(b0 / box :member (s2 / go.v.01 :Theme (s0 / female.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Destination (s3 / mountain.n.01 :Name (c1 / "Mount Tate"))))
+
+(b0 / box :member (s3 / handsome.a.01 :Attribute-of (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s2 / kind_of.r.01)))
+
+(b0 / box :POSSIBILITY (b1 / box :member (s1 / run.v.01 :Theme (s0 / female.n.02 :Name (c0 / Naoko)) :Manner (s2 / fast.r.01))))
+
+(b0 / box :member (s1 / enter.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Destination (s3 / room.n.01) :TIN (s5 / play.v.03 :Time s2 :Agent (s4 / female.n.02) :Theme (s6 / piano.n.01))))
+
+(b0 / box :member (s2 / lick.v.02 :Agent (s0 / dog.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Experiencer (s3 / baby.n.01)))
+
+(b0 / box :member (s2 / slow.a.04 :Theme (s0 / watch.n.01) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / come.v.08 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Source (s3 / country.n.02 :Name (c1 / France))))
+
+(b0 / box :member (s1 / separate.v.01 :Instrument (s0 / partition.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s3 / room.n.01 :Quantity (c1 / 2))))
+
+(b0 / box :NEGATION (b1 / box :member (s5 / useful.a.01 :Attribute-of (s0 / entity.n.01 :Sub-of (s2 / advice.n.01 :Creator (s1 / male.n.02))) :Time (s3 / time.n.08 :TPR (c0 / now)) :Degree (s4 / very.r.01))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :member (s2 / free.a.03 :Attribute-of (s0 / entity.n.01) :Time (s1 / time.n.08 :EQU (c0 / now))))))
+
+(b0 / box :member (s1 / assemble.v.01 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Product (s3 / sewing_machine.n.01)))
+
+(b0 / box :member (s1 / like.v.02 :Experiencer (s0 / female.n.02 :Name (c0 / Linda)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / chocolate.n.02)))
+
+(b0 / box :member (s4 / buy.v.01 :Theme (s0 / entity.n.01 :Instance-of (s1 / souvenir.n.01) :EQU (c0 / ?)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Agent (s3 / person.n.01 :EQU (c2 / hearer))))
+
+(b0 / box :member (s2 / cut.v.01 :Agent (s0 / person.n.01 :Role (s1 / father.n.01 :Of (c0 / speaker))) :Time (s3 / time.n.08 :EQU (c1 / now)) :Patient (s4 / wood.n.01) :Instrument (s5 / saw.n.02)))
+
+(b0 / box :member (s1 / look.v.02 :Theme (s0 / bridge.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Attribute (s3 / steady.a.03 :Attribute-of s0)))
+
+(b0 / box :member (s3 / proud.a.01 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Degree (s2 / very.r.01) :Stimulus (s4 / person.n.01 :EQU (c2 / hearer))))
+
+(b0 / box :member (s1 / melt.v.01 :Patient (s0 / actinium.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Extent (s3 / measure.n.02 :Quantity (c1 / 1051) :Unit (s4 / degree_celsius.n.01))))
+
+(b0 / box :member (s2 / pick_up.v.03 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :ClockTime (c1 / "18:00") :TSU (c2 / now)) :Theme (s3 / person.n.01 :EQU (c3 / hearer))))
+
+(b0 / box :member (s1 / name.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c2 / now)) :Result (c1 / unknown_ref) :Theme (s3 / boat.n.01)) :member (s4 / terra_incognita.n.01 :EQU (c3 / unknown_ref) :EQU (c4 / "Half Moon")))
+
+(b0 / box :member (s1 / have.v.12 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Stimulus (s3 / jet_lag.n.01)))
+
+(b0 / box :member (s2 / sob.v.01 :Agent (s0 / girl.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)) :Location (s3 / corner.n.03 :Part-of (s4 / schoolroom.n.01))))
+
+(b0 / box :member (s2 / fed_up.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / male.n.02)))
+
+(b0 / box :member (s2 / nasty.a.04 :Attribute-of (s0 / coffee.n.01) :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / stink.v.02 :Theme (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Causer (s3 / cigarette.n.01)))
+
+(b0 / box :member (s1 / sniff.v.01 :Agent (s0 / dog.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Theme (s3 / stick.n.02)))
+
+(b0 / box :member (s5 / eat.v.01 :Agent (s0 / animal.n.01 :Part (s2 / eye.n.01 :Attribute (s1 / big.a.01 :Value (c0 / +)))) :Time (s3 / time.n.08 :EQU (c1 / now)) :Manner (s4 / voraciously.r.01)))
+
+(b0 / box :member (s2 / remember.v.01 :Time (s0 / time.n.08 :EQU (c0 / now)) :Agent (s1 / person.n.01 :EQU (c1 / hearer)) :Theme (s4 / male.n.02 :Name (c2 / Saito) :Title (s3 / mr.n.01))))
+
+(b0 / box :member (s1 / run_into.v.04 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Co-Agent (s3 / female.n.02) :Location (s4 / street.n.01)))
+
+(b0 / box :member (s1 / marry.v.01 :Agent (s0 / female.n.02) :Time (s2 / time.n.08 :TPR (c0 / now)) :Co-Agent (s3 / person.n.01 :Role (s4 / fireman.n.04))))
+
+(b0 / box :member (s1 / be.v.08 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / truck_driver.n.01))))
+
+(b0 / box :member (s3 / afraid.a.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s2 / very.r.01)))
+
+(b0 / box :member (s1 / earn.v.01 :Theme (s0 / company.n.01 :Name (c0 / "Tom Online")) :Time (s2 / time.n.08 :TPR (c1 / now)) :Asset (s3 / measure.n.02 :Unit (s4 / united_states_dollar.n.01) :Quantity (c2 / 42780000)) :Duration (s5 / measure.n.02 :Quantity (c3 / 3) :Unit (s6 / month.n.01))))
+
+(b0 / box :member (s1 / punish.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / child.n.02 :Of s0)))
+
+(b0 / box :member (s2 / slay.v.01 :Agent (s0 / person.n.01 :Role (s1 / prince.n.01)) :Time (s3 / time.n.08 :TPR (c0 / now)) :Patient (s4 / dragon.n.01)))
+
+(b0 / box :member (s1 / need.v.02 :Pivot (s0 / tire.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Theme (s3 / air.n.01)))
+
+(b0 / box :member (s1 / admire.v.01 :Experiencer (s0 / measure.n.02 :Quantity (c0 / +)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / female.n.02)))
+
+(b0 / box :member (s2 / record.v.02 :Theme (s0 / album.n.01 :Name (c0 / "Live At Leeds")) :Time (s1 / time.n.08 :TPR (c1 / now)) :Agent (s3 / musical_organization.n.01 :Name (c2 / "The Who"))))
+
+(b0 / box :member (s1 / march.v.06 :Agent (s0 / male.n.02 :Name (c0 / Napoleon)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / army.n.01 :Owner s0) :Path (s4 / country.n.02 :Name (c2 / Russia))))
+
+(b0 / box :member (s1 / arrive.v.01 :Theme (s0 / male.n.02) :Time (s2 / time.n.08 :ClockTime (c0 / "17:00") :TPR (c1 / now)) :Destination (s3 / station.n.01)))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / afraid.a.01 :Experiencer (s0 / male.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Stimulus (s3 / snake.n.01))))
+
+(b0 / box :member (s1 / iron.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / pants.n.03 :User s0)))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / entity.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s4 / story.n.01)) :member (s3 / riveting.a.01 :Stimulus s4))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / spill.v.05 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Topic (s3 / secret.n.01))))
+
+(b0 / box :CONTINUATION (b1 / box :member (s6 / find.v.01 :Theme (s0 / stone.n.01) :Location (s3 / location.n.01 :Name (c1 / ?)) :Time (s4 / time.n.08 :TPR (c2 / now)) :Agent (s5 / person.n.01 :EQU (c3 / hearer))) :member (s7 / entity.n.01 :EQU s0)) :member (s2 / beautiful.a.01 :Attribute-of s0 :Time (s1 / time.n.08 :EQU (c0 / now))))
+
+(b0 / box :member (s1 / scold.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / male.n.02) :Frequency (s4 / time.n.01 :Quantity (c2 / +))))
+
+(b0 / box :member (s2 / absorbed.a.01 :Experiencer (s0 / female.n.02) :Time (s1 / time.n.08 :EQU (c0 / now)) :Stimulus (s3 / knitting.n.02)))
+
+(b0 / box :member (s3 / curious.a.02 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Degree (s2 / a_little.r.01)))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / female.n.02 :Name (c0 / Elena)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s5 / girl.n.01 :Attribute (s3 / tall.a.01 :Degree (s4 / most.r.01)) :Part-of (s6 / class.n.02))))
+
+(b0 / box :member (s1 / buy.v.01 :Agent (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s4 / milk.n.01 :Quantity (s3 / bottle.n.02 :Quantity (c2 / 2)))))
+
+(b0 / box :NEGATION (b1 / box :CONTRAST (b2 / box :member (s6 / healthy.a.01 :Attribute-of (s4 / male.n.02 :EQU (s0 / person.n.01 :Role (s1 / uncle.n.01 :Of (c0 / speaker)))) :Time (s5 / time.n.08 :EQU (c3 / now)))) :member (s3 / young.a.01 :Attribute-of s0 :Time (s2 / time.n.08 :EQU (c1 / now)) :Value (c2 / +))))
+
+(b0 / box :member (s3 / die.v.01 :TIN (s0 / old.a.01 :Value (c0 / ?) :Time (s1 / time.n.08 :TPR (c1 / now)) :Attribute-of (s2 / male.n.02 :Name (c2 / "Howard Caine"))) :Time s1 :Patient s2))
+
+(b0 / box :CONTINUATION (b1 / box :member (s4 / add.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / carrot.n.01) :Co-Patient (s7 / stew.n.02)) :member (s6 / entity.n.01 :EQU s3) :member (s5 / time.n.08 :TPR (c2 / now))) :member (s1 / dice.v.01 :Agent s0 :Time s2 :Patient s3))
+
+(b0 / box :member (s1 / slip.v.03 :Patient (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Causer (s3 / banana_peel.n.01)))
+
+(b0 / box :member (s1 / call.v.01 :Agent (s0 / female.n.02 :Name (c0 / Mary)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s4 / squirrel.n.01 :User s0 :Attribute (s3 / stuffed.a.01)) :Result (s5 / name.n.01 :EQU (c2 / Tom))))
+
+(b0 / box :member (s2 / love.v.03 :Experiencer (s0 / male.n.02) :Time (s1 / time.n.08 :TPR (c0 / now)) :Stimulus (s3 / female.n.02)))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / live.v.01 :Theme (s0 / person.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Location (s3 / house.n.01))))
+
+(b0 / box :member (s0 / say.v.01 :Agent (c0 / speaker) :Theme (s1 / hello.n.01)))
+
+(b0 / box :member (s1 / mislead.v.02 :Agent (s0 / person.n.01 :EQU (c0 / hearer)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Patient (s3 / person.n.01 :EQU (c2 / speaker))))
+
+(b0 / box :member (s8 / old.a.01 :Attribute-of (s3 / person.n.01 :Attribute (s1 / old.a.01 :Degree (s2 / more.r.01)) :Role (s4 / brother.n.01 :Of (s0 / male.n.02))) :Time (s5 / time.n.08 :EQU (c0 / now)) :Degree (s9 / more.r.01 :Theme s3 :Value (s6 / measure.n.02 :Quantity (c1 / 2) :Unit (s7 / year.n.01)) :Co-Theme (s10 / person.n.01 :EQU (c2 / speaker)))))
+
+(b0 / box :member (s3 / be.v.02 :Theme (s2 / technology.n.01 :Attribute (s0 / improved.a.02) :Attribute (s1 / medical.a.01)) :Time (s4 / time.n.08 :TPR (c0 / now)) :Co-Theme (s5 / entity.n.01 :Quantity (c1 / 1) :Sub-of (s6 / spin-off.n.01 :Causer (s7 / space_program.n.01)))))
+
+(b0 / box :member (s1 / dry_up.v.01 :Patient (s0 / pond.n.01) :Time (s2 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / amused.a.01 :Experiencer (s0 / person.n.01) :Time (s1 / time.n.08 :TPR (c0 / now)))))
+
+(b0 / box :member (s1 / live.v.01 :Theme (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Location (s3 / city.n.01 :Name (c2 / Boston))))
+
+(b0 / box :member (s2 / exceed.v.01 :Agent (s0 / car.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s3 / speed_limit.n.01)))
+
+(b0 / box :member (s2 / unperturbed.a.01 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now))))
+
+(b0 / box :member (s3 / be.v.02 :Theme (s1 / person.n.01 :Role (s2 / soccer_player.n.01)) :Time (s4 / time.n.08 :EQU (c1 / now)) :Co-Theme (s5 / male.n.02 :Name (c2 / "Shinji Ono"))) :member (s0 / favorite.a.02 :Experiencer (c0 / speaker) :Stimulus s2))
+
+(b0 / box :member (s1 / join.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :TPR (c1 / now)) :Theme (s3 / political_party.n.01)))
+
+(b0 / box :member (s1 / ring.v.01 :Theme (s0 / doorbell.n.01) :Time (s2 / time.n.08 :TPR (c0 / now))))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / person.n.01 :Name (c0 / ?)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Co-Theme (s3 / person.n.01 :Role (s4 / leader.n.01 :Of (s5 / party.n.01 :Name (c2 / "Sinn Fein"))))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / pick_up.v.01 :Agent (s0 / woman.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Theme (s4 / kangaroo.n.01 :Theme (s3 / baby.n.06)))))
+
+(b0 / box :member (s2 / sharpen.v.01 :Agent (s0 / male.n.02) :Time (s1 / time.n.08 :TPR (c0 / now)) :Patient (s3 / knife.n.01)))
+
+(b0 / box :member (s1 / be.v.02 :Theme (s0 / watch.n.01) :Time (s2 / time.n.08 :TPR (c0 / now)) :Co-Theme (s5 / watch.n.01 :User (s3 / person.n.01 :Role (s4 / grandfather.n.01 :Of (c1 / hearer))))))
+
+(b0 / box :member (s2 / graze.v.01 :Agent (s0 / animal.n.01) :Time (s1 / time.n.08 :EQU (c0 / now)) :Location (s3 / field.n.01)))
+
+(b0 / box :member (s1 / be.v.01 :Theme (s0 / flower.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / entity.n.01 :Instance-of (s4 / rose.n.01))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / trust.v.01 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / person.n.01 :Role (s4 / politician.n.02)))))
+
+(b0 / box :member (s4 / sing.v.01 :Theme (s1 / cover.n.09 :Name (c1 / ?) :Creator (s0 / male.n.02 :Name (c0 / "Elvis Presley"))) :Time (s2 / time.n.08 :TPR (c2 / now)) :Agent (s3 / male.n.02 :Name (c3 / Gilmore))))
+
+(b0 / box :NEGATION (b1 / box :NEGATION (b2 / box :CONTRAST (b3 / box :NEGATION (b4 / box :NEGATION (b5 / box :member (s5 / be.v.01 :Theme (s4 / dolphin.n.02) :Time (s6 / time.n.08 :EQU (c1 / now)) :Co-Theme (s7 / mammal.n.01))))) :member (s1 / be.v.01 :Theme (s0 / shark.n.01) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s3 / fish.n.01)))))
+
+(b0 / box :member (s2 / like.v.03 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Manner (s1 / kind_of.r.01) :Time (s3 / time.n.08 :TPR (c1 / now)) :Stimulus (s4 / male.n.02 :Name (c2 / Tom))))
+
+(b0 / box :member (s1 / appear.v.01 :Experiencer (s0 / male.n.02 :Name (c0 / Tom)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / outraged.a.01 :Experiencer s0)))
+
+(b0 / box :member (s1 / stop.v.02 :Time (s2 / time.n.08 :TPR (c0 / now)) :Part-of (s3 / grow.v.03 :Product (s0 / tree.n.01))))
+
+(b0 / box :member (s3 / strike.v.05 :Theme (s0 / clock.n.01 :Location (s1 / city.n.01)) :Value (s2 / time.n.08 :ClockTime (c0 / "10:00") :TPR (c1 / now))))
+
+(b0 / box :member (s2 / attack.v.01 :Patient (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Agent (s3 / person.n.01 :Role (s4 / pirate.n.02))))
+
+(b0 / box :member (s1 / like.v.02 :Experiencer (s0 / person.n.01 :EQU (c0 / speaker)) :Time (s2 / time.n.08 :EQU (c1 / now)) :Stimulus (s3 / tie.n.01 :User (s4 / person.n.01 :EQU (c2 / hearer)))))
+
+(b0 / box :member (s2 / stare.v.01 :Agent (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :TPR (c1 / now)) :Theme (s3 / female.n.02 :Name (c2 / Mary))))
+
+(b0 / box :NEGATION (b1 / box :member (s2 / live.v.01 :Theme (s0 / male.n.02 :Name (c0 / Tom)) :Time (s1 / time.n.08 :EQU (c1 / now)) :Location (s3 / city.n.01 :Name (c2 / Boston)))))
+
+(b0 / box :NEGATION (b1 / box :member (s1 / be.v.08 :Theme (s0 / female.n.02) :Time (s2 / time.n.08 :EQU (c0 / now)) :Co-Theme (s4 / person.n.01 :Role (s5 / cook.n.01 :Attribute (s3 / good.a.08))))))
+

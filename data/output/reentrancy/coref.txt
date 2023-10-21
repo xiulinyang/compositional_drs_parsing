@@ -1,0 +1,878 @@
+p75/d2149
+Ask her her name.
+['s0', 's2', 's4', 's3', 's2']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "hearer")
+	:member (s1 / ask.v.01
+		:Agent s0
+		:Recipient (s2 / female.n.02)
+		:Topic (s4 / name.n.01
+			:Bearer (s3 / female.n.02
+				:ANA s2)))
+	:member s2
+	:member s3
+	:member s4)
+
+p51/d1914
+She fell off her horse.
+['s0', 's2', 's4', 's3', 's0']
+(b0 / box
+	:member (s0 / female.n.02)
+	:member (s1 / fall_off.v.01
+		:Theme s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Source (s4 / horse.n.01
+			:User (s3 / female.n.02
+				:ANA s0)))
+	:member s2
+	:member s3
+	:member s4)
+
+p50/d2304
+Mary dyed her hair blue.
+['s0', 's2', 's4', 's0', 's5']
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Mary")
+	:member (s1 / dye.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Patient (s4 / hair.n.01
+			:Part-of (s3 / female.n.02
+				:ANA s0))
+		:Result (s5 / blue.a.01
+			:Colour-of s4))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+p42/d2953
+Mary is filing her nails.
+['s0', 's1', 's4', 's0']
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Mary")
+	:member (s1 / time.n.08
+		:EQU "now")
+	:member (s2 / file.v.02
+		:Agent s0
+		:Time s1
+		:Patient (s4 / nail.n.01
+			:Part-of (s3 / female.n.02
+				:ANA s0)))
+	:member s3
+	:member s4)
+
+p97/d1694
+Tom removed his fake beard.
+['s0', 's2', 's5', 's6', 's3', 's0']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Tom")
+	:member (s1 / remove.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s5 / entity.n.01
+			:Attribute (s4 / fake.a.02)
+			:APX (s6 / beard.n.01
+				:User (s3 / male.n.02
+					:ANA s0))))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:member s6)
+
+p81/d3104
+She dyed her white skirt red.
+['s0', 's2', 's5', 'skirt.n.01', 's3', 's0', 's6']
+(b0 / box
+	:member (s0 / female.n.02)
+	:member (s1 / dye.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Patient (s5 / skirt.n.01
+			:User (s3 / female.n.02
+				:ANA s0)
+			:Colour (s4 / white.a.01))
+		:Result (s6 / red.a.01
+			:Colour-of s5))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:member s6)
+
+p30/d0066
+Does Mike call his dog Pochi?
+['s0', 's1', 's4', 's3', 's1', 's5']
+(b0 / box
+	:member (s0 / time.n.08
+		:EQU "now")
+	:member (s1 / male.n.02
+		:Name "Mike")
+	:member (s2 / call.v.01
+		:Time s0
+		:Agent s1
+		:Theme (s4 / dog.n.01
+			:Owner (s3 / male.n.02
+				:ANA s1))
+		:Result (s5 / name.n.01
+			:EQU "Pochi"))
+	:member s3
+	:member s4
+	:member s5)
+
+p71/d3001
+He drove his car to Yokohama.
+['s0', 's2', 's4', 's3', 's0', 's5']
+(b0 / box
+	:member (s0 / male.n.02)
+	:member (s1 / drive.v.03
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s4 / car.n.01
+			:User (s3 / male.n.02
+				:ANA s0))
+		:Destination (s5 / city.n.01
+			:Name "Yokohama"))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+p06/d2500
+He undressed me with his eyes.
+['s0', 's2', 's3', 's5', 's0']
+(b0 / box
+	:member (s0 / male.n.02)
+	:member (s1 / undress.v.02
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Patient (s3 / person.n.01
+			:EQU "speaker")
+		:Instrument (s5 / eye.n.01
+			:Part-of (s4 / male.n.02
+				:ANA s0)))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+p51/d3342
+If you invite him, he may come.
+['s3', 's2', 's0', 's2']
+(b0 / box
+	:CONSEQUENCE (b1 / box
+		:POSSIBILITY (b2 / box
+			:member (s4 / come.v.01
+				:Theme (s3 / male.n.02
+					:ANA (s2 / male.n.02))))
+		:member s3)
+	:member (s0 / person.n.01
+		:EQU "hearer")
+	:member (s1 / invite.v.02
+		:Agent s0
+		:Theme s2)
+	:member s2)
+
+p67/d0788
+Damon showed me his stamp album.
+['show.v.04', 's0', 's2', 's3', 's5', 'stamp_album.n.01', 's4', 's0']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Damon")
+	:member (s1 / show.v.04
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Recipient (s3 / person.n.01
+			:EQU "speaker")
+		:Theme (s5 / stamp_album.n.01
+			:User (s4 / male.n.02
+				:ANA s0)))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+p04/d3457
+Mary is studying in her room now.
+['study.v.05', 's0', 's1', 's4', 's3', 's0', 's5']
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Mary")
+	:member (s1 / time.n.08
+		:EQU "now")
+	:member (s2 / study.v.05
+		:Agent s0
+		:Time s1
+		:Location (s4 / room.n.01
+			:User (s3 / female.n.02
+				:ANA s0))
+		:Time (s5 / time.n.08
+			:EQU "now"))
+	:member s3
+	:member s4
+	:member s5)
+
+p78/d2872
+He is not ashamed of his misconduct.
+['s0', 's1', 's4', 's3', 's0']
+(b0 / box
+	:NEGATION (b1 / box
+		:member (s1 / time.n.08
+			:EQU "now")
+		:member (s2 / ashamed.a.01
+			:Experiencer (s0 / male.n.02)
+			:Time s1
+			:Stimulus (s4 / misconduct.n.01
+				:Creator (s3 / male.n.02
+					:ANA s0)))
+		:member s3
+		:member s4)
+	:member s0)
+
+p27/d1519
+Emily lent me her Georgian textbook.
+['s0', 's2', 's3', 's6', 's4', 's0', 's5']
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Emily")
+	:member (s1 / lend.v.02
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Recipient (s3 / person.n.01
+			:EQU "speaker")
+		:Theme (s6 / textbook.n.01
+			:User (s4 / female.n.02
+				:ANA s0)
+			:Source (s5 / country.n.02
+				:Name "georgia")))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:member s6)
+
+p17/d0812
+Yukio Mishima killed himself in 1970.
+['s0', 's2', 's3', 's0', 's4']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Yukio Mishima")
+	:member (s1 / kill.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Patient (s3 / male.n.02
+			:ANA s0)
+		:Time (s4 / time.n.08
+			:YearOfCentury "1970"))
+	:member s2
+	:member s3
+	:member s4)
+
+p60/d2470
+Tom put the thermometer under his arm.
+['s0', 's2', 's3', 's4', 's6', 's0']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Tom")
+	:member (s1 / put.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s3 / thermometer.n.01)
+		:Destination (s4 / location.n.01
+			:SZN (s6 / arm.n.01
+				:Part-of (s5 / male.n.02
+					:ANA s0))))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:member s6)
+
+p06/d1864
+Vincent van Gogh killed himself in 1890.
+['s0', 's2', 's3', 's0', 's4']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Vincent van Gogh")
+	:member (s1 / kill.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Patient (s3 / male.n.02
+			:ANA s0)
+		:Time (s4 / time.n.08
+			:YearOfCentury "1890"))
+	:member s2
+	:member s3
+	:member s4)
+
+p87/d3098
+Tom never quarrels with his wife in public.
+['s0', 's2', 's4', 's5', 's3', 's0', 's6']
+(b0 / box
+	:NEGATION (b1 / box
+		:member (s1 / quarrel.v.01
+			:Agent (s0 / male.n.02
+				:Name "Tom")
+			:Time (s2 / time.n.08
+				:EQU "now")
+			:Co-Agent (s4 / person.n.01
+				:Role (s5 / wife.n.01
+					:Of (s3 / male.n.02
+						:ANA s0)))
+			:Manner (s6 / in_public.r.01))
+		:member s2
+		:member s3
+		:member s4
+		:member s5
+		:member s6)
+	:member s0)
+
+p10/d3022
+Lincoln welcomed his old political opponent.
+['s0', 's2', 's6', 's7', 's3', 's0', 's7']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Lincoln")
+	:member (s1 / welcome.v.02
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s6 / person.n.01
+			:Role (s7 / opponent.n.01
+				:Of (s3 / male.n.02
+					:ANA s0))))
+	:member s2
+	:member s3
+	:member (s4 / old.a.02
+		:Attribute s7)
+	:member (s5 / political.a.01
+		:Theme s7)
+	:member s6
+	:member s7)
+
+p12/d2381
+Tom bought some squirrelfish for his aquarium.
+['s0', 's2', 's3', 'squirrelfish.n.02', 's5', 's4', 's0']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Tom")
+	:member (s1 / buy.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s3 / squirrelfish.n.02)
+		:Goal (s5 / aquarium.n.01
+			:User (s4 / male.n.02
+				:ANA s0)))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+p32/d1680
+His humble background parallels that of his predecessor.
+['s0', 's2', 's4', 's5', 's7', 's8', 's6', 's0']
+(b0 / box
+	:member (s0 / male.n.02)
+	:member (s1 / humble.a.01
+		:Attribute-of (s2 / background.n.01
+			:Theme s0))
+	:member s2
+	:member (s3 / parallel.v.01
+		:Theme s2
+		:Time (s4 / time.n.08
+			:EQU "now")
+		:Co-Theme (s5 / background.n.01
+			:Theme (s7 / person.n.01
+				:Role (s8 / predecessor.n.01
+					:Of (s6 / male.n.02
+						:ANA s0)))))
+	:member s4
+	:member s5
+	:member s6
+	:member s7
+	:member s8)
+
+p03/d3386
+We believed that the object was a UFO (Unidentified Flying Object).
+['s0', 's2', 's3', 's5', 's6', 's6']
+(b0 / box
+	:member (s0 / person.n.01
+		:Sub "speaker")
+	:member (s1 / believe.v.01
+		:Experiencer s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Proposition (b1 / box
+			:member (s3 / object.n.01)
+			:member (s4 / be.v.01
+				:Theme s3
+				:Time (s5 / time.n.08
+					:TPR "now")
+				:Co-Theme (s6 / ufo.n.01))
+			:member s5
+			:member s6
+			:member (s7 / unidentified_flying_object.n.01
+				:EQU s6)))
+	:member s2)
+
+p16/d0175
+He married him.
+['s0', 's2', 's3', 's0']
+(b0 / box
+	:member (s0 / male.n.02)
+	:member (s1 / marry.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Co-Agent (s3 / male.n.02
+			:ANA s0))
+	:member s2
+	:member s3)
+
+p12/d0244
+Chris swung his sword!
+['swing.v.01', 's0', 's2', 's4', 'sword.n.01', 's3', 's0']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Chris")
+	:member (s1 / swing.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s4 / sword.n.01
+			:User (s3 / male.n.02
+				:ANA s0)))
+	:member s2
+	:member s3
+	:member s4)
+
+p66/d2345
+Did you cook this yourself?
+['s0', 's1', 's3', 's1']
+(b0 / box
+	:member (s0 / time.n.08
+		:TPR "now")
+	:member (s1 / person.n.01
+		:EQU "hearer")
+	:member (s2 / cook.v.02
+		:Time s0
+		:Agent s1
+		:Patient (s3 / entity.n.01))
+	:member s3
+	:member (s4 / person.n.01
+		:EQU s1))
+
+p26/d1754
+Mary unscrewed her lipstick.
+['s0', 's2', 's4', 's3', 's0']
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Mary")
+	:member (s1 / unscrew.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Patient (s4 / lipstick.n.01
+			:User (s3 / female.n.02
+				:ANA s0)))
+	:member s2
+	:member s3
+	:member s4)
+
+p98/d3437
+Tom unlocked his office door.
+['s0', 's2', 's5', 's3', 's0']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Tom")
+	:member (s1 / unlock.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Patient (s5 / door.n.01
+			:User (s3 / male.n.02
+				:ANA s0)
+			:Part-of (s4 / office.n.01)))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+p87/d3138
+Mary wrapped herself in a towel.
+['s0', 's2', 's3', 's0', 's4']
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Mary")
+	:member (s1 / wrap.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s3 / female.n.02
+			:ANA s0)
+		:Destination (s4 / towel.n.01))
+	:member s2
+	:member s3
+	:member s4)
+
+p80/d1588
+Tom took off his bullet-proof vest.
+['s0', 's2', 's5', 's3', 's0']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Tom")
+	:member (s1 / take_off.v.06
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s5 / vest.n.01
+			:User (s3 / male.n.02
+				:ANA s0)))
+	:member s2
+	:member s3
+	:member (s4 / bulletproof.a.02
+		:Attribute-of s5)
+	:member s5)
+
+p67/d2562
+He bought that house because his wife liked it.
+['s0', 's6', 's4', 's5', 's8', 's9', 's0', 's2', 's3']
+(b0 / box
+	:EXPLANATION (b1 / box
+		:member (s4 / male.n.02
+			:ANA (s0 / male.n.02))
+		:member (s5 / person.n.01
+			:Role (s6 / wife.n.01
+				:Of s4))
+		:member s6
+		:member (s7 / like.v.03
+			:Experiencer s5
+			:Time (s8 / time.n.08
+				:TPR "now")
+			:Stimulus (s9 / entity.n.01))
+		:member s8
+		:member s9)
+	:member s0
+	:member (s1 / buy.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s3 / house.n.01))
+	:member s2
+	:member s3)
+
+p87/d2162
+Mary is sensitive to light, so she wears sunglasses.
+['s0', 's4', 's6', 's7', 'sunglasses.n.01', 'sensitive.a.01', 's0', 's1', 's3']
+(b0 / box
+	:CONTINUATION (b1 / box
+		:member (s4 / female.n.02
+			:ANA (s0 / female.n.02
+				:Name "Mary"))
+		:member (s5 / wear.v.02
+			:Agent s4
+			:Time (s6 / time.n.08
+				:EQU "now")
+			:Theme (s7 / sunglasses.n.01))
+		:member s6
+		:member s7)
+	:member s0
+	:member (s1 / time.n.08
+		:EQU "now")
+	:member (s2 / sensitive.a.01
+		:Experiencer s0
+		:Time s1
+		:Stimulus (s3 / light.n.01))
+	:member s3)
+
+p59/d3229
+If I watch a thousand movies in English, will I become fluent in it?
+['s5', 's6', 's8', 's6', 's9', 's0', 's3', 's2', 's4']
+(b0 / box
+	:CONSEQUENCE (b1 / box
+		:member (s5 / time.n.08
+			:TSU "now")
+		:member (s6 / person.n.01
+			:EQU "speaker")
+		:member (s7 / become.v.01
+			:Time s5
+			:Patient s6
+			:Result (s8 / fluent.a.02
+				:Experiencer s6
+				:Stimulus (s9 / entity.n.01)))
+		:member s8
+		:member s9)
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / watch.v.03
+		:Agent s0
+		:Theme (s3 / movie.n.01
+			:Quantity (s2 / quantity.n.01
+				:EQU "1000")
+			:Context (s4 / english.n.01)))
+	:member s2
+	:member s3
+	:member s4)
+
+p81/d2197
+Mary was bullied by her classmates.
+['s0', 's1', 's4', 's5', 's3', 's0']
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Mary")
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / bully.v.02
+		:Patient s0
+		:Time s1
+		:Agent (s4 / person.n.01
+			:Role (s5 / classmate.n.01
+				:Of (s3 / female.n.02
+					:ANA s0))))
+	:member s3
+	:member s4
+	:member s5)
+
+p11/d2784
+Mary called her stuffed squirrel Tom.
+['s0', 's2', 's5', 'squirrel.n.01', 's3', 's0', 's6', 'stuffed.a.01']
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Mary")
+	:member (s1 / call.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s5 / squirrel.n.01
+			:User (s3 / female.n.02
+				:ANA s0))
+		:Result (s6 / name.n.01
+			:EQU "Tom"))
+	:member s2
+	:member s3
+	:member (s4 / stuffed.a.01
+		:Attribute-of s5)
+	:member s5
+	:member s6)
+
+p40/d1466
+Mary enjoyed herself.
+['s0', 's2', 's3', 's0']
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Mary")
+	:member (s1 / enjoy.v.01
+		:Experiencer s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Stimulus (s3 / female.n.02
+			:ANA s0))
+	:member s2
+	:member s3)
+
+p83/d2645
+Tom crawled into bed and pulled the covers over himself.
+['s0', 's2', 's3', 's0', 's5', 's6', 's7', 's0']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Tom")
+	:member (s1 / crawl.v.01
+		:Theme s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Destination (s3 / bed.n.01))
+	:member s2
+	:member s3
+	:member (s4 / pull.v.01
+		:Agent s0
+		:Time (s5 / time.n.08
+			:TPR "now")
+		:Theme (s6 / cover.n.02)
+		:Destination (s7 / male.n.02
+			:ANA s0))
+	:member s5
+	:member s6
+	:member s7)
+
+p39/d2847
+Tom wasn't wearing a wedding ring, but Mary noticed a white circle on his ring finger.
+['s4', 's6', 's8', 's10', 's0', 's0', 's1', 's3']
+(b0 / box
+	:NEGATION (b1 / box
+		:CONTRAST (b2 / box
+			:member (s4 / female.n.02
+				:Name "Mary")
+			:member (s5 / notice.v.01
+				:Experiencer s4
+				:Time (s6 / time.n.08
+					:TPR "now")
+				:Stimulus (s8 / circle.n.03
+					:Colour (s7 / white.a.01)
+					:Location (s10 / ring_finger.n.01
+						:Part-of (s9 / male.n.02
+							:ANA (s0 / male.n.02
+								:Name "Tom")))))
+			:member s6
+			:member s7
+			:member s8
+			:member s9
+			:member s10)
+		:member (s1 / time.n.08
+			:TPR "now")
+		:member (s2 / wear.v.02
+			:Agent s0
+			:Time s1
+			:Theme (s3 / wedding_ring.n.01))
+		:member s3)
+	:member s0)
+
+p11/d2436
+I know him but he doesn't know me.
+['s4', 's3', 's5', 's7', 's0', 's2', 's3']
+(b0 / box
+	:CONTRAST (b1 / box
+		:NEGATION (b2 / box
+			:member (s5 / time.n.08
+				:EQU "now")
+			:member (s6 / know.v.04
+				:Experiencer (s4 / male.n.02
+					:ANA (s3 / male.n.02))
+				:Time s5
+				:Stimulus (s7 / person.n.01
+					:EQU "speaker"))
+			:member s7)
+		:member s4)
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / know.v.04
+		:Experiencer s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Stimulus s3)
+	:member s2
+	:member s3)
+
+p46/d3377
+Tom always talks about himself.
+['s1', 's3', 's4', 's1']
+(b0 / box
+	:NEGATION (b1 / box
+		:NEGATION (b2 / box
+			:member (s1 / male.n.02
+				:Name "Tom")
+			:member (s2 / talk.v.01
+				:Agent s1
+				:Time (s3 / time.n.08
+					:EQU "now")
+				:Topic (s4 / male.n.02
+					:ANA s1))
+			:member s3
+			:member s4)
+		:member (s0 / time.n.08)))
+
+p99/d2312
+Osamu Dazai killed himself.
+['s0', 's2', 's3', 's0']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Osamu Dazai")
+	:member (s1 / kill.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Patient (s3 / male.n.02
+			:ANA s0))
+	:member s2
+	:member s3)
+
+p79/d2094
+Yuriko Himekusa killed herself.
+['s0', 's2', 's3', 's0']
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Yuriko Himekusa")
+	:member (s1 / kill.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Patient (s3 / female.n.02
+			:ANA s0))
+	:member s2
+	:member s3)
+
+p78/d2977
+Mayuko designed a dress for herself.
+['s0', 's2', 's3', 's4', 's0']
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Mayuko")
+	:member (s1 / design.v.03
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Result (s3 / dress.n.01)
+		:Beneficiary (s4 / female.n.02
+			:ANA s0))
+	:member s2
+	:member s3
+	:member s4)
+
+p86/d1952
+Nancy couldn't move the desk herself.
+['s0', 's2', 's0']
+(b0 / box
+	:NEGATION (b1 / box
+		:POSSIBILITY (b2 / box
+			:member (s1 / move.v.02
+				:Agent (s0 / female.n.02
+					:Name "Nancy")
+				:Theme (s2 / desk.n.01))
+			:member s2
+			:member (s3 / female.n.02
+				:EQU s0)))
+	:member s0)
+
+p34/d2438
+Yoko is in London now. She's studying English.
+['s0', 'study.v.02', 's5', 's6', 's8', 's0', 's2', 's3', 's4']
+(b0 / box
+	:CONTINUATION (b1 / box
+		:member (s5 / female.n.02
+			:ANA (s0 / female.n.02
+				:Name "Yoko"))
+		:member (s6 / time.n.08
+			:EQU "now")
+		:member (s7 / study.v.02
+			:Agent s5
+			:Time s6
+			:Theme (s8 / english.n.03))
+		:member s8)
+	:member s0
+	:member (s1 / be.v.03
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Location (s3 / city.n.01
+			:Name "London")
+		:Time (s4 / time.n.08
+			:EQU "now"))
+	:member s2
+	:member s3
+	:member s4)

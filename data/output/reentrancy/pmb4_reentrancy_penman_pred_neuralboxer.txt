@@ -1,0 +1,5871 @@
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "stir.v.01"
+		:Agent s0
+		:Time s1
+		:Patient (s3 / "coffee.n.01"
+			:Consumer s0))
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "female.n.02"
+		:Name "Mary")
+	:member (s1 / "time.n.08"
+		:TPR "now")
+	:member (s2 / "ashamed.a.01"
+		:Experiencer s0
+		:Time s1)
+	:CONTINUATION (b1 / "box"
+		:member (s3 / "snooze.v.01"
+			:Agent s0
+			:Goal (s5 / "mistake.n.01"
+				:Creator (s4 / "female.n.02"
+					:EQU s0)))
+		:member s4
+		:member s5))
+
+(b0 / "box"
+	:member (s0 / "famous.a.01"
+		:Attribute-of (s2 / "band.n.02"
+			:Experiencer "speaker"
+			:Stimulus (s1 / "country.n.02"
+				:Name "germany")))
+	:member s1
+	:member s2
+	:member (s3 / "time.n.08"
+		:EQU "now")
+	:member (s4 / "old.a.01"
+		:Attribute-of s2
+		:Time s3
+		:Value "+"))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:NEGATION (b1 / "box"
+		:POSSIBILITY (b2 / "box"
+			:member (s1 / "speak.v.03"
+				:Agent s0
+				:Theme (s2 / "french.n.01"))
+			:member s2
+			:NEGATION (b3 / "box"
+				:POSSIBILITY (b4 / "box"
+					:member (s3 / "speak.v.03"
+						:Agent s1
+						:Theme (s4 / "spanish.n.01"))
+					:member s4)))))
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "acknowledge.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Topic (s3 / "mistake.n.01"
+			:Creator s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "police.n.01")
+	:member (s1 / "arrest.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"
+			:TIN (s5 / "day.n.03"))
+		:Patient (s3 / "person.n.01"
+			:Role (s4 / "suspect.n.01")))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:member (s6 / "day.n.03"
+		:TAB s5)
+	:member (s7 / "terra_incognita.n.01"
+		:EQU "now"
+		:TIN s5))
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "love.v.02"
+		:Experiencer s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Stimulus (s3 / "cook.v.01"
+			:Agent s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "wait.v.01"
+		:Agent s0
+		:Time s1
+		:Proposition (s3 / "female.n.02"))
+	:ATTRIBUTION (b1 / "box"
+		:member s3
+		:member (s4 / "climb.v.01"
+			:Theme s3
+			:Destination (s6 / "car.n.01"
+				:User (s5 / "car.n.01"
+					:EQU s0)))
+		:member s5
+		:member s6))
+
+(b0 / "box"
+	:member (s0 / "location.n.01"
+		:Name "china")
+	:member (s1 / "leader.n.01"
+		:Source s0
+		:Role (s2 / "leader.n.01"))
+	:member s2
+	:member (s3 / "call.v.01"
+		:Agent s1
+		:Time (s4 / "time.n.08"
+			:TPR "now")
+		:Theme (s6 / "house.n.01"
+			:Source (s5 / "country.n.02"
+				:Name "germany"))
+		:Goal (s8 / "country.n.02"
+			:Name "germany"))
+	:member s4
+	:member s5
+	:member s6
+	:member (s7 / "flirt.v.01"
+		:Agent s6
+		:Co-Agent (s9 / "government.n.01"
+			:Source s8))
+	:member s8
+	:member s9)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:NEGATION (b1 / "box"
+		:member (s1 / "entity.n.01"
+			:Part-of (s2 / "credit_card.n.01"
+				:User s0))
+		:member s2
+		:NEGATION (b2 / "box"
+			:member (s3 / "time.n.08"
+				:EQU "now")
+			:member (s4 / "pile_up.v.01"
+				:Agent s0
+				:Theme s1
+				:Time s3))))
+
+(b0 / "box"
+	:member (s0 / "boy.n.01")
+	:member (s1 / "draw.v.06"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Experiencer (s3 / "male.n.02")
+		:Instrument (s4 / "hat.n.01"
+			:User s3))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "lower.v.03"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Patient (s3 / "spectacles.n.01"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "eye.n.01"
+		:Part-of s0)
+	:member (s2 / "time.n.08"
+		:EQU "now")
+	:member (s3 / "red.a.01"
+		:Colour-of s1
+		:Time s2)
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "male.n.02"
+			:EQU s0)
+		:member (s5 / "look.v.03"
+			:Time s2
+			:Theme s4
+			:Attribute (s8 / "tired.a.01"
+				:Experiencer s4
+				:Degree (s7 / "very.r.01")))
+		:member (s6 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member s7
+		:member s8))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "play.v.03"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "piano.n.01"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "female.n.02")
+		:member (s5 / "sing.v.02"
+			:Time s2
+			:Agent s4)
+		:member (s6 / "time.n.08"
+			:TPR "now"
+			:EQU s2)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:Role (s1 / "doctor.n.01"))
+	:member s1
+	:member (s2 / "tell.v.01"
+		:Agent s0
+		:Time (s3 / "time.n.08"
+			:TPR "now")
+		:Recipient (s4 / "male.n.02"
+			:Name "Tom"))
+	:member s3
+	:member s4
+	:ATTRIBUTION (b1 / "box"
+		:member (s5 / "male.n.02"
+			:EQU s4)
+		:NECESSITY (b2 / "box"
+			:member (s6 / "eat.v.01"
+				:Time s3
+				:Agent s5
+				:Patient (s9 / "vegetable.n.01"
+					:Quantity (s8 / "quantity.n.01"
+						:EQU "+")))
+			:member (s7 / "time.n.08"
+				:EQU "now"
+				:EQU s3)
+			:member s8
+			:member s9)))
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "try.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "squeeze.v.01"
+			:Agent s0
+			:Product (s4 / "juice.n.01")
+			:Source (s5 / "orange.n.01")))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "sell.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "house.n.01"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "be.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Co-Theme (s3 / "boy.n.01"))
+	:member s2
+	:member s3
+	:member (s4 / "person.n.01"
+		:EQU "speaker")
+	:member (s5 / "addicted.a.01"
+		:Time s2
+		:Experiencer s4
+		:Stimulus (s6 / "read.v.01"
+			:Theme (s7 / "film.n.01")))
+	:member s6
+	:member s7)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "like.v.03"
+		:Stimulus s0
+		:Time s1)
+	:NEGATION (b1 / "box"
+		:member (s3 / "person.n.01")
+		:NEGATION (b2 / "box"
+			:member (s4 / "terra_incognita.n.01"
+				:EQU s1
+				:Agent s3))))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "want.v.01"
+		:Pivot s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "run_away.v.01"
+			:Theme s0
+			:Co-Theme (s4 / "male.n.02"
+				:Name "Tom")))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "want.v.01"
+		:Pivot s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "pay.v.01"
+			:Agent s0
+			:Instrument (s4 / "cash.n.01")))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:NEGATION (b2 / "box"
+			:member (s0 / "time.n.08"
+				:EQU "now")
+			:member (s1 / "person.n.01"
+				:EQU "hearer")
+			:member (s2 / "prefer.v.01"
+				:Time s0
+				:Experiencer s1
+				:Stimulus (s3 / "time.n.08"
+					:EQU "now"))
+			:ALTERNATION (b3 / "box"
+				:ALTERNATION (b4 / "box"
+					:member s3
+					:member (s4 / "terra_incognita.n.01"
+						:EQU s0
+						:Time s3)
+					:ALTERNATION (b5 / "box"
+						:member (s5 / "event.v.01"
+							:Participant (s7 / "beer.n.01"
+								:Source (s6 / "country.n.02"
+									:Name "germany")))
+						:member s6
+						:member s7))))))
+
+(b0 / "box"
+	:POSSIBILITY (b1 / "box"
+		:member (s0 / "male.n.02")
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "be.v.03"
+			:Theme s0
+			:Time s1
+			:Source (s3 / "country.n.02"
+				:Name "italy"))
+		:member s3
+		:ALTERNATION (b2 / "box"
+			:member (s4 / "time.n.08"
+				:EQU "now")
+			:member (s5 / "be.v.08"
+				:Theme s0
+				:Time s4
+				:Co-Theme (s6 / "spanish.n.01"))
+			:member s6)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "wonder.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "milk.n.01")
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s5 / "good.a.01"
+			:Attribute-of s3
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "time.n.08"
+		:EQU "now"
+		:TIN (s5 / "day.n.03"))
+	:member (s2 / "leave.v.01"
+		:Theme s0
+		:Time s1
+		:Destination (s3 / "city.n.01"
+			:Name "Chicago"))
+	:member s3
+	:member (s4 / "day.n.03"
+		:TAB s5)
+	:member s5
+	:member (s6 / "terra_incognita.n.01"
+		:EQU "now"
+		:TIN s4))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "drive.v.03"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "car.n.01"
+			:User s0)
+		:Source (s4 / "cliff.n.01"))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "suffer.v.02"
+		:Experiencer s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Stimulus (s4 / "lung_cancer.n.01"))
+	:member s2
+	:member (s3 / "injured.a.01"
+		:Attribute-of s4)
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "entity.n.01"
+		:EQU "?")
+	:member (s1 / "be.v.02"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s4 / "cartoon.n.01"))
+	:member s2
+	:member (s3 / "favorite.a.02"
+		:Experiencer "hearer"
+		:Stimulus s4)
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "visit.v.07"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"
+			:TIN (s5 / "day.n.03"
+				:TAB (s4 / "day.n.03")))
+		:Co-Agent (s3 / "person.n.01"
+			:EQU "speaker"))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:member (s6 / "terra_incognita.n.01"
+		:EQU "now"
+		:TIN s4))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "employ.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s4 / "horse.n.01"
+			:Owner (s3 / "automobile.n.01")))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "short.a.03"
+		:Attribute-of s0
+		:Time s1
+		:Degree (s3 / "more.r.01"
+			:Theme s0
+			:Co-Theme (s4 / "person.n.01"
+				:Role (s5 / "father.n.01"
+					:Of s0))))
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "substitute.v.02"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Co-Theme (s3 / "person.n.01"
+			:Role (s4 / "father.n.01"
+				:Of s0)))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "ask.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Recipient (s3 / "female.n.02"))
+	:member s2
+	:member s3
+	:ATTRIBUTION (b1 / "box"
+		:member (s4 / "female.n.02"
+			:EQU s3)
+		:member (s5 / "be.v.02"
+			:Time s2
+			:Theme s4
+			:Co-Theme (s7 / "female.n.02"
+				:Name "Jane"))
+		:member (s6 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:Name "?")
+	:member (s1 / "be.v.02"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s4 / "person.n.01"
+			:Role (s5 / "painter.n.01")))
+	:member s2
+	:member (s3 / "favorite.a.02"
+		:Experiencer "hearer"
+		:Stimulus s5)
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "drop.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "cup.n.01"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "break.v.02"
+			:Agent s0
+			:Time s2
+			:Patient s3)
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member (s6 / "entity.n.01"
+			:EQU s3)))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "lay.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "racket.n.04"
+			:User s0)
+		:Destination (s4 / "ground.n.01"))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "hope.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "female.n.02")
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s5 / "all_right.a.01"
+			:Attribute-of s3
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "quantity.n.01"
+		:APX (s1 / "quantity.n.01"
+			:EQU "2000"))
+	:member s1
+	:member (s2 / "person.n.01"
+		:Quantity s0)
+	:member (s3 / "time.n.08"
+		:EQU "now")
+	:member (s4 / "employ.v.02"
+		:Theme s2
+		:Time s3
+		:Location (s5 / "country.n.02"
+			:Name "Neunkirchen"))
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "buy.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "house.n.01"))
+	:member s2
+	:member s3
+	:member (s4 / "have.v.01"
+		:Pivot s3
+		:Theme (s5 / "room.n.01"
+			:Quantity "6"))
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "play.v.03"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "music.n.01")
+		:Location (s4 / "room.n.01"
+			:User s0))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "whisper.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Topic (s3 / "entity.n.01")
+		:Recipient (s4 / "female.n.02"
+			:Name "Mary"))
+	:member s2
+	:member s3
+	:member s4
+	:CONTINUATION (b1 / "box"
+		:member (s5 / "female.n.02"
+			:EQU s3)
+		:member (s6 / "smile.v.02"
+			:Time s2
+			:Agent s5)
+		:member (s7 / "time.n.08"
+			:TPR "now"
+			:EQU s2)))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "dream.v.02"
+		:Experiencer s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:NEGATION (b2 / "box"
+			:member (s3 / "person.n.01"
+				:Location (s4 / "country.n.02"
+					:Name "China"))
+			:member s4
+			:NEGATION (b3 / "box"
+				:member (s5 / "speak.v.03"
+					:Time s1
+					:Agent s3
+					:Theme (s7 / "esperanto.n.01"))
+				:member (s6 / "time.n.08"
+					:EQU "now"
+					:EQU s1)
+				:member s7))))
+
+(b0 / "box"
+	:member (s0 / "put.v.01"
+		:Time (s1 / "time.n.08"
+			:TPR "now")
+		:Theme (s2 / "pistol.n.01"
+			:User (s3 / "location.n.01"
+				:SZN (s5 / "pillow.n.01"
+					:User (s4 / "male.n.02"
+						:Name "Tom"))))
+		:Agent s3
+		:Destination s4)
+	:member s1
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "book.n.01")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "difficult.a.01"
+		:Attribute-of s0
+		:Time s1)
+	:RESULT (b1 / "box"
+		:member (s3 / "person.n.01"
+			:EQU "speaker")
+		:NEGATION (b2 / "box"
+			:POSSIBILITY (b3 / "box"
+				:member (s4 / "read.v.01"
+					:Experiencer s0
+					:Stimulus s3)
+				:member (s5 / "entity.n.01"
+					:EQU s0)))))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:NECESSITY (b1 / "box"
+		:member (s1 / "buy.v.01"
+			:Agent s0
+			:Theme (s2 / "entity.n.01"))
+		:member s2))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "sit.v.01"
+		:Theme s0
+		:Time s1
+		:Location (s3 / "closet.n.03"
+			:User s0))
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "soccer.n.01")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "roll.v.01"
+		:Theme s0
+		:Time s1
+		:Destination (s4 / "net.n.01"
+			:Goal (s3 / "goal.n.04")))
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "be.v.03"
+		:Time (s1 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "bird.n.01")
+		:Location (s4 / "sky.n.01"))
+	:member s1
+	:member (s2 / "fly.v.01"
+		:Theme s3)
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:NEGATION (b1 / "box"
+		:member (s1 / "be.v.08"
+			:Theme s0
+			:Time (s2 / "time.n.08"
+				:EQU "now")
+			:Co-Theme (s3 / "person.n.01"
+				:Role (s4 / "nurse.n.01")))
+		:member s2
+		:member s3
+		:member s4
+		:CONTRAST (b2 / "box"
+			:member (s5 / "be.v.08"
+				:Theme s0
+				:Time (s6 / "time.n.08"
+					:EQU "now")
+				:Co-Theme (s7 / "person.n.01"
+					:Role (s8 / "doctor.n.01")))
+			:member s6
+			:member s7
+			:member s8)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "block.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Patient (s3 / "door.n.01"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "lock.v.01"
+			:Agent s0
+			:Time s2
+			:Patient s3)
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member (s6 / "entity.n.01"
+			:EQU s3)))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "offer.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "lend.v.02"
+			:Agent s0
+			:Recipient (s4 / "person.n.01"
+				:EQU "speaker")
+			:Theme (s5 / "money.n.01")))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "hand.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Destination (s3 / "male.n.02")
+		:Theme (s4 / "owe.v.01"
+			:Time s2
+			:Theme s3
+			:Time (s5 / "time.n.08"
+				:TPR "now")))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "think.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "male.n.02"
+			:Name "Tom")
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s5 / "normal.a.01"
+			:Attribute-of s3
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "know.v.01"
+			:Experiencer s0
+			:Time s1
+			:Proposition (s3 / "reason.n.01"
+				:EQU "?"))
+		:ATTRIBUTION (b2 / "box"
+			:member s3
+			:member (s4 / "person.n.01")
+			:member (s5 / "do.v.02"
+				:Causer s3
+				:Agent s4
+				:Time (s6 / "time.n.08"
+					:TPR "now")
+				:Theme (s7 / "entity.n.01"))
+			:member s6
+			:member s7)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "hope.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "male.n.02"
+			:Name "Tom")
+		:member (s4 / "agree.v.01"
+			:Time s2
+			:Agent s3)
+		:member (s5 / "time.n.08"
+			:EQU "now"
+			:EQU s2)))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "time.n.08"
+		:TSU "now"
+		:TIN (s4 / "terra_incognita.n.01"
+			:EQU "now"
+			:TIN (s3 / "day.n.03")))
+	:member (s2 / "absent.a.01"
+		:Attribute-of s0
+		:Time s1)
+	:member s3
+	:member s4
+	:EXPLANATION (b1 / "box"
+		:member (s5 / "male.n.02"
+			:EQU s0)
+		:member (s6 / "have.v.01"
+			:Time s2
+			:Pivot s5
+			:Theme (s8 / "cold.n.01"))
+		:member (s7 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member s8))
+
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:member (s0 / "time.n.08")
+		:NEGATION (b2 / "box"
+			:member (s1 / "person.n.01"
+				:EQU "speaker")
+			:member (s2 / "get_up.v.02"
+				:Time s0
+				:Agent s1)
+			:member (s3 / "time.n.08"
+				:ClockTime "06:00"
+				:Part-of (s4 / "morning.n.01")
+				:EQU "now")
+			:member s4)))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "be.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s3 / "person.n.01"))
+	:member s2
+	:member s3
+	:member (s4 / "person.n.01"
+		:EQU "speaker")
+	:member (s5 / "want.v.01"
+		:Time s2
+		:Theme s3
+		:Pivot s4))
+
+(b0 / "box"
+	:member (s0 / "story.n.01")
+	:member (s1 / "be.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s4 / "person.n.01"))
+	:member s2
+	:member (s3 / "famous.a.01"
+		:Attribute-of s4)
+	:member s4
+	:NEGATION (b1 / "box"
+		:member (s5 / "person.n.01")
+		:NEGATION (b2 / "box"
+			:member (s6 / "know.v.01"
+				:Time s2
+				:Stimulus s4
+				:Experiencer s5)
+			:member (s7 / "time.n.08"
+				:EQU "now"
+				:EQU s2))))
+
+(b0 / "box"
+	:member (s0 / "human_right.n.01"
+		:Name "Swiss Railwaymen's Union")
+	:member (s1 / "organization.n.01"
+		:Name s0)
+	:member (s2 / "trigger.v.01"
+		:Causer s1
+		:Time (s3 / "time.n.08"
+			:EQU "now")
+		:Theme (s5 / "population.n.01"))
+	:member s3
+	:member (s4 / "local.a.01"
+		:Attribute-of s5)
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "girl.n.01")
+	:member (s1 / "time.n.08"
+		:TPR "now")
+	:member (s2 / "afraid.a.01"
+		:Experiencer s0
+		:Time s1
+		:Stimulus (s4 / "shadow.n.01"
+			:Creator (s3 / "female.n.02")))
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:TSU "now"
+		:TIN (s4 / "day.n.03"
+			:TAB (s5 / "day.n.03")))
+	:member (s2 / "see.v.01"
+		:Agent s0
+		:Time s1
+		:Co-Agent (s3 / "person.n.01"
+			:EQU "hearer"))
+	:member s3
+	:member s4
+	:member s5
+	:member (s6 / "terra_incognita.n.01"
+		:EQU "now"
+		:TIN s4))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "rich.a.01"
+		:Attribute-of s0
+		:Time s1)
+	:CONTRAST (b1 / "box"
+		:member (s3 / "male.n.02"
+			:EQU s0)
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s1)
+		:member (s5 / "unfriendly.a.01"
+			:Attribute-of s3
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "female.n.02"
+		:Name "Mayuko")
+	:member (s1 / "design.v.03"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Result (s3 / "clothes.n.01"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "look.v.02"
+		:Theme s0
+		:Proposition (s2 / "time.n.08"
+			:TPR "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "male.n.02"
+			:EQU s0)
+		:member (s4 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member (s5 / "healthy.a.01"
+			:Attribute-of s3
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "fed_up.a.01"
+		:Experiencer s0
+		:Time s1
+		:Stimulus (s3 / "winter.n.01"))
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "leave.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"
+			:TIN (s5 / "day.n.03"
+				:TAB (s4 / "day.n.03")))
+		:Destination (s3 / "city.n.01"
+			:Name "London"))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:member (s6 / "terra_incognita.n.01"
+		:EQU "now"
+		:TIN s4))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "think.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "female.n.02")
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s5 / "honest.a.01"
+			:Attribute-of s3
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "stand.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Location (s3 / "door.n.01"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "wait.v.01"
+			:Theme s0
+			:Time s2)
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "time.n.08"
+		:TPR "now")
+	:member (s2 / "wallet.n.01"
+		:Owner s0)
+	:member (s3 / "steal.v.01"
+		:Beneficiary s0
+		:Time s1
+		:Theme s2))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:NECESSITY (b1 / "box"
+		:member (s1 / "turn_on.v.01"
+			:Agent s0
+			:Theme (s2 / "report.n.01"
+				:Creator "speaker"))
+		:member s2
+		:member (s3 / "day.n.03")
+		:member (s4 / "time.n.08"
+			:TIN s3)
+		:member (s5 / "terra_incognita.n.01"
+			:EQU "now"
+			:TIN s3)))
+
+(b0 / "box"
+	:member (s0 / "text.n.01")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "make.v.06"
+			:Agent s0
+			:Time s1
+			:Product (s3 / "entity.n.01"))
+		:member s3
+		:CONSEQUENCE (b2 / "box"
+			:member (s4 / "entity.n.01"
+				:EQU s0)
+			:NEGATION (b3 / "box"
+				:member (s5 / "time.n.08"
+					:EQU "now"
+					:EQU s2)
+				:member (s6 / "sign.v.02"
+					:Destination s4
+					:Time s5)))))
+
+(b0 / "box"
+	:member (s0 / "job.n.01"
+		:Time (s1 / "time.n.08"
+			:DayOfWeek "tuesday"
+			:TSU "now"))
+	:member s1
+	:member (s2 / "be.v.01"
+		:Theme s0
+		:Time s1
+		:Co-Theme (s3 / "piece.n.01"
+			:Content (s4 / "cake.n.03")))
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:member (s0 / "person.n.01")
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "bear.v.02"
+			:Patient s0
+			:Time s1
+			:Location (s3 / "country.n.02"
+				:Name "Austria"))
+		:member s3))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:Role (s1 / "mother.n.01"
+			:Of "speaker"))
+	:member s1
+	:member (s2 / "tell.v.02"
+		:Agent s0
+		:Time (s3 / "time.n.08"
+			:TPR "now")
+		:Recipient (s4 / "person.n.01"
+			:EQU "speaker")
+		:Topic (s5 / "mow.v.01"
+			:Agent s4
+			:Patient (s6 / "lawn.n.01")))
+	:member s3
+	:member s4
+	:member s5
+	:member s6)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "fail.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"))
+	:member s2
+	:EXPLANATION (b1 / "box"
+		:member (s3 / "male.n.02"
+			:EQU s0)
+		:NEGATION (b2 / "box"
+			:member (s4 / "time.n.08"
+				:TPR "now"
+				:EQU s2)
+			:member (s5 / "study.v.05"
+				:Agent s3
+				:Time s4))))
+
+(b0 / "box"
+	:member (s0 / "female.n.02"
+		:Name "Mary")
+	:member (s1 / "want.v.01"
+		:Pivot s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "paint.v.02"
+			:Agent s0
+			:Patient (s4 / "car.n.01"
+				:User s0)
+			:Result (s5 / "bright-red.a.01"
+				:Colour-of s4)))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:member (s0 / "person.n.01")
+		:member (s1 / "expect.v.01"
+			:Agent s0
+			:Time (s2 / "time.n.08"
+				:TPR "now")
+			:Theme (s3 / "male.n.02")
+			:Result (s4 / "win.v.01"
+				:Agent s3))
+		:member s2
+		:member s3
+		:member s4))
+
+(b0 / "box"
+	:member (s0 / "team.n.01"
+		:Name "2000000")
+	:member (s1 / "beat.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"
+			:TIN (s5 / "day.n.03"
+				:TAB (s4 / "day.n.03")))
+		:Co-Agent (s3 / "lion.n.01"))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:member (s6 / "terra_incognita.n.01"
+		:EQU "now"
+		:TIN s4))
+
+(b0 / "box"
+	:member (s0 / "entity.n.01"
+		:EQU "?")
+	:member (s1 / "be.v.02"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s4 / "salesman.n.01"))
+	:member s2
+	:member (s3 / "favorite.a.02"
+		:Experiencer "hearer"
+		:Stimulus s4)
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "think.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "male.n.02"
+			:Name "Tom")
+		:member (s4 / "stop.v.01"
+			:Time s2
+			:Part-of (s5 / "time.n.08"
+				:TPR "now"
+				:EQU "now"))
+		:member s5
+		:member (s6 / "date.v.01"
+			:Agent s3
+			:Co-Agent (s7 / "female.n.02"
+				:Name "Mary"))
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "conference.n.01")
+	:member (s1 / "time.n.08"
+		:TPR "now"
+		:TIN (s4 / "day.n.03"
+			:TAB (s3 / "day.n.03")))
+	:member (s2 / "take.v.16"
+		:Theme s0
+		:Time s1)
+	:member s3
+	:member s4
+	:member (s5 / "terra_incognita.n.01"
+		:EQU "now"
+		:TIN s3))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "love.v.03"
+		:Experiencer s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Stimulus (s3 / "female.n.02"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "female.n.02"
+			:EQU s0)
+		:member (s5 / "love.v.01"
+			:Time s2
+			:Stimulus s3
+			:Experiencer s4)
+		:member (s6 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s7 / "male.n.02"
+			:EQU s0)))
+
+(b0 / "box"
+	:member (s0 / "quantity.n.01"
+		:EQU "+")
+	:member (s1 / "book.n.02"
+		:Quantity s0)
+	:member (s2 / "time.n.08"
+		:EQU "now")
+	:member (s3 / "person.n.01")
+	:member (s4 / "belong.v.01"
+		:Theme s1
+		:Time s2
+		:Pivot s3
+		:Goal (s5 / "university.n.03"
+			:Name "Southwestern University"))
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "write_down.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "entity.n.01")
+		:Destination (s4 / "notebook.n.01"
+			:User s0))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "say.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "male.n.02"
+			:EQU s0)
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s5 / "busy.a.01"
+			:Attribute-of s3
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "grab.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "key.n.01"
+			:User s0)
+		:Destination (s4 / "put.v.01"
+			:Agent s0
+			:Time s2
+			:Theme s3
+			:Destination (s6 / "pocket.n.01"
+				:User s0)))
+	:member s2
+	:member s3
+	:member s4
+	:member (s5 / "entity.n.01")
+	:member s6)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "play.v.03"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Co-Agent (s3 / "dog.n.01"
+			:Owner s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "entity.n.01")
+	:member (s1 / "be.v.02"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s3 / "woman.n.01"))
+	:member s2
+	:member s3
+	:member (s4 / "car.n.01"
+		:User s3)
+	:member (s5 / "time.n.08"
+		:TPR "now")
+	:member (s6 / "steal.v.01"
+		:Theme s4
+		:Time s5))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "cellphone.n.01"
+		:User s0)
+	:member (s2 / "ring.v.01"
+		:Theme s1
+		:Time (s3 / "time.n.08"
+			:TPR "now"))
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "male.n.02"
+			:EQU s0)
+		:member (s5 / "answer.v.02"
+			:Time s3
+			:Agent s4
+			:Theme (s7 / "entity.n.01"
+				:EQU s4))
+		:member (s6 / "time.n.08"
+			:TPR "now"
+			:EQU s3)
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Brian")
+	:member (s1 / "fall.v.03"
+		:Patient s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Result (s3 / "in_love.a.01"
+			:Experiencer s0
+			:Stimulus (s4 / "female.n.02"
+				:Name "Juliet")))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "work.v.01"
+		:Agent s0
+		:Time s1
+		:Location (s3 / "field.n.01"
+			:Theme (s4 / "science.n.01")))
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "be.v.01"
+		:Time (s1 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "book.n.02"
+			:Context (s5 / "entire.a.01"
+				:Attribute-of (s6 / "page.n.01"
+					:Part-of (s4 / "english.n.01")))))
+	:member s1
+	:member (s2 / "famous.a.01"
+		:Attribute-of s3)
+	:member s3
+	:member s4
+	:member s5
+	:member s6
+	:member (s7 / "be.v.01"
+		:Time s0
+		:Theme s6
+		:Co-Theme (s9 / "sentence.n.01"))
+	:member (s8 / "single.a.01"
+		:Attribute-of s9)
+	:member s9)
+
+(b0 / "box"
+	:member (s0 / "according.a.02"
+		:Source (s1 / "radio.n.02"))
+	:member s1
+	:ATTRIBUTION (b1 / "box"
+		:member (s2 / "snow.v.01"
+			:Time (s3 / "time.n.08"
+				:TSU "now"
+				:TIN (s5 / "day.n.03")))
+		:member s3
+		:member (s4 / "day.n.03"
+			:TAB s5)
+		:member s5
+		:member (s6 / "terra_incognita.n.01"
+			:EQU "now"
+			:TIN s4)))
+
+(b0 / "box"
+	:member (s0 / "child.n.01")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "wear.v.01"
+		:Agent s0
+		:Time s1
+		:Theme (s4 / "jacket.n.01"
+			:Colour (s3 / "yellow.a.01")))
+	:member s3
+	:member s4
+	:CONTINUATION (b1 / "box"
+		:member (s5 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s6 / "jump.v.01"
+			:Theme s1
+			:Time s5
+			:Destination (s7 / "rock.n.01"))
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "care.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Co-Agent (s4 / "person.n.01"
+			:Role (s5 / "mother.n.01"
+				:Of s0)))
+	:member s2
+	:member (s3 / "sick.a.01"
+		:Attribute-of s4)
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "tennis.n.01")
+	:member (s1 / "be.v.02"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s4 / "sport.n.01"))
+	:member s2
+	:member (s3 / "prefer.v.01"
+		:Experiencer "speaker"
+		:Stimulus s4)
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "hearer")
+	:member (s1 / "say.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "male.n.02"
+			:Name "Tom")
+		:NEGATION (b2 / "box"
+			:member (s4 / "time.n.08"
+				:TPR "now"
+				:EQU s2)
+			:member (s5 / "hungry.a.01"
+				:Experiencer s3
+				:Time s4))))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "pick_up.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "diamond.n.01"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "look.v.01"
+			:Agent s0
+			:Time s2
+			:Theme s3)
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member (s6 / "entity.n.01"
+			:EQU s3)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "leave.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TIN (s4 / "day.n.03")))
+	:member s2
+	:member (s3 / "day.n.03"
+		:TAB s4)
+	:member s4
+	:member (s5 / "terra_incognita.n.01"
+		:EQU "now"
+		:TIN s3))
+
+(b0 / "box"
+	:member (s0 / "day.n.03")
+	:member (s1 / "day.n.03"
+		:TAB s0)
+	:member (s2 / "time.n.08"
+		:TIN s1
+		:TPR "now")
+	:member (s3 / "person.n.01"
+		:EQU "speaker")
+	:member (s4 / "ill.a.01"
+		:Time s2
+		:Attribute-of s3))
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "as.r.01"
+		:Theme s0
+		:Co-Theme (s4 / "person.n.01"
+			:Role (s5 / "sister.n.01"
+				:Of s0)))
+	:member (s3 / "pretty.a.01"
+		:Attribute-of s0
+		:Time s1
+		:Degree s2)
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "devote.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "life.n.03"
+			:Theme s0)
+		:Goal (s4 / "company.n.01"
+			:User s0))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "as.r.01"
+		:Theme s0
+		:Co-Theme (s4 / "person.n.01"
+			:Role (s5 / "father.n.01"
+				:Of s0)))
+	:member (s3 / "tall.a.01"
+		:Attribute-of s0
+		:Time s1
+		:Degree s2)
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "boy.n.01")
+	:member (s1 / "pretty.a.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Result (s3 / "building.n.01"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "sit_down.v.01"
+			:Agent s0
+			:Time s2
+			:Destination (s6 / "building.n.01"))
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member s6))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "carefully.a.01")
+	:member (s2 / "wipe.v.01"
+		:Agent s0
+		:Manner s1
+		:Time (s3 / "time.n.08"
+			:TPR "now")
+		:Theme (s4 / "fingerprint.n.01"
+			:Part-of s0)
+		:Source (s5 / "knife.n.01"))
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "day.n.03")
+	:member (s1 / "day.n.03"
+		:TAB s0)
+	:member (s2 / "time.n.08"
+		:TIN s1
+		:TPR "now")
+	:member (s3 / "person.n.01"
+		:EQU "speaker")
+	:member (s4 / "go.v.01"
+		:Time s2
+		:Theme s3
+		:Destination (s5 / "opera.n.01"))
+	:member s5
+	:member (s6 / "terra_incognita.n.01"
+		:EQU "now"
+		:TIN s0))
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "eat.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Patient (s3 / "dinner.n.01"
+			:Consumer s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "think.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "male.n.02"
+			:Name "Tom")
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s5 / "outgoing.a.03"
+			:Attribute-of s3
+			:Time s4)))
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "female.n.02"
+		:Name "Sachiko")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "more.r.01"
+		:Theme s0
+		:Co-Theme (s4 / "female.n.02"
+			:Name "Judy"))
+	:member (s3 / "popular.a.01"
+		:Stimulus s0
+		:Time s1
+		:Degree s2)
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:Name "?")
+	:member (s1 / "example.n.01"
+		:User s0)
+	:member (s2 / "be.v.02"
+		:Co-Theme s1
+		:Time (s3 / "time.n.08"
+			:EQU "now")
+		:Theme (s4 / "entity.n.01"))
+	:member s3
+	:member s4
+	:CONTINUATION (b1 / "box"
+		:member (s5 / "entity.n.01"
+			:EQU s1)
+		:member (s6 / "be.v.02"
+			:Time s3
+			:Theme s5
+			:Co-Theme (s9 / "example.n.01"
+				:User (s8 / "female.n.02"
+					:Name "Samir")))
+		:member (s7 / "time.n.08"
+			:EQU "now"
+			:EQU s3)
+		:member s8
+		:member s9))
+
+(b0 / "box"
+	:member (s0 / "city.n.01"
+		:Name "Mount Elbrus")
+	:member (s1 / "be.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s3 / "cellular_phone.n.01"))
+	:member s2
+	:member s3
+	:member (s4 / "base.v.01"
+		:Theme s3
+		:Location (s5 / "city.n.01"
+			:Name "Paris"))
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "start.v.01"
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Part-of (s3 / "walk.v.01"
+			:Theme s0))
+	:member s2
+	:member s3
+	:CONTRAST (b1 / "box"
+		:member (s4 / "female.n.02"
+			:Name "Mary")
+		:member (s5 / "stop.v.05"
+			:Patient s0
+			:Time s2
+			:Agent s4)
+		:member (s6 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member (s7 / "male.n.02"
+			:EQU s1)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "know.v.01"
+		:Experiencer s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "male.n.02"
+			:Name "John")
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s5 / "honest.a.01"
+			:Attribute-of s3
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "put.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "biro.n.01")
+		:Destination (s4 / "coffee.n.01"
+			:Consumer s0))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "man.n.01")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "fill.v.01"
+		:Agent s0
+		:Time s1
+		:Destination (s3 / "container.n.01"))
+	:member s3
+	:member (s4 / "make.v.06"
+		:Product s3
+		:Time (s5 / "time.n.08"
+			:TPR "now")
+		:Material (s6 / "plastic.n.01"))
+	:member s5
+	:member s6)
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "like.v.02"
+		:Experiencer s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Stimulus (s3 / "coffee.n.01"
+			:Consumer s0))
+	:member s2
+	:member s3
+	:member (s4 / "black.a.01"
+		:Colour-of s3))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "build.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Product (s3 / "fence.n.01")
+		:Beneficiary (s4 / "location.n.01"
+			:SXY (s5 / "house.n.01"
+				:User s0)))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "clean_out.v.01"
+		:Agent s0
+		:Time s1
+		:Source (s3 / "closet.n.03"
+			:User s0))
+	:member s3)
+
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:member (s0 / "measure.n.02"
+			:Quantity "2"
+			:Unit (s1 / "minute.n.01"))
+		:member s1
+		:NEGATION (b2 / "box"
+			:POSSIBILITY (b3 / "box"
+				:member (s2 / "be.v.01"
+					:Theme s0
+					:Co-Theme (s3 / "measure.n.02"
+						:Quantity "1"
+						:Unit (s4 / "minute.n.01")))
+				:member s3
+				:member s4
+				:member (s5 / "fast.a.02"
+					:Value s3)))))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "call.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "person.n.01"
+			:Role (s4 / "mother.n.01"
+				:Of s0))
+		:Source (s5 / "city.n.01"
+			:Source (s6 / "airport.n.01")))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:member s6)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "glad.a.01"
+		:Experiencer s0
+		:Time s1
+		:Proposition (s3 / "person.n.01"
+			:EQU "hearer"))
+	:ATTRIBUTION (b1 / "box"
+		:member s3
+		:member (s4 / "ask.v.01"
+			:Agent s3
+			:Time (s5 / "time.n.08"
+				:TPR "now")
+			:Topic (s6 / "entity.n.01"))
+		:member s5
+		:member s6))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "want.v.01"
+		:Pivot s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "surprise.v.01"
+			:Stimulus s0
+			:Experiencer (s4 / "female.n.02")))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "make.v.15"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Beneficiary (s4 / "person.n.01"
+			:Role (s5 / "secretary.n.02"
+				:Of (s3 / "female.n.02"
+					:Name "Green")))
+		:Product s5)
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "come.v.02"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Location (s3 / "city.n.01"
+			:Name "Tokyo"))
+	:member s2
+	:member s3
+	:member (s4 / "day.n.03")
+	:member (s5 / "day.n.03"
+		:TAB s4)
+	:member (s6 / "terra_incognita.n.01"
+		:EQU "now"
+		:TIN s4))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "hear.v.01"
+		:Experiencer s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Stimulus (s3 / "entity.n.01"))
+	:member s2
+	:member s3
+	:member (s4 / "person.n.01"
+		:EQU "speaker")
+	:member (s5 / "time.n.08"
+		:TPR "now"
+		:EQU s2)
+	:member (s6 / "dumbfounded.a.01"
+		:Experiencer s4
+		:Time s5))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "fold.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Patient (s3 / "letter.n.01"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "put.v.01"
+			:Agent s0
+			:Time s2
+			:Theme s3
+			:Destination (s7 / "envelope.n.01"))
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member (s6 / "entity.n.01"
+			:EQU s3)
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "be.v.01"
+		:Co-Theme s0
+		:Time s1
+		:Theme (s4 / "entity.n.01"
+			:Instance-of (s5 / "book.n.01")))
+	:member (s3 / "favorite.a.02"
+		:Experiencer "hearer"
+		:Stimulus s4)
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "grab.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "bag.n.01"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "roll_up.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Patient (s3 / "sleeve.n.01"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:member (s0 / "time.n.08"
+			:DayOfWeek "monday")
+		:NEGATION (b2 / "box"
+			:member (s1 / "ship.n.01")
+			:member (s2 / "leave.v.01"
+				:Time s0
+				:Theme s1
+				:Time (s3 / "time.n.08"
+					:TPR "now"))
+			:member s3)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:Quantity "2")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "kickbox.v.01"
+		:Agent s0
+		:Time s1)
+	:CONTINUATION (b1 / "box"
+		:member (s3 / "person.n.01"
+			:Role (s4 / "patient.n.01"))
+		:member s4
+		:member (s5 / "time.n.08"
+			:EQU "now"
+			:EQU s1)
+		:member (s6 / "watch.v.01"
+			:Theme s3
+			:Time s5)))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "bow.v.03"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Recipient (s3 / "person.n.01"
+			:Role (s4 / "teacher.n.01"
+				:Of s0)))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "female.n.02"
+		:Name "Mary")
+	:member (s1 / "pull_out.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "knitting_needle.n.01"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "convinced.a.01"
+		:Experiencer s0
+		:Time s1
+		:Proposition (s3 / "person.n.01"
+			:EQU "speaker"))
+	:ATTRIBUTION (b1 / "box"
+		:member s3
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s1)
+		:member (s5 / "right.a.01"
+			:Attribute-of s3
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "stir.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Patient (s3 / "milk.n.01")
+		:Product (s4 / "coffee.n.01"
+			:Consumer s0))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "manage.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "car.n.01"
+			:User s0)
+		:Goal (s4 / "quantity.n.01"
+			:EQU "+"))
+	:member s2
+	:member s3
+	:member s4
+	:member (s5 / "money.n.01"
+		:Quantity s4))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "hearer")
+	:member (s1 / "want.v.01"
+		:Pivot s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "hear.v.01"
+			:Experiencer s0
+			:Stimulus (s4 / "entity.n.01"
+				:Attribute (s5 / "funny.a.01"))))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:TPR "now")
+		:member (s2 / "speak.v.02"
+			:Agent s0
+			:Time s1
+			:Theme (s3 / "male.n.02"))
+		:member s3))
+
+(b0 / "box"
+	:member (s0 / "play.v.01"
+		:Theme (s1 / "go.v.01"))
+	:member s1
+	:member (s2 / "be.v.01"
+		:Theme s0
+		:Time (s3 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s5 / "haunt.n.01"))
+	:member s3
+	:member (s4 / "favorite.a.02"
+		:Experiencer "speaker"
+		:Stimulus s5)
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "tired.a.01"
+		:Experiencer s0
+		:Time s1)
+	:NEGATION (b1 / "box"
+		:POSSIBILITY (b2 / "box"
+			:member (s3 / "study.v.05"
+				:Agent s0))))
+
+(b0 / "box"
+	:member (s0 / "time.n.08"
+		:EQU "now")
+	:member (s1 / "person.n.01"
+		:EQU "hearer")
+	:member (s2 / "know.v.01"
+		:Time s0
+		:Experiencer s1
+		:Proposition (s3 / "person.n.01"
+			:EQU "?"))
+	:ATTRIBUTION (b1 / "box"
+		:member s3
+		:member (s4 / "watch.n.01"
+			:User s3)
+		:member (s5 / "time.n.08"
+			:EQU "now"
+			:EQU s0)))
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "put.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "honey.n.01")
+		:Destination (s4 / "tea.n.01"
+			:Consumer s0))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "want.v.01"
+		:Pivot s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "marry.v.01"
+			:Agent s0
+			:Co-Agent (s4 / "female.n.02"
+				:Name "Laurie")))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "fall.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "horse.n.01"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:NEGATION (b1 / "box"
+		:POSSIBILITY (b2 / "box"
+			:member (s1 / "afford.v.01"
+				:Agent s0
+				:Theme (s2 / "buy.v.01"
+					:Agent s0
+					:Theme (s3 / "laptop.n.01")
+					:Beneficiary (s4 / "person.n.01"
+						:Role (s5 / "son.n.01"
+							:Of "speaker"))))
+			:member s2
+			:member s3
+			:member s4
+			:member s5)))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "say.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Manner (s3 / "fiat_500.n.01"))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "put.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "money.n.01"
+			:Owner s0)
+		:Destination (s4 / "box.n.01"))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "drive.v.03"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "car.n.01"
+			:User s0)
+		:Destination (s4 / "city.n.01"
+			:Name "Yokohama"))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "vagina.n.01")
+	:member (s1 / "have.v.01"
+		:Pivot s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s4 / "cheek.n.01"))
+	:member s2
+	:member (s3 / "huge.a.01"
+		:Attribute-of s4)
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "be.v.01"
+		:Co-Theme s0
+		:Time s1
+		:Theme (s4 / "entity.n.01"
+			:Instance-of (s5 / "chocolate.n.02")))
+	:member (s3 / "favorite.a.02"
+		:Experiencer "hearer"
+		:Stimulus s4)
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "city.n.01"
+		:Name "Tehran")
+	:member (s1 / "be.v.02"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s4 / "town.n.01"))
+	:member s2
+	:member (s3 / "favourite.a.02"
+		:Experiencer "speaker"
+		:Stimulus s4)
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "fall.v.03"
+		:Patient s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Result (s3 / "in_love.a.01"
+			:Experiencer s0
+			:Stimulus (s4 / "female.n.02"
+				:Name "Emily")))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker"
+		:EQU (s1 / "person.n.01"))
+	:member s1
+	:member (s2 / "kill.v.01"
+		:Agent s1
+		:Time (s3 / "time.n.08"
+			:TPR "now")
+		:Patient (s4 / "female.n.02"))
+	:member s3
+	:member s4)
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "pocket.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "money.n.01"))
+	:member s2
+	:member s3
+	:member (s4 / "female.n.02"
+		:Name "Mary")
+	:member (s5 / "give.v.03"
+		:Recipient s0
+		:Time s2
+		:Agent s4))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "take_off.v.06"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "brake_pedal.n.01"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "hearer")
+	:member (s1 / "bring.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "male.n.02"))
+	:member s2
+	:member s3
+	:CONSEQUENCE (b1 / "box"
+		:member (s4 / "male.n.02"
+			:EQU s0)
+		:POSSIBILITY (b2 / "box"
+			:member (s5 / "come.v.01"
+				:Theme s4))))
+
+(b0 / "box"
+	:member (s0 / "city.n.01"
+		:Name "Berlin")
+	:member (s1 / "person.n.01"
+		:Name s0
+		:Role (s2 / "police_officer.n.01"))
+	:member s2
+	:member (s3 / "accuse.v.01"
+		:Agent s1
+		:Time (s4 / "time.n.08"
+			:TPR "now")
+		:Theme (s6 / "person.n.01"
+			:Role (s7 / "agent.n.01"
+				:Quantity "5"))
+		:Theme (s8 / "murder.n.01"
+			:Quantity "5"))
+	:member s4
+	:member (s5 / "suspect.v.01"
+		:Theme s7)
+	:member s6
+	:member s7
+	:member s8)
+
+(b0 / "box"
+	:member (s0 / "entity.n.01")
+	:member (s1 / "be.v.02"
+		:Theme s0
+		:Co-Theme (s2 / "gold_medal.n.01"
+			:Order "1"
+			:Proposition (s3 / "female.n.02")))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member s3
+		:member (s4 / "win.v.01"
+			:Agent s3
+			:Time (s5 / "time.n.08"
+				:TPR "now"))
+		:member s5))
+
+(b0 / "box"
+	:member (s0 / "old.a.01"
+		:Value "?"
+		:Time (s1 / "time.n.08"
+			:TPR "now")
+		:Attribute-of (s2 / "male.n.02"
+			:Name "Burt Lancaster"))
+	:member s1
+	:member s2
+	:member (s3 / "die.v.01"
+		:TIN s0
+		:Time s1
+		:Patient s2))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "pat.v.02"
+		:Agent s0
+		:Time s1
+		:Experiencer (s3 / "dog.n.01"
+			:Owner s0))
+	:member s3)
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "interesting.a.01"
+		:Attribute-of (s1 / "novel.n.01"))
+	:member s1
+	:member (s2 / "entity.n.01")
+	:member (s3 / "be.v.01"
+		:Co-Theme s1
+		:Theme s2
+		:Time (s4 / "time.n.08"
+			:EQU "now"))
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "walk.v.01"
+		:Agent s0
+		:Time s1
+		:Theme (s3 / "dog.n.01"
+			:Owner s0))
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "quantity.n.01"
+		:MOR (s1 / "quantity.n.01"
+			:EQU "1000"))
+	:member s1
+	:member (s2 / "person.n.01"
+		:Quantity s0)
+	:member (s3 / "die.v.01"
+		:Patient s2
+		:Time (s4 / "time.n.08"
+			:YearOfCentury "1912"
+			:TPR "now"))
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "know.v.01"
+			:Experiencer s0
+			:Time s1
+			:Proposition (s3 / "reason.n.01"
+				:EQU "?"))
+		:ATTRIBUTION (b2 / "box"
+			:member s3
+			:member (s4 / "male.n.02"
+				:Name "Tom")
+			:member (s5 / "office.n.01"
+				:User s4)
+			:member (s6 / "be.v.02"
+				:Time s2
+				:Theme s3
+				:Co-Theme s5)
+			:member (s7 / "time.n.08"
+				:EQU "now"
+				:EQU s2))))
+
+(b0 / "box"
+	:member (s0 / "soon.r.01")
+	:member (s1 / "male.n.02")
+	:member (s2 / "sit.v.01"
+		:Manner s0
+		:Agent s1
+		:Time (s3 / "time.n.08"
+			:TPR "now"))
+	:member s3
+	:ATTRIBUTION (b1 / "box"
+		:member (s4 / "male.n.02"
+			:EQU s1)
+		:member (s5 / "pick_up.v.01"
+			:Time s3
+			:Agent s4
+			:Theme (s7 / "telephone.n.01"))
+		:member (s6 / "time.n.08"
+			:TPR "now"
+			:EQU s3)
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:Name "?")
+	:member (s1 / "shoe.n.01"
+		:User s0)
+	:member (s2 / "be.v.02"
+		:Co-Theme s1
+		:Time (s3 / "time.n.08"
+			:EQU "now")
+		:Theme (s4 / "entity.n.01"))
+	:member s3
+	:member s4
+	:CONTINUATION (b1 / "box"
+		:member (s5 / "entity.n.01"
+			:EQU s1)
+		:member (s6 / "be.v.02"
+			:Time s3
+			:Theme s5
+			:Co-Theme (s10 / "shoe.n.01"
+				:User (s8 / "person.n.01"
+					:Role (s9 / "brother.n.01"
+						:Of "speaker"))))
+		:member (s7 / "time.n.08"
+			:EQU "now"
+			:EQU s3)
+		:member s8
+		:member s9
+		:member s10))
+
+(b0 / "box"
+	:member (s0 / "female.n.02"
+		:Name "Melanie")
+	:member (s1 / "say.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "female.n.02"
+			:EQU s0)
+		:member (s4 / "like.v.02"
+			:Time s2
+			:Experiencer s3
+			:Stimulus (s6 / "swim.v.01"
+				:Theme s3))
+		:member (s5 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member s6))
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "live.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Location (s3 / "location.n.01"
+			:APX (s4 / "beach.n.01")))
+	:member s2
+	:member s3
+	:member s4
+	:CONTRAST (b1 / "box"
+		:member (s5 / "female.n.02"
+			:EQU s0)
+		:NEGATION (b2 / "box"
+			:POSSIBILITY (b3 / "box"
+				:member (s6 / "swim.v.01"
+					:Theme s5)))))
+
+(b0 / "box"
+	:ALTERNATION (b1 / "box"
+		:member (s0 / "measure.n.02"
+			:Quantity "2"
+			:Unit (s1 / "peso.n.03"))
+		:member s1
+		:NEGATION (b2 / "box"
+			:member (s2 / "have.v.01"
+				:Pivot s0
+				:Theme (s3 / "poodle.n.01"
+					:Quantity "2"))
+			:member s3)))
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "dye.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Patient (s4 / "skirt.n.01"
+			:User s0)
+		:Result (s5 / "red.a.01"
+			:Colour-of s4))
+	:member s2
+	:member (s3 / "white.a.01")
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "time.n.08"
+		:TPR "now")
+	:member (s2 / "accompany.v.04"
+		:Agent s0
+		:Time s1
+		:Theme (s3 / "person.n.01"
+			:Role (s4 / "wife.n.01"
+				:Of s0)))
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "sit.v.03"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Location (s3 / "desk.n.01"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "spin.v.05"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"
+			:TIN (s6 / "day.n.03"
+				:TAB (s5 / "day.n.03")))
+		:Theme (s4 / "fish.n.01"))
+	:member s2
+	:member (s3 / "huge.a.01"
+		:Attribute-of s4)
+	:member s4
+	:member s5
+	:member s6
+	:member (s7 / "terra_incognita.n.01"
+		:EQU "now"
+		:TIN s5))
+
+(b0 / "box"
+	:member (s0 / "mrs.n.01")
+	:member (s1 / "female.n.02"
+		:Name "Baker"
+		:Title s0)
+	:member (s2 / "time.n.08"
+		:TPR "now")
+	:member (s3 / "purse.n.01"
+		:Owner s1)
+	:member (s4 / "steal.v.01"
+		:Beneficiary s1
+		:Time s2
+		:Theme s3))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "want.v.01"
+			:Pivot s0
+			:Time s1
+			:Theme (s3 / "clean.v.01"
+				:Agent s0
+				:Source (s5 / "poop.n.01"
+					:Creator (s4 / "dog.n.01"))))
+		:member s3
+		:member s4
+		:member s5))
+
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:member (s0 / "time.n.08")
+		:NEGATION (b2 / "box"
+			:member (s1 / "female.n.02"
+				:Name "Magdalena"
+				:Quantity "2")
+			:NEGATION (b3 / "box"
+				:member (s2 / "entity.n.01"
+					:Sub-of s1)
+				:NEGATION (b4 / "box"
+					:member (s3 / "dream.v.01"
+						:Time s0
+						:Experiencer s2
+						:Stimulus (s5 / "entity.n.01"))
+					:member (s4 / "time.n.08"
+						:EQU "now"
+						:EQU s0)
+					:member s5
+					:member (s6 / "study.v.01"
+						:Agent s5
+						:Theme (s7 / "medicine.n.01"))
+					:member s7)))))
+
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:member (s0 / "time.n.08")
+		:NEGATION (b2 / "box"
+			:member (s1 / "person.n.01"
+				:EQU "speaker")
+			:member (s2 / "hate.v.01"
+				:Time s0
+				:Experiencer s1
+				:Stimulus (s4 / "male.n.02"
+					:Name "Tom"))
+			:member (s3 / "time.n.08"
+				:TPR "now"
+				:EQU s0)
+			:member s4)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "sorry.a.01"
+		:Experiencer s0
+		:Time s1
+		:Stimulus (s3 / "entity.n.01"))
+	:member s3
+	:member (s4 / "female.n.02")
+	:member (s5 / "do.v.02"
+		:Theme s3
+		:Agent s4
+		:Time (s6 / "time.n.08"
+			:TPR "now"))
+	:member s6)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:TPR "now")
+		:member (s2 / "realize.v.01"
+			:Experiencer s0
+			:Time s1
+			:Proposition (s3 / "male.n.02"
+				:EQU s0))
+		:ATTRIBUTION (b2 / "box"
+			:member s3
+			:member (s4 / "have_on.v.01"
+				:Time s1
+				:Agent s3
+				:Theme (s6 / "sweater.n.01"
+					:User s3)
+				:Manner (s7 / "inside_out.r.01"))
+			:member (s5 / "time.n.08"
+				:TPR "now"
+				:EQU s1)
+			:member s6
+			:member s7)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:Name "?")
+	:member (s1 / "document.n.01"
+		:User s0)
+	:member (s2 / "be.v.02"
+		:Co-Theme s1
+		:Time (s3 / "time.n.08"
+			:EQU "now")
+		:Theme (s4 / "entity.n.01"))
+	:member s3
+	:member s4
+	:CONTINUATION (b1 / "box"
+		:member (s5 / "entity.n.01"
+			:EQU s1)
+		:member (s6 / "be.v.02"
+			:Time s3
+			:Theme s5
+			:Co-Theme (s9 / "'s.n.01"
+				:User (s8 / "male.n.02"
+					:Name "Brian")))
+		:member (s7 / "time.n.08"
+			:EQU "now"
+			:EQU s3)
+		:member s8
+		:member s9))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "play.v.05"
+		:Agent s0
+		:Time s1
+		:Theme (s3 / "toy.n.01"
+			:User s0))
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "entity.n.01"
+		:EQU "?")
+	:member (s1 / "be.v.02"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s4 / "musical_organization.n.01"
+			:Name "Beatles"))
+	:member s2
+	:member (s3 / "favorite.a.02"
+		:Experiencer "hearer"
+		:Stimulus (s5 / "song.n.01"
+			:Creator s4))
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "walk.v.02"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Destination (s3 / "front_door.n.01"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "knock.v.02"
+			:Agent s0
+			:Time s2)
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "hear.v.02"
+		:Experiencer s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "tall.a.01"
+			:Degree (s4 / "most.r.01"))
+		:member s4
+		:member (s5 / "person.n.01"
+			:Attribute s3
+			:Role (s6 / "camper.n.01"))
+		:member s6
+		:member (s7 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member (s8 / "discover.v.01"
+			:Theme s5
+			:Time s7
+			:Location (s9 / "range.n.04"
+				:Name "Himalayas"))
+		:member s9))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "play.v.03"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "debit_card.n.01"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "George")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "as.r.01"
+		:Theme s0
+		:Co-Theme (s4 / "person.n.01"
+			:Role (s5 / "father.n.01"
+				:Of s0)))
+	:member (s3 / "tall.a.01"
+		:Attribute-of s0
+		:Time s1
+		:Degree s2)
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "dog.n.01"
+		:Owner s0)
+	:member (s2 / "give.v.03"
+		:Agent s1
+		:Time (s3 / "time.n.08"
+			:TPR "now")
+		:Theme (s4 / "dog.n.01"
+			:Owner s0))
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Eduardo")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "swing.v.01"
+		:Theme s0
+		:Time s1
+		:Location (s3 / "parcel.n.01")
+		:Manner (s4 / "person.n.01"
+			:EQU "speaker"))
+	:member s3
+	:member s4
+	:member (s5 / "hang.v.02"
+		:Time s1
+		:Theme s4
+		:Location (s6 / "location.n.01"
+			:SZN (s8 / "oak_tree.n.01"
+				:Attribute (s7 / "old.a.02"
+					:Value "+"))))
+	:member s6
+	:member s7
+	:member s8)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "tell.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Recipient (s3 / "male.n.02"))
+	:member s2
+	:member s3
+	:CONTRAST (b1 / "box"
+		:member (s4 / "male.n.02"
+			:EQU s3)
+		:member (s5 / "ignore.v.01"
+			:Time s2
+			:Agent s4
+			:Theme (s7 / "balloon.n.02"))
+		:member (s6 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "miss.v.05"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "plane.n.01"
+			:Quantity "2"))
+	:member s2
+	:member s3)
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "young.a.01"
+		:Value "+")
+	:member (s1 / "person.n.01"
+		:Attribute s0
+		:Role (s2 / "nurse.n.01"))
+	:member s2
+	:member (s3 / "fall.v.03"
+		:Patient s1
+		:Time (s4 / "time.n.08"
+			:TPR "now")
+		:Result (s5 / "in_love.a.01"
+			:Experiencer s1
+			:Stimulus (s6 / "person.n.01"
+				:Role (s7 / "patient.n.01"))))
+	:member s4
+	:member s5
+	:member s6
+	:member s7)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "call.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "female.n.02"))
+	:member s2
+	:member s3
+	:CONTRAST (b1 / "box"
+		:member (s4 / "line.n.09")
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member (s6 / "busy.a.05"
+			:Attribute-of s4
+			:Time s5)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "eat.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Patient (s3 / "fruit.n.01"))
+	:member s2
+	:member s3
+	:EXPLANATION (b1 / "box"
+		:member (s4 / "person.n.01"
+			:EQU "speaker")
+		:member (s5 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s6 / "hungry.a.01"
+			:Experiencer s4
+			:Time s5)))
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "offer.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Beneficiary (s3 / "male.n.02")
+		:Theme (s4 / "measure.n.02"
+			:Quantity "50"
+			:Unit (s5 / "dollar.n.01")))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:CONTINUATION (b1 / "box"
+		:member (s6 / "male.n.02"
+			:EQU s4)
+		:member (s7 / "accept.v.01"
+			:Time s3
+			:Agent s6)
+		:member (s8 / "time.n.08"
+			:TPR "now"
+			:EQU s3)))
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "show.v.04"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "album.n.01"
+			:Owner s0)
+		:Recipient (s4 / "person.n.01"
+			:EQU "speaker"))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "want.v.01"
+		:Pivot s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "fly.v.01"
+			:Theme s0
+			:Location (s4 / "location.n.01"
+				:SZP (s5 / "cloud.n.02"))))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "sure.a.01"
+			:Experiencer s0
+			:Time s1
+			:Proposition (s3 / "location.n.01"
+				:EQU "?"))
+		:ATTRIBUTION (b2 / "box"
+			:member s3
+			:member (s4 / "male.n.02"
+				:Name "Tom")
+			:member (s5 / "be.v.03"
+				:Time s1
+				:Location s3
+				:Theme s4)
+			:member (s6 / "time.n.08"
+				:EQU "now"
+				:EQU s1))))
+
+(b0 / "box"
+	:member (s0 / "clock.n.01")
+	:member (s1 / "ring.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"))
+	:member s2
+	:CONTINUATION (b1 / "box"
+		:member (s3 / "train.n.01")
+		:member (s4 / "begin.v.01"
+			:Time s2
+			:Part-of (s6 / "move.v.01"
+				:Theme s3))
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member s6))
+
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:member (s0 / "person.n.01")
+		:member (s1 / "come.v.02"
+			:Theme s0
+			:Time (s2 / "time.n.08"
+				:EQU "now"))
+		:member s2
+		:member (s3 / "say.v.01"
+			:Agent s0
+			:Time s2
+			:Proposition (s4 / "person.n.01"
+				:EQU "speaker"))
+		:ATTRIBUTION (b2 / "box"
+			:member s4
+			:member (s5 / "time.n.08"
+				:EQU "now"
+				:EQU s2)
+			:member (s6 / "away.a.01"
+				:Attribute-of s4
+				:Time s5
+				:Source (s7 / "home.n.01"))
+			:member s7)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "think.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "male.n.02"
+			:Name "Tom")
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s5 / "drunk.a.01"
+			:Attribute-of s3
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "paint.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Result (s3 / "picture.n.01"))
+	:member s2
+	:member s3
+	:member (s4 / "person.n.01"
+		:EQU "speaker")
+	:member (s5 / "time.n.08"
+		:TPR "now"
+		:EQU s2)
+	:member (s6 / "measure.n.02"
+		:Quantity "23"
+		:Unit (s7 / "year.n.01"))
+	:member s7
+	:member (s8 / "old.n.01"
+		:Theme s4
+		:Time s5
+		:Value s6))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Ted")
+	:member (s1 / "love.v.01"
+		:Experiencer s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Stimulus (s4 / "wife.n.01"
+			:Of s0))
+	:member s2
+	:member (s3 / "person.n.01"
+		:Role s4)
+	:member s4
+	:member (s5 / "name.n.01"
+		:EQU s3))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "remember.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "meet.v.01"
+			:Theme s0
+			:Co-Theme (s4 / "male.n.02"))
+		:Location s4)
+	:member s2
+	:member s3
+	:member s4
+	:member (s5 / "location.n.01"))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "throw.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "rock.n.01")
+		:Destination (s4 / "female.n.02"
+			:Name "Mary"))
+	:member s2
+	:member s3
+	:member s4
+	:CONTRAST (b1 / "box"
+		:member (s5 / "entity.n.01"
+			:EQU s4)
+		:NEGATION (b2 / "box"
+			:member (s6 / "time.n.08"
+				:TPR "now"
+				:EQU s2)
+			:member (s7 / "hit.v.01"
+				:Theme s4
+				:Agent s5
+				:Time s6)
+			:member (s8 / "female.n.02"
+				:EQU s3))))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "drop.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "glass.n.02"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "girl.n.01")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "skillful.a.01"
+		:Experiencer s0
+		:Time s1
+		:Stimulus (s4 / "finger.n.01"
+			:Part-of (s3 / "female.n.02"
+				:EQU s0)))
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "clear.v.24"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Source (s3 / "throat.n.01"
+			:Part-of s0))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "continue.v.01"
+			:Time s2
+			:Part-of (s6 / "speak.v.01"
+				:Agent s0))
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member s6))
+
+(b0 / "box"
+	:member (s0 / "entity.n.01"
+		:EQU "?")
+	:member (s1 / "time.n.08"
+		:TPR "now")
+	:member (s2 / "male.n.02"
+		:Name "George Washington")
+	:member (s3 / "call.v.01"
+		:Result s0
+		:Time s1
+		:Agent s2
+		:Theme (s4 / "house.n.01"
+			:User s2))
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tony")
+	:member (s1 / "carve.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "name.n.01"
+			:Bearer s0)
+		:Destination (s4 / "tree.n.01")
+		:Instrument (s5 / "knife.n.01"))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "wipe.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "male.n.02")
+		:Source (s4 / "in_public.r.01"
+			:Experiencer s0))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "fold.v.01"
+		:Agent s0
+		:Time s1
+		:Patient (s3 / "shirt.n.01"
+			:User s0))
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "lack.v.01"
+			:Theme s0
+			:Time s1
+			:Goal (s3 / "cash.n.01"))
+		:member s3
+		:CONTINUATION (b2 / "box"
+			:member (s4 / "female.n.02"
+				:EQU s0)
+			:member (s5 / "time.n.08"
+				:EQU "now")
+			:member (s6 / "just.r.01")
+			:member (s7 / "shy.a.01"
+				:Attribute-of s4
+				:Time s5
+				:Manner s6))))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "glance.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "watch.n.01"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "take.v.04"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "picture.n.01"
+			:Theme (s4 / "dog.n.01"
+				:Owner s0)))
+	:member s2
+	:member s3
+	:member s4
+	:CONTINUATION (b1 / "box"
+		:member (s5 / "send.v.01"
+			:Agent s0
+			:Time s2
+			:Theme (s7 / "entity.n.01")
+			:Recipient (s8 / "female.n.02"
+				:Name "Mary"))
+		:member (s6 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member s7
+		:member s8))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "leave.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Source (s3 / "bedroom.n.01"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "enter.v.01"
+			:Theme s0
+			:Time s2
+			:Destination (s6 / "living_room.n.01"))
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member s6))
+
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:member (s0 / "time.n.08")
+		:NEGATION (b2 / "box"
+			:member (s1 / "person.n.01"
+				:EQU "speaker")
+			:member (s2 / "eat.v.01"
+				:Time s0
+				:Agent s1)
+			:member (s3 / "time.n.08"
+				:EQU "now"
+				:EQU s0))))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "know.v.01"
+		:Experiencer s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Stimulus (s3 / "male.n.02"))
+	:member s2
+	:member s3
+	:CONTRAST (b1 / "box"
+		:member (s4 / "male.n.02"
+			:EQU s3)
+		:NEGATION (b2 / "box"
+			:member (s5 / "time.n.08"
+				:EQU "now"
+				:EQU s2)
+			:member (s6 / "know.v.04"
+				:Stimulus s3
+				:Experiencer s4
+				:Time s5)
+			:member (s7 / "person.n.01"
+				:EQU "speaker"))))
+
+(b0 / "box"
+	:member (s0 / "clock.n.01")
+	:member (s1 / "stop.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"))
+	:member s2
+	:CONTINUATION (b1 / "box"
+		:member (s3 / "entity.n.01")
+		:member (s4 / "need.v.01"
+			:Pivot s3
+			:Time (s5 / "time.n.08"
+				:EQU "now")
+			:Theme (s7 / "helmet.n.01"))
+		:member s5
+		:member (s6 / "new.a.01"
+			:Attribute-of s7)
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "teapot.n.01")
+	:member (s1 / "overheat.v.01"
+		:Patient s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"))
+	:member s2
+	:EXPLANATION (b1 / "box"
+		:member (s3 / "female.n.02")
+		:member (s4 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member (s5 / "talk.v.01"
+			:Agent s3
+			:Time s4
+			:Location (s6 / "phone.n.01"))
+		:member s6))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:NECESSITY (b1 / "box"
+		:member (s1 / "shit.n.01"
+			:Agent s0)))
+
+(b0 / "box"
+	:member (s0 / "book.n.02")
+	:member (s1 / "have.v.02"
+		:Pivot s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s4 / "mistake.n.01"
+			:Quantity (s3 / "quantity.n.01"
+				:EQU "+")))
+	:member s2
+	:member s3
+	:member s4
+	:CONTRAST (b1 / "box"
+		:member (s5 / "entity.n.01")
+		:member (s6 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s7 / "interesting.a.01"
+			:Attribute-of s5
+			:Time s6)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:Name "Mount Elbrus")
+	:member (s1 / "be.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s3 / "man.n.01"))
+	:member s2
+	:member s3
+	:member (s4 / "quantity.n.01"
+		:TOP (s5 / "quantity.n.01"
+			:EQU "40"))
+	:member s5
+	:member (s6 / "measure.n.02"
+		:Quantity s4
+		:Unit (s7 / "year.n.01"))
+	:member s7
+	:member (s8 / "old.n.01"
+		:Theme s2
+		:Time s3
+		:Value s6))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "enter.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Destination (s3 / "room.n.01"))
+	:member s2
+	:member s3
+	:member (s4 / "female.n.02")
+	:member (s5 / "play.v.01"
+		:Time s2
+		:Agent s4
+		:Theme (s6 / "piano.n.01"))
+	:member s6)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "punish.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Patient (s3 / "child.n.02"
+			:Of s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Napoleon")
+	:member (s1 / "lay.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "army.n.01"
+			:User s0)
+		:Destination (s4 / "country.n.02"
+			:Name "Russia"))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "iron.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Patient (s3 / "pants.n.03"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "entity.n.01")
+	:member (s1 / "be.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s4 / "story.n.01"))
+	:member s2
+	:member (s3 / "rinse.v.01"
+		:Attribute-of s4)
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "stone.n.01")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "beautiful.a.01"
+		:Attribute-of s0
+		:Time s1))
+
+(b0 / "box"
+	:member (s0 / "old.a.01"
+		:Value "?"
+		:Time (s1 / "time.n.08"
+			:TPR "now")
+		:Attribute-of (s2 / "male.n.02"
+			:Name "Wolfgang Amadeus Mozart"))
+	:member s1
+	:member s2
+	:member (s3 / "die.v.01"
+		:TIN s0
+		:Time s1
+		:Patient s2))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "slice.v.03"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Patient (s3 / "carrot.n.01"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "add.v.01"
+			:Agent s0
+			:Time s2
+			:Theme (s6 / "entity.n.01")
+			:Recipient (s7 / "stew.n.02"))
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member s6
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "female.n.02"
+		:Name "Mary")
+	:member (s1 / "call.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s4 / "squirrel.n.01")
+		:Result (s5 / "male.n.02"
+			:Name "Tom"))
+	:member s2
+	:member (s3 / "stuffed.a.01"
+		:Attribute-of s4)
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:Role (s1 / "soccer_player.n.01"
+			:Of "speaker"))
+	:member s1
+	:member (s2 / "be.v.02"
+		:Theme s0
+		:Time (s3 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s4 / "name.n.01"
+			:EQU "Popeye"))
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "appear.v.01"
+		:Experiencer s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Stimulus (s3 / "outraged.a.01"
+			:Experiencer s0))
+	:member s2
+	:member s3)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "time.n.08"
+		:TPR "now")
+	:member (s2 / "proud.a.01"
+		:Experiencer s0
+		:Time s1)
+	:NEGATION (b1 / "box"
+		:POSSIBILITY (b2 / "box"
+			:member (s3 / "ask.v.01"
+				:Agent s0
+				:Recipient (s4 / "male.n.02")
+				:Topic (s5 / "help.n.01"))
+			:member s4
+			:member s5)))
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "want.v.01"
+			:Pivot s0
+			:Time s1
+			:Theme (s3 / "argue.v.01"
+				:Agent s0
+				:Co-Agent (s4 / "person.n.01"
+					:EQU "hearer")))
+		:member s3
+		:member s4))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "overcook.v.01"
+			:Experiencer s0
+			:Time s1)
+		:CONTRAST (b2 / "box"
+			:member (s3 / "event.v.01"
+				:Participant (s5 / "wealth.n.01"
+					:Owner (s4 / "male.n.02"
+						:EQU s0)))
+			:member s4
+			:member s5)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "want.v.01"
+		:Pivot s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "go.v.01"
+			:Theme s0
+			:Destination (s4 / "country.n.02"
+				:Name "China")))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "car.n.01")
+	:member (s1 / "bang.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Patient (s3 / "entity.n.01")
+		:Beneficiary (s4 / "tree.n.01"))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "man.n.01")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "rest.v.01"
+		:Theme s0
+		:Time s1
+		:Destination (s3 / "chair.n.01"))
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "time.n.08"
+			:EQU "now")
+		:member (s5 / "rub.v.01"
+			:Agent s0
+			:Time s4
+			:Experiencer (s7 / "eye.n.01"
+				:Part-of (s6 / "male.n.02")))
+		:member s6
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "measure.n.02"
+		:Quantity "+"
+		:Unit (s1 / "year.n.01"))
+	:member s1
+	:member (s2 / "male.n.02"
+		:Name "Tom")
+	:member (s3 / "suffer.v.02"
+		:Experiencer s0
+		:Experiencer s2
+		:Time (s4 / "time.n.08"
+			:TPR "now")
+		:Stimulus (s6 / "headache.n.02"))
+	:member s4
+	:member (s5 / "excessive.a.01"
+		:Attribute-of s6)
+	:member s6)
+
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:member (s0 / "person.n.01")
+		:member (s1 / "want.v.01"
+			:Pivot s0
+			:Time (s2 / "time.n.08"
+				:EQU "now")
+			:Theme (s3 / "book.n.01"))
+		:member s2
+		:member s3
+		:POSSIBILITY (b2 / "box"
+			:POSSIBILITY (b3 / "box"
+				:member (s4 / "give.v.03"
+					:Theme s0
+					:Agent s3)
+				:member (s5 / "entity.n.01"
+					:EQU s0)))))
+
+(b0 / "box"
+	:member (s0 / "cat.n.01"
+		:Name "General Dynamics")
+	:NEGATION (b1 / "box"
+		:member (s1 / "be.v.01"
+			:Theme s0
+			:Time (s2 / "time.n.08"
+				:EQU "now")
+			:Co-Theme (s3 / "cat.n.01"))
+		:member s2
+		:member s3
+		:CONTINUATION (b2 / "box"
+			:member (s4 / "male.n.02"
+				:EQU s0)
+			:member (s5 / "be.v.08"
+				:Time s2
+				:Theme s4
+				:Co-Theme (s7 / "person.n.01"
+					:Role (s8 / "singer.n.01")))
+			:member (s6 / "time.n.08"
+				:EQU "now"
+				:EQU s2)
+			:member s7
+			:member s8)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "think.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "male.n.02"
+			:Name "Tom")
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s5 / "nasty.a.01"
+			:Attribute-of s3
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "time.n.08"
+		:DayOfWeek "tuesday"
+		:TSU "now")
+	:member (s1 / "test.n.01"
+		:Time s0)
+	:member (s2 / "easy.a.01"
+		:Time s0
+		:Attribute-of s1))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "convinced.a.01"
+		:Experiencer s0
+		:Time s1
+		:Proposition (s3 / "male.n.02"
+			:Name "Tom"))
+	:ATTRIBUTION (b1 / "box"
+		:member s3
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s1)
+		:member (s5 / "lie.v.05"
+			:Agent s3
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "compare.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "answer.n.01"
+			:Creator s0)
+		:Co-Theme (s4 / "female.n.02"
+			:Name "Mary"))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "boy.n.01")
+	:member (s1 / "speak.v.03"
+		:Agent s0
+		:Theme (s2 / "english.n.01"))
+	:member s2
+	:member (s3 / "time.n.08"
+		:EQU "now")
+	:member (s4 / "tall.a.01"
+		:Attribute-of s0
+		:Time s3
+		:Degree (s5 / "more.r.01"
+			:Theme s0
+			:Co-Theme (s6 / "person.n.01"
+				:EQU "speaker")))
+	:member s5
+	:member s6)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "ask.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Recipient (s3 / "male.n.02")
+		:Topic (s4 / "open.v.01"
+			:Agent s3
+			:Patient (s5 / "window.n.01")))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "go.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"
+			:TIN (s5 / "day.n.03"
+				:TAB (s4 / "day.n.03")))
+		:Destination (s3 / "park.n.01"))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:member (s6 / "terra_incognita.n.01"
+		:EQU "now"
+		:TIN s4))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "guess.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "female.n.02")
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s5 / "old.a.01"
+			:Time s4
+			:Value (s6 / "measure.n.02"
+				:Quantity "40"
+				:Unit "year"))
+		:member s6))
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "leave.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Recipient (s3 / "person.n.01"
+			:Role (s4 / "son.n.01"
+				:Of s0))
+		:Topic (s5 / "quantity.n.01"
+			:EQU "+"))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:member (s6 / "money.n.01"
+		:Quantity s5))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "run_away.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Source (s3 / "home.n.01"))
+	:member s2
+	:member s3
+	:member (s4 / "person.n.01"
+		:EQU "speaker")
+	:member (s5 / "old.a.01"
+		:Time s2
+		:Time s3
+		:Value (s6 / "measure.n.02"
+			:Quantity "13"
+			:Unit "year"))
+	:member s6)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "want.v.01"
+		:Pivot s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "complain.v.01"
+			:Agent s0
+			:Topic (s4 / "service.n.01")))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "drive.v.03"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "female.n.02"
+			:Name "Mary")
+		:Destination (s4 / "home.n.01"
+			:User s0))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "as.r.01"
+		:Theme s0
+		:Co-Theme (s4 / "person.n.01"
+			:Role (s5 / "father.n.01"
+				:Of s0)))
+	:member (s3 / "tall.a.01"
+		:Attribute-of s0
+		:Time s1
+		:Degree s2)
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "go.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"))
+	:member s2
+	:member (s3 / "person.n.01"
+		:Role (s4 / "dad.n.01"
+			:Of s0))
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01")
+	:member (s1 / "say.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "male.n.02")
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s5 / "senior.a.01")
+		:member (s6 / "ill.a.01"
+			:Attribute-of s3
+			:Time s4
+			:Degree s5)))
+
+(b0 / "box"
+	:member (s0 / "hawk.n.01")
+	:member (s1 / "fly.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"))
+	:member s2
+	:CONTINUATION (b1 / "box"
+		:member (s3 / "take_off.v.06"
+			:Agent s0
+			:Time s2
+			:Theme (s5 / "cow.n.01"
+				:Owner "speaker"))
+		:member (s4 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member s5))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "quit.v.01"
+		:Time (s2 / "time.n.08"
+			:TPR "now"
+			:TAB (s4 / "measure.n.02"
+				:Quantity "2"
+				:Unit (s5 / "year.n.01")
+				:TAB "now"))
+		:Part-of (s3 / "smoke.v.01"))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "band.n.05")
+	:member (s1 / "come.v.02"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Destination (s3 / "town.n.01"
+			:User "speaker"))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "zip_up.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "jacket.n.01"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "convinced.a.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Recipient (s3 / "male.n.02"))
+	:member s2
+	:member s3
+	:ATTRIBUTION (b1 / "box"
+		:member (s4 / "male.n.02"
+			:EQU s3)
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member (s6 / "wrong.a.01"
+			:Attribute-of s4
+			:Time s5)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:Role (s1 / "brother.n.01"
+			:Of "speaker"))
+	:member s1
+	:member (s2 / "want.v.01"
+		:Pivot s0
+		:Time (s3 / "time.n.08"
+			:EQU "now")
+		:Theme (s4 / "kill.v.01"
+			:Agent s0
+			:Patient (s5 / "person.n.01"
+				:EQU "speaker")))
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "person.n.01")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "drink.v.01"
+		:Agent s0
+		:Time s1
+		:Patient (s3 / "orange_juice.n.01"))
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "time.n.08"
+			:EQU "now")
+		:member (s5 / "walk.v.01"
+			:Theme s0
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "female.n.02"
+		:Name "Mary"
+		:Role (s6 / "face.n.01"
+			:Part-of (s2 / "time.n.08"
+				:EQU "now")))
+	:member (s1 / "smile.v.02"
+		:Agent s0
+		:Time s2
+		:Recipient s6)
+	:member s2
+	:member (s3 / "baby.n.01")
+	:member (s4 / "cute.a.01"
+		:Attribute-of (s5 / "bear.n.01"
+			:Attribute-of s6))
+	:member s5
+	:member s6)
+
+(b0 / "box"
+	:member (s0 / "country.n.02"
+		:Name "egypt")
+	:member (s1 / "government.n.01"
+		:Source s0)
+	:member (s2 / "resign.v.01"
+		:Agent s1
+		:Time (s3 / "time.n.08"
+			:TPR "now")
+		:Theme (s4 / "speculation.n.01"
+			:Proposition (s5 / "group.n.01"
+				:Part (s7 / "famous.a.01"
+					:Attribute-of (s8 / "person.n.01"
+						:Role (s9 / "militant.n.01")))
+				:Part s9)))
+	:member s3
+	:member s4
+	:ATTRIBUTION (b1 / "box"
+		:member s5
+		:member (s6 / "baby.n.06")
+		:member s7
+		:member s8
+		:member s9
+		:member (s10 / "help.v.01"
+			:Time s5
+			:Agent s7
+			:Location (s12 / "bombing.n.01"))
+		:member (s11 / "time.n.08"
+			:TPR "now"
+			:EQU s5)
+		:member s12))
+
+(b0 / "box"
+	:member (s0 / "entity.n.01")
+	:member (s1 / "make.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Patient (s3 / "person.n.01"
+			:EQU "speaker")
+		:Result (s4 / "kind_of.r.01"))
+	:member s2
+	:member s3
+	:member s4
+	:member (s5 / "happy.a.01"
+		:Experiencer s3
+		:Degree s4))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "want.v.01"
+		:Pivot s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "kill.v.01"
+			:Agent s0
+			:Patient (s4 / "person.n.01")))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "know.v.01"
+		:Experiencer s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Stimulus (s4 / "joke.n.01"))
+	:member s2
+	:member (s3 / "dirty.a.01"
+		:Attribute-of s4)
+	:member s4
+	:CONTRAST (b1 / "box"
+		:member (s5 / "person.n.01"
+			:EQU "speaker")
+		:NEGATION (b2 / "box"
+			:member (s6 / "time.n.08"
+				:EQU "now"
+				:EQU s2)
+			:member (s7 / "tell.v.01"
+				:Agent s5
+				:Time s6
+				:Recipient (s8 / "person.n.01"))
+			:member s8)))
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "like.v.02"
+			:Experiencer s0
+			:Time s1
+			:Stimulus (s3 / "speak.v.01"
+				:Agent s0)
+			:Manner (s4 / "in_public.a.01"))
+		:member s3
+		:member s4))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:TPR "now")
+		:member (s2 / "tell.v.02"
+			:Agent s0
+			:Time s1
+			:Recipient (s3 / "person.n.01"
+				:EQU "speaker"))
+		:member s3
+		:member (s4 / "male.n.02"
+			:EQU s0)
+		:member (s5 / "last_name.n.01"
+			:Bearer s4)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "know.v.01"
+		:Experiencer s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "male.n.02")
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s5 / "in_love.a.01"
+			:Experiencer s3
+			:Time s4
+			:Stimulus (s6 / "person.n.01"
+				:EQU "hearer"))
+		:member s6))
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "time.n.08"
+		:TPR "now")
+	:member (s2 / "wear_off.v.02"
+		:Theme s0
+		:Time s1)
+	:CONTINUATION (b1 / "box"
+		:member (s3 / "time.n.08"
+			:TPR "now")
+		:member (s4 / "lean.v.01"
+			:Theme s0
+			:Time s3
+			:Location (s5 / "apple_tree.n.01"))
+		:member s5))
+
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:member (s0 / "time.n.08")
+		:NEGATION (b2 / "box"
+			:member (s1 / "male.n.02")
+			:member (s2 / "listen.v.01"
+				:Time s0
+				:Experiencer s1
+				:Stimulus (s5 / "music.n.01"))
+			:member (s3 / "time.n.08"
+				:EQU "now"
+				:EQU s0)
+			:member (s4 / "serious.a.01"
+				:Attribute-of s5)
+			:member s5)))
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "take_off.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s4 / "shoe.n.01"
+			:User s0))
+	:member s2
+	:member (s3 / "old.a.02"
+		:Attribute-of s4)
+	:member s4
+	:CONTINUATION (b1 / "box"
+		:member (s5 / "put.v.01"
+			:Agent s0
+			:Time s2
+			:Theme (s8 / "shoe.n.01"))
+		:member (s6 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member (s7 / "new.a.01"
+			:Attribute-of s8)
+		:member s8))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "unbutton.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Patient (s3 / "shirt.n.01"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "old.a.01"
+		:Value "+")
+	:member (s1 / "lady.n.01"
+		:Attribute s0)
+	:member (s2 / "time.n.08"
+		:EQU "now")
+	:member (s3 / "count.v.01"
+		:Agent s1
+		:Time s2
+		:Theme (s5 / "drink.n.01"
+			:Owner (s4 / "female.n.02")))
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "stop.v.02"
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Part-of (s3 / "study.v.01"
+			:Agent s0))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "female.n.02"
+			:EQU s0)
+		:member (s5 / "leave.v.01"
+			:Time s2
+			:Theme s4
+			:Source (s7 / "university.n.03"))
+		:member (s6 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member s7
+		:NEGATION (b2 / "box"
+			:member (s8 / "degree.n.01"
+				:Instrument s5))))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "say.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "entity.n.01")
+		:NEGATION (b2 / "box"
+			:member (s4 / "time.n.08"
+				:TPR "now"
+				:EQU s2)
+			:member (s5 / "matter.v.01"
+				:Stimulus s3
+				:Time s4))))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "stay.v.02"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Location (s3 / "home.n.01"))
+	:member s2
+	:member s3
+	:EXPLANATION (b1 / "box"
+		:member (s4 / "person.n.01"
+			:EQU "speaker")
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member (s6 / "sick.a.01"
+			:Experiencer s4
+			:Time s5)))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "seat_belt.n.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "seat_belt.n.01"
+			:User s0))
+	:member s2
+	:member s3)
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Naoki")
+	:member (s1 / "time.n.08"
+		:TPR "now")
+	:member (s2 / "poor.a.01"
+		:Attribute-of s0
+		:Time s1
+		:Location (s3 / "location.n.01"
+			:STI (s4 / "pool.n.01")))
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "ashamed.a.01"
+			:Experiencer s0
+			:Time s1
+			:Stimulus (s3 / "see.v.01"
+				:Theme s0
+				:Co-Theme (s4 / "person.n.01")))
+		:member s3
+		:member s4))
+
+(b0 / "box"
+	:member (s0 / "day.n.03")
+	:member (s1 / "time.n.08"
+		:TIN s0
+		:EQU "now")
+	:member (s2 / "person.n.01"
+		:EQU "speaker")
+	:member (s3 / "have.v.02"
+		:Time s1
+		:Pivot s2
+		:Theme (s5 / "pain.n.01"))
+	:member (s4 / "lung_cancer.n.01"
+		:Theme s5)
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "country.n.02"
+		:Name "Nepal")
+	:member (s1 / "government.n.01"
+		:Creator s0)
+	:member (s2 / "entity.n.01"
+		:Sub s1
+		:Sub (s3 / "private_stations.n.01"
+			:Name "Law"))
+	:member s3
+	:member (s4 / "time.n.08"
+		:EQU "now")
+	:member (s5 / "launch.v.01"
+		:Agent s2
+		:Time s4
+		:Theme (s7 / "appeal.n.01"))
+	:member (s6 / "new.a.01"
+		:Attribute-of s7)
+	:member s7
+	:CONTINUATION (b1 / "box"
+		:member (s8 / "time.n.08"
+			:EQU "now")
+		:member (s9 / "accommodate.v.04"
+			:Agent s3
+			:Time s8
+			:Theme (s11 / "jaguar.n.01"))
+		:member (s10 / "conservative.a.02"
+			:Attribute-of s11)
+		:member s11))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "jot.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "entity.n.01")
+		:Destination (s4 / "notebook.n.01"
+			:User s0))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "stick.v.01"
+		:Time (s1 / "time.n.08"
+			:TPR "now")
+		:Theme (s2 / "pencil.n.01"
+			:User (s3 / "location.n.01"
+				:SXP (s5 / "ear.n.01"
+					:Part-of (s4 / "male.n.02"
+						:Name "Tom"))))
+		:Agent s3
+		:Destination s4)
+	:member s1
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "entity.n.01"
+		:Sub s0
+		:Sub (s2 / "female.n.02"
+			:Name "Mary"))
+	:member s2
+	:member (s3 / "time.n.08"
+		:TPR "now")
+	:member (s4 / "pick_up.v.01"
+		:Agent s1
+		:Time s3
+		:Theme (s5 / "person.n.01"
+			:Role (s6 / "rent.v.04")))
+	:member s5
+	:member s6)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "have.v.06"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:ClockTime "07:30"
+			:TPR "now")
+		:Patient (s3 / "breakfast.n.01"
+			:Time s2))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "clean_out.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Source (s3 / "bank_account.n.01"
+			:User s0))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "disappear.v.01"
+			:Theme s0
+			:Time s2)
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01")
+	:member (s1 / "do.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "entity.n.01"
+			:Name "?"))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "hearer")
+	:member (s1 / "person.n.01"
+		:Quantity "?")
+	:member (s2 / "time.n.08"
+		:TPR "now"
+		:TIN (s5 / "day.n.03"))
+	:member (s3 / "person.n.01"
+		:EQU "hearer")
+	:member (s4 / "watch.v.01"
+		:Theme s1
+		:Time s2
+		:Agent s3)
+	:member s5
+	:member (s6 / "day.n.03"
+		:TAB s5)
+	:member (s7 / "terra_incognita.n.01"
+		:EQU "now"
+		:TIN s5))
+
+(b0 / "box"
+	:member (s0 / "time.n.08"
+		:TPR "now")
+	:member (s1 / "rob.v.01"
+		:Time s0
+		:Source (s2 / "money.n.01"
+			:User (s4 / "home.n.01"
+				:User (s3 / "home.n.01")))
+		:Destination s3)
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "burp.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"))
+	:member s2
+	:member (s3 / "think.v.01"
+		:Agent s0
+		:TIN s1
+		:Time s2
+		:Theme (s4 / "dish.n.01"))
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "child.n.02")
+	:member (s1 / "take.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s4 / "ice_cream.n.01"
+			:Owner (s3 / "person.n.01")))
+	:member s2
+	:member s3
+	:member s4
+	:CONTINUATION (b1 / "box"
+		:member (s5 / "make.v.06"
+			:Agent s0
+			:Time s2
+			:Goal (s8 / "pond.n.01"))
+		:member (s6 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member (s7 / "thin_air.n.01"
+			:Attribute-of s8)
+		:member s8))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "toy.n.01"
+		:User s0)
+	:member (s2 / "time.n.08"
+		:TPR "now")
+	:member (s3 / "break.v.05"
+		:Patient s0
+		:Time s2
+		:Agent (s4 / "person.n.01"
+			:Role (s5 / "little_sister.n.01"
+				:Of s0)))
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "soon.r.01")
+	:member (s1 / "male.n.02"
+		:Name "Tom")
+	:member (s2 / "hear.v.01"
+		:Manner s0
+		:Experiencer s1
+		:Time (s3 / "time.n.08"
+			:TPR "now")
+		:Stimulus (s4 / "phone.n.01"))
+	:member s3
+	:member s4
+	:ATTRIBUTION (b1 / "box"
+		:member (s5 / "male.n.02"
+			:EQU s0)
+		:member (s6 / "answer.v.02"
+			:Time s3
+			:Agent s5
+			:Theme (s8 / "entity.n.01"))
+		:member (s7 / "time.n.08"
+			:TPR "now"
+			:EQU s3)
+		:member s8))
+
+(b0 / "box"
+	:member (s0 / "woman.n.01")
+	:member (s1 / "be.v.03"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Source (s3 / "country.n.02"
+			:Name "China"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "female.n.02"
+			:EQU s0)
+		:member (s5 / "speak.v.03"
+			:Time s2
+			:Agent s4
+			:Theme (s7 / "chinese.n.01"))
+		:member (s6 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "be.v.03"
+		:Time (s1 / "time.n.08"
+			:EQU "now")
+		:Theme (s2 / "place.n.01")
+		:Location (s3 / "country.n.02"
+			:Name "Yokohama"))
+	:member s1
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "have.v.01"
+		:Experiencer s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Stimulus (s3 / "cold.n.01"))
+	:member s2
+	:member s3
+	:CONTRAST (b1 / "box"
+		:member (s4 / "male.n.02"
+			:EQU s0)
+		:member (s5 / "go.v.01"
+			:Time s2
+			:Theme s4
+			:Destination (s7 / "work.n.03"))
+		:member (s6 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "convinced.a.01"
+		:Experiencer s0
+		:Time s1
+		:Proposition (s3 / "job.n.01"))
+	:ATTRIBUTION (b1 / "box"
+		:member s3
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s1)
+		:member (s5 / "perfect.a.01"
+			:Attribute-of s3
+			:Time s4
+			:Beneficiary (s6 / "person.n.01"
+				:EQU "hearer"))
+		:member s6))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "afraid.a.01"
+		:Experiencer s0
+		:Time s1
+		:Proposition (s3 / "line.n.09"))
+	:ATTRIBUTION (b1 / "box"
+		:member s3
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s1)
+		:member (s5 / "busy.a.01"
+			:Attribute-of s3
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:Role (s1 / "researcher.n.01"))
+	:member s1
+	:member (s2 / "train.v.01"
+		:Agent s0
+		:Time (s3 / "time.n.08"
+			:TPR "now")
+		:Patient (s4 / "monkey.n.01")
+		:Result (s5 / "play.v.01"
+			:Agent s4
+			:Theme (s6 / "comic_book.n.01")))
+	:member s3
+	:member s4
+	:member s5
+	:member s6)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "want.v.01"
+		:Pivot s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "walk.v.01"
+			:Theme s0))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "entity.n.01"
+		:EQU "?")
+	:member (s1 / "be.v.02"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s4 / "hotel.n.01"
+			:Location (s5 / "city.n.01"
+				:Name "Boston")))
+	:member s2
+	:member (s3 / "favorite.a.02"
+		:Experiencer "hearer"
+		:Stimulus s4)
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "want.v.01"
+		:Pivot s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "go.v.01"
+			:Theme s0
+			:Destination (s4 / "island.n.01"
+				:Name "Bali")))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:Role (s1 / "cyclist.n.01"))
+	:member s1
+	:member (s2 / "time.n.08"
+		:EQU "now")
+	:member (s3 / "wear.v.02"
+		:Agent s0
+		:Time s2
+		:Theme (s5 / "shorts.n.01"
+			:MadeOf (s4 / "company.n.01")))
+	:member s4
+	:member s5
+	:member (s6 / "make.v.06"
+		:Product s5
+		:Material (s7 / "trifle.n.03"))
+	:member s7)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "person.n.01"
+		:Role (s2 / "parent.n.01"
+			:Of s0))
+	:member s2
+	:member (s3 / "hate.v.01"
+		:Stimulus s0
+		:Experiencer s1
+		:Time (s4 / "time.n.08"
+			:EQU "now"))
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "proficient.a.02"
+		:Attribute-of s0
+		:Time s1
+		:Theme (s3 / "english.n.01"))
+	:member s3
+	:CONSEQUENCE (b1 / "box"
+		:member (s4 / "person.n.01"
+			:EQU "speaker")
+		:member (s5 / "time.n.08"
+			:TSU "now")
+		:member (s6 / "employ.v.01"
+			:Theme s3
+			:Agent s4
+			:Time s5)
+		:member (s7 / "male.n.02"
+			:EQU s0)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "hearer")
+	:member (s1 / "say.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "male.n.02")
+		:member (s4 / "name.n.01"
+			:Bearer s3)
+		:member (s5 / "be.v.02"
+			:Time s2
+			:Theme s4
+			:Co-Theme (s7 / "male.n.02"
+				:Name "Tom"))
+		:member (s6 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "time.n.08"
+		:TPR "now")
+	:member (s2 / "feel.v.03"
+		:Experiencer s0
+		:Time s1
+		:Stimulus (s4 / "tired.a.01"
+			:Experiencer s0
+			:Degree (s3 / "kind_of.r.01")))
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "be.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s4 / "boy.n.01"))
+	:member s2
+	:member (s3 / "good.a.08"
+		:Attribute-of s4)
+	:member s4
+	:CONTINUATION (b1 / "box"
+		:member (s5 / "male.n.02"
+			:EQU s0)
+		:member (s6 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s7 / "very.r.01")
+		:member (s8 / "strong.a.01"
+			:Attribute-of s5
+			:Time s6
+			:Degree s7)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "think.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now"))
+	:member s2
+	:ATTRIBUTION (b1 / "box"
+		:member (s3 / "person.n.01"
+			:EQU "hearer")
+		:member (s4 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s5 / "jealous.a.01"
+			:Experiencer s3
+			:Time s4)))
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "wrap.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "sandwich.n.01"
+			:Consumer s0)
+		:Destination (s5 / "plastic_bag.n.01"
+			:MadeOf (s4 / "plastic.n.01")))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "pineapple.n.02")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "last.v.01"
+		:Theme s0
+		:Time s1
+		:Value (s3 / "measure.n.02"
+			:Quantity "3"
+			:Unit (s4 / "year.n.01")))
+	:member s3
+	:member s4
+	:CONTINUATION (b1 / "box"
+		:member (s5 / "person.n.01")
+		:member (s6 / "time.n.08"
+			:EQU "now")
+		:member (s7 / "time.n.08"
+			:EQU "now")
+		:member (s8 / "husband.n.01"
+			:Attribute-of s5
+			:Time s6)
+		:member (s9 / "angry.a.01"
+			:Attribute-of s5
+			:Time s7)))
+
+(b0 / "box"
+	:member (s0 / "house.n.01"
+		:User "speaker")
+	:member (s1 / "be.v.03"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Location (s3 / "west.n.08"
+			:Of (s4 / "river.n.01"
+				:Name "Thames")))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "tell.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Recipient (s3 / "person.n.01"
+			:EQU "speaker"))
+	:member s2
+	:member s3
+	:ATTRIBUTION (b1 / "box"
+		:member (s4 / "male.n.02"
+			:EQU s0)
+		:member (s5 / "lose.v.01"
+			:Time s2
+			:Agent s4
+			:Theme (s7 / "watch.n.01"
+				:User s4))
+		:member (s6 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "beg.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Recipient (s3 / "female.n.02"
+			:Name "Mary")
+		:Topic (s4 / "stay.v.02"
+			:Theme s3))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "little.a.03"
+		:Attribute-of (s1 / "girl.n.01"))
+	:member s1
+	:member (s2 / "deeply.r.01")
+	:member (s3 / "move.v.01"
+		:Theme s1
+		:Degree s2
+		:Time (s4 / "time.n.08"
+			:TPR "now")
+		:Manner (s6 / "man.n.01"
+			:Attribute (s5 / "old.a.02"
+				:Value "+")))
+	:member s4
+	:member s5
+	:member s6
+	:member (s7 / "placate.v.01"
+		:Attribute-of (s8 / "story.n.01"
+			:Part-of s5))
+	:member s8
+	:member (s9 / "burst.v.01"
+		:Patient s8
+		:Time (s10 / "time.n.08"
+			:TPR "now")
+		:Result (s11 / "tear.n.01"))
+	:member s10
+	:member s11)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:TPR "now"
+		:TIN (s4 / "day.n.03"))
+	:member (s2 / "very.r.01")
+	:member (s3 / "tired.a.01"
+		:Experiencer s0
+		:Time s1
+		:Degree s2)
+	:member s4
+	:member (s5 / "terra_incognita.n.01"
+		:EQU "now"
+		:TIN s4))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "plant.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "apple_tree.n.01"
+			:Quantity "3")
+		:Destination (s4 / "yard.n.02"
+			:User s0))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "stone.n.01")
+	:member (s1 / "time.n.08"
+		:TPR "now")
+	:member (s2 / "heavy.a.01"
+		:Attribute-of s0
+		:Time s1
+		:Value "+")
+	:RESULT (b1 / "box"
+		:member (s3 / "person.n.01"
+			:EQU "speaker")
+		:NEGATION (b2 / "box"
+			:POSSIBILITY (b3 / "box"
+				:member (s4 / "lift.v.01"
+					:Theme s0
+					:Agent s3)
+				:member (s5 / "entity.n.01"
+					:EQU s0)))))
+
+(b0 / "box"
+	:member (s0 / "entity.n.01")
+	:member (s1 / "be.v.01"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s3 / "pump.v.01"))
+	:member s2
+	:member s3
+	:CONTRAST (b1 / "box"
+		:member (s4 / "entity.n.01"
+			:EQU s0)
+		:member (s5 / "time.n.08"
+			:EQU "now"
+			:EQU s2)
+		:member (s6 / "true.a.01"
+			:Attribute-of s4
+			:Time s5)))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "say.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Location (s3 / "country.n.02"
+			:Name "Tunisia"))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "time.n.08"
+		:TPR "now")
+	:member (s2 / "tired.a.01"
+		:Experiencer s0
+		:Time s1)
+	:NEGATION (b1 / "box"
+		:POSSIBILITY (b2 / "box"
+			:member (s3 / "speak.v.01"
+				:Agent s0))))
+
+(b0 / "box"
+	:member (s0 / "price.n.01")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "low.a.01"
+		:Attribute-of s0
+		:Time s1)
+	:CONTRAST (b1 / "box"
+		:member (s3 / "entity.n.01"
+			:EQU s0)
+		:NEGATION (b2 / "box"
+			:member (s4 / "time.n.08"
+				:EQU "now"
+				:EQU s1)
+			:member (s5 / "very.r.01")
+			:member (s6 / "good.a.01"
+				:Attribute-of s3
+				:Time s4
+				:Degree s5))))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:Name "?")
+	:member (s1 / "jewel.n.01"
+		:User s0)
+	:member (s2 / "be.v.02"
+		:Co-Theme s1
+		:Time (s3 / "time.n.08"
+			:EQU "now")
+		:Theme (s4 / "entity.n.01"))
+	:member s3
+	:member s4
+	:CONTINUATION (b1 / "box"
+		:member (s5 / "entity.n.01"
+			:EQU s1)
+		:member (s6 / "be.v.02"
+			:Time s3
+			:Theme s5
+			:Co-Theme (s9 / "'s.n.01"
+				:User (s8 / "female.n.02"
+					:Name "Taninna")))
+		:member (s7 / "time.n.08"
+			:EQU "now"
+			:EQU s3)
+		:member s8
+		:member s9))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "fail.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Topic (s3 / "catch.v.08"
+			:Agent s0
+			:Theme (s4 / "train.n.01"
+				:Time s2)))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "entity.n.01")
+	:member (s1 / "support.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Theme (s3 / "suspect.n.01"
+			:Proposition (s4 / "person.n.01"
+				:Role (s5 / "employee.n.01"))))
+	:member s2
+	:member s3
+	:ATTRIBUTION (b1 / "box"
+		:NEGATION (b2 / "box"
+			:member s4
+			:member s5
+			:member (s6 / "time.n.08"
+				:TPR "now"
+				:EQU s2)
+			:member (s7 / "responsible.a.02"
+				:Experiencer s4
+				:Time s6
+				:Stimulus (s8 / "crime.n.01"))
+			:member s8)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "thank.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "female.n.02"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "stick.v.01"
+			:Agent s0
+			:Time s2
+			:Theme (s6 / "rose.n.01")
+			:Destination (s7 / "button.n.01"
+				:User "speaker"))
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s2)
+		:member s6
+		:member s7))
+
+(b0 / "box"
+	:member (s0 / "entity.n.01")
+	:member (s1 / "person.n.01"
+		:EQU "speaker")
+	:member (s2 / "expect.v.01"
+		:Theme s0
+		:Agent s1
+		:Time (s3 / "time.n.08"
+			:TPR "now"))
+	:member s3
+	:member (s4 / "happen.v.01"
+		:Theme s0
+		:Time s3))
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "deeply.r.01")
+	:member (s3 / "attached.a.04"
+		:Experiencer s0
+		:Time s1
+		:Degree s2
+		:Stimulus (s4 / "person.n.01"
+			:Role (s5 / "parent.n.01"
+				:Of s0)))
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "female.n.02")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "as.r.01"
+			:Theme s0
+			:Co-Theme (s4 / "female.n.02"
+				:EQU s0))
+		:member (s3 / "lucky.a.02"
+			:Attribute-of s0
+			:Time s1
+			:Degree s2)
+		:member s4
+		:member (s5 / "little_sister.n.01"
+			:Of s4)))
+
+(b0 / box)
+
+(b0 / "box"
+	:member (s0 / "entity.n.01")
+	:member (s1 / "remind.v.01"
+		:Stimulus s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Experiencer (s3 / "person.n.01"
+			:EQU "speaker")
+		:Theme (s4 / "person.n.01"))
+	:member s2
+	:member s3
+	:member s4
+	:member (s5 / "person.n.01"
+		:EQU "speaker")
+	:member (s6 / "time.n.08"
+		:TPR "now")
+	:member (s7 / "bear.v.01"
+		:Patient s4
+		:Agent s5
+		:Time s6))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "time.n.08"
+		:TPR "now")
+	:member (s2 / "arrest.v.01"
+		:Patient s0
+		:Time s1)
+	:EXPLANATION (b1 / "box"
+		:member (s3 / "male.n.02"
+			:EQU s0)
+		:member (s4 / "steal.v.01"
+			:Time s1
+			:Agent s3
+			:Theme (s6 / "money.n.01"))
+		:member (s5 / "time.n.08"
+			:TPR "now"
+			:EQU s1)
+		:member s6))
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:member (s1 / "marry.v.02"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Co-Agent (s3 / "person.n.01"
+			:Role (s4 / "daughter.n.01"
+				:Of s0))
+		:Co-Theme (s5 / "person.n.01"
+			:Role (s6 / "lawyer.n.01")))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:member s6)
+
+(b0 / "box"
+	:member (s0 / "entity.n.01"
+		:EQU "?")
+	:member (s1 / "be.v.02"
+		:Theme s0
+		:Time (s2 / "time.n.08"
+			:EQU "now")
+		:Co-Theme (s5 / "town.n.01"
+			:Location (s4 / "small.a.01"
+				:Value "+")))
+	:member s2
+	:member (s3 / "favorite.a.02"
+		:Experiencer "hearer"
+		:Stimulus s5
+		:Location (s6 / "country.n.02"
+			:Name "United States"))
+	:member s4
+	:member s5
+	:member s6)
+
+(b0 / "box"
+	:member (s0 / "final.a.01"
+		:Attribute-of (s1 / "score.n.03"))
+	:member s1
+	:member (s2 / "be.v.06"
+		:Theme s1
+		:Time (s3 / "time.n.08"
+			:TPR "now")
+		:Co-Theme (s4 / "score.n.03"
+			:Value "1-0"))
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:member (s0 / "general_election.n.01")
+	:member (s1 / "hold.v.01"
+		:Theme s0
+		:Location (s2 / "country.n.02"
+			:Name "Chile")
+		:Time (s3 / "time.n.08"
+			:DayOfMonth "30"
+			:MonthOfYear "10"
+			:YearOfCentury "1940"
+			:TPR "now"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "male.n.02"
+			:Name "Abraham Lincoln"
+			:Part-of (s5 / "party.n.01"
+				:Name "Labour Party"))
+		:member s5
+		:member (s6 / "elect.v.01"
+			:Theme s4
+			:Time (s7 / "time.n.08"
+				:TPR "now")
+			:Result (s9 / "most.r.01"))
+		:member s7
+		:member (s8 / "large.a.01"
+			:Degree s9)
+		:member s9
+		:member (s10 / "party.n.01"
+			:Attribute s8
+			:Part-of (s11 / "party.n.01"
+				:Name "New Democracy"))
+		:member s11))
+
+(b0 / "box"
+	:member (s0 / "man.n.01")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "open.v.01"
+		:Agent s0
+		:Time s1
+		:Patient (s3 / "beer.n.01"))
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "time.n.08"
+			:EQU "now")
+		:member (s5 / "drink.v.01"
+			:Agent s0
+			:Time s4
+			:Patient (s6 / "entity.n.01"))
+		:member s6))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "hearer")
+	:member (s1 / "set.v.08"
+		:Agent s0
+		:Theme (s2 / "clock.n.01")
+		:Manner (s3 / "right.a.01"))
+	:member s2
+	:member s3
+	:CONTINUATION (b1 / "box"
+		:member (s4 / "entity.n.01"
+			:EQU s3)
+		:member (s5 / "time.n.08"
+			:EQU "now")
+		:member (s6 / "measure.n.02"
+			:Quantity "10"
+			:Unit (s7 / "minute.n.01"))
+		:member s7
+		:member (s8 / "fast.a.02"
+			:Theme s4
+			:Time s5
+			:Value s6)))
+

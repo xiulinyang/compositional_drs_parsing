@@ -1,0 +1,1076 @@
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / be.v.02
+		:Time (s1 / time.n.08
+			:EQU "now")
+		:Theme (s2 / entity.n.01)
+		:Co-Theme (s3 / city.n.01
+			:Name "Paris"))
+	:member s1
+	:member s2
+	:member s3
+	:member (s4 / entity.n.01
+		:EQU s3)
+	:member (s5 / city.n.01
+		:Name "Marshall"))
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / be.v.02
+		:Time (s1 / time.n.08
+			:EQU "now")
+		:Theme (s2 / baby.n.01)
+		:Co-Theme (s3 / person.n.01
+			:EQU "speaker"))
+	:member s1
+	:member s2
+	:member s3
+	:member (s4 / entity.n.01
+		:Sub s3
+		:Sub (s5 / female.n.02))
+	:member s5)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Tom")
+	:member (s1 / time.n.08
+		:EQU "now")
+	:member (s2 / very.r.01)
+	:member (s3 / naive.a.01
+		:Attribute-of s0
+		:Time s1
+		:Degree s2))
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / computer.n.01
+		:User s0)
+	:member (s2 / time.n.08
+		:EQU "now")
+	:member (s3 / broken.a.01
+		:Attribute-of s1
+		:Time s2))
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Mary")
+	:member (s1 / entity.n.01
+		:Sub s0
+		:Sub (s2 / male.n.02
+			:Name "Harry"))
+	:member s2
+	:member (s3 / have.v.01
+		:Pivot s1
+		:Time (s4 / time.n.08
+			:EQU "now")
+		:Theme (s6 / hair.n.01
+			:Attribute (s5 / long.a.02
+				:Value "+")))
+	:member s4
+	:member s5
+	:member s6)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / female.n.02)
+	:member (s1 / observe.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Topic (s3 / way.n.01
+			:EQU "?"))
+	:member s2
+	:member s3
+	:member (s4 / butterfly.n.01)
+	:member (s5 / fly.v.01
+		:Theme s4
+		:Time (s6 / time.n.08
+			:EQU "now"))
+	:member s6)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / typhoon.n.01)
+	:member (s1 / batter.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Patient (s3 / country.n.02
+			:Name "Philippines"))
+	:member s2
+	:member s3)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "hearer")
+	:member (s1 / need.v.01
+		:Pivot s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s3 / umbrella.n.01))
+	:member s2
+	:member s3
+	:member (s4 / person.n.01
+		:EQU "speaker")
+	:member (s5 / time.n.08
+		:TSU "now")
+	:member (s6 / lend.v.01
+		:Agent s4
+		:Time s5
+		:Recipient (s7 / person.n.01
+			:EQU "hearer")
+		:Theme (s8 / umbrella.n.01))
+	:member s7
+	:member s8)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / offer.v.02
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Recipient (s3 / male.n.02)
+		:Theme (s5 / pence.n.01
+			:Quantity (s4 / quantity.n.01
+				:EQU "50")))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:member (s6 / male.n.02
+		:ANA s1)
+	:member (s7 / accept.v.01
+		:Agent s2
+		:Time (s8 / time.n.08
+			:TPR "now"))
+	:member s8)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:EQU "now")
+	:member (s2 / angry.a.01
+		:Experiencer s0
+		:Time s1
+		:Stimulus (s4 / steal.v.01
+			:Agent (s3 / person.n.01)
+			:Time (s5 / time.n.08
+				:TPR "now")
+			:Theme (s7 / bicycle.n.01
+				:User (s6 / person.n.01
+					:EQU "speaker"))))
+	:member s3
+	:member s4
+	:member s5
+	:member s6
+	:member s7)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / bee.n.01)
+	:member (s1 / buzz.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:EQU "now"))
+	:member s2)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / itch.v.01
+		:Experiencer s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Location (s3 / location.n.01))
+	:member s2
+	:member s3)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / entity.n.01)
+	:member (s1 / time.n.08
+		:EQU "now")
+	:member (s2 / cheap.a.01
+		:Attribute-of s0
+		:Time s1))
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / lick.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Patient (s3 / person.n.01
+			:EQU "speaker"))
+	:member s2
+	:member s3)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "hearer")
+	:member (s1 / eat.v.01
+		:Agent s0
+		:Patient (s2 / entity.n.01))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "hearer")
+	:member (s4 / time.n.08
+		:TSU "now")
+	:member (s5 / die.v.01
+		:Patient s2
+		:Time s4))
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Nancy")
+	:member (s1 / time.n.08
+		:EQU "now")
+	:member (s2 / very.r.01)
+	:member (s3 / cute.a.01
+		:Attribute-of s0
+		:Time s1
+		:Degree s2))
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / case.n.01
+		:EQU (s1 / emergency.n.02))
+	:member s1
+	:member (s2 / call.v.01
+		:Agent s0
+		:Theme s1
+		:Time (s3 / time.n.08
+			:EQU "now"))
+	:member s3
+	:member (s4 / phone_number.n.01
+		:Name "119"))
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / traffic.n.01)
+	:member (s1 / accident.n.01
+		:Causer s0)
+	:member (s2 / happen.v.01
+		:Theme s1
+		:Time (s3 / time.n.08
+			:EQU "now")
+		:Time (s4 / day.n.03))
+	:member s3
+	:member s4)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / time.n.08
+		:EQU "now")
+	:member (s1 / male.n.02
+		:Name "Tom")
+	:member (s2 / left-handed.a.01
+		:Time s0
+		:Attribute-of "-3"
+		:EQU s1))
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / flower.n.01)
+	:member (s1 / time.n.08
+		:EQU "now")
+	:member (s2 / beautiful.a.01
+		:Attribute-of s0
+		:Time s1))
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / camels.n.01)
+	:member (s1 / have.v.01
+		:Pivot s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s4 / humps.n.01
+			:Quantity (s3 / quantity.n.01
+				:EQU "1")))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / time.n.08
+		:EQU "now")
+	:member (s1 / person.n.01
+		:EQU "hearer")
+	:member (s2 / prefer.v.01
+		:Time s0
+		:Experiencer s1
+		:Stimulus (s4 / beer.n.01
+			:Source (s3 / country.n.02
+				:Name "belgium")))
+	:member s3
+	:member s4)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / time.n.08
+		:EQU "now")
+	:member (s1 / person.n.01
+		:EQU "hearer")
+	:member (s2 / support.v.01
+		:Time s0
+		:Agent s1
+		:Theme (s4 / male.n.02
+			:Name "Barack Obama"))
+	:member (s3 / male.n.02
+		:Name "Mitt Romney"
+		:EQU s4)
+	:member s4)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+

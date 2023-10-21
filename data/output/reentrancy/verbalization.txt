@@ -1,0 +1,600 @@
+p38/d1935
+It's a novel-based film.
+['s0', 's2', 's5', 's3', 's5']
+(b0 / box
+	:member (s0 / entity.n.01)
+	:member (s1 / be.v.01
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s5 / film.n.01))
+	:member s2
+	:member (s3 / novel.n.01)
+	:member (s4 / base.v.01
+		:Source s3
+		:Theme s5)
+	:member s5)
+
+p53/d1601
+It's a novel-based movie.
+['s0', 's2', 's5', 's3', 's5']
+(b0 / box
+	:member (s0 / entity.n.01)
+	:member (s1 / be.v.01
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s5 / movie.n.01))
+	:member s2
+	:member (s3 / novel.n.01)
+	:member (s4 / base.v.01
+		:Source s3
+		:Theme s5)
+	:member s5)
+
+p04/d1684
+They found the stolen money.
+['s0', 's2', 's4', 'steal.v.01', 's4']
+(b0 / box
+	:member (s0 / person.n.01)
+	:member (s1 / find.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s4 / money.n.01))
+	:member s2
+	:member (s3 / steal.v.01
+		:Theme s4)
+	:member s4)
+
+p18/d3496
+Jean Reno is my favorite actor.
+['s0', 's2', 's5', 's6', 's3', 's6']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Jean Reno")
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s5 / person.n.01
+			:Role (s6 / actor.n.01)))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "speaker")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s6)
+	:member s5
+	:member s6)
+
+p00/d2612
+What's your favorite commercial?
+['s0', 's2', 's5', 's3', 's5']
+(b0 / box
+	:member (s0 / entity.n.01
+		:EQU "?")
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s5 / commercial.n.01))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "hearer")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s5)
+	:member s5)
+
+p61/d2747
+What's your favorite kind of book?
+['s0', 's2', 's5', 's3', 's5']
+(b0 / box
+	:member (s0 / entity.n.01
+		:EQU "?")
+	:member (s1 / be.v.01
+		:Co-Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s5 / entity.n.01
+			:Instance-of (s6 / book.n.01)))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "hearer")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s5)
+	:member s5
+	:member s6)
+
+p84/d3469
+What's your favorite kind of apple?
+['s0', 's2', 's5', 's3', 's5']
+(b0 / box
+	:member (s0 / entity.n.01
+		:EQU "?")
+	:member (s1 / be.v.01
+		:Co-Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s5 / entity.n.01
+			:Instance-of (s6 / apple.n.01)))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "hearer")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s5)
+	:member s5
+	:member s6)
+
+p29/d2017
+Graham Greene is my favorite author.
+['s0', 's2', 's5', 's6', 's3', 's6']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Graham Greene")
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s5 / person.n.01
+			:Role (s6 / author.n.01)))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "speaker")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s6)
+	:member s5
+	:member s6)
+
+p06/d1382
+What is Ronald Reagan's favorite candy?
+['s0', 's2', 's5', 's3', 's5']
+(b0 / box
+	:member (s0 / entity.n.01
+		:EQU "?")
+	:member (s1 / be.v.02
+		:Co-Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s5 / candy.n.01))
+	:member s2
+	:member (s3 / male.n.02
+		:Name "Ronald Reagan")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s5)
+	:member s5)
+
+p66/d3323
+Graham Greene is a favorite author of mine.
+['s0', 's2', 's4', 's5', 's5', 's6']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Graham Greene")
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s4 / person.n.01
+			:Role (s5 / author.n.01)))
+	:member s2
+	:member (s3 / favorite.a.02
+		:Stimulus s5
+		:Experiencer (s6 / person.n.01
+			:EQU "speaker"))
+	:member s4
+	:member s5
+	:member s6)
+
+p10/d1665
+What's your favorite cartoon?
+['s0', 's2', 's5', 's3', 's5']
+(b0 / box
+	:member (s0 / entity.n.01
+		:EQU "?")
+	:member (s1 / be.v.03
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s5 / cartoon.n.01))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "hearer")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s5)
+	:member s5)
+
+p02/d1748
+What's your favorite fast food?
+['s0', 's2', 's5', 's3', 's5']
+(b0 / box
+	:member (s0 / entity.n.01
+		:EQU "?")
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s5 / fast_food.n.01))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "hearer")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s5)
+	:member s5)
+
+p31/d1398
+What's your favorite Beatles song?
+['s0', 's2', 's6', 'song.n.01', 's5', 's3', 's6']
+(b0 / box
+	:member (s0 / entity.n.01
+		:Name "?")
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s6 / song.n.01
+			:Creator (s5 / musical_organization.n.01
+				:Name "Beatles")))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "hearer")
+	:member (s4 / favorite.a.02
+		:User s3
+		:Stimulus s6)
+	:member s5
+	:member s6)
+
+p16/d3255
+What's your favorite Disney movie?
+['s0', 's2', 's6', 's5', 's3', 's6']
+(b0 / box
+	:member (s0 / entity.n.01
+		:Name "?")
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s6 / movie.n.01
+			:Creator (s5 / male.n.02
+				:Name "Disney")))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "hearer")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s6)
+	:member s5
+	:member s6)
+
+p32/d2646
+What's your favorite kind of sushi?
+['s0', 's2', 's5', 'sushi.n.01', 's3', 's5']
+(b0 / box
+	:member (s0 / entity.n.01
+		:EQU "?")
+	:member (s1 / be.v.01
+		:Co-Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s5 / entity.n.01
+			:Instance-of (s6 / sushi.n.01)))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "hearer")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s5)
+	:member s5
+	:member s6)
+
+p34/d2027
+What's your favorite kind of candy?
+['s0', 's2', 's5', 's3', 's5']
+(b0 / box
+	:member (s0 / entity.n.01
+		:EQU "?")
+	:member (s1 / be.v.01
+		:Co-Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s5 / entity.n.01
+			:Instance-of (s6 / candy.n.01)))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "hearer")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s5)
+	:member s5
+	:member s6)
+
+p82/d1975
+That's my favorite kind of sandwich.
+['s0', 's2', 's5', 'sandwich.n.01', 's3', 's5']
+(b0 / box
+	:member (s0 / entity.n.01)
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s5 / entity.n.01
+			:Instance-of (s6 / sandwich.n.01)))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "speaker")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s5)
+	:member s5
+	:member s6)
+
+p50/d1997
+What's your favorite hotel in Boston?
+['s0', 's2', 's5', 's6', 's3', 's5']
+(b0 / box
+	:member (s0 / entity.n.01
+		:Name "?")
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s5 / hotel.n.01
+			:Location (s6 / city.n.01
+				:Name "Boston")))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "hearer")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s5)
+	:member s5
+	:member s6)
+
+p46/d2899
+Mary found an orphaned baby squirrel.
+['s0', 's2', 's4', 'squirrel.n.01', 's4']
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Mary")
+	:member (s1 / find.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s4 / baby.n.06))
+	:member s2
+	:member (s3 / orphaned.a.01
+		:Attribute-of s4)
+	:member s4
+	:member (s5 / squirrel.n.01
+		:EQU s4))
+
+p61/d2336
+What's your favorite kind of chocolate?
+['s0', 's2', 's5', 's3', 's5']
+(b0 / box
+	:member (s0 / entity.n.01
+		:EQU "?")
+	:member (s1 / be.v.01
+		:Co-Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s5 / entity.n.01
+			:Instance-of (s6 / chocolate.n.02)))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "hearer")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s5)
+	:member s5
+	:member s6)
+
+p14/d2225
+Martin Scorsese is my favorite film director.
+['s0', 's2', 's5', 's6', 's3', 's6']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Martin Scorsese")
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s5 / person.n.01
+			:Role (s6 / film_director.n.01)))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "speaker")
+	:member (s4 / favorite.a.02
+		:Experiencer s3
+		:Stimulus s6)
+	:member s5
+	:member s6)
+
+p70/d2275
+What's your favorite small town in the United States?
+['s0', 's2', 's6', 's7', 's3', 's6', 'small.a.01']
+(b0 / box
+	:member (s0 / entity.n.01
+		:Name "?")
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s6 / town.n.01
+			:Location (s7 / country.n.02
+				:Name "United States")))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "hearer")
+	:member (s4 / favorite.a.02
+		:User s3
+		:Stimulus s6)
+	:member (s5 / small.a.01
+		:Attribute-of s6)
+	:member s6
+	:member s7)
+
+p92/d2932
+Dublin is my favourite town.
+['s0', 's2', 's5', 's3', 's5']
+(b0 / box
+	:member (s0 / city.n.01
+		:Name "Dublin")
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s5 / town.n.01))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "speaker")
+	:member (s4 / favourite.a.02
+		:Experiencer s3
+		:Stimulus s5)
+	:member s5)
+
+p40/d3161
+Tennis is my preferred sport.
+['s0', 's2', 's5', 'sport.n.01', 's3', 's5']
+(b0 / box
+	:member (s0 / tennis.n.01)
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s5 / sport.n.01))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "speaker")
+	:member (s4 / preferred.a.02
+		:Experiencer s3
+		:Stimulus s5)
+	:member s5)
+
+p08/d2338
+"Awesome" is an overused word.
+['s0', 's2', 's4', 's4']
+(b0 / box
+	:member (s0 / word.n.01
+		:EQU "Awesome")
+	:member (s1 / be.v.01
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s4 / word.n.01))
+	:member s2
+	:member (s3 / overuse.v.01
+		:Theme s4)
+	:member s4)
+
+p94/d1649
+I'm suffering from anal itching.
+['suffer.v.02', 's0', 's1', 's4', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:EQU "now")
+	:member (s2 / suffer.v.02
+		:Experiencer s0
+		:Time s1
+		:Stimulus (s4 / itching.n.01))
+	:member (s3 / anal.a.01
+		:Theme s4)
+	:member s4)
+
+p47/d1677
+Graham Green is my favourite writer.
+['s0', 's2', 's5', 's6', 's3', 's6']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Graham Green")
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme (s5 / person.n.01
+			:Role (s6 / writer.n.01)))
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "speaker")
+	:member (s4 / favourite.a.02
+		:Experiencer s3
+		:Stimulus s6)
+	:member s5
+	:member s6)
+
+p51/d2116
+What an interesting novel this is!
+['s1', 's1', 's2', 's4']
+(b0 / box
+	:member (s0 / interesting.a.01
+		:Stimulus (s1 / novel.n.01))
+	:member s1
+	:member (s2 / entity.n.01)
+	:member (s3 / be.v.01
+		:Co-Theme s1
+		:Theme s2
+		:Time (s4 / time.n.08
+			:EQU "now"))
+	:member s4)
+
+p00/d2784
+Sachiko is more popular than Judy.
+['s0', 's4', 's0', 's1', 's2']
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Sachiko")
+	:member (s1 / time.n.08
+		:EQU "now")
+	:member (s2 / more.r.01
+		:Theme s0
+		:Co-Theme (s4 / female.n.02
+			:Name "Judy"))
+	:member (s3 / popular.a.01
+		:Stimulus s0
+		:Time s1
+		:Degree s2)
+	:member s4)
+
+p40/d1929
+Romeo instantly fell in love with Juliet.
+['s1', 's0', 's3', 's4', 's0', 's5']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Romeo")
+	:member (s1 / instantly.r.01)
+	:member (s2 / fall.v.03
+		:Manner s1
+		:Patient s0
+		:Time (s3 / time.n.08
+			:TPR "now")
+		:Result (s4 / in_love.a.01
+			:Experiencer s0)
+		:Stimulus (s5 / female.n.02
+			:Name "Juliet"))
+	:member s3
+	:member s4
+	:member s5)
+
+p92/d1573
+Children love playing with Lego.
+['s0', 's2', 's3', 's0', 's4']
+(b0 / box
+	:member (s0 / child.n.01)
+	:member (s1 / love.v.02
+		:Experiencer s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Stimulus (s3 / play.v.05
+			:Agent s0
+			:Theme (s4 / lego.n.01)))
+	:member s2
+	:member s3
+	:member s4)

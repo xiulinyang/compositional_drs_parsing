@@ -1,0 +1,528 @@
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / entity.n.01))
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / strong.a.01
+		:Attribute-of (s1 / earthquake.n.01))
+	:member s1
+	:member (s2 / rattle.v.01
+		:Theme s1
+		:Time (s3 / time.n.08
+			:TPR "now")
+		:Location (s5 / country.n.02
+			:Name "Turkey")
+		:Time (s7 / kill.v.01
+			:Agent (s4 / southeast.n.04
+				:Part-of s5)
+			:Time (s8 / time.n.08
+				:TPR "now")
+			:Patient (s10 / quantity.n.01
+				:EQU "17")))
+	:member s3
+	:member s4
+	:member s5
+	:member (s6 / time.n.08
+		:YearOfCentury "1999")
+	:member s7
+	:member s8
+	:member (s9 / quantity.n.01
+		:MOR s10)
+	:member s10
+	:member (s11 / person.n.01
+		:Quantity s9))
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / country.n.02
+		:Name "turkey")
+	:member (s1 / police.n.01
+		:Source s0)
+	:member (s2 / detain.v.01
+		:Agent s1
+		:Time (s3 / time.n.08
+			:TPR "now")
+		:Theme (s5 / person.n.01
+			:Quantity (s4 / quantity.n.01
+				:EQU "23")))
+	:member s3
+	:member s4
+	:member s5
+	:member (s6 / link.v.01
+		:Theme s5
+		:Co-Theme (s8 / network.n.01
+			:Agent (s7 / terrorist.n.01)
+			:Time (s9 / time.n.08
+				:MonthOfYear "5"
+				:EQU (s10 / city.n.01
+					:Name "Bursa"))))
+	:member s7
+	:member s8
+	:member s9
+	:member s10
+	:member (s11 / time.n.08
+		:TPR "now")
+	:member (s12 / blame.v.01
+		:Theme s11
+		:Time (s13 / time.n.08
+			:TPR "now")
+		:Result (s14 / terrorist.n.01
+			:Quantity s13))
+	:member s13
+	:member s14
+	:member (s15 / target.v.01
+		:Theme s14
+		:Time (s16 / city.n.01
+			:Quantity "2"))
+	:member s16
+	:member (s17 / country.n.02
+		:Name "Boston"))
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / country.n.02
+		:Name "Nigeria")
+	:member (s1 / person.n.01
+		:Source s0)
+	:member (s2 / kill.v.01
+		:Agent s1
+		:Time (s3 / time.n.08
+			:TPR "now")
+		:Patient (s5 / officer.n.01
+			:Quantity s3)
+		:Time (s7 / southern.a.01
+			:Attribute-of (s9 / region.n.01
+				:Name "south"
+				:Part-of (s8 / oil.n.01))))
+	:member s3
+	:member (s4 / quantity.n.01
+		:BOT s5)
+	:member s5
+	:member (s6 / restive.a.01
+		:Attribute-of s8)
+	:member s7
+	:member s8
+	:member s9
+	:member (s10 / time.n.08
+		:DayOfWeek "sunday")
+	:member (s11 / morning.n.01
+		:Time s9
+		:Source s10))
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / outbreak.n.02
+		:Causer (s2 / bird.n.01))
+	:member (s1 / deadly.a.01
+		:Attribute-of (s4 / entity.n.01
+			:Sub (s3 / strain.n.01
+				:Name "H5N1")
+			:Sub (s5 / goose.n.01
+				:Quantity "2")))
+	:member s2
+	:member s3
+	:member s4
+	:member s5
+	:member (s6 / capital.n.01
+		:Part-of s4)
+	:member (s7 / country.n.02
+		:Name "pakistan")
+	:member (s8 / agency.n.01
+		:EQU s7)
+	:member (s9 / say.v.01
+		:Agent s7
+		:Time (s10 / time.n.08
+			:TPR "now")
+		:Theme (s12 / zoo.n.01
+			:Theme (s11 / entity.n.01
+				:Name "Mahr")
+			:Time (s13 / time.n.08
+				:TPR "now")
+			:Result (s14 / entity.n.01
+				:Quantity "4"
+				:EQU (s15 / country.n.02
+					:Name "Mahr"))))
+	:member s10
+	:member s11
+	:member s12
+	:member s13
+	:member s14
+	:member s15
+	:member (s16 / country.n.02
+		:Name "Mahr"))
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / country.n.02
+		:Name "us")
+	:member (s1 / person.n.01
+		:Source s0
+		:Role (s2 / military_officer.n.01))
+	:member s2
+	:member (s3 / time.n.08
+		:TPR "now")
+	:member (s4 / charge.v.01
+		:Agent s1
+		:Time s3
+		:Theme (s6 / fund.n.01)
+		:Time (s9 / country.n.02
+			:Name "Iraq"))
+	:member (s5 / quantity.n.01
+		:LES s6)
+	:member s6
+	:member (s7 / humanitarian.a.01
+		:Attribute-of (s8 / relief.n.01))
+	:member s8
+	:member s9
+	:member (s10 / country.n.02
+		:Name "America")
+	:member (s11 / time.n.08
+		:YearOfCentury "2007")
+	:member (s12 / time.n.08
+		:TPR "now")
+	:member (s13 / arrest.v.01
+		:Time s11
+		:Theme s12
+		:Time (s14 / time.n.08
+			:TPR "now"))
+	:member s14
+	:member (s15 / arrest.v.01
+		:Theme s10
+		:Time (s16 / time.n.08
+			:TPR "now"))
+	:member s16)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / country.n.02
+		:Name "Yemen")
+	:member (s1 / execute.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s4 / militant.n.01))
+	:member s2
+	:member (s3 / person.n.01
+		:Role s4)
+	:member s4
+	:member (s5 / convict.v.01
+		:Agent s3
+		:Time (s6 / time.n.08
+			:TPR "now")
+		:Theme (s8 / time.n.08
+			:TPR "now")
+		:Time (s10 / person.n.01
+			:Quantity (s9 / quantity.n.01
+				:EQU "3")))
+	:member s6
+	:member (s7 / kill.v.01
+		:Agent s2
+		:Time s8
+		:Patient (s12 / person.n.01
+			:Source (s11 / country.n.02
+				:Name "American Medical")
+			:Time (s13 / time.n.08
+				:TPR "now")
+			:Theme (s14 / death.n.01
+				:Patient (s15 / medical.n.01
+					:Patient s13
+					:Location (s17 / person.n.01
+						:Source (s16 / country.n.02
+							:Name "American Medical")
+						:Theme (s18 / death.n.01
+							:Patient (s20 / person.n.01
+								:Source (s21 / death.n.01
+									:Quantity (s22 / death.n.01
+										:Part-of (s24 / country.n.02
+											:Name "American Medical"))))))))))
+	:member s8
+	:member s9
+	:member s10
+	:member s11
+	:member s12
+	:member s13
+	:member s14
+	:member s15
+	:member s16
+	:member s17
+	:member s18
+	:member (s19 / country.n.02
+		:Name "American Medical")
+	:member s20
+	:member s21
+	:member s22
+	:member (s23 / country.n.02
+		:Name "Jibla")
+	:member s24)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / country.n.02
+		:Name "Nepal")
+	:member (s1 / government.n.01
+		:Source s0)
+	:member (s2 / entity.n.01
+		:Sub s1
+		:Sub (s3 / non-profit.a.01))
+	:member s3
+	:member (s4 / entity.n.01
+		:Name "World Wildlife fund")
+	:member (s5 / time.n.08
+		:EQU "now")
+	:member (s6 / launch.v.01
+		:Agent s3
+		:Time s5
+		:Theme (s7 / save.v.01
+			:Theme (s10 / rhino.n.01
+				:Quantity "1")))
+	:member s7
+	:member (s8 / critically.r.01)
+	:member (s9 / endangered.a.01
+		:Attribute-of s10)
+	:member s10
+	:member (s11 / male.n.02
+		:Name "Paul Sisco")
+	:member (s12 / report.v.01
+		:Agent s11
+		:Time (s13 / time.n.08
+			:EQU "now"))
+	:member s13)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box
+	:member (s0 / person.n.01
+		:Quantity "6"
+		:Theme (s2 / person.n.01
+			:Quantity "28"
+			:Sub-of (s3 / person.n.01
+				:Quantity "28"
+				:NEQ (s4 / country.n.02
+					:Name "Iraq")))
+		:Location s4)
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member s2
+	:member s3
+	:member s4
+	:member (s5 / minister.n.01
+		:Time s3
+		:Source (s6 / time.n.08
+			:DayOfWeek "thursday"))
+	:member s6
+	:member (s7 / time.n.08
+		:TPR "now")
+	:member (s8 / kill.v.01
+		:Patient s3
+		:Time s7
+		:Source (s10 / training.n.01
+			:Location (s9 / country.n.02
+				:Name "United Nations Development Program")
+			:Recipient (s11 / woman.n.01)))
+	:member s9
+	:member s10
+	:member s11)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+
+(b0 / box)
+

@@ -1,0 +1,1654 @@
+(u_13 / box  :member (u_7 / "male.n.02"  :Recipient-of (u_12 / "fine.v.01"  :member-of (u_16 / box  :PRECONDITION (u_11 / box  :member (u_14 / "break.v.06"  :Agent (u_9 / "male.n.02")  :Theme (u_8 / "law.n.01")  :Time (u_10 / "time.n.08"  :EQU (u_15 / now))))  :NECESSITY-of u_13))))
+
+(u_23 / box  :member (u_20 / "pile.v.01"  :Theme (u_18 / "comic_cat.n.01")  :Time (u_21 / "time.n.08"  :TPR (u_22 / now))  :Location (u_19 / "desk.n.01")))
+
+(u_30 / box  :member (u_27 / "be.v.01"  :Theme (u_28 / "entity.n.01")  :Co-Theme (u_26 / "sunset.n.01"  :Attribute (u_29 / "beautiful.a.01"  :member-of u_30))))
+
+(u_42 / box  :member (u_41 / "be.v.02"  :Theme (u_37 / "male.n.02"  :Name (u_38 / Chopin))  :Co-Theme (u_34 / "person.n.01"  :Role (u_35 / "composer.n.01")  :Stimulus-of (u_36 / "favorite.a.02"  :Experiencer (u_39 / speaker)  :member-of u_42))  :Time (u_43 / "time.n.08"  :EQU (u_40 / now))))
+
+(u_51 / box  :member (u_48 / "rip_off.v.01"  :Theme (u_45 / "person.n.01"  :Role (u_46 / "tourist.n.01"))  :Time (u_49 / "time.n.08"  :TPR (u_50 / now))  :Location (u_47 / "nightclub.n.01")))
+
+(u_59 / box  :member (u_60 / "absorbed.a.01"  :Experiencer (u_56 / "male.n.02")  :Stimulus (u_55 / "study.n.06"  :Theme (u_54 / "Latin.n.06"))  :Time (u_57 / "time.n.08"  :EQU (u_58 / now))))
+
+(u_68 / box  :member (u_63 / "ruined.a.01"  :Time (u_64 / "time.n.08"  :EQU (u_67 / now))  :Attribute-of (u_65 / "male.n.02"  :Name (u_66 / Tom))))
+
+(u_79 / box  :member (u_80 / "be.v.01"  :Theme (u_75 / "male.n.02"  :Name (u_77 / Tom))  :Co-Theme (u_72 / "person.n.01"  :Role (u_73 / "tennis_player.n.01")  :Attribute (u_76 / "good.a.01"  :member-of u_79))  :Time (u_74 / "time.n.08"  :EQU (u_78 / now))))
+
+(u_87 / box  :member (u_85 / "be.v.08"  :Theme (u_83 / "male.n.02"  :Name (u_84 / Dan))  :Co-Theme (u_81 / "person.n.01"  :Role (u_82 / "linguist.n.01"))  :Time (u_88 / "time.n.08"  :EQU (u_86 / now))))
+
+(u_93 / box  :member (u_94 / "defeat.v.01"  :Recipient (u_89 / "male.n.02"  :Name (u_90 / Tom))  :Time (u_91 / "time.n.08"  :TPR (u_92 / now))))
+
+(u_102 / box  :member (u_97 / "help.v.01"  :Agent (u_98 / "person.n.01"  :EQU (u_99 / speaker))  :Beneficiary (u_96 / "female.n.02")  :Time (u_100 / "time.n.08"  :TSU (u_101 / now))))
+
+(u_110 / box  :member (u_106 / "self-centered.a.01"  :Time (u_105 / "time.n.08"  :EQU (u_109 / now))  :Attribute-of (u_107 / "male.n.02"  :Name (u_108 / Tom))))
+
+(u_120 / box  :member (u_116 / "marry.v.01"  :Agent (u_115 / "person.n.01"  :EQU (u_118 / speaker))  :Co-Agent (u_114 / "person.n.01"  :Attribute (u_117 / "wrong.a.01"  :member-of u_120))  :Time (u_121 / "time.n.08"  :TPR (u_119 / now))))
+
+(u_125 / box  :member (u_126 / "cook.v.01"  :Agent (u_122 / "male.n.02")  :Time (u_123 / "time.n.08"  :EQU (u_124 / now))))
+
+(u_133 / box  :member (u_131 / "forget.v.02"  :Agent (u_128 / "person.n.01")  :Theme (u_129 / "mobile_phone.n.01"  :User (u_130 / speaker))  :Time (u_134 / "time.n.08"  :TPR (u_132 / now))))
+
+(u_144 / box  :member (u_142 / "male.n.02"  :Name (u_143 / Tom)  :Agent-of (u_141 / "borrow.v.01"  :Theme (u_137 / "car.n.01"  :Owner (u_145 / speaker))  :Duration (u_139 / "measure.n.02"  :Quantity (u_138 / -)  :Unit (u_140 / "day.n.01"))  :member-of (u_146 / box  :POSSIBILITY-of u_144))))
+
+(u_159 / box  :member (u_158 / "be.v.02"  :Theme (u_156 / "train_dancing.n.01"  :Theme (u_152 / "man.n.01")  :Location (u_154 / "stage.n.02"))  :Co-Theme (u_157 / "person.n.01"  :Role (u_160 / "uncle.n.01"  :Of (u_155 / speaker)))  :Time (u_161 / "time.n.08"  :EQU (u_153 / now))))
+
+(u_166 / box  :member (u_164 / "be.v.03"  :Theme (u_163 / "octopus.n.01")  :Time (u_167 / "time.n.08"  :EQU (u_165 / now))  :Location (u_168 / "sea.n.01")))
+
+(u_174 / box  :member (u_172 / "have.v.16"  :Experiencer (u_170 / "male.n.02"  :Name (u_171 / Tom))  :Stimulus (u_169 / "insomnia.n.01")  :Time (u_175 / "time.n.08"  :EQU (u_173 / now))))
+
+(u_187 / box  :member (u_184 / "old.a.01"  :Time (u_181 / "time.n.08"  :EQU (u_186 / now))  :Value (u_179 / "measure.n.02"  :Unit (u_180 / "year.n.01")  :Quantity (u_182 / "quantity.n.01"  :APX (u_178 / "quantity.n.01"  :EQU (u_189 / 100))))  :Attribute-of (u_185 / "person.n.01"  :Role (u_188 / "grandmother.n.01"  :Of (u_183 / speaker)))))
+
+(u_197 / box  :member (u_193 / "broke.a.04"  :Time (u_192 / "time.n.08"  :EQU (u_196 / now))  :Attribute-of (u_194 / "person.n.01"  :EQU (u_195 / speaker))))
+
+(u_203 / box  :member (u_201 / "person.n.01"  :EQU (u_202 / speaker)  :Experiencer-of (u_199 / "regret.v.01"  :Time (u_200 / "time.n.08"  :EQU (u_204 / now))  :member-of (u_205 / box  :NEGATION-of u_203))))
+
+(u_215 / box  :member (u_212 / "be.v.03"  :Theme (u_209 / "flower.n.01"  :Quantity (u_213 / "+")  :Colour (u_208 / "red.a.01"))  :Time (u_214 / "time.n.08"  :EQU (u_211 / now))  :Location (u_210 / "garden.n.01")))
+
+(u_222 / box  :member (u_220 / "drink.v.01"  :Agent (u_218 / "male.n.02"  :Name (u_219 / Tom))  :Patient (u_216 / "beer.n.01"  :Quantity (u_217 / "bottle.n.02"  :Quantity (u_223 / 3)))  :Time (u_224 / "time.n.08"  :TPR (u_221 / now))))
+
+(u_234 / box  :member (u_231 / "proud.a.01"  :Experiencer (u_228 / "female.n.02")  :Stimulus (u_235 / "ask.v.02"  :EQU (u_232 / pussy)  :Topic (u_230 / "help.n.01"))  :Time (u_233 / "time.n.08"  :TPR (u_229 / now))))
+
+(u_239 / box  :member (u_240 / "write.v.02"  :Agent (u_236 / "person.n.01")  :Time (u_237 / "time.n.08"  :EQU (u_238 / now))))
+
+(u_247 / box  :member (u_245 / "be.v.03"  :Theme (u_243 / "person.n.01"  :EQU (u_244 / speaker))  :Time (u_248 / "time.n.08"  :EQU (u_246 / now))  :Source (u_242 / "city.n.01"  :Name (u_249 / Budapest))))
+
+(u_262 / box  :member (u_264 / "apple.n.01"  :User (u_256 / "person.n.01")  :Attribute (u_261 / "good.a.01"  :Time (u_258 / "time.n.08"  :EQU (u_263 / now))  :Degree (u_260 / "as.r.01"  :Theme u_264  :Co-Theme (u_257 / "apple.n.01"  :User (u_259 / hearer)))  :member-of (u_265 / box  :NEGATION-of u_262))))
+
+(u_280 / box  :member (u_277 / "give.v.03"  :Agent (u_282 / "fiancé"  :Owner (u_275 / "female.n.02"))  :Theme (u_273 / "ring.n.08"  :Degree (u_281 / "very.r.01")  :Attribute (u_276 / "big.a.01"  :member-of u_280))  :Recipient (u_278 / "female.n.02")  :Time (u_274 / "time.n.08"  :TPR (u_279 / now))))
+
+(u_292 / box  :member (u_288 / "take_off.v.06"  :Agent (u_287 / "male.n.02"  :Name (u_290 / Tom))  :Theme (u_286 / "vest.n.01"  :Attribute (u_289 / "bullet-proof.a.01"  :member-of u_292))  :Time (u_293 / "time.n.08"  :TPR (u_291 / now))))
+
+(u_299 / box  :member (u_298 / "drop_out.v.01"  :Theme (u_296 / "male.n.02"  :Name (u_297 / Tom))  :Time (u_301 / "time.n.08"  :TPR (u_300 / now))  :Source (u_295 / "school.n.01")))
+
+(u_311 / box  :member (u_309 / "person.n.01"  :EQU (u_310 / speaker)  :Agent-of (u_306 / "argue.v.01"  :Co-Agent (u_305 / "person.n.01"  :EQU (u_313 / hearer))  :Stimulus-of (u_308 / "want.v.01"  :Experiencer u_309  :Time (u_312 / "time.n.08"  :EQU (u_307 / now))  :member-of (u_314 / box  :NEGATION-of u_311)))))
+
+(u_325 / box  :member (u_326 / "bear.v.02"  :Patient (u_318 / "person.n.01"  :Role (u_320 / "daughter.n.01"  :Of (u_317 / "person.n.01")))  :Sub (u_319 / "female.n.02"  :Name (u_323 / Chelsea))  :Time (u_324 / "time.n.08"  :TPR (u_321 / now)  :YearOfCentury (u_322 / 195X))))
+
+(u_335 / box  :member (u_332 / "be.v.03"  :Theme (u_329 / "animal.n.01"  :Quantity (u_330 / "quantity.n.01"  :EQU (u_336 / "+")))  :Time (u_333 / "time.n.08"  :EQU (u_334 / now))  :Location (u_331 / "park.n.02")))
+
+(u_342 / box  :member (u_340 / "have.v.16"  :Experiencer (u_338 / "person.n.01"  :EQU (u_339 / speaker))  :Stimulus (u_337 / "stomachache.n.01")  :Time (u_343 / "time.n.08"  :EQU (u_341 / now))))
+
+(u_349 / box  :member (u_347 / "lose.v.05"  :Agent (u_345 / "person.n.01"  :EQU (u_346 / speaker))  :Theme (u_344 / "cellphone.n.01"  :Owner (u_350 / speaker))  :Time (u_351 / "time.n.08"  :TPR (u_348 / now))))
+
+(u_358 / box  :member (u_356 / "start.v.02"  :Time (u_355 / "time.n.08"  :TPR (u_357 / now))  :Part-of (u_359 / "shoot.v.02"  :Agent (u_354 / "person.n.01"))))
+
+(u_365 / box  :member (u_366 / "allergic.a.02"  :Experiencer (u_361 / "male.n.02"  :Name (u_362 / Tom))  :Stimulus (u_360 / "milk.n.01")  :Time (u_363 / "time.n.08"  :EQU (u_364 / now))))
+
+(u_375 / box  :member (u_376 / "impose.v.03"  :Theme (u_374 / "tax.n.01"  :Theme (u_370 / "person.n.01"  :Role (u_372 / "farmer.n.01"))  :Attribute (u_371 / "new.a.01"  :member-of u_375))  :Agent (u_373 / "government.n.01")))
+
+(u_384 / box  :member (u_382 / "look.v.02"  :Agent (u_379 / "female.n.02"  :Experiencer-of (u_385 / "sick.a.01"  :Degree (u_380 / "very.r.01")  :Theme-of u_382))  :Time (u_381 / "time.n.08"  :EQU (u_383 / now))))
+
+(u_396 / box  :member (u_390 / "male.n.02"  :Attribute (u_395 / "contented.a.01"  :Time (u_394 / "time.n.08"  :EQU (u_398 / now))  :member-of (u_392 / box  :NEGATION-of u_396)))  :CONTRAST (u_399 / box  :Sub (u_393 / "male.n.02"  :Of-of (u_391 / "riches.n.01"  :Role-of (u_397 / "person.n.01"  :Sub-of u_399)))))
+
+(u_408 / box  :member (u_404 / "big.a.01"  :Degree (u_403 / "more.r.01"  :Theme (u_405 / "entity.n.01"  :Attribute u_404)  :Co-Theme (u_402 / "entity.n.01"))  :Time (u_406 / _  :EQU (u_407 / now))  :Degree (u_409 / "time.n.08")))
+
+(u_420 / box  :member (u_418 / "be.v.03"  :Theme (u_416 / "sea.n.01"  :Name (u_417 / "?"))  :Time (u_421 / "time.n.08"  :EQU (u_419 / now))  :Location (u_413 / "location.n.01"  :APX (u_414 / "city.n.01"  :Name (u_415 / Stockholm)))))
+
+(u_430 / box  :member (u_426 / "hard.a.01"  :Degree (u_425 / "more.r.01"  :Theme (u_427 / Earth  :Attribute u_426)  :Co-Theme (u_424 / "billiard_cat.n.01"))  :Time (u_428 / "time.n.08"  :EQU (u_429 / now))))
+
+(u_440 / box  :member (u_438 / "person.n.01"  :EQU (u_439 / speaker)  :Agent-of (u_435 / "touch.v.01"  :Experiencer (u_436 / "male.n.02"  :Name (u_437 / Tom))  :member-of (u_441 / box  :NEGATION-of u_440))))
+
+(u_452 / box  :member (u_450 / "want.v.01"  :Pivot (u_448 / "person.n.01"  :EQU (u_449 / speaker)  :Theme-of (u_447 / "go.v.01"  :Destination (u_444 / "country.n.02"  :Name (u_445 / China))  :Theme-of u_450))  :Time (u_446 / "time.n.08"  :EQU (u_451 / now))))
+
+(u_458 / box  :member (u_457 / "bang.v.03"  :Patient (u_454 / "car.n.01")  :Time (u_459 / "time.n.08"  :TPR (u_456 / now))  :Path (u_455 / "tree.n.01")))
+
+(u_462 / box  :NEGATION (u_468 / box  :member (u_465 / "vote.n.01"  :Theme-of (u_467 / "count.v.01"  :Time (u_464 / "time.n.08"  :EQU (u_466 / now))  :member-of (u_463 / box  :NEGATION-of u_468)))))
+
+(u_475 / box  :member (u_476 / "confident.a.01"  :Time (u_471 / "time.n.08"  :EQU (u_474 / now))  :Attribute-of (u_472 / "male.n.02"  :Name (u_473 / Tom))))
+
+(u_485 / box  :member (u_486 / "break.v.31"  :Patient (u_480 / "male.n.02"  :Name (u_481 / Tom))  :Co-Patient (u_482 / "person.n.01"  :EQU (u_483 / speaker))  :Time (u_479 / "time.n.08"  :TPR (u_484 / now))))
+
+(u_492 / box  :member (u_488 / "wide.a.01"  :Value (u_489 / "?")  :Time (u_490 / "time.n.08"  :EQU (u_491 / now))  :Attribute-of (u_487 / "river.n.01")))
+
+(u_505 / box  :member (u_502 / "rest.v.03"  :Theme (u_497 / "man.n.01"  :EQU-of (u_500 / _  :Part (u_498 / "eye.n.01"  :Part (u_499 / "rub.v.01"  :Instrument-of u_502))))  :Time (u_503 / "time.n.08"  :EQU (u_504 / now))  :Location (u_501 / "chair.n.01")))
+
+(u_515 / box  :member (u_508 / "be.v.03"  :Theme (u_510 / "person.n.01"  :EQU (u_511 / speaker))  :Source (u_509 / "country.n.02"  :Name (u_513 / thailand))  :Time (u_512 / "time.n.08"  :EQU (u_514 / now))))
+
+(u_521 / box  :member (u_519 / "read.v.01"  :Agent (u_517 / "person.n.01"  :EQU (u_518 / speaker))  :Time (u_522 / "time.n.08"  :TPR (u_520 / now))  :Source (u_516 / "comic_book.n.01")))
+
+(u_533 / box  :member (u_530 / "take.v.24"  :Agent (u_529 / "female.n.02")  :Theme (u_531 / "wound.n.01"  :Creator (u_527 / "male.n.02"))  :Time (u_534 / "time.n.08"  :TPR (u_532 / now))  :Theme-of (u_528 / "care.n.06")))
+
+(u_543 / box  :member (u_542 / "be.v.02"  :Theme (u_537 / "girl.n.01"  :Location (u_539 / "door.n.01"))  :Co-Theme (u_538 / "name.n.01"  :EQU (u_541 / Lucy))  :Time (u_544 / "time.n.08"  :EQU (u_540 / now))))
+
+(u_548 / box  :NEGATION (u_554 / box  :member (u_550 / "useful.a.01"  :Time (u_549 / "time.n.08"  :EQU (u_553 / now))  :Attribute-of (u_552 / "entity.n.01"  :Sub-of (u_551 / "book.n.01")))))
+
+(u_561 / box  :member (u_562 / "make.v.06"  :Product (u_556 / "football.n.01")  :Time (u_559 / "time.n.08"  :EQU (u_560 / now))  :Destination (u_557 / "leather.n.01"  :Attribute (u_558 / "genuine.a.01"  :member-of u_561))))
+
+(u_572 / box  :member (u_571 / "watch.v.03"  :Agent (u_568 / "male.n.02")  :Theme (u_566 / "movie.n.01"  :Source (u_567 / "country.n.02"  :Name (u_570 / swedishy)))  :Time (u_573 / "time.n.08"  :TPR (u_569 / now))))
+
+(u_584 / box  :member (u_579 / "be.v.03"  :Theme (u_578 / "drawer.n.02"  :Attribute (u_582 / "secret.a.01"  :member-of u_584))  :Time (u_580 / "time.n.08"  :EQU (u_583 / now))  :Location (u_581 / "desk.n.01")))
+
+(u_594 / box  :member (u_595 / "suffer.v.02"  :Experiencer (u_591 / "male.n.02"  :Name (u_592 / Tom))  :Stimulus (u_587 / "migraine.n.01")  :Time (u_590 / "time.n.08"  :TPR (u_593 / now))  :Duration (u_589 / "measure.n.02"  :Quantity (u_596 / "+")  :Unit (u_588 / "year.n.01"))))
+
+(u_607 / box  :member (u_600 / "big.a.01"  :Degree (u_601 / "more.r.01"  :Theme (u_603 / "country.n.02"  :Name (u_604 / China)  :Attribute u_600)  :Co-Theme (u_602 / "country.n.02"  :Name (u_608 / Japan)))  :Time (u_605 / "time.n.08"  :EQU (u_606 / now))  :Degree (u_609 / "time.n.08")))
+
+(u_616 / box  :member (u_614 / "expel.v.02"  :Agent (u_613 / "school.n.01")  :Theme (u_612 / "female.n.02")  :Time (u_617 / "time.n.08"  :TPR (u_615 / now))))
+
+(u_625 / box  :member (u_626 / "old.a.01"  :Value (u_620 / "?")  :Time (u_623 / "time.n.08"  :EQU (u_624 / now))  :Attribute-of (u_621 / "male.n.02"  :Name (u_622 / "Adolf Xiaoping"))))
+
+(u_636 / box  :member (u_635 / "buy.v.01"  :Agent (u_634 / "person.n.01"  :EQU (u_637 / speaker))  :Beneficiary (u_631 / "male.n.02"  :Name (u_632 / John))  :Theme (u_630 / "album.n.01")  :Time (u_638 / "time.n.08"  :TPR (u_633 / now))))
+
+(u_649 / box  :member (u_645 / "leave.v.01"  :Theme (u_641 / "female.n.02"  :Name (u_650 / Susan))  :Time (u_647 / "time.n.08"  :TPR (u_648 / now)  :TAB (u_646 / "measure.n.02"  :Quantity (u_644 / 5)  :TAB (u_642 / now)  :Unit (u_643 / "hour.n.01")))))
+
+(u_655 / box  :member (u_657 / "play.v.01"  :Theme (u_651 / "football.n.01")  :Agent (u_652 / "group.n.01"  :Quantity (u_656 / 2))  :Time (u_653 / "time.n.08"  :EQU (u_654 / now))))
+
+(u_664 / box  :member (u_662 / "deny.v.01"  :Agent (u_661 / "female.n.02")  :Theme (u_660 / "accusation.n.01")  :Time (u_665 / "time.n.08"  :TPR (u_663 / now))))
+
+(u_673 / box  :member (u_669 / "correct.a.01"  :Time (u_668 / "time.n.08"  :EQU (u_672 / now))  :Attribute-of (u_670 / "person.n.01"  :EQU (u_671 / speaker))))
+
+(u_682 / box  :member (u_680 / "male.n.02"  :Name (u_681 / Tom)  :Attribute (u_679 / "handsome.a.01"  :Time (u_677 / "time.n.08"  :EQU (u_683 / now))  :Degree (u_678 / "very.r.01")  :member-of (u_684 / box  :NEGATION-of u_682))))
+
+(u_691 / box  :member (u_689 / "know.v.01"  :Experiencer (u_688 / "person.n.01")  :Stimulus (u_687 / "entity.n.01")  :Time (u_692 / "time.n.08"  :EQU (u_690 / now))))
+
+(u_704 / box  :member (u_699 / "have.v.01"  :Pivot (u_700 / "female.n.02"  :Name (u_701 / Cinderella))  :Theme (u_698 / "stepsister.n.01"  :Quantity (u_705 / 4)  :Attribute (u_702 / "evil.a.01"  :member-of u_704))  :Time (u_706 / "time.n.08"  :TPR (u_703 / now))))
+
+(u_714 / box  :member (u_712 / "major.v.01"  :Agent (u_710 / "male.n.02"  :Name (u_711 / Tom))  :Theme (u_708 / Engineering)  :Time (u_715 / "time.n.08"  :TPR (u_713 / now))  :Location (u_709 / "college.n.02")))
+
+(u_721 / box  :member (u_722 / "jealous.a.01"  :Experiencer (u_717 / "female.n.02")  :Time (u_718 / "time.n.08"  :EQU (u_719 / now))  :Value (u_720 / "measure.n.02"  :Quantity (u_723 / -))))
+
+(u_729 / box  :NEGATION (u_740 / "person.n.01"  :member (u_732 / "person.n.01"  :Name (u_733 / "?")  :Pivot-of (u_735 / "want.v.01"  :Theme (u_738 / "book.n.02")  :Time (u_739 / "time.n.08"  :EQU (u_736 / now))  :member-of (u_730 / box  :NEGATION-of u_740))  :Agent-of (u_731 / "give.v.03"  :Theme (u_737 / "entity.n.01")  :member-of (u_734 / box  :POSSIBILITY-of u_740)))))
+
+(u_747 / box  :member (u_745 / "have.v.01"  :Pivot (u_743 / "male.n.02"  :Name (u_744 / Tom))  :Theme (u_741 / "person.n.01"  :Role (u_742 / "son.n.01"))  :Time (u_748 / "time.n.08"  :EQU (u_746 / now))))
+
+(u_757 / box  :member (u_753 / "be.v.03"  :Theme (u_758 / "person.n.01"  :Role (u_751 / "student.n.01")  :Quantity (u_754 / -))  :Time (u_756 / "time.n.08"  :EQU (u_752 / now))  :Location (u_755 / "university.n.02")))
+
+(u_766 / box  :member (u_764 / "label.v.01"  :Agent (u_763 / "person.n.01"  :Role (u_762 / "clerk.n.01"))  :Theme (u_761 / "baggage.n.01")  :Time (u_767 / "time.n.08"  :TPR (u_765 / now))))
+
+(u_783 / box  :member (u_777 / "seem.v.02"  :Pivot (u_781 / "alike.a.01"  :Experiencer (u_778 / "person.n.01")  :Stimulus (u_779 / "person.n.01"  :EQU (u_780 / speaker))  :Time (u_784 / "time.n.08"  :TPR (u_776 / now))  :Degree (u_774 / "much.r.01"))  :Theme (u_773 / "plan.n.01")  :Time (u_775 / "time.n.08"  :EQU (u_782 / now))))
+
+(u_791 / box  :member (u_790 / "swim.v.01"  :Theme (u_788 / "person.n.01"  :EQU (u_789 / speaker))  :Time (u_792 / "time.n.08"  :TPR (u_787 / now))  :Location (u_786 / "sea.n.01")))
+
+(u_799 / box  :member (u_801 / "speak.v.03"  :Theme (u_796 / "language.n.01"  :Quantity (u_797 / "?"))  :Agent (u_794 / "person.n.01"  :EQU (u_800 / hearer))  :Time (u_798 / "time.n.08"  :EQU (u_795 / now))))
+
+(u_817 / box  :member (u_822 / "male.n.02"  :Name (u_815 / Stevens))  :NEGATION (u_821 / box  :member (u_811 / "be.v.01"  :Theme (u_823 / "be.v.08"  :Theme (u_816 / "male.n.02")  :Co-Theme (u_809 / "person.n.01"  :Role (u_810 / "singer.n.01"))  :Time (u_812 / "time.n.08"  :EQU (u_813 / now)))  :Co-Theme (u_818 / "person.n.01"  :Role (u_820 / "cat..n.01"))  :Time (u_814 / "time.n.08"  :EQU (u_819 / now)))))
+
+(u_831 / box  :member (u_830 / "be.v.02"  :Theme (u_826 / "urdu.n.01")  :Co-Theme (u_827 / "mother_tongue.n.01"  :User (u_828 / speaker))  :Time (u_832 / "time.n.08"  :EQU (u_829 / now))))
+
+(u_841 / box  :member (u_840 / "be.v.02"  :Theme (u_837 / "title.n.01"  :Bearer (u_835 / "play.n.01"))  :Co-Theme (u_836 / "name.n.01"  :EQU (u_839 / Othello))  :Time (u_842 / "time.n.08"  :EQU (u_838 / now))))
+
+(u_857 / box  :member (u_850 / "nasty.a.01"  :Time (u_849 / "time.n.08"  :EQU (u_856 / now))  :Attribute-of (u_853 / "male.n.02"  :Name (u_854 / Tom)))  :Stimulus-of (u_858 / "think.v.01"  :Experiencer (u_852 / "person.n.01"  :EQU (u_855 / speaker))  :Time (u_851 / "time.n.08"  :EQU (u_859 / now))))
+
+(u_870 / box  :member (u_865 / "wait.v.01"  :Theme (u_866 / "person.n.01"  :EQU (u_867 / speaker))  :Time (u_868 / "time.n.08"  :TPR (u_869 / now))  :Destination (u_861 / "boat.n.01")  :Duration (u_863 / "measure.n.02"  :Quantity (u_862 / -)  :Unit (u_864 / "hour.n.01"))))
+
+(u_879 / box  :member (u_880 / "live.v.01"  :Theme (u_876 / "person.n.01"  :EQU (u_877 / speaker))  :Time (u_873 / "time.n.08"  :EQU (u_878 / now))  :Location (u_874 / "location.n.01"  :APX (u_875 / "dam.n.01"))))
+
+(u_895 / box  :member (u_896 / "be.v.01"  :Theme (u_889 / "male.n.02"  :Name (u_890 / Tom))  :Co-Theme (u_891 / "person.n.01"  :Role (u_888 / "friend.n.01"  :Of (u_886 / "person.n.01"  :Role (u_887 / "friend.n.01"  :Of (u_892 / "person.n.01"  :EQU (u_893 / speaker))))))  :Time (u_885 / "time.n.08"  :EQU (u_894 / now))))
+
+(u_907 / box  :member (u_902 / "difficult.a.01"  :Time (u_901 / "time.n.08"  :TSU (u_903 / now))  :Attribute-of (u_900 / "test.n.02"  :Time (u_904 / "time.n.08"  :DayOfWeek (u_905 / sunday)  :TSU (u_906 / now)))))
+
+(u_912 / box  :member (u_911 / "die.v.01"  :Patient (u_908 / "person.n.01"  :EQU (u_913 / hearer))  :Time (u_914 / "time.n.08"  :TPR (u_909 / now))  :Causer (u_910 / "accident.n.01")))
+
+(u_920 / box  :member (u_919 / "leave.v.01"  :Theme (u_917 / "male.n.02"  :Name (u_918 / Brian))  :Time (u_922 / "time.n.08"  :TPR (u_921 / now))  :Destination (u_916 / "city.n.01"  :Name (u_923 / "New York"))))
+
+(u_933 / box  :member (u_931 / "direct.v.03"  :Agent (u_930 / "male.n.02"  :Name (u_934 / Tom))  :Theme (u_927 / "person.n.01"  :EQU (u_928 / speaker))  :Time (u_935 / "time.n.08"  :TPR (u_932 / now))  :Destination (u_929 / "theater.n.01")))
+
+(u_947 / box  :member (u_949 / "like.a.01"  :Theme (u_942 / "male.n.02"  :Name (u_943 / Tom))  :Co-Theme (u_944 / "person.n.01"  :Role (u_940 / "father.n.01"  :Of (u_939 / "female.n.02"  :Name (u_948 / Mary))  :Order (u_945 / 2)))  :Time (u_946 / "time.n.08"  :TPR (u_941 / now))))
+
+(u_962 / box  :member (u_956 / "live.v.01"  :Theme (u_960 / "person.n.01"  :Role (u_963 / "brother.n.01"  :Of (u_959 / speaker)))  :Time (u_954 / "time.n.08"  :EQU (u_961 / now))  :Location (u_958 / "village.n.02"  :Attribute (u_957 / "small.a.01"  :Value (u_955 / "+")))))
+
+(u_967 / box  :member (u_969 / "arrest.v.01"  :Patient (u_964 / _  :Quantity (u_968 / 3))  :Time (u_965 / "time.n.08"  :TPR (u_966 / now))))
+
+(u_979 / box  :member (u_977 / "person.n.01"  :EQU (u_978 / speaker)  :Agent-of (u_975 / "translate.v.01"  :Theme (u_973 / "book.n.01")  :Time (u_974 / "time.n.08"  :TPR (u_976 / now))  :member-of (u_980 / box  :NEGATION-of u_979))))
+
+(u_986 / box  :member (u_984 / "respect.v.02"  :Experiencer (u_982 / "male.n.02"  :Name (u_983 / Bush))  :Stimulus (u_981 / "religion.n.01")  :Time (u_987 / "time.n.08"  :EQU (u_985 / now))))
+
+(u_998 / box  :member (u_1000 / "teach.v.01"  :Agent (u_992 / "person.n.01"  :Role (u_993 / "wife.n.01"  :Of (u_999 / hearer)))  :Recipient (u_995 / "person.n.01"  :EQU (u_996 / speaker))  :Theme (u_991 / "italian.n.01")  :Time (u_994 / "time.n.08"  :EQU (u_997 / now))))
+
+(u_1009 / box  :member (u_1007 / "speak.v.03"  :Agent (u_1006 / "male.n.02")  :Theme (u_1004 / "french.n.01")  :Time (u_1010 / "time.n.08"  :EQU (u_1008 / now))  :Manner (u_1005 / "fluently.r.01")))
+
+(u_1018 / box  :member (u_1016 / "be.v.13"  :Theme (u_1012 / "pants.n.03")  :Time (u_1019 / "time.n.08"  :EQU (u_1017 / now))  :Value (u_1014 / "measure.n.02"  :Unit (u_1015 / "?")  :Quantity (u_1013 / "?"))))
+
+(u_1025 / box  :member (u_1023 / "illiterate.a.01"  :Time (u_1027 / "time.n.08"  :EQU (u_1024 / now))  :Attribute-of (u_1021 / "person.n.01"  :Source (u_1022 / "country.n.02"  :Name (u_1026 / "adult.n.01")))))
+
+(u_1037 / box  :member (u_1032 / "good.a.01"  :Theme (u_1033 / "play.v.01"  :Theme (u_1030 / "tennis.n.01"))  :Time (u_1031 / "time.n.08"  :EQU (u_1036 / now))  :Attribute-of (u_1035 / "person.n.01"  :Role (u_1038 / "brother.n.01"  :Of (u_1034 / speaker)))))
+
+(u_1046 / box  :member (u_1044 / "speak.v.02"  :Agent (u_1043 / "male.n.02")  :Co-Agent (u_1041 / "person.n.01"  :Role (u_1042 / "teacher.n.01"))  :Time (u_1047 / "time.n.08"  :TPR (u_1045 / now))))
+
+(u_1056 / box  :member (u_1057 / "'s.v.02"  :Theme (u_1053 / "male.n.02"  :Name (u_1054 / Tom))  :Time (u_1050 / "time.n.08"  :EQU (u_1055 / now))  :Manner (u_1051 / "manner.n.01"  :EQU (u_1052 / "?"))))
+
+(u_1065 / box  :member (u_1064 / "be.v.02"  :Theme (u_1060 / "man.n.01")  :Co-Theme (u_1062 / "male.n.02"  :Name (u_1063 / Pedro))  :Time (u_1066 / "time.n.08"  :EQU (u_1061 / now))))
+
+(u_1072 / box  :member (u_1074 / "approach.v.02"  :Theme (u_1068 / "male.n.02"  :Name (u_1069 / Dan))  :Agent (u_1067 / "female.n.02"  :Name (u_1073 / Linda))  :Time (u_1070 / "time.n.08"  :TPR (u_1071 / now))))
+
+(u_1085 / box  :member (u_1079 / "person.n.01"  :Role (u_1080 / "relation.n.03"  :Of (u_1083 / "break.v.31"  :Agent (u_1077 / "country.n.01")  :Patient (u_1081 / "state.n.04"  :Name (u_1082 / "United States"))  :Time (u_1086 / "time.n.08"  :TPR (u_1084 / now))  :Attribute (u_1078 / "diplomatic.n.03"  :member-of u_1085)))))
+
+(u_1093 / box  :member (u_1094 / "nap.v.01"  :Agent (u_1088 / "person.n.01"  :Role (u_1090 / "grandfather.n.01"))  :Time (u_1091 / "time.n.08"  :EQU (u_1092 / now))  :Location (u_1089 / "sofa.n.01")))
+
+(u_1102 / box  :member (u_1097 / "belong.v.01"  :Theme (u_1096 / "umbrella.n.01")  :Pivot (u_1098 / "person.n.01"  :Name (u_1099 / "?"))  :Time (u_1100 / "time.n.08"  :EQU (u_1101 / now))))
+
+(u_1117 / box  :member (u_1118 / "lie.v.05"  :Agent (u_1113 / "male.n.02"  :Name (u_1114 / Tom))  :Time (u_1115 / "time.n.08"  :EQU (u_1116 / now)))  :Stimulus-of (u_1108 / "convinced.a.01"  :Experiencer (u_1109 / "person.n.01"  :EQU (u_1110 / speaker))  :Time (u_1111 / "time.n.08"  :EQU (u_1112 / now))))
+
+(u_1129 / box  :member (u_1130 / "away.r.05"  :Theme (u_1122 / "coast.n.01")  :Time (u_1127 / "time.n.08"  :EQU (u_1126 / now))  :Value (u_1125 / "measure.n.02"  :Unit (u_1124 / "mile.n.01")  :Quantity (u_1128 / 2))  :Attribute-of (u_1123 / "town.n.01")))
+
+(u_1140 / box  :member (u_1141 / "wear.v.01"  :Theme (u_1135 / "jumpsuit.n.01"  :Colour (u_1134 / "orange.a.01")  :Part-of (u_1133 / "prison.n.02"))  :Agent (u_1136 / "male.n.02"  :Name (u_1137 / Tom))  :Time (u_1138 / "time.n.08"  :TPR (u_1139 / now))))
+
+(u_1151 / box  :member (u_1144 / "compare.v.01"  :Agent (u_1147 / "male.n.02"  :Name (u_1148 / Tom)  :Creator-of (u_1149 / "answer.n.01"  :Theme-of u_1144))  :Time (u_1152 / "time.n.08"  :TPR (u_1150 / now)))  :Destination (u_1146 / "'s.n.03"  :Part-of (u_1145 / "female.n.02"  :Name (u_1153 / Mary))))
+
+(u_1158 / box  :member (u_1159 / "bear.v.02"  :Patient (u_1154 / "male.n.02")  :Time (u_1156 / "time.n.08"  :TPR (u_1157 / now)  :YearOfCentury (u_1155 / 195X))))
+
+(u_1166 / box  :member (u_1165 / "bake.v.02"  :Agent (u_1163 / "male.n.02"  :Name (u_1164 / Tom))  :Product (u_1161 / "cookie.n.01"  :Quantity (u_1167 / 12))  :Time (u_1168 / "time.n.08"  :TPR (u_1162 / now))))
+
+(u_1176 / box  :member (u_1172 / "alone.a.01"  :Time (u_1171 / "time.n.08"  :EQU (u_1175 / now))  :Attribute-of (u_1173 / "person.n.01"  :EQU (u_1174 / speaker))))
+
+(u_1189 / box  :member (u_1184 / "tall.a.01"  :Degree (u_1182 / "more.r.01"  :Theme (u_1181 / "boy.n.01"  :Attribute u_1184  :Agent-of (u_1190 / "speaking.v.07"  :Theme (u_1183 / "english.n.01")  :member-of u_1189))  :Co-Theme (u_1185 / "person.n.01"  :EQU (u_1186 / speaker)))  :Time (u_1187 / "time.n.08"  :EQU (u_1188 / now))))
+
+(u_1202 / box  :member (u_1210 / "person.n.01"  :EQU (u_1201 / speaker)  :member-of (u_1203 / box  :POSSIBILITY-of u_1202)  :Agent-of (u_1204 / "wipe.v.01"  :Source (u_1207 / "table..n.01")  :member-of (u_1205 / box  :NEGATION (u_1212 / box  :member (u_1200 / "have.v.04"  :Theme (u_1213 / "cloth.n.01")  :Pivot u_1210  :Sub (u_1208 / "person.n.01"  :EQU (u_1206 / speaker))  :Time (u_1211 / "time.n.08"  :EQU (u_1209 / now))))  :NEGATION-of u_1202))))
+
+(u_1217 / box  :member (u_1219 / "smile.v.01"  :Agent (u_1214 / "person.n.01"  :EQU (u_1218 / hearer))  :Time (u_1215 / "time.n.08"  :EQU (u_1216 / now))))
+
+(u_1233 / box  :member (u_1232 / "walk.v.01"  :Theme (u_1224 / "entity.n.01"  :Sub (u_1229 / "male.n.02"  :Name (u_1230 / Tom))  :Sub (u_1234 / "female.n.02"  :Name (u_1231 / Mary)))  :Time (u_1226 / "time.n.08"  :TPR (u_1225 / now))  :Destination (u_1227 / "sidewalk.n.01"  :Attribute (u_1228 / "busy.a.01"  :member-of u_1233))))
+
+(u_1242 / box  :member (u_1237 / "weigh.v.01"  :Theme (u_1236 / "person.n.01"  :EQU (u_1243 / hearer))  :Co-Theme (u_1239 / "kilogram.n.01"  :Quantity (u_1240 / "?"))  :Time (u_1241 / "time.n.08"  :EQU (u_1238 / now))))
+
+(u_1251 / box  :member (u_1249 / "see.v.01"  :Experiencer (u_1247 / "person.n.01"  :EQU (u_1248 / speaker))  :Stimulus (u_1245 / "male.n.02")  :Time (u_1252 / "time.n.08"  :EQU (u_1250 / now))  :Manner (u_1246 / "from_time_to_time.r.01")))
+
+(u_1259 / box  :member (u_1260 / "fly.v.05"  :Theme (u_1254 / "kite.n.03")  :Agent (u_1255 / "person.n.01"  :EQU (u_1256 / speaker))  :Time (u_1257 / "time.n.08"  :TSU (u_1258 / now))))
+
+(u_1270 / box  :member (u_1268 / "ask.v.02"  :Agent (u_1265 / "female.n.02")  :Recipient (u_1264 / "male.n.02"  :Patient-of (u_1266 / "open.v.01"  :Agent (u_1269 / "window.n.01")  :Topic-of u_1268))  :Time (u_1271 / "time.n.08"  :TPR (u_1267 / now))))
+
+(u_1280 / box  :member (u_1277 / "unfashionable.a.01"  :Time (u_1281 / "time.n.08"  :EQU (u_1276 / now))  :Attribute-of (u_1275 / "hair.n.01"  :Attribute (u_1278 / "long.a.02"  :Value (u_1279 / "+")))))
+
+(u_1289 / box  :member (u_1290 / "take.v.18"  :Theme (u_1283 / "entity.n.01"  :Theme-of (u_1284 / "care.n.06"  :Agent (u_1285 / "male.n.02"  :Name (u_1286 / Tom)  :Agent-of u_1290)  :Recipient u_1290))  :Time (u_1287 / "time.n.08"  :EQU (u_1288 / now))))
+
+(u_1298 / box  :member (u_1296 / "person.n.01"  :EQU (u_1297 / speaker)  :Agent-of (u_1299 / "answer.v.01"  :Recipient (u_1293 / "letter.n.01")  :Time (u_1294 / "time.n.08"  :TPR (u_1295 / now))  :member-of (u_1300 / box  :NEGATION-of u_1298))))
+
+(u_1306 / box  :member (u_1304 / "slap.v.01"  :Agent (u_1302 / "person.n.01"  :EQU (u_1303 / speaker))  :Patient (u_1301 / "male.n.02")  :Time (u_1307 / "time.n.08"  :TPR (u_1305 / now))))
+
+(u_1320 / box  :member (u_1318 / "give.v.03"  :Agent (u_1316 / "male.n.02"  :Name (u_1317 / Tom))  :Theme (u_1312 / "measure.n.02"  :Quantity (u_1321 / 3)  :Colour (u_1315 / "brown.a.01"))  :Recipient (u_1313 / "female.n.02"  :Name (u_1314 / Mary))  :Time (u_1322 / "time.n.08"  :TPR (u_1319 / now))))
+
+(u_1329 / box  :member (u_1328 / "step.v.01"  :Theme (u_1324 / "male.n.02"  :User-of (u_1325 / "den.n.01"  :Destination (u_1326 / "lion.n.01")  :Destination-of u_1328))  :Time (u_1330 / "time.n.08"  :TPR (u_1327 / now))))
+
+(u_1339 / box  :member (u_1338 / "go.v.01"  :Theme (u_1336 / "person.n.01"  :EQU (u_1337 / speaker))  :Time (u_1340 / "time.n.08"  :TPR (u_1335 / now))  :Destination (u_1333 / "park.n.02")  :Destination (u_1334 / "yesterday.n.01")))
+
+(u_1348 / box  :member (u_1344 / "busy.a.01"  :Time (u_1343 / "time.n.08"  :EQU (u_1347 / now))  :Attribute-of (u_1345 / "person.n.01"  :EQU (u_1346 / speaker))))
+
+(u_1353 / box  :member (u_1350 / "male.n.02"  :Theme-of (u_1352 / "swim.v.01"  :member-of (u_1354 / box  :POSSIBILITY-of u_1353))  :member-of (u_1351 / box  :NEGATION-of u_1353)))
+
+(u_1368 / box  :member (u_1363 / "guess.v.01"  :Experiencer (u_1364 / "person.n.01"  :EQU (u_1365 / speaker))  :Stimulus (u_1362 / "entity.n.01"  :Sub-of (u_1359 / 40  :Role (u_1360 / "son.n.01"  :Of (u_1358 / "female.n.02"))  :Time (u_1366 / "time.n.08"  :EQU (u_1367 / now))))  :Time (u_1369 / "time.n.08"  :EQU (u_1361 / now))))
+
+(u_1375 / box  :member (u_1373 / "knock.v.02"  :Agent (u_1372 / "boy.n.01")  :Patient (u_1371 / "glass.n.02")  :Time (u_1376 / "time.n.08"  :TPR (u_1374 / now))))
+
+(u_1382 / box  :member (u_1384 / "read.v.01"  :Experiencer (u_1378 / "person.n.01"  :EQU (u_1379 / speaker))  :Stimulus (u_1377 / "book.n.02"  :Creator (u_1383 / hearer))  :Time (u_1380 / "time.n.08"  :EQU (u_1381 / now))))
+
+(u_1391 / box  :member (u_1389 / "male.n.02"  :Name (u_1390 / Tom)  :Agent-of (u_1388 / "offer.v.02"  :Theme (u_1387 / "explanation.n.01")  :Time (u_1392 / "time.n.08"  :TPR (u_1393 / now))  :member-of (u_1394 / box  :NEGATION-of u_1391))))
+
+(u_1405 / box  :member (u_1406 / "sail.v.01"  :Theme (u_1399 / "boat.n.01")  :Time (u_1403 / "time.n.08"  :EQU (u_1404 / now))  :Path (u_1400 / "ocean.n.01"  :Name (u_1407 / _))  :Destination (u_1401 / "gulf.n.01"  :Name (u_1402 / Gibraltar))))
+
+(u_1415 / box  :member (u_1416 / "get_up.v.02"  :Agent (u_1411 / "person.n.01"  :EQU (u_1412 / speaker))  :Time (u_1413 / "time.n.08"  :TPR (u_1414 / now)  :TAB (u_1409 / "measure.n.02"  :TAB (u_1408 / now)  :Unit (u_1410 / "minute.n.01")))))
+
+(u_1421 / box  :member (u_1422 / "popular.a.01"  :Stimulus (u_1417 / "rug.n.01"  :MadeOf (u_1418 / "little.a.01"))  :Time (u_1419 / "time.n.08"  :TPR (u_1420 / now))))
+
+(u_1438 / box  :member (u_1443 / "aim.v.01"  :Agent (u_1442 / "person.n.01"  :EQU (u_1436 / speaker))  :Theme (u_1430 / "duck.n.01")  :Time (u_1444 / "time.n.08"  :EQU (u_1437 / now)))  :PRECONDITION (u_1439 / box  :member (u_1433 / "person.n.01"  :EQU (u_1434 / speaker)  :Agent-of (u_1431 / "shoot.v.01"  :Patient (u_1432 / "entity.n.01")  :Time (u_1435 / "time.n.08"  :EQU (u_1441 / now))  :member-of (u_1440 / box  :NEGATION-of u_1439)))))
+
+(u_1453 / box  :member (u_1452 / "wave.v.01"  :Agent (u_1450 / "male.n.02"  :Name (u_1451 / Tom))  :Recipient (u_1447 / "female.n.02"  :Name (u_1454 / Mary))  :Time (u_1455 / "time.n.08"  :TPR (u_1449 / now))  :Source (u_1448 / "helicopter.n.01")))
+
+(u_1466 / box  :member (u_1467 / "be.v.01"  :Theme (u_1463 / "avoidance.n.01")  :Co-Theme (u_1460 / "accident.n.01"  :Attribute (u_1464 / "industrial.a.01"  :member-of u_1466))  :Time (u_1461 / "time.n.08"  :EQU (u_1465 / now))  :Attribute (u_1462 / "focal.a.01")))
+
+(u_1472 / box  :member (u_1468 / "classroom.n.01"  :Theme-of (u_1471 / "accommodate.v.04"  :Value (u_1469 / "measure.n.02"  :Unit (u_1470 / "student.n.01"))  :member-of (u_1473 / box  :POSSIBILITY-of u_1472))))
+
+(u_1481 / box  :member (u_1477 / "weird.a.01"  :Time (u_1476 / "time.n.08"  :EQU (u_1480 / now))  :Attribute-of (u_1478 / "male.n.02"  :Name (u_1479 / Tom))))
+
+(u_1488 / box  :member (u_1486 / "person.n.01"  :EQU (u_1487 / speaker)  :Agent-of (u_1485 / "play.v.01"  :Theme (u_1484 / "tennis.n.01")  :Time (u_1489 / "time.n.08"  :TSU (u_1490 / now))  :member-of (u_1491 / box  :NEGATION-of u_1488))))
+
+(u_1497 / box  :member (u_1498 / "bear.v.02"  :Patient (u_1493 / "male.n.02")  :Time (u_1495 / "time.n.08"  :TPR (u_1496 / now))  :Location (u_1494 / "country.n.02"  :Name (u_1499 / America))))
+
+(u_1510 / box  :member (u_1508 / "leave.v.02"  :Agent (u_1503 / "female.n.02"  :Of-of (u_1505 / "son.n.01"  :Role-of (u_1504 / "person.n.01"  :Co-Agent-of u_1508)))  :Theme (u_1507 / "money.n.01"  :Quantity (u_1506 / "quantity.n.01"  :EQU (u_1511 / "+")))  :Time (u_1512 / "time.n.08"  :TPR (u_1509 / now))))
+
+(u_1517 / box  :member (u_1516 / "itch.v.03"  :Patient (u_1513 / "nose.n.01"  :Part-of (u_1515 / speaker))  :Time (u_1518 / "time.n.08"  :EQU (u_1514 / now))))
+
+(u_1524 / box  :member (u_1525 / "chase.v.01"  :Theme (u_1520 / "ball.n.01")  :Agent (u_1521 / "dog.n.01")  :Time (u_1522 / "time.n.08"  :EQU (u_1523 / now))))
+
+(u_1531 / box  :member (u_1529 / "have.v.02"  :Pivot (u_1527 / "male.n.02"  :Name (u_1528 / Tom))  :Theme (u_1526 / "ring.n.08")  :Time (u_1532 / "time.n.08"  :EQU (u_1530 / now))))
+
+(u_1539 / box  :member (u_1534 / "bookd.a.01"  :Time (u_1537 / "time.n.08"  :EQU (u_1538 / now)))  :CONTRAST (u_1535 / box  :member (u_1536 / "seat.n.01")))
+
+(u_1546 / box  :member (u_1543 / "be.v.01"  :Theme (u_1544 / "entity.n.01")  :Co-Theme (u_1542 / "story.n.01"  :Attribute (u_1545 / "sad.a.01"  :member-of u_1546))))
+
+(u_1556 / box  :member (u_1554 / "time.n.08"  :Agent (u_1552 / "person.n.01"  :EQU (u_1553 / speaker))  :Theme (u_1549 / "watch.n.01"  :MadeOf (u_1550 / "wrist.n.01"))  :Recipient (u_1551 / "female.n.02")  :Time (u_1557 / "time.n.08"  :TPR (u_1555 / now))))
+
+(u_1565 / box  :member (u_1564 / "hate.v.01"  :Experiencer (u_1561 / "male.n.02"  :Name (u_1562 / Tom))  :Stimulus (u_1559 / "day.n.03"  :Name (u_1563 / Halloween))  :Time (u_1566 / "time.n.08"  :EQU (u_1560 / now))))
+
+(u_1582 / box  :member (u_1574 / "run_away.v.01"  :Theme (u_1579 / "person.n.01"  :EQU (u_1580 / speaker))  :Source (u_1573 / "home.n.01")  :Time (u_1583 / "time.n.08"  :TPR (u_1581 / "time.n.08")  :ClockTime (u_1575 / "16:00")  :Time (u_1578 / "time.n.08"  :TPR (u_1577 / now)  :ClockTime (u_1576 / "16:00")))))
+
+(u_1594 / box  :member (u_1586 / "big.a.01"  :Degree (u_1587 / "more.r.01"  :Theme (u_1588 / "city.n.01"  :Name (u_1589 / Beijing)  :Attribute u_1586)  :Co-Theme (u_1590 / "city.n.01"  :Name (u_1591 / Rome)))  :Time (u_1592 / "time.n.08"  :EQU (u_1593 / now))))
+
+(u_1606 / box  :member (u_1605 / "be.v.02"  :Theme (u_1603 / "entity.n.01"  :Name (u_1604 / "?"))  :Co-Theme (u_1598 / "island.n.01"  :Location (u_1600 / "world.n.04")  :Attribute (u_1601 / "large.a.01"  :Degree (u_1599 / "most.r.01")))  :Time (u_1607 / "time.n.08"  :EQU (u_1602 / now))))
+
+(u_1616 / box  :member (u_1614 / "want.v.01"  :Pivot (u_1612 / "person.n.01"  :EQU (u_1613 / speaker)  :Agent-of (u_1617 / "complain.v.01"  :Theme (u_1610 / "service.n.01")  :Theme-of u_1614))  :Time (u_1611 / "time.n.08"  :EQU (u_1615 / now))))
+
+(u_1622 / box  :member (u_1621 / "sew.v.01"  :Agent (u_1618 / "person.n.01"  :Role (u_1619 / "mother.n.01"))  :Time (u_1623 / "time.n.08"  :EQU (u_1620 / now))))
+
+(u_1630 / box  :member (u_1628 / "drive.v.03"  :Agent (u_1626 / "male.n.02"  :Name (u_1627 / Tom)  :User-of (u_1625 / "sports_car.n.01"  :Instrument-of u_1628))  :Theme (u_1624 / "female.n.02"  :Name (u_1631 / Mary))  :Time (u_1632 / "time.n.08"  :TPR (u_1629 / now))))
+
+(u_1639 / box  :member (u_1640 / "see.v.01"  :Experiencer (u_1636 / "male.n.02"  :Name (u_1637 / Tom))  :Stimulus (u_1634 / "entity.n.01")  :Time (u_1635 / "time.n.08"  :TPR (u_1638 / now))))
+
+(u_1644 / box  :member (u_1641 / "snow.v.01"  :Time (u_1643 / "time.n.08"  :EQU (u_1642 / now))))
+
+(u_1649 / box  :member (u_1650 / "hungry.a.01"  :Experiencer (u_1645 / "male.n.02"  :Name (u_1646 / Tom))  :Time (u_1647 / "time.n.08"  :EQU (u_1648 / now))))
+
+(u_1654 / box  :member (u_1651 / "person.n.01"  :EQU (u_1656 / hearer)  :Theme-of (u_1653 / _  :Time (u_1652 / "time.n.08"  :TSU (u_1655 / now))  :member-of (u_1657 / box  :NEGATION-of u_1654))))
+
+(u_1662 / box  :member (u_1660 / "shave_off.v.01"  :Agent (u_1658 / "male.n.02"  :Part (u_1659 / "mustache.n.01"  :Theme-of u_1660))  :Time (u_1663 / "time.n.08"  :TPR (u_1661 / now))))
+
+(u_1671 / box  :member (u_1667 / "awkward.a.01"  :Time (u_1666 / "time.n.08"  :EQU (u_1670 / now))  :Attribute-of (u_1668 / "male.n.02"  :Name (u_1669 / Tom))))
+
+(u_1680 / box  :member (u_1681 / "fear.v.01"  :Experiencer (u_1677 / "male.n.02"  :Name (u_1678 / "Napoleon Bonaparte"))  :Stimulus (u_1674 / "cat.n.01"  :Colour (u_1675 / "black.a.01"))  :Time (u_1676 / "time.n.08"  :TPR (u_1679 / now))))
+
+(u_1687 / box  :member (u_1685 / "draw_up.v.02"  :Agent (u_1683 / "male.n.02")  :Time (u_1688 / "time.n.08"  :TPR (u_1686 / now))  :Result (u_1684 / "will.n.02")))
+
+(u_1695 / box  :member (u_1696 / "bad.a.07"  :Theme (u_1691 / "sport.n.01")  :Time (u_1693 / "time.n.08"  :EQU (u_1694 / now))  :Attribute-of (u_1692 / "female.n.02")))
+
+(u_1702 / box  :member (u_1700 / "beautiful.a.01"  :Time (u_1699 / "time.n.08"  :EQU (u_1701 / now))  :Attribute-of (u_1698 / "person.n.01")))
+
+(u_1711 / box  :member (u_1710 / "violate.v.03"  :Pivot (u_1707 / "company.n.01"  :Name (u_1709 / Wal-Mart))  :Theme (u_1706 / "regulation.n.02"  :Quantity (u_1712 / 3))  :Time (u_1713 / "time.n.08"  :TPR (u_1708 / now))))
+
+(u_1723 / box  :member (u_1720 / "alive.a.01"  :Time (u_1719 / "time.n.08"  :EQU (u_1721 / now))  :Attribute-of (u_1724 / "cat.n.01"  :Owner (u_1717 / "female.n.02")  :Attribute (u_1718 / "old.a.01"  :Value (u_1722 / "+")))))
+
+(u_1733 / box  :member (u_1728 / "love.v.01"  :Experiencer (u_1731 / "person.n.01"  :Role (u_1734 / "wife.n.01"  :Of (u_1730 / speaker)))  :Stimulus (u_1727 / "apple_juice.n.01")  :Time (u_1729 / "time.n.08"  :EQU (u_1732 / now))))
+
+(u_1742 / box  :member (u_1740 / "tall.a.01"  :Time (u_1739 / "time.n.08"  :EQU (u_1741 / now))  :Degree (u_1743 / "as.r.01"  :Theme (u_1736 / "male.n.02"  :Attribute u_1740  :Of-of (u_1738 / "father.n.01"  :Role-of (u_1737 / "person.n.01"  :Co-Theme-of u_1743))))))
+
+(u_1749 / box  :member (u_1747 / "work.v.02"  :Agent (u_1745 / "male.n.02"  :Name (u_1746 / _))  :Co-Agent (u_1744 / "company.n.01"  :Name (u_1750 / CIA))  :Time (u_1751 / "time.n.08"  :TPR (u_1748 / now))))
+
+(u_1757 / box  :member (u_1755 / "illegal.a.01"  :Time (u_1754 / "time.n.08"  :EQU (u_1756 / now))  :Attribute-of (u_1753 / "fart.v.01")))
+
+(u_1766 / box  :member (u_1762 / "enter.v.02"  :Theme (u_1763 / "person.n.01"  :Role (u_1765 / "son.n.01"  :Of (u_1764 / speaker)))  :Time (u_1767 / "time.n.08"  :TPR (u_1761 / now))  :Destination (u_1760 / "high_school.n.01")))
+
+(u_1775 / box  :member (u_1771 / "sick.a.01"  :Time (u_1770 / "time.n.08"  :EQU (u_1774 / now))  :Attribute-of (u_1772 / "person.n.01"  :EQU (u_1773 / speaker))))
+
+(u_1783 / box  :member (u_1784 / "sail.v.01"  :Theme (u_1778 / "male.n.02")  :Time (u_1781 / "time.n.08"  :EQU (u_1782 / now))  :Destination (u_1780 / "country.n.02"  :Name (u_1779 / Sweden))))
+
+(u_1793 / box  :member (u_1791 / "call.v.03"  :Agent (u_1787 / "person.n.01"  :EQU (u_1788 / speaker))  :Theme (u_1789 / "male.n.02"  :Name (u_1790 / Tom))  :Time (u_1794 / "time.n.08"  :TPR (u_1792 / now))))
+
+(u_1802 / box  :member (u_1801 / "go.v.01"  :Theme (u_1796 / "male.n.02")  :Time (u_1803 / "time.n.08"  :TPR (u_1800 / now))  :Of-of (u_1798 / "dad.n.01"  :Role-of (u_1797 / "person.n.01"  :Co-Theme-of (u_1799 / "terra_incognita.n.01"  :Theme u_1801  :member-of (u_1804 / box  :NEGATION-of u_1802))))))
+
+(u_1814 / box  :member (u_1810 / "old.a.01"  :Theme (u_1808 / "baby.n.01")  :Time (u_1811 / "time.n.08"  :EQU (u_1812 / now))  :Value (u_1815 / "measure.n.02"  :Quantity (u_1813 / 4)  :Unit (u_1809 / "week.n.01"))))
+
+(u_1825 / box  :member (u_1826 / "bear.v.02"  :Patient (u_1820 / "male.n.02"  :Name (u_1821 / "Daniel Colbeck"))  :Time (u_1822 / "time.n.08"  :TPR (u_1819 / now)  :DayOfMonth (u_1827 / 20)  :YearOfCentury (u_1818 / 1995)  :MonthOfYear (u_1823 / 10))  :Location (u_1824 / "city.n.01"  :Name (u_1828 / Danzig))))
+
+(u_1834 / box  :member (u_1832 / "broken.a.01"  :Time (u_1831 / "time.n.08"  :EQU (u_1833 / now))  :Attribute-of (u_1830 / "television.n.03")))
+
+(u_1846 / box  :member (u_1843 / "take.v.02"  :Theme (u_1837 / "trip.n.01")  :Time (u_1844 / "time.n.08"  :TSU (u_1845 / now))  :Value (u_1839 / "measure.n.02"  :Unit (u_1840 / "hour.n.01")  :Quantity (u_1842 / "quantity.n.01"  :APX (u_1838 / "quantity.n.01"  :EQU (u_1841 / 1600))))))
+
+(u_1856 / box  :member (u_1857 / "good.a.08"  :Theme (u_1852 / "play.v.03"  :Theme (u_1850 / "violin.n.01"))  :Time (u_1854 / "time.n.08"  :EQU (u_1855 / now))  :Degree (u_1851 / "very.r.01")  :Attribute-of (u_1853 / "male.n.02")))
+
+(u_1865 / box  :member (u_1861 / "person.n.01"  :EQU (u_1866 / hearer)  :Experiencer-of (u_1863 / "ashamed.a.01"  :Stimulus (u_1864 / "stupidity.n.01"  :Creator (u_1862 / hearer))  :member-of (u_1867 / box  :NECESSITY-of u_1865))))
+
+(u_1875 / box  :member (u_1872 / "time.n.08"  :EQU (u_1871 / now)  :Location (u_1870 / "country.n.02"  :Name (u_1877 / Australia))  :Time-of (u_1874 / "person.n.01"  :Role (u_1876 / "brother.n.01"  :Of (u_1873 / speaker)))))
+
+(u_1887 / box  :member (u_1883 / "be.v.03"  :Theme (u_1881 / "car.n.01"  :Theme-of (u_1884 / "abandoned.a.01"  :member-of u_1887))  :Time (u_1885 / "time.n.08"  :TPR (u_1886 / now))  :Location (u_1882 / "river.n.01")))
+
+(u_1893 / box  :member (u_1891 / "top-secret.a.01"  :Time (u_1890 / "time.n.08"  :EQU (u_1892 / now))  :Attribute-of (u_1889 / "entity.n.01")))
+
+(u_1905 / box  :member (u_1904 / "say.v.01"  :Agent (u_1899 / "person.n.01")  :Time (u_1900 / "time.n.08"  :EQU (u_1902 / now)))  :ATTRIBUTION (u_1907 / box  :member (u_1901 / "ill.a.01"  :Time (u_1898 / "time.n.08"  :EQU (u_1903 / now))  :Degree (u_1906 / "seriously.r.01")  :Attribute-of (u_1897 / "male.n.02"))))
+
+(u_1913 / box  :member (u_1911 / "confusing.a.01"  :Time (u_1910 / "time.n.08"  :EQU (u_1912 / now))  :Attribute-of (u_1909 / "entity.n.01")))
+
+(u_1922 / box  :member (u_1920 / "old.a.01"  :Time (u_1919 / "time.n.08"  :EQU (u_1921 / now))  :Value (u_1923 / "measure.n.02"  :Unit (u_1916 / "year.n.01")  :Quantity (u_1924 / 19))  :Attribute-of (u_1917 / "person.n.01"  :EQU (u_1918 / speaker))))
+
+(u_1939 / box  :member (u_1937 / "take.v.24"  :Agent (u_1931 / "saucer.n.01"  :Theme-of (u_1942 / "come.v.02"  :Time (u_1932 / "time.n.08"  :TPR (u_1935 / now))  :member-of u_1939))  :Theme (u_1934 / "cow.n.01"  :Owner (u_1940 / speaker))  :Time (u_1941 / "time.n.08"  :TPR (u_1938 / now)))  :Goal (u_1936 / "fly_dog.n.01"  :Value (u_1933 / "+")))
+
+(u_1948 / box  :member (u_1946 / "hate.v.01"  :Experiencer (u_1944 / "male.n.02"  :Name (u_1945 / Tom))  :Stimulus (u_1943 / "body.n.01")  :Time (u_1949 / "time.n.08"  :EQU (u_1947 / now))))
+
+(u_1958 / box  :member (u_1955 / "call.v.01"  :Theme (u_1952 / "country.n.02"  :Name (u_1959 / Germany))  :Time (u_1956 / "time.n.08"  :EQU (u_1957 / now))  :Result (u_1951 / "name.n.01"  :EQU (u_1954 / Deutschland))  :Context (u_1953 / "albanian.n.02")))
+
+(u_1964 / box  :member (u_1965 / "write.v.01"  :Agent (u_1960 / "book.n.02")  :Time (u_1962 / "time.n.08"  :EQU (u_1963 / now))  :Context (u_1961 / "english.n.01")))
+
+(u_1969 / box  :member (u_1971 / "look.v.02"  :Agent (u_1966 / "person.n.01"  :EQU (u_1970 / hearer))  :Time (u_1967 / "time.n.08"  :EQU (u_1968 / now))))
+
+(u_1979 / box  :member (u_1975 / "belligerent.a.01"  :Time (u_1974 / "time.n.08"  :TPR (u_1978 / now))  :Attribute-of (u_1976 / "male.n.02"  :Name (u_1977 / Tom))))
+
+(u_1996 / box  :member (u_1993 / "take.v.02"  :Theme (u_1985 / "voyage.n.01"  :Source (u_1987 / "country.n.02"  :Name (u_1994 / England))  :Destination (u_1988 / "country.n.02"  :Name (u_1986 / India)))  :Time (u_1995 / "time.n.08"  :TPR (u_1992 / now))  :Value (u_1990 / "measure.n.02"  :Quantity (u_1989 / 18)  :Unit (u_1991 / "month.n.02"))))
+
+(u_2007 / box  :member (u_2002 / "straight.r.01"  :Value (u_2006 / "+")  :Attribute-of (u_2001 / "man.n.01"  :Attribute (u_2005 / "drunken.a.01"  :member-of u_2007)  :Theme-of (u_2003 / "walk.v.01"  :member-of (u_2008 / box  :POSSIBILITY-of u_2007)))  :member-of (u_2004 / box  :NEGATION-of u_2007)))
+
+(u_2013 / box  :member (u_2014 / "old.a.01"  :Experiencer (u_2011 / "person.n.01"  :EQU (u_2012 / speaker))  :Degree (u_2010 / box)))
+
+(u_2023 / box  :member (u_2024 / "dye.v.01"  :Agent (u_2019 / "person.n.01"  :EQU (u_2020 / speaker))  :Patient (u_2016 / "hair.n.01"  :Colour (u_2017 / "brown.a.01"  :Result-of u_2024)  :Part-of (u_2021 / speaker))  :Time (u_2022 / "time.n.08"  :EQU (u_2018 / now))))
+
+(u_2031 / box  :member (u_2030 / "be.v.03"  :Theme (u_2026 / "female.n.02")  :Time (u_2032 / "time.n.08"  :TPR (u_2029 / now))  :Location (u_2028 / "hospital.n.01")  :Duration (u_2027 / "month.n.02")))
+
+(u_2039 / box  :member (u_2034 / "person.n.01"  :EQU (u_2040 / hearer)  :Agent-of (u_2036 / "promise.v.01"  :Recipient (u_2037 / "person.n.01"  :EQU (u_2038 / speaker))  :Theme (u_2035 / "entity.n.01")  :member-of (u_2041 / box  :NECESSITY-of u_2039))))
+
+(u_2047 / box  :member (u_2045 / "person.n.01"  :EQU (u_2046 / speaker)  :Experiencer-of (u_2050 / "proud.a.01"  :Stimulus (u_2044 / "behaviour.n.01"  :Creator (u_2048 / speaker))  :Time (u_2049 / "time.n.08"  :EQU (u_2051 / now))  :member-of (u_2052 / box  :NEGATION-of u_2047))))
+
+(u_2057 / box  :member (u_2059 / "kiss.v.01"  :Agent (u_2054 / "male.n.02")  :Patient (u_2058 / "female.n.02")  :Time (u_2055 / "time.n.08"  :TPR (u_2056 / now))))
+
+(u_2062 / box  :member (u_2060 / "vend_down.v.01"  :Theme-of (u_2061 / "work.v.04"  :Time (u_2063 / "time.n.08"  :EQU (u_2064 / now))  :member-of (u_2065 / box  :NEGATION-of u_2062))))
+
+(u_2075 / box  :member (u_2067 / "quit.v.02"  :Time (u_2073 / "time.n.08"  :TPR (u_2074 / now)  :TAB (u_2069 / "measure.n.02"  :TAB (u_2068 / now)  :Unit (u_2070 / "year.n.01")  :Quantity (u_2066 / 2)))  :Part-of (u_2076 / "smoke.v.01"  :Agent (u_2071 / "person.n.01"  :EQU (u_2072 / speaker)))))
+
+(u_2089 / box  :member (u_2086 / "be.v.03"  :Theme (u_2081 / "vehicle.n.01"  :Quantity (u_2083 / "quantity.n.01"  :EQU (u_2090 / "+")))  :Time (u_2087 / "time.n.08"  :EQU (u_2088 / now))  :Time (u_2082 / "time.n.08"  :EQU (u_2084 / now))  :Location (u_2085 / "road.n.01")))
+
+(u_2099 / box  :member (u_2097 / "illegal.a.01"  :Time (u_2096 / "time.n.08"  :EQU (u_2098 / now))  :Location (u_2095 / "town.n.01"  :Part-of (u_2094 / "country.n.02"  :Name (u_2101 / Italy)))  :Attribute-of (u_2093 / "lobster.n.01"  :Agent-of (u_2100 / "cook.v.03"  :Patient u_2097))))
+
+(u_2109 / box  :member (u_2106 / "heavy.a.01"  :Value (u_2107 / "+")  :Time (u_2108 / "time.n.08"  :EQU (u_2105 / now))  :Attribute-of (u_2104 / "box.n.01")))
+
+(u_2119 / box  :member (u_2117 / "unfashionable.a.01"  :Time (u_2114 / "time.n.08"  :EQU (u_2116 / now))  :Attribute-of (u_2113 / "skirt.n.01"  :Attribute (u_2115 / "long.a.02"  :Value (u_2118 / "+")))))
+
+(u_2127 / box  :member (u_2126 / "be.v.01"  :Theme (u_2124 / "entity.n.01")  :Co-Theme (u_2122 / "person.n.01"  :Role (u_2123 / "fellow.n.01")  :Attribute (u_2125 / "dishonest.a.01"  :member-of u_2127))))
+
+(u_2133 / box  :member (u_2131 / "person.n.01"  :EQU (u_2132 / speaker)  :Agent-of (u_2130 / "destroy.v.01"  :Patient (u_2129 / "evidence.n.01")  :member-of (u_2134 / box  :NECESSITY-of u_2133))))
+
+(u_2143 / box  :member (u_2141 / "throw.v.01"  :Agent (u_2140 / "male.n.02")  :Theme (u_2138 / "stone.n.01")  :Time (u_2144 / "time.n.08"  :TPR (u_2142 / now))  :Destination (u_2139 / "dog.n.01")))
+
+(u_2152 / box  :member (u_2150 / "keep.v.08"  :Agent (u_2148 / "male.n.02"  :Name (u_2149 / Tom))  :Theme (u_2146 / "cat.n.01"  :Colour (u_2147 / "black.a.01"))  :Time (u_2153 / "time.n.08"  :EQU (u_2151 / now))))
+
+(u_2159 / box  :member (u_2157 / "respect.v.01"  :Experiencer (u_2155 / "male.n.02"  :Name (u_2156 / Tom))  :Stimulus (u_2154 / "opinion.n.01"  :Creator (u_2160 / hearer))  :Time (u_2161 / "time.n.08"  :EQU (u_2158 / now))))
+
+(u_2167 / box  :member (u_2170 / "like.v.02"  :Experiencer (u_2168 / "person.n.01"  :EQU (u_2169 / hearer))  :Stimulus (u_2164 / "music.n.01")  :Time (u_2166 / "time.n.08"  :EQU (u_2165 / now))))
+
+(u_2182 / box  :member (u_2178 / "tall.a.01"  :Degree (u_2176 / "more.r.01"  :Theme (u_2184 / "male.n.02"  :Attribute u_2178)  :Co-Theme (u_2175 / "person.n.01"  :EQU (u_2183 / hearer)))  :Time (u_2180 / _  :EQU (u_2181 / now))  :Time (u_2177 / "time.n.08"  :EQU (u_2179 / now))))
+
+(u_2197 / box  :member (u_2191 / "novel.n.01"  :Attribute (u_2196 / "good.a.01"  :Time (u_2193 / "time.n.08"  :EQU (u_2198 / now))  :Degree (u_2194 / "as.r.01"  :Theme u_2191  :Co-Theme (u_2192 / "example.n.01"  :EQU (u_2195 / "male.n.02"))  :Bearer-of (u_2199 / "last.a.02"))  :member-of (u_2200 / box  :NEGATION-of u_2197))))
+
+(u_2205 / box  :member (u_2206 / "hungry.a.01"  :Experiencer (u_2201 / "person.n.01"  :EQU (u_2202 / speaker))  :Time (u_2203 / "time.n.08"  :EQU (u_2204 / now))))
+
+(u_2215 / box  :member (u_2213 / "speak.v.03"  :Agent (u_2212 / "female.n.02")  :Theme (u_2210 / "english.n.01")  :Time (u_2216 / "time.n.08"  :EQU (u_2214 / now))  :Manner (u_2211 / "fluently.r.01")))
+
+(u_2224 / box  :member (u_2221 / "red.a.01"  :Time (u_2223 / "time.n.08"  :EQU (u_2220 / now))  :Colour-of (u_2219 / "blood.n.01"  :User (u_2222 / hearer))))
+
+(u_2229 / box  :member (u_2226 / "check.n.01"  :Attribute (u_2228 / "honord.a.01"  :Time (u_2227 / "time.n.08"  :TPR (u_2230 / now))  :member-of (u_2231 / box  :NEGATION-of u_2229))))
+
+(u_2237 / box  :member (u_2235 / "bite.v.01"  :Agent (u_2234 / "female.n.02")  :Patient (u_2233 / "male.n.02")  :Time (u_2238 / "time.n.08"  :TPR (u_2236 / now))))
+
+(u_2248 / box  :member (u_2246 / "have.v.01"  :Pivot (u_2242 / "person.n.01"  :EQU (u_2249 / speaker))  :Theme (u_2243 / "person.n.01"  :Role (u_2245 / "daughter.n.01")  :Quantity (u_2244 / 2))  :Time (u_2250 / "time.n.08"  :EQU (u_2247 / now))))
+
+(u_2256 / box  :member (u_2259 / "see.v.03"  :Experiencer (u_2253 / "person.n.01"  :EQU (u_2254 / speaker))  :Stimulus (u_2257 / "fly_ticket.n.01"  :EQU (u_2258 / DNA))  :Time (u_2252 / "time.n.08"  :TPR (u_2255 / now))))
+
+(u_2265 / box  :member (u_2263 / "hate.v.01"  :Experiencer (u_2261 / "person.n.01"  :EQU (u_2262 / speaker))  :Stimulus (u_2260 / "rug.n.01")  :Time (u_2266 / "time.n.08"  :EQU (u_2264 / now))))
+
+(u_2276 / box  :member (u_2274 / "be.v.08"  :Theme (u_2272 / "male.n.02"  :Name (u_2273 / _))  :Co-Theme (u_2271 / "person.n.01"  :EQU (u_2270 / "?"))  :Time (u_2277 / "time.n.08"  :EQU (u_2275 / now))))
+
+(u_2284 / box  :member (u_2281 / "go.v.01"  :Theme (u_2279 / "train.n.01")  :Time (u_2282 / "time.n.08"  :EQU (u_2283 / now))  :Destination (u_2280 / "city.n.01"  :Name (u_2285 / Niigata))))
+
+(u_2295 / box  :member (u_2288 / "have.v.01"  :Theme (u_2291 / "letter.n.02"  :Quantity (u_2292 / "?"))  :Pivot (u_2287 / "alphabet.n.01"  :Source (u_2290 / "country.n.02"  :Name (u_2293 / china)))  :Time (u_2294 / "time.n.08"  :EQU (u_2289 / now))))
+
+(u_2303 / box  :member (u_2299 / "final.a.01"  :Time (u_2301 / "time.n.08"  :EQU (u_2302 / now))  :Attribute-of (u_2300 / "decision.n.01"  :Creator (u_2297 / "person.n.01"  :Role (u_2298 / "judge.n.01")))))
+
+(u_2313 / box  :member (u_2309 / "old.a.01"  :Degree (u_2310 / "more.r.01"  :Theme (u_2306 / "male.n.02"  :Attribute u_2309)  :Co-Theme (u_2307 / "person.n.01"  :Role (u_2308 / "father.n.01"  :Of (u_2314 / hearer))))  :Time (u_2311 / "time.n.08"  :EQU (u_2312 / now))))
+
+(u_2324 / box  :member (u_2325 / "come.v.02"  :Theme (u_2317 / "band.n.05")  :Time (u_2320 / "time.n.08"  :EQU (u_2322 / now))  :Destination (u_2318 / "town.n.01"  :Owner (u_2326 / speaker))  :Time (u_2323 / "time.n.08"  :DayOfWeek (u_2321 / tuesday)  :TSU (u_2319 / now))))
+
+(u_2333 / box  :member (u_2331 / "unload.v.02"  :Agent (u_2328 / "person.n.01"  :Role (u_2329 / "worker_into.v.01"))  :Time (u_2334 / "time.n.08"  :TPR (u_2332 / now))  :Destination (u_2330 / "truck.n.01")))
+
+(u_2339 / box  :member (u_2337 / "chicken_out.v.01"  :Experiencer (u_2335 / "male.n.02"  :Name (u_2336 / Tom))  :Time (u_2340 / "time.n.08"  :TPR (u_2338 / now))))
+
+(u_2346 / box  :member (u_2344 / "expensive.a.01"  :Time (u_2343 / "time.n.08"  :TSU (u_2345 / now))  :Attribute-of (u_2342 / "expedition.n.01")))
+
+(u_2352 / box  :member (u_2350 / "turn.v.03"  :Agent (u_2348 / "person.n.01"  :EQU (u_2349 / speaker))  :Patient (u_2347 / "doorknob.n.01")  :Time (u_2353 / "time.n.08"  :TPR (u_2351 / now))))
+
+(u_2359 / box  :member (u_2357 / "zip_up.v.01"  :Agent (u_2355 / "male.n.02"  :User-of (u_2356 / "jacket.n.01"  :Patient-of u_2357))  :Time (u_2360 / "time.n.08"  :TPR (u_2358 / now))))
+
+(u_2364 / box  :member (u_2362 / "male.n.02"  :Name (u_2363 / Tom)  :Experiencer-of (u_2367 / "happy.a.01"  :Time (u_2365 / "time.n.08"  :TPR (u_2366 / now))  :member-of (u_2368 / box  :NEGATION-of u_2364))))
+
+(u_2374 / box  :member (u_2373 / "swim.v.01"  :Theme (u_2371 / "male.n.02"  :Name (u_2372 / Tom))  :Time (u_2375 / "time.n.08"  :TPR (u_2370 / now))))
+
+(u_2389 / box  :member (u_2383 / "tall.a.01"  :Time (u_2381 / "time.n.08"  :EQU (u_2388 / now))  :Degree (u_2382 / "as.r.01"  :Theme (u_2386 / "person.n.01"  :EQU (u_2387 / speaker)  :Attribute u_2383)  :Co-Theme (u_2384 / "person.n.01"  :Role (u_2390 / "father.n.01"  :Of (u_2385 / speaker))))))
+
+(u_2397 / box  :member (u_2395 / "capture.v.01"  :Agent (u_2393 / "person.n.01"  :EQU (u_2394 / speaker))  :Theme (u_2391 / "person.n.01"  :Role (u_2392 / "thief.n.01"))  :Time (u_2398 / "time.n.08"  :TPR (u_2396 / now))))
+
+(u_2406 / box  :member (u_2407 / "be.v.01"  :Theme (u_2401 / "entity.n.01")  :Time (u_2404 / "time.n.08"  :EQU (u_2405 / now))  :Location (u_2403 / "location.n.01"  :SZN (u_2402 / "table.n.02"))))
+
+(u_2413 / box  :member (u_2410 / "male.n.02"  :Agent-of (u_2414 / "have_on.v.01"  :Theme (u_2411 / "hat.n.01")  :Time (u_2412 / "time.n.08"  :TPR (u_2415 / now))  :member-of (u_2416 / box  :NEGATION-of u_2413))))
+
+(u_2423 / box  :member (u_2422 / "learn.v.01"  :Agent (u_2420 / "person.n.01"  :EQU (u_2421 / speaker))  :Time (u_2424 / "time.n.08"  :EQU (u_2419 / now))  :Topic (u_2418 / "czech.n.03")))
+
+(u_2435 / box  :member (u_2431 / "put.v.01"  :Agent (u_2432 / "person.n.01"  :Role (u_2430 / "dentist.n.01"))  :Theme (u_2429 / "filling.n.01"  :Attribute (u_2433 / "temporary.a.01"  :member-of u_2435))  :Time (u_2436 / "time.n.08"  :TPR (u_2434 / now))))
+
+(u_2443 / box  :member (u_2441 / "male.n.02"  :Name (u_2442 / Tom)  :Agent-of (u_2440 / "drink.v.01"  :Patient (u_2438 / "drink.n.01")  :Time (u_2444 / "time.n.08"  :EQU (u_2445 / now))  :member-of (u_2446 / box  :NEGATION-of u_2443)))  :MadeOf (u_2439 / "alcoholic.a.01"))
+
+(u_2448 / box  :NEGATION (u_2454 / box  :member (u_2453 / "blow.v.02"  :Patient (u_2450 / "person.n.01")  :Time (u_2452 / "time.n.08"  :EQU (u_2451 / now))  :Location (u_2449 / "beehive.n.01"))))
+
+(u_2466 / box  :member (u_2461 / "lucky.a.02"  :Degree (u_2460 / "more.r.01"  :Theme (u_2459 / "cost.n.01"  :Attribute u_2461  :Attribute (u_2463 / "actual.a.01"  :member-of u_2466))  :Co-Theme (u_2462 / "estimate.n.01"))  :Time (u_2464 / "time.n.08"  :TPR (u_2465 / now))))
+
+(u_2473 / box  :member (u_2474 / "come.v.08"  :Theme (u_2468 / "person.n.01")  :Time (u_2471 / "time.n.08"  :EQU (u_2472 / now))  :Location (u_2469 / "south.n.04"  :Of (u_2470 / "country.n.02"  :Name (u_2475 / France)))))
+
+(u_2489 / box  :member (u_2486 / "rob.v.01"  :Theme (u_2481 / "woman.n.01"  :Attribute (u_2483 / "poor.a.01"  :member-of u_2489))  :Time (u_2487 / "time.n.08"  :TPR (u_2488 / now))  :Result (u_2485 / "money.n.01"))  :Attribute (u_2482 / "old.a.01"  :Value (u_2484 / "+")))
+
+(u_2495 / box  :member (u_2494 / "rush.v.01"  :Theme (u_2491 / "crowd.n.01")  :Time (u_2496 / "time.n.08"  :TPR (u_2493 / now))  :Destination (u_2492 / "exit.n.01")))
+
+(u_2503 / box  :member (u_2504 / "live.v.01"  :Theme (u_2500 / "person.n.01"  :EQU (u_2501 / speaker))  :Time (u_2498 / "time.n.08"  :EQU (u_2502 / now))  :Location (u_2499 / "country.n.02"  :Name (u_2505 / Malta))))
+
+(u_2513 / box  :member (u_2508 / "head.v.01"  :Theme (u_2509 / "person.n.01"  :EQU (u_2510 / speaker))  :Time (u_2511 / "time.n.08"  :EQU (u_2512 / now))  :Destination (u_2507 / "home.n.01")))
+
+(u_2520 / box  :member (u_2521 / "live.v.01"  :Theme (u_2516 / "male.n.02")  :Time (u_2517 / "time.n.08"  :EQU (u_2519 / now))  :Location (u_2518 / "city.n.01"  :Name (u_2522 / Yokohama))))
+
+(u_2529 / box  :member (u_2527 / "be.v.01"  :Theme (u_2526 / "entity.n.01")  :Co-Theme (u_2525 / "sight.n.01"  :Attribute (u_2528 / "wonderful.a.01"  :member-of u_2529))))
+
+(u_2539 / box  :member (u_2534 / "visit.v.01"  :Theme (u_2536 / "person.n.01"  :Quantity (u_2537 / "?"))  :Goal (u_2532 / "city.n.01"  :Name (u_2533 / Disneyland))  :Time (u_2535 / "time.n.08"  :TPR (u_2540 / now)  :YearOfCentury (u_2538 / 1999))))
+
+(u_2554 / box  :member (u_2553 / "convince.v.02"  :Agent (u_2548 / "person.n.01"  :EQU (u_2551 / speaker))  :Recipient (u_2549 / "male.n.02")  :Time (u_2555 / "time.n.08"  :TPR (u_2547 / now)))  :ATTRIBUTION (u_2556 / box  :member (u_2550 / "wrong.a.01"  :Time (u_2546 / "time.n.08"  :TPR (u_2552 / now))  :Attribute-of (u_2545 / "male.n.02"))))
+
+(u_2562 / box  :member (u_2560 / "like.v.02"  :Experiencer (u_2558 / "person.n.01"  :EQU (u_2559 / speaker))  :Stimulus (u_2557 / "comic_book.n.01")  :Time (u_2563 / "time.n.08"  :EQU (u_2561 / now))))
+
+(u_2570 / box  :member (u_2568 / "buy.v.01"  :Agent (u_2567 / "female.n.02")  :Theme (u_2566 / "dictionary.n.01")  :Time (u_2571 / "time.n.08"  :TPR (u_2569 / now))))
+
+(u_2585 / box  :member (u_2578 / "want.v.01"  :Pivot (u_2583 / "person.n.01"  :Role (u_2586 / "brother.n.01"  :Of (u_2581 / speaker))  :Agent-of (u_2580 / "kill.v.01"  :Patient (u_2582 / "person.n.01"  :EQU (u_2579 / speaker))  :Theme-of u_2578))  :Time (u_2577 / "time.n.08"  :EQU (u_2584 / now))))
+
+(u_2597 / box  :member (u_2599 / "like.v.02"  :Experiencer (u_2592 / "person.n.01"  :EQU (u_2595 / hearer))  :Stimulus (u_2596 / "furniture.n.01"  :Creator (u_2591 / "company.n.01"  :Name (u_2598 / IKEA)))  :Time (u_2593 / "time.n.08"  :EQU (u_2594 / now))))
+
+(u_2614 / box  :member (u_2610 / "be.v.03"  :Theme (u_2608 / "volcano.n.01")  :Time (u_2612 / "time.n.08"  :EQU (u_2613 / now)))  :ATTRIBUTION (u_2616 / box  :member (u_2611 / "emit.v.01"  :Theme (u_2605 / "smoke.n.01"  :Quantity (u_2607 / "mass.n.01"  :EQU (u_2615 / "+"))  :Location (u_2606 / "country.n.02"  :Name (u_2609 / Iceland))))))
+
+(u_2623 / box  :member (u_2624 / "play.v.05"  :Theme (u_2619 / "toy.n.01"  :Part-of (u_2621 / "soldier.n.01"  :EQU (u_2618 / "boy.n.01"  :Agent-of u_2624)))  :Time (u_2620 / "time.n.08"  :EQU (u_2622 / now))))
+
+(u_2629 / box  :member (u_2630 / "freak_out.v.01"  :Experiencer (u_2625 / "person.n.01"  :EQU (u_2626 / speaker))  :Time (u_2627 / "time.n.08"  :EQU (u_2628 / now))))
+
+(u_2643 / box  :member (u_2644 / "drink.v.01"  :Agent (u_2640 / "person.n.01")  :Patient (u_2636 / "orange_juice.n.01")  :Time (u_2641 / "time.n.08"  :EQU (u_2642 / now))  :Theme-of (u_2639 / "walk.v.01"  :Time (u_2638 / "time.n.08"  :EQU (u_2637 / now)))))
+
+(u_2651 / box  :member (u_2646 / "like.a.01"  :Theme (u_2647 / "person.n.01"  :EQU (u_2648 / speaker))  :Co-Theme (u_2645 / "rose_wine.n.01")  :Time (u_2649 / "time.n.08"  :TSU (u_2650 / now))))
+
+(u_2660 / box  :member (u_2656 / "short.a.03"  :Degree (u_2655 / "more.r.01"  :Theme (u_2657 / "airship.n.01"  :Attribute u_2656)  :Co-Theme (u_2654 / "air.n.01"))  :Time (u_2658 / "time.n.08"  :EQU (u_2659 / now))))
+
+(u_2666 / box  :member (u_2664 / "be.v.03"  :Theme (u_2662 / "female.n.02")  :Time (u_2667 / "time.n.08"  :EQU (u_2665 / now))  :Location (u_2663 / "bathroom.n.01")))
+
+(u_2674 / box  :member (u_2672 / "win.v.01"  :Agent (u_2671 / "male.n.02")  :Theme (u_2670 / "silver_medal.n.01")  :Time (u_2675 / "time.n.08"  :TPR (u_2673 / now))))
+
+(u_2683 / box  :member (u_2684 / "weigh.v.01"  :Theme (u_2678 / "female.n.02")  :Time (u_2681 / "time.n.08"  :EQU (u_2682 / now))  :Value (u_2680 / "measure.n.02"  :Unit (u_2679 / "pound.n.01")  :Quantity (u_2685 / 130))))
+
+(u_2691 / box  :member (u_2689 / "pay.v.01"  :Agent (u_2687 / "male.n.02"  :Name (u_2688 / Tom))  :Time (u_2692 / "time.n.08"  :TPR (u_2690 / now))  :Instrument (u_2686 / "credit_card.n.01")))
+
+(u_2700 / box  :member (u_2701 / "shy.a.03"  :Experiencer (u_2696 / "male.n.02")  :Stimulus (u_2695 / "person.n.01"  :Role (u_2697 / "stranger.n.01"))  :Time (u_2698 / "time.n.08"  :EQU (u_2699 / now))))
+
+(u_2706 / box  :member (u_2704 / "scratch.v.03"  :Agent (u_2702 / "male.n.02"  :Name (u_2703 / Tom))  :Time (u_2707 / "time.n.08"  :TPR (u_2705 / now))))
+
+(u_2718 / box  :member (u_2714 / "face.n.01"  :Part-of (u_2716 / "adore.v.01"  :Experiencer (u_2711 / "female.n.02"  :Name (u_2720 / Mary)  :Of-of (u_2713 / "baby.n.01"  :Role-of (u_2712 / "person.n.01"  :Stimulus-of u_2716)))  :Time (u_2721 / "time.n.08"  :EQU (u_2717 / now))  :Attribute (u_2715 / "cute.a.01"  :member-of u_2718)))  :Colour (u_2719 / "round.a.01"))
+
+(u_2725 / box  :member (u_2726 / "cut_down.v.01"  :Patient (u_2722 / "apple_juice.n.01")  :Time (u_2723 / "time.n.08"  :TPR (u_2724 / now))))
+
+(u_2735 / box  :member (u_2730 / "rare.a.03"  :Time (u_2733 / "time.n.08"  :EQU (u_2734 / now))  :Degree (u_2736 / "very.r.01")  :Location (u_2729 / "country.n.02")  :Attribute-of (u_2731 / "name.n.01"  :Bearer (u_2732 / speaker))))
+
+(u_2743 / box  :member (u_2741 / "point.v.01"  :Agent (u_2739 / "male.n.02"  :Name (u_2740 / Tom))  :Theme (u_2737 / "gun.n.01")  :Time (u_2744 / "time.n.08"  :TPR (u_2742 / now))  :Destination (u_2738 / "female.n.02"  :Name (u_2745 / Mary))))
+
+(u_2751 / box  :member (u_2749 / "depressing.a.01"  :Time (u_2748 / "time.n.08"  :EQU (u_2750 / now))  :Degree (u_2752 / "so.r.01")  :Attribute-of (u_2747 / "entity.n.01")))
+
+(u_2758 / box  :member (u_2756 / "clothed.a.01"  :Time (u_2755 / "time.n.08"  :EQU (u_2757 / now))  :Degree (u_2760 / "scantily.r.01")  :Attribute-of (u_2754 / "female.n.02"  :Name (u_2759 / Mary))))
+
+(u_2771 / box  :member (u_2772 / "be.v.01"  :Theme (u_2766 / "person.n.01"  :EQU (u_2769 / speaker))  :Co-Theme (u_2764 / "person.n.01"  :Role (u_2765 / "computer_photographer.n.01")  :Attribute (u_2768 / "professional.a.01"  :member-of u_2771))  :Time (u_2767 / "time.n.08"  :EQU (u_2770 / now))))
+
+(u_2779 / box  :member (u_2774 / "steal.v.01"  :Theme (u_2775 / "passport.n.01"  :User (u_2776 / speaker))  :Time (u_2777 / "time.n.08"  :TPR (u_2778 / now))))
+
+(u_2785 / box  :member (u_2783 / "eat.v.01"  :Agent (u_2781 / "person.n.01"  :EQU (u_2782 / speaker))  :Patient (u_2780 / "apple.n.01")  :Time (u_2786 / "time.n.08"  :TPR (u_2784 / now))))
+
+(u_2793 / box  :member (u_2790 / "start.v.02"  :Theme (u_2788 / "movie.n.01")  :Time (u_2789 / "time.n.08"  :EQU (u_2792 / now)  :ClockTime (u_2791 / "10:00"))))
+
+(u_2803 / box  :member (u_2801 / "male.n.02"  :Name (u_2802 / Alexander)  :Attribute (u_2797 / "young.a.01"  :Degree (u_2798 / "more.r.01"  :Theme u_2801  :Co-Theme (u_2799 / "male.n.02"  :Name (u_2800 / Vladimir)))  :Time (u_2804 / "time.n.08"  :EQU (u_2805 / now))  :member-of (u_2806 / box  :NEGATION-of u_2803))))
+
+(u_2829 / box  :member (u_2834 / "think.v.01"  :Experiencer (u_2832 / "person.n.01"  :EQU (u_2825 / speaker))  :Stimulus (u_2817 / "guy.n.01")  :Time (u_2827 / "time.n.08"  :TPR (u_2828 / now)))  :Pivot-of (u_2833 / "have.v.01"  :Theme (u_2822 / "gun.n.01")  :Time (u_2823 / "time.n.08"  :TPR (u_2826 / now))  :CONTRAST (u_2830 / "person.n.01"  :member (u_2821 / "shoot.v.01"  :Agent (u_2818 / "person.n.01"  :EQU (u_2831 / speaker))  :Patient (u_2819 / "male.n.02")  :Time (u_2820 / "time.n.08"  :TPR (u_2824 / now))))))
+
+(u_2841 / box  :member (u_2839 / "emit.v.02"  :Agent (u_2838 / "flood.n.01")  :Theme (u_2837 / "heat.n.01")  :Time (u_2842 / "time.n.08"  :EQU (u_2840 / now))))
+
+(u_2850 / box  :member (u_2848 / "start.v.01"  :Time (u_2847 / "time.n.08"  :TPR (u_2849 / now))  :Part-of (u_2851 / "learn.v.01"  :Agent (u_2845 / "male.n.02")  :Topic (u_2846 / "esperanto.n.01"))))
+
+(u_2862 / box  :member (u_2861 / "buy.v.01"  :Agent (u_2858 / "person.n.01"  :EQU (u_2857 / speaker))  :Beneficiary (u_2859 / "male.n.02"  :Name (u_2860 / Tom))  :Theme (u_2855 / "hot_dog.n.02")  :Time (u_2863 / "time.n.08"  :TPR (u_2856 / now))))
+
+(u_2874 / box  :member (u_2869 / "married.a.01"  :Time (u_2870 / "time.n.08"  :TPR (u_2873 / now))  :Duration (u_2867 / "measure.n.02"  :Quantity (u_2866 / 3)  :Unit (u_2868 / "year.n.01"))  :Attribute-of (u_2871 / "person.n.01"  :EQU (u_2872 / speaker))))
+
+(u_2893 / box  :member (u_2898 / "dismiss.v.02"  :Theme (u_2902 / "help.v.01"  :Agent (u_2890 / "person.n.01"  :Role (u_2886 / "nazi.n.01"))  :Co-Agent (u_2885 / "bombing.n.01")  :Time (u_2903 / "time.n.08"  :TPR (u_2892 / now))  :Attribute (u_2901 / "missing.a.02"  :member-of u_2893)  :Theme-of (u_2888 / "speculation.n.01"  :Duration (u_2897 / "measure.n.02"  :Unit (u_2900 / "group.n.01"))  :Goal-of u_2898))  :Agent (u_2895 / "government.n.01"  :Source (u_2887 / "country.n.02"  :Name (u_2896 / Egyptian)))  :Time (u_2899 / "time.n.08"  :TPR (u_2894 / now)  :MonthOfYear (u_2891 / 1)  :YearOfCentury (u_2889 / Tuesday))))
+
+(u_2915 / box  :member (u_2909 / "entity.n.01"  :Agent-of (u_2912 / "mention.v.01"  :Theme (u_2910 / "entity.n.01")  :Time (u_2919 / "time.n.08"  :TPR (u_2918 / now))  :member-of (u_2920 / box  :NEGATION-of u_2915)))  :Co-Theme-of (u_2911 / "strange.a.01"  :Theme (u_2913 / "male.n.02"  :Name (u_2914 / Tom))  :Time (u_2916 / "time.n.08"  :EQU (u_2917 / now))))
+
+(u_2923 / box  :POSSIBILITY (u_2929 / box  :member (u_2928 / "call.v.03"  :Theme (u_2924 / "phone_number.n.01"  :Name (u_2927 / 911))  :Agent (u_2925 / "person.n.01"  :EQU (u_2926 / speaker)))))
+
+(u_2937 / box  :member (u_2935 / "break.v.57"  :Agent (u_2933 / "male.n.02"  :Name (u_2934 / Tom))  :Patient (u_2932 / "clarinet.n.01"  :User (u_2931 / "female.n.02"  :Name (u_2938 / Mary)))  :Time (u_2939 / "time.n.08"  :TPR (u_2936 / now))))
+
+(u_2948 / box  :member (u_2943 / "cut.v.32"  :Beneficiary (u_2944 / "male.n.02"  :Name (u_2945 / Charles))  :Patient (u_2942 / "head.n.01"  :Part-of (u_2941 / "male.n.02"))  :Time (u_2946 / "time.n.08"  :TPR (u_2947 / now))))
+
+(u_2954 / box  :member (u_2952 / "run_out.v.01"  :Patient (u_2950 / "food.n.01")  :Time (u_2956 / "time.n.08"  :TPR (u_2951 / now))  :Source (u_2955 / "person.n.01"  :EQU (u_2953 / speaker))))
+
+(u_2962 / box  :member (u_2960 / "order.v.02"  :Agent (u_2958 / "person.n.01"  :EQU (u_2959 / speaker))  :Theme (u_2957 / "book.n.02")  :Time (u_2963 / "time.n.08"  :TPR (u_2961 / now))))
+
+(u_2972 / box  :member (u_2970 / "yell.v.01"  :Experiencer (u_2968 / "person.n.01"  :EQU (u_2969 / speaker))  :Stimulus (u_2965 / "entity.n.01"  :Attribute (u_2966 / "happy.a.01"  :Degree (u_2967 / "kind_of.r.01")  :Attribute-of u_2970))  :Time (u_2973 / "time.n.08"  :EQU (u_2971 / now))))
+
+(u_2980 / box  :member (u_2981 / "watch.v.03"  :Theme (u_2975 / "movie.n.01")  :Agent (u_2976 / "person.n.01"  :EQU (u_2977 / speaker))  :Time (u_2978 / "time.n.08"  :EQU (u_2979 / now))))
+
+(u_2989 / box  :member (u_2987 / "want.v.01"  :Pivot (u_2985 / "person.n.01"  :EQU (u_2986 / speaker)  :Agent-of (u_2990 / "kill.v.01"  :Patient (u_2983 / "person.n.01")  :Theme-of u_2987))  :Time (u_2984 / "time.n.08"  :EQU (u_2988 / now))))
+
+(u_2995 / box  :member (u_2992 / "entity.n.01"  :Attribute (u_2994 / "safe.a.01"  :Time (u_2993 / "time.n.08"  :EQU (u_2996 / now))  :member-of (u_2997 / box  :NEGATION-of u_2995))))
+
+(u_3005 / box  :member (u_3003 / "be.v.03"  :Theme (u_3001 / "person.n.01"  :EQU (u_3002 / speaker))  :Time (u_3006 / "time.n.08"  :EQU (u_3004 / now))  :Source (u_2999 / "country.n.02"  :Name (u_3000 / England))))
+
+(u_3018 / box  :member (u_3019 / "choose.v.01"  :Agent (u_3014 / "person.n.01"  :EQU (u_3016 / speaker))  :Beneficiary (u_3017 / "male.n.02")  :Theme (u_3012 / "tie.n.01"  :Attribute (u_3015 / "nice.a.01"  :member-of u_3018))  :Time (u_3020 / "time.n.08"  :TPR (u_3013 / now))))
+
+(u_3027 / box  :member (u_3028 / "slice.v.03"  :Agent (u_3024 / "woman.n.01")  :Patient (u_3023 / "eggplant.n.01")  :Time (u_3025 / "time.n.08"  :EQU (u_3026 / now))))
+
+(u_3038 / box  :member (u_3036 / "be.v.03"  :Theme (u_3034 / "person.n.01"  :EQU (u_3035 / speaker))  :Location (u_3032 / "city.n.01"  :Name (u_3039 / "Hong Kong"))  :Time (u_3037 / "time.n.08"  :EQU (u_3033 / now))))
+
+(u_3045 / box  :member (u_3043 / "good-for-nothing.a.01"  :Time (u_3042 / "time.n.08"  :EQU (u_3044 / now))  :Attribute-of (u_3041 / "tool.n.01")))
+
+(u_3058 / box  :member (u_3059 / "award.v.01"  :Theme (u_3050 / "Oscar.n.01"  :Attribute (u_3056 / "honorary.a.01"  :member-of u_3058))  :Agent (u_3055 / "person.n.01"  :Role (u_3052 / "director.n.01")  :Source (u_3053 / "country.n.02"  :Name (u_3057 / italy)))  :Time (u_3054 / "time.n.08"  :EQU (u_3051 / now))))
+
+(u_3072 / box  :member (u_3066 / "interrupt.v.01"  :Agent (u_3065 / "music.n.01"  :Attribute (u_3067 / "loud.a.01"  :member-of u_3072))  :Theme (u_3070 / "conversation.n.01"  :Creator (u_3068 / "person.n.01"))  :Time (u_3073 / "time.n.08"  :TPR (u_3071 / now)))  :Degree (u_3069 / "extremely.r.02"))
+
+(u_3079 / box  :member (u_3078 / "look_like.v.01"  :Theme (u_3076 / "school.n.02")  :Co-Theme (u_3075 / "prison.n.01")  :Time (u_3080 / "time.n.08"  :EQU (u_3077 / now))))
+
+(u_3090 / box  :member (u_3088 / "whisper.v.01"  :Agent (u_3083 / "female.n.02"  :Name (u_3091 / Mary))  :Time (u_3092 / "time.n.08"  :TPR (u_3089 / now))  :Topic (u_3084 / "entity.n.01")  :Destination (u_3085 / "ear.n.01"  :Part-of (u_3086 / "male.n.02"  :Name (u_3087 / Tom)))))
+
+(u_3098 / box  :member (u_3099 / "itch.v.03"  :Patient (u_3094 / "ear.n.01"  :Part-of (u_3096 / speaker))  :Time (u_3097 / "time.n.08"  :EQU (u_3095 / now))))
+
+(u_3109 / box  :member (u_3103 / "amount.v.02"  :Theme (u_3107 / "debt.n.01"  :Creator (u_3102 / "male.n.02"))  :Time (u_3110 / "time.n.08"  :TPR (u_3106 / now))  :Value (u_3104 / "measure.n.02"  :Quantity (u_3108 / 100)  :Unit (u_3105 / "dollar.n.01"))))
+
+(u_3117 / box  :member (u_3115 / "ask.v.02"  :Agent (u_3114 / "male.n.02")  :Theme (u_3113 / "money.n.01")  :Time (u_3118 / "time.n.08"  :TPR (u_3116 / now))))
+
+(u_3127 / box  :member (u_3123 / "have.v.02"  :Theme (u_3121 / "wi-fus.n.01"  :Attribute (u_3124 / "free.a.01"  :member-of u_3127))  :Pivot (u_3122 / "restaurant.n.01"  :Quantity (u_3126 / "+"))  :Time (u_3128 / "time.n.08"  :EQU (u_3125 / now))))
+
+(u_3136 / box  :member (u_3131 / "be.v.03"  :Theme (u_3132 / "flower.n.01"  :Quantity (u_3133 / "?"))  :Time (u_3134 / "time.n.08"  :EQU (u_3135 / now))  :Location (u_3130 / "vase.n.01")))
+
+(u_3145 / box  :member (u_3142 / "be.v.03"  :Theme (u_3139 / "jacket.n.01"  :Colour (u_3141 / "black.a.01"))  :Time (u_3143 / "time.n.08"  :TPR (u_3144 / now))  :Location (u_3140 / "book.n.01")))
+
+(u_3161 / box  :member (u_3167 / "know.v.01"  :Experiencer (u_3164 / "person.n.01"  :EQU (u_3159 / speaker))  :Stimulus (u_3158 / "joke.n.01"  :Attribute (u_3171 / "dirty.a.01"  :member-of u_3161))  :Time (u_3174 / "time.n.08"  :EQU (u_3160 / now)))  :Time (u_3165 / box  :EQU (u_3162 / now)  :ClockTime (u_3173 / "00:00")  :NEGATION (u_3163 / box  :member (u_3168 / "tell.v.02"  :Theme (u_3166 / "entity.n.01")  :Agent (u_3172 / "person.n.01"  :EQU (u_3175 / speaker)  :Time u_3165)  :Time (u_3169 / "time.n.08"  :EQU (u_3170 / now))))))
+
+(u_3182 / box  :member (u_3183 / "popular.a.01"  :Experiencer (u_3177 / "person.n.01"  :Role (u_3178 / "elderly.n.01"))  :Stimulus (u_3179 / "entity.n.01")  :Time (u_3180 / "time.n.08"  :EQU (u_3181 / now))))
+
+(u_3197 / box  :member (u_3198 / "watch.v.01"  :Theme (u_3190 / "female.n.02")  :Agent (u_3193 / "alien.n.02")  :Time (u_3194 / "time.n.08"  :EQU (u_3195 / now)))  :Stimulus-of (u_3192 / "sens.v.01"  :Experiencer (u_3196 / "female.n.02"  :Name (u_3199 / Mary))  :Time (u_3200 / "time.n.08"  :EQU (u_3191 / now))))
+
+(u_3209 / box  :member (u_3207 / "male.n.02"  :Name (u_3208 / Tom)  :Agent-of (u_3206 / "speak.v.03"  :Manner (u_3205 / "in_public.r.01")  :Stimulus-of (u_3204 / "like.v.02"  :Experiencer u_3207  :Time (u_3210 / "time.n.08"  :EQU (u_3211 / now))  :member-of (u_3212 / box  :NEGATION-of u_3209)))))
+
+(u_3227 / box  :member (u_3220 / "fall.v.01"  :Theme (u_3222 / "curtain.n.01")  :Co-Theme (u_3226 / "applause.n.01"  :Theme (u_3219 / "audience.n.01")  :Time (u_3228 / "time.n.08"  :TPR (u_3224 / now))  :Attribute (u_3225 / "wild.a.02"  :member-of u_3227))  :Time (u_3223 / "time.n.08"  :TPR (u_3221 / now))))
+
+(u_3235 / box  :member (u_3236 / "reserved.a.02"  :Time (u_3231 / "time.n.08"  :EQU (u_3234 / now))  :Degree (u_3237 / "very.r.01")  :Attribute-of (u_3232 / "person.n.01"  :EQU (u_3233 / speaker))))
+
+(u_3246 / box  :member (u_3244 / "delicious.a.01"  :Time (u_3242 / "time.n.08"  :EQU (u_3245 / now))  :Degree (u_3247 / "more.r.01"  :Theme (u_3241 / "dish.n.01"  :Attribute u_3244)  :Co-Theme (u_3243 / "hat.n.01"))))
+
+(u_3260 / box  :member (u_3253 / "look.v.02"  :Pivot (u_3258 / "person.n.01"  :Role (u_3261 / "mum.n.01"  :Of (u_3256 / speaker)))  :Theme (u_3255 / "person.n.01"  :Role (u_3262 / "little_sister.n.01"  :Of (u_3257 / speaker)))  :Time (u_3254 / "time.n.08"  :EQU (u_3259 / now))))
+
+(u_3272 / box  :member (u_3270 / "fly.v.09"  :Theme (u_3268 / "person.n.01"  :EQU (u_3269 / speaker))  :Time (u_3273 / "time.n.08"  :TPR (u_3267 / now))  :Source (u_3266 / "city.n.01"  :Name (u_3274 / London))  :Destination (u_3275 / "city.n.01"  :Name (u_3271 / "New York"))))
+
+(u_3279 / box  :member (u_3277 / "applaud.v.01"  :Agent (u_3276 / "person.n.01")  :Time (u_3280 / "time.n.08"  :TPR (u_3278 / now))))
+
+(u_3286 / box  :member (u_3284 / "turn_down.v.01"  :Agent (u_3283 / "female.n.02")  :Patient (u_3282 / "radio.n.02")  :Time (u_3287 / "time.n.08"  :TPR (u_3285 / now))))
+
+(u_3295 / box  :member (u_3293 / "throw.v.01"  :Agent (u_3291 / "person.n.01"  :EQU (u_3292 / speaker))  :Theme (u_3289 / "entity.n.01")  :Time (u_3296 / "time.n.08"  :TPR (u_3294 / now))  :Destination (u_3290 / "river.n.01")))
+
+(u_3304 / box  :member (u_3305 / "buy.v.01"  :Theme (u_3299 / "milk.n.01")  :Agent (u_3300 / "girl.n.01")  :Time (u_3301 / "time.n.08"  :EQU (u_3302 / now))  :Location (u_3303 / "supermarket.n.01")))
+
+(u_3311 / box  :member (u_3312 / "scare.v.01"  :Agent (u_3307 / "person.n.01"  :EQU (u_3308 / speaker))  :Patient (u_3306 / "sparrow.n.01")  :Time (u_3309 / "time.n.08"  :EQU (u_3310 / now))))
+
+(u_3320 / box  :member (u_3319 / "gain.v.09"  :Theme (u_3317 / "person.n.01"  :EQU (u_3318 / speaker))  :Time (u_3321 / "time.n.08"  :TPR (u_3316 / now))  :Value (u_3314 / "measure.n.02"  :Unit (u_3315 / "kilogram.n.01")  :Quantity (u_3322 / 13))))
+
+(u_3335 / box  :member (u_3333 / "male.n.02"  :Name (u_3334 / Tom)  :Agent-of (u_3336 / "tell.v.02"  :Recipient (u_3328 / "last_name.n.01"  :User (u_3332 / "person.n.01"  :EQU (u_3331 / speaker)))  :Time (u_3329 / "time.n.08"  :TPR (u_3330 / now))  :member-of (u_3337 / box  :NEGATION-of u_3335))))
+
+(u_3344 / box  :member (u_3345 / "talk.v.04"  :Agent (u_3340 / "person.n.01"  :Role (u_3342 / "doctor.n.01")  :Quantity (u_3341 / 2))  :Time (u_3339 / "time.n.08"  :TPR (u_3343 / now))))
+
+(u_3356 / box  :member (u_3352 / "find.v.01"  :Agent (u_3351 / "person.n.01"  :EQU (u_3354 / speaker))  :Theme (u_3349 / "beef.n.01"  :Attribute (u_3353 / "dry.v.01"  :member-of u_3356))  :Time (u_3357 / "time.n.08"  :TPR (u_3355 / now)))  :MadeOf (u_3350 / "salted_golf.n.01"))
+
+(u_3367 / box  :member (u_3364 / "overdue.a.01"  :Theme (u_3360 / "train.n.01")  :Time (u_3365 / "time.n.08"  :EQU (u_3366 / now))  :Value (u_3363 / "measure.n.02"  :Quantity (u_3362 / 10)  :Unit (u_3361 / "minute.n.01"))))
+
+(u_3377 / box  :member (u_3374 / "know.v.01"  :Experiencer (u_3382 / "person.n.01"  :EQU (u_3375 / speaker))  :Time (u_3381 / "time.n.08"  :EQU (u_3383 / now)))  :ATTRIBUTION (u_3379 / box  :member (u_3385 / "in_love.a.01"  :Experiencer (u_3380 / "male.n.02")  :Stimulus (u_3373 / "person.n.01"  :EQU (u_3378 / hearer))  :Time (u_3384 / "time.n.08"  :EQU (u_3376 / now)))))
+
+(u_3389 / box  :NEGATION (u_3398 / box  :member (u_3395 / "person.n.01"  :Role (u_3397 / "friend.n.01"  :Of (u_3394 / speaker))  :Experiencer-of (u_3392 / "like.v.02"  :Stimulus (u_3393 / _)  :Time (u_3391 / "time.n.08"  :EQU (u_3396 / now))  :member-of (u_3390 / box  :NEGATION-of u_3398)))))
+
+(u_3405 / box  :member (u_3402 / "rich.a.01"  :Time (u_3400 / "time.n.08"  :EQU (u_3404 / now))  :Attribute-of (u_3403 / "person.n.01"  :Role (u_3406 / "uncle.n.01"  :Of (u_3401 / speaker)))))
+
+(u_3412 / box  :member (u_3410 / "futile.a.01"  :Time (u_3409 / "time.n.08"  :EQU (u_3411 / now))  :Attribute-of (u_3408 / "entity.n.01")))
+
+(u_3423 / box  :member (u_3416 / "have.v.01"  :Theme (u_3419 / "chromosome.n.01"  :Quantity (u_3420 / "?"))  :Pivot (u_3421 / "be.v.01"  :Theme (u_3415 / "human.n.01")  :Time (u_3424 / _  :EQU (u_3422 / now)))  :Time (u_3417 / "time.n.08"  :EQU (u_3418 / now))))
+
+(u_3432 / box  :member (u_3430 / "overtake.v.01"  :Agent (u_3429 / "person.n.01"  :Role (u_3428 / "driver.n.01"))  :Theme (u_3427 / "car.n.01")  :Time (u_3433 / "time.n.08"  :TPR (u_3431 / now))))
+
+(u_3444 / box  :member (u_3442 / "make.v.07"  :Agent (u_3437 / "male.n.02")  :Time (u_3445 / "time.n.08"  :TPR (u_3443 / now))  :Result (u_3441 / "speech.n.01")  :Result (u_3438 / "person.n.01"  :Role (u_3439 / "support.n.01"  :Of (u_3440 / "plan.n.01")))))
+
+(u_3455 / box  :member (u_3456 / "call.v.03"  :Agent (u_3452 / "male.n.02"  :Name (u_3453 / Sato)  :Title (u_3449 / "mr.n.01"))  :Time (u_3451 / "time.n.08"  :TPR (u_3454 / now)  :ClockTime (u_3450 / "00:00"))))
+
+(u_3463 / box  :member (u_3464 / "knit.v.02"  :Agent (u_3460 / "male.n.02")  :Patient (u_3459 / "scarf.n.01")  :Time (u_3461 / "time.n.08"  :EQU (u_3462 / now))))
+
+(u_3475 / box  :member (u_3469 / "country.n.02"  :Name (u_3477 / Japan)  :Attribute (u_3474 / "big.a.01"  :Time (u_3471 / "time.n.08"  :EQU (u_3476 / now))  :Degree (u_3470 / "as.r.01"  :Theme u_3469  :Co-Theme (u_3473 / "country.n.02"  :Name (u_3472 / Canada)))  :member-of (u_3478 / box  :NEGATION-of u_3475))))
+
+(u_3489 / box  :member (u_3490 / "wear_out.v.01"  :Experiencer (u_3482 / "female.n.02")  :Time (u_3487 / "time.n.08"  :TPR (u_3488 / now)))  :Theme-of (u_3486 / "lean.v.01"  :Time (u_3484 / "time.n.08"  :TPR (u_3485 / now))  :Causer (u_3483 / "apple_tree.n.01")))
+
+(u_3496 / box  :member (u_3494 / "belong.v.01"  :Pivot (u_3492 / "school.n.02")  :Theme (u_3493 / "book.n.01")  :Time (u_3497 / "time.n.08"  :EQU (u_3495 / now))))
+
+(u_3508 / box  :member (u_3505 / "be.v.03"  :Theme (u_3501 / "earthquake.n.01"  :Quantity (u_3503 / "quantity.n.01"  :EQU (u_3509 / "+")))  :Time (u_3506 / "time.n.08"  :EQU (u_3507 / now))  :Location (u_3502 / "country.n.02"  :Name (u_3504 / Japan))))
+
+(u_3515 / box  :member (u_3513 / "run.v.01"  :Theme (u_3511 / "person.n.01"  :EQU (u_3512 / speaker))  :Time (u_3516 / "get_into.v.02"  :TPR (u_3514 / now))  :Destination (u_3510 / "car.n.01")))
+
+(u_3522 / box  :member (u_3521 / "go_out.v.01"  :Theme (u_3518 / "light.n.02")  :Time (u_3523 / "time.n.08"  :TPR (u_3520 / now))  :Manner (u_3519 / "all_of_a_sudden.r.02")))
+
+(u_3528 / box  :member (u_3529 / "exhausted.a.01"  :Experiencer (u_3524 / "person.n.01"  :Role (u_3525 / "mother.n.01"))  :Time (u_3526 / "time.n.08"  :TPR (u_3527 / now))))
+
+(u_3546 / box  :member (u_3535 / "old.a.01"  :Degree (u_3537 / "more.r.01"  :Theme (u_3541 / "male.n.02"  :Name (u_3540 / John)  :Attribute u_3535)  :Co-Theme (u_3542 / "person.n.01"  :EQU (u_3543 / speaker)))  :Time (u_3544 / "time.n.08"  :EQU (u_3538 / now))  :Value (u_3536 / "measure.n.02"  :Unit (u_3539 / "year.n.01")  :Quantity (u_3545 / 2))))
+
+(u_3554 / box  :member (u_3551 / "call.v.01"  :Theme (u_3548 / "song.n.01")  :Time (u_3552 / "time.n.08"  :EQU (u_3553 / now))  :Result (u_3549 / "name.n.01"  :EQU (u_3550 / "Only You"))))
+
+(u_3561 / box  :member (u_3560 / "escape.v.01"  :Theme (u_3556 / "person.n.01"  :Role (u_3557 / "convict.n.01"))  :Time (u_3562 / "time.n.08"  :TPR (u_3559 / now))  :Source (u_3558 / "prison.n.01")))
+
+(u_3568 / box  :member (u_3566 / "fabulous.a.01"  :Time (u_3565 / "time.n.08"  :EQU (u_3567 / now))  :Attribute-of (u_3564 / "person.n.01")))
+
+(u_3576 / box  :member (u_3578 / "envy.v.01"  :Experiencer (u_3574 / "male.n.02")  :Stimulus (u_3572 / "success.n.02"  :Creator (u_3575 / speaker))  :Time (u_3573 / "time.n.08"  :TPR (u_3577 / now))))
+
+(u_3589 / box  :member (u_3588 / "listen.v.02"  :Experiencer (u_3582 / "male.n.02")  :Stimulus (u_3585 / "male.n.02"  :Name (u_3587 / "serious.a.01")  :Name (u_3586 / "Ivan IV"))  :Time (u_3590 / "time.n.08"  :EQU (u_3584 / now))  :Manner (u_3583 / "always.r.01")))
+
+(u_3597 / box  :member (u_3595 / _  :Agent (u_3593 / "vehicle.n.01"  :Name (u_3594 / Yamamoto))  :Theme (u_3592 / "ship.n.01"  :Quantity (u_3598 / 3))  :Time (u_3599 / "time.n.08"  :TPR (u_3596 / now))))
+
+(u_3611 / box  :member (u_3608 / "have.v.02"  :Pivot (u_3607 / "room.n.01")  :Theme (u_3605 / "feel.n.01"  :Attribute (u_3609 / "nice.a.01"  :member-of u_3611))  :Time (u_3612 / "time.n.08"  :TPR (u_3610 / now)))  :Attribute (u_3606 / "cozy.a.01"))
+
+(u_3619 / box  :member (u_3615 / "arrive.v.01"  :Theme (u_3613 / "person.n.01")  :Time (u_3617 / "time.n.08"  :ClockTime (u_3616 / "18:30")  :TSU (u_3618 / now))  :Instrument (u_3614 / "train.n.01")))
+
+(u_3628 / box  :member (u_3629 / "be.v.01"  :Theme (u_3625 / "entity.n.01")  :Co-Theme (u_3623 / "film.n.01"  :Attribute (u_3626 / "important.a.01"  :member-of u_3628))  :Time (u_3624 / "time.n.08"  :EQU (u_3627 / now))))
+
+(u_3638 / box  :member (u_3636 / "give.v.03"  :Agent (u_3633 / "female.n.02")  :Theme (u_3632 / "compact_music.n.01")  :Recipient (u_3634 / "person.n.01"  :EQU (u_3635 / speaker))  :Time (u_3639 / "time.n.08"  :TPR (u_3637 / now))))
+
+(u_3647 / box  :member (u_3649 / "hear.v.01"  :Experiencer (u_3641 / "person.n.01"  :EQU (u_3648 / hearer))  :Stimulus (u_3643 / "person.n.01"  :Name (u_3644 / "?"))  :Time (u_3645 / "time.n.08"  :TPR (u_3646 / now))  :Topic (u_3642 / "rumor.n.01")))
+
+(u_3655 / box  :member (u_3653 / "person.n.01"  :EQU (u_3654 / speaker)  :Agent-of (u_3656 / "excel.v.01"  :Theme (u_3651 / "chess.n.02")  :Time (u_3652 / "time.n.08"  :TPR (u_3657 / now))  :member-of (u_3658 / box  :NEGATION-of u_3655))))
+
+(u_3668 / box  :member (u_3666 / "accuse.v.01"  :Agent (u_3661 / "person.n.01"  :Role (u_3662 / "teacher.n.01"))  :Theme (u_3664 / "male.n.02"  :Name (u_3665 / Tom))  :Time (u_3669 / "time.n.08"  :TPR (u_3667 / now))  :Attribute (u_3663 / "cheating.n.01")))
+
+(u_3688 / "be.v.02"  :Theme (u_3689 / "take_off.v.06"  :Agent (u_3691 / "female.n.02"  :User-of (u_3694 / "shoe.n.01"  :Theme-of u_3689))  :Time (u_3695 / "time.n.08"  :TPR (u_3683 / now))  :Agent-of (u_3685 / "put_on.v.01"  :Theme u_3688  :Time (u_3686 / "time.n.08"  :TPR (u_3684 / now))))  :Co-Theme (u_3692 / "new.a.02"  :Attribute-of (u_3681 / "one.n.06"))  :Time (u_3690 / box  :EQU (u_3682 / now))  :Attribute (u_3693 / "old.a.01"  :Value (u_3687 / "+")))
+
+(u_3701 / box  :member (u_3699 / "unbutton.v.01"  :Agent (u_3697 / "male.n.02"  :User-of (u_3698 / "shirt.n.01"  :Patient-of u_3699))  :Time (u_3702 / "time.n.08"  :TPR (u_3700 / now))))
+
+(u_3707 / box  :member (u_3705 / "male.n.02"  :Name (u_3706 / Tom)  :Experiencer-of (u_3704 / "happy.a.01"  :Time (u_3708 / "time.n.08"  :EQU (u_3709 / now))  :member-of (u_3710 / box  :NEGATION-of u_3707))))
+
+(u_3718 / box  :member (u_3716 / "have.v.01"  :Pivot (u_3715 / "female.n.02"  :Name (u_3719 / Mary))  :Theme (u_3713 / "person.n.01"  :Role (u_3714 / "son.n.01"))  :Time (u_3720 / "time.n.08"  :EQU (u_3717 / now))))
+
+(u_3728 / box  :member (u_3725 / "accept.v.05"  :Theme (u_3722 / "female.n.02")  :Time (u_3726 / "time.n.08"  :TPR (u_3727 / now))  :Location (u_3723 / "university.n.03"  :Name (u_3724 / Harvard))))
+
+(u_3734 / box  :member (u_3732 / "write.v.01"  :Agent (u_3730 / "person.n.01"  :Name (u_3731 / "?"))  :Time (u_3735 / "time.n.08"  :TPR (u_3733 / now))  :Result (u_3729 / "book.n.01"  :Name (u_3736 / _))))
+
+(u_3743 / box  :member (u_3744 / "write.v.01"  :Agent (u_3739 / "person.n.01"  :Name (u_3740 / "?"))  :Time (u_3741 / "time.n.08"  :TPR (u_3742 / now))  :Result (u_3738 / "poem.n.01")))
+
+(u_3754 / box  :member (u_3748 / _  :Time (u_3752 / "time.n.08"  :TPR (u_3753 / now))  :Duration (u_3755 / "measure.n.02"  :Quantity (u_3756 / 2)  :Unit (u_3749 / "day.n.01")))  :Time (u_3751 / "time.n.08"  :TPR (u_3750 / now)))
+
+(u_3759 / box  :POSSIBILITY (u_3764 / box  :member (u_3763 / "use.v.01"  :Theme (u_3760 / "dictionary.n.01")  :Agent (u_3761 / "person.n.01"  :EQU (u_3762 / speaker)))))
+
+(u_3777 / box  :member (u_3778 / "sensitive.a.02"  :Experiencer (u_3773 / "person.n.01"  :EQU (u_3774 / speaker))  :Stimulus (u_3768 / "cold..n.01")  :Time (u_3775 / "time.n.08"  :EQU (u_3776 / now))  :Degree (u_3770 / "very.r.01"))  :PRECONDITION (u_3779 / box  :member (u_3771 / "another.v.01"  :Attribute-of (u_3772 / "blanket.n.01")  :Theme-of (u_3769 / "have.v.01"  :Pivot u_3779))))
+
+(u_3787 / box  :member (u_3788 / "live.v.01"  :Theme (u_3784 / "male.n.02"  :Name (u_3785 / Tom))  :Time (u_3781 / "time.n.08"  :TPR (u_3789 / now)  :YearOfCentury (u_3786 / 1963))  :Finish (u_3783 / "time.n.08"  :YearOfCentury (u_3782 / 2013))))
+
+(u_3799 / box  :member (u_3801 / "count.v.01"  :Agent (u_3793 / "lady.n.01"  :Attribute (u_3795 / "old.a.01"  :Value (u_3796 / "+"))  :EQU-of (u_3797 / "female.n.02"  :Part (u_3794 / "change.n.01"  :Patient-of u_3801)))  :Time (u_3800 / "time.n.08"  :EQU (u_3798 / now))))
+
+(u_3806 / box  :member (u_3804 / "person.n.01"  :EQU (u_3805 / speaker)  :Theme-of (u_3803 / "return.v.01"  :Time (u_3807 / "time.n.08"  :TSU (u_3808 / now))  :member-of (u_3809 / box  :NEGATION-of u_3806))))
+
+(u_3821 / box  :member (u_3819 / "expensive.a.01"  :Time (u_3818 / "time.n.08"  :EQU (u_3820 / now))  :Degree (u_3823 / "more.r.01"  :Theme (u_3814 / "nail.n.01"  :MadeOf (u_3815 / "cook.v.03")  :Attribute u_3819)  :Co-Theme (u_3817 / "ring.n.08"  :Location (u_3816 / "country.n.02"  :Name (u_3822 / china))))))
+
+(u_3830 / box  :member (u_3827 / "be.v.03"  :Theme (u_3825 / "dragonfly.n.01")  :Time (u_3828 / "time.n.08"  :EQU (u_3829 / now))  :Location (u_3826 / "ceiling.n.01")))
+
+(u_3835 / box  :member (u_3832 / "entity.n.01"  :Attribute (u_3834 / "funny.a.01"  :Time (u_3833 / "time.n.08"  :EQU (u_3836 / now))  :member-of (u_3837 / box  :NEGATION-of u_3835))))
+
+(u_3853 / box  :member (u_3857 / "stop.v.02"  :Agent (u_3855 / "female.n.02")  :Recipient (u_3858 / "leave.v.01"  :Theme (u_3847 / "female.n.02")  :Time (u_3859 / "time.n.08"  :TPR (u_3852 / now))  :Source (u_3851 / "university.n.01"))  :Time (u_3856 / "time.n.08"  :TPR (u_3854 / now))  :Time (u_3850 / "studying..v.24"))  :Causer (u_3849 / box  :Theme (u_3848 / "degree.n.01")))
+
+(u_3863 / box  :member (u_3864 / "gossip.v.02"  :Agent (u_3861 / "male.n.02")  :Manner (u_3862 / "always.r.01")))
+
+(u_3869 / box  :member (u_3867 / "speak.v.02"  :Agent (u_3865 / "male.n.02"  :Name (u_3866 / Tom))  :Time (u_3870 / "time.n.08"  :TPR (u_3868 / now))))
+
+(u_3884 / box  :member (u_3882 / "say.v.01"  :Agent (u_3880 / "male.n.02"  :Name (u_3881 / Tom))  :Time (u_3885 / "time.n.08"  :TPR (u_3883 / now))  :Stimulus-of (u_3879 / "matter.v.01"  :Time (u_3878 / "time.n.08"  :TPR (u_3877 / now))  :member-of (u_3876 / box  :NEGATION-of u_3884)))  :ATTRIBUTION (u_3886 / box  :member (u_3875 / "entity.n.01")))
+
+(u_3894 / box  :member (u_3892 / "name.n.01"  :Bearer (u_3893 / speaker)  :Theme-of (u_3896 / "time.n.08"  :Co-Theme (u_3889 / "name.n.01"  :EQU (u_3895 / "'girl.n.01"))  :Time (u_3891 / "time.n.08"  :EQU (u_3890 / now))  :member-of (u_3897 / box  :NEGATION-of u_3894))))
+
+(u_3904 / box  :member (u_3902 / "have.v.01"  :Pivot (u_3900 / "male.n.02"  :Name (u_3901 / Tom))  :Theme (u_3898 / "person.n.01"  :Role (u_3899 / "daughter.n.01"))  :Time (u_3905 / "time.n.08"  :EQU (u_3903 / now))))
+
+(u_3911 / box  :member (u_3909 / "hate.v.01"  :Experiencer (u_3907 / "person.n.01"  :EQU (u_3908 / speaker))  :Stimulus (u_3906 / "color.n.01")  :Time (u_3912 / "time.n.08"  :EQU (u_3910 / now))))
+
+(u_3919 / box  :member (u_3920 / "hook_on.v.01"  :Experiencer (u_3916 / "female.n.02")  :Stimulus (u_3915 / Farmville)  :Time (u_3917 / "time.n.08"  :EQU (u_3918 / now))))
+
+(u_3929 / box  :member (u_3930 / "lead.v.07"  :Theme (u_3923 / "company.n.01"  :Name (u_3924 / "?"))  :Agent (u_3925 / "male.n.02"  :Name (u_3926 / "Michael Frost"))  :Time (u_3927 / "time.n.08"  :EQU (u_3928 / now))))
+
+(u_3943 / box  :member (u_3938 / "be.v.08"  :Theme (u_3935 / "male.n.02")  :Co-Theme (u_3936 / "person.n.01"  :Role (u_3937 / "friend.n.01"  :Of (u_3941 / "person.n.01"  :EQU (u_3942 / speaker)))  :Attribute (u_3940 / "close.a.01"  :member-of u_3943))  :Time (u_3944 / "time.n.08"  :EQU (u_3939 / now))))
+
+(u_3957 / box  :member (u_3958 / "be.v.01"  :Theme (u_3952 / "male.n.02"  :Name (u_3955 / Suzuki)  :Title (u_3951 / "mr.n.01"))  :Co-Theme (u_3949 / "person.n.01"  :Role (u_3950 / "scientist.n.01")  :Attribute (u_3954 / "great.a.02"  :member-of u_3957))  :Time (u_3953 / "time.n.08"  :EQU (u_3956 / now))))
+
+(u_3967 / box  :member (u_3975 / "stay.v.02"  :Theme (u_3974 / "person.n.01"  :EQU (u_3965 / speaker))  :Time (u_3976 / "time.n.08"  :TPR (u_3966 / now))  :Location (u_3964 / "home.n.01"))  :EXPLANATION (u_3969 / box  :member (u_3970 / "sick.a.01"  :Time (u_3971 / "time.n.08"  :TPR (u_3968 / now))  :Attribute-of (u_3973 / "person.n.01"  :EQU (u_3972 / speaker)))))
+
+(u_3986 / box  :member (u_3987 / "find.v.01"  :Theme (u_3982 / "male.n.02"  :Name (u_3983 / Tom))  :Agent (u_3980 / "person.n.01"  :EQU (u_3981 / speaker))  :Time (u_3984 / "time.n.08"  :TSU (u_3985 / now))))
+
+(u_3998 / box  :member (u_3997 / "walk.v.01"  :Theme (u_3995 / "person.n.01"  :EQU (u_3996 / speaker))  :Time (u_3999 / "time.n.08"  :TPR (u_3993 / now))  :Duration (u_3991 / "measure.n.02"  :Unit (u_3992 / "mile.n.01")  :Quantity (u_3990 / "quantity.n.01"  :APX (u_3994 / "quantity.n.01"  :EQU (u_4000 / 50))))))
+
+(u_4011 / box  :member (u_4008 / "like.a.01"  :Theme (u_4007 / "eye.n.01"  :Part-of (u_4006 / "male.n.02"))  :Co-Theme (u_4005 / "neck.n.01"  :Part-of (u_4004 / "leopard.n.01"))  :Time (u_4009 / "time.n.08"  :EQU (u_4010 / now))))
+
+(u_4016 / box  :member (u_4013 / "female.n.02"  :Attribute (u_4014 / "alone.a.01"  :Time (u_4015 / "time.n.08"  :EQU (u_4017 / now))  :member-of (u_4018 / box  :NEGATION-of u_4016))))
+
+(u_4027 / box  :member (u_4026 / "drop_out.v.01"  :Theme (u_4024 / "person.n.01"  :Role (u_4028 / "dad.n.01"  :Of (u_4023 / speaker)))  :Time (u_4021 / "time.n.08"  :EQU (u_4025 / now))  :Manner (u_4022 / "from_time_to_time.r.01")))
+
+(u_4033 / box  :member (u_4030 / "banana.n.02"  :Attribute (u_4032 / "ripe.a.01"  :Time (u_4031 / "time.n.08"  :EQU (u_4034 / now))  :member-of (u_4035 / box  :NEGATION-of u_4033))))
+
+(u_4041 / box  :member (u_4042 / "grumble.v.02"  :Agent (u_4037 / "stomach.n.01"  :Part-of (u_4039 / speaker))  :Time (u_4040 / "time.n.08"  :EQU (u_4038 / now))))
+
+(u_4047 / box  :member (u_4049 / "homesick.a.01"  :Experiencer (u_4044 / "person.n.01"  :EQU (u_4048 / hearer))  :Time (u_4045 / "time.n.08"  :EQU (u_4046 / now))  :Degree (u_4050 / "certainly.r.02")))
+
+(u_4056 / box  :member (u_4054 / "aged.a.01"  :Time (u_4053 / "time.n.08"  :EQU (u_4055 / now))  :Attribute-of (u_4052 / "female.n.02")))
+
+(u_4065 / box  :member (u_4064 / "give.v.03"  :Agent (u_4060 / "person.n.01"  :EQU (u_4061 / hearer))  :Recipient (u_4062 / "person.n.01"  :EQU (u_4063 / speaker))  :Theme (u_4059 / "money.n.01"  :Owner (u_4066 / speaker))))
+
+(u_4075 / box  :member (u_4072 / "be.v.01"  :Theme (u_4071 / "guy.n.01")  :Co-Theme (u_4076 / "pooper.n.01"  :Stimulus (u_4070 / "party.n.04"))  :Time (u_4073 / "time.n.08"  :EQU (u_4074 / now))))
+
+(u_4084 / box  :member (u_4082 / "rule.v.05"  :Agent (u_4081 / "person.n.01"  :Role (u_4080 / "king.n.01"))  :Theme (u_4079 / "island.n.01")  :Time (u_4085 / "time.n.08"  :TPR (u_4083 / now))))
+
+(u_4091 / box  :member (u_4089 / "fasten.v.02"  :Agent (u_4087 / "male.n.02"  :Name (u_4088 / Tom)  :User-of (u_4086 / "seat_belt.n.01"  :Patient-of u_4089))  :Time (u_4092 / "time.n.08"  :TPR (u_4090 / now))))
+
+(u_4108 / box  :member (u_4107 / "have.v.01"  :Pivot (u_4109 / "male.n.02")  :Theme (u_4100 / "entity.n.01"  :Sub (u_4102 / "car.n.01"  :Attribute (u_4103 / "old.a.02"  :Value (u_4106 / "+")))  :Attribute (u_4105 / "new.a.01"  :member-of u_4108))  :Time (u_4110 / "time.n.08"  :EQU (u_4104 / now)))  :MadeOf (u_4101 / "car.n.01"))
+
+(u_4115 / box  :member (u_4116 / "biasd.a.01"  :Experiencer (u_4111 / "person.n.01"  :EQU (u_4112 / speaker))  :Time (u_4113 / "time.n.08"  :EQU (u_4114 / now))))
+
+(u_4124 / box  :member (u_4119 / "frantic.a.01"  :Time (u_4120 / "time.n.08"  :EQU (u_4123 / now))  :Attribute-of (u_4121 / "person.n.01"  :EQU (u_4122 / speaker))))
+
+(u_4129 / box  :member (u_4128 / "die.v.01"  :Patient (u_4125 / "female.n.02")  :Time (u_4130 / "time.n.08"  :TPR (u_4126 / now))  :Causer (u_4127 / "turbeculosis.n.01")))
+
+(u_4137 / box  :member (u_4138 / "in_love.a.01"  :Experiencer (u_4134 / "female.n.02")  :Stimulus (u_4133 / "male.n.02")  :Time (u_4135 / "time.n.08"  :TPR (u_4136 / now))))
+
+(u_4145 / box  :member (u_4141 / "person.n.01"  :EQU (u_4142 / "time.n.08")  :EQU (u_4143 / "male.n.02"  :Name (u_4144 / Jorge))))
+
+(u_4152 / box  :member (u_4151 / "lack.v.01"  :Pivot (u_4149 / "speech.n.01"  :Creator (u_4153 / hearer))  :Theme (u_4148 / "consistency.n.01")  :Time (u_4154 / "time.n.08"  :TPR (u_4150 / now))))
+
+(u_4161 / box  :member (u_4159 / "steal.v.01"  :Agent (u_4158 / "person.n.01")  :Theme (u_4157 / "passport.n.01"  :Owner (u_4162 / speaker))  :Time (u_4163 / "time.n.08"  :TPR (u_4160 / now))))
+
+(u_4175 / box  :member (u_4173 / "be.v.03"  :Theme (u_4170 / "classroom.n.01"  :User (u_4171 / speaker))  :Time (u_4176 / "time.n.08"  :EQU (u_4174 / now))  :Location (u_4172 / "location.n.01"  :Name (u_4168 / "?"))  :Location (u_4177 / "floor.n.02"  :Order (u_4169 / 4))))
+
+(u_4187 / box  :member (u_4183 / "poor.a.01"  :Time (u_4181 / "time.n.08"  :TPR (u_4185 / now))  :Attribute-of (u_4180 / "female.n.02"  :Name (u_4188 / Naoki))  :Theme-of (u_4186 / "live.v.01"  :Time (u_4189 / "time.n.08"  :TPR (u_4184 / now))  :Location (u_4182 / "cabin.n.01")  :member-of u_4187)))
+
+(u_4198 / box  :member (u_4199 / "abound.v.01"  :Theme (u_4193 / "flower.n.01"  :Attribute (u_4196 / "wild.a.02"  :member-of u_4198))  :Time (u_4195 / "time.n.08"  :EQU (u_4197 / now))  :Location (u_4194 / "field.n.01")))
+
+(u_4207 / box  :member (u_4205 / "put.v.01"  :Agent (u_4203 / "person.n.01"  :EQU (u_4204 / speaker))  :Theme (u_4200 / "blueberry.n.01"  :Quantity (u_4208 / 12))  :Time (u_4209 / "time.n.08"  :TPR (u_4206 / now))  :Destination (u_4202 / "tea.n.01"  :User (u_4201 / hearer))))
+
+(u_4217 / box  :member (u_4215 / "pile.v.01"  :Agent (u_4212 / "person.n.01"  :EQU (u_4213 / speaker))  :Theme (u_4211 / "wood.n.02")  :Time (u_4218 / "time.n.08"  :TPR (u_4216 / now))  :Location (u_4214 / "backyard.n.01")))
+
+(u_4224 / box  :member (u_4222 / "sharpen.v.01"  :Agent (u_4221 / "male.n.02")  :Patient (u_4220 / "knife.n.01")  :Time (u_4225 / "time.n.08"  :TPR (u_4223 / now))))
+
+(u_4233 / box  :member (u_4229 / "soaked.a.01"  :Time (u_4228 / "time.n.08"  :TPR (u_4232 / now))  :Attribute-of (u_4230 / "pants.n.03"  :User (u_4231 / speaker))))
+
+(u_4240 / box  :member (u_4242 / "sick.a.04"  :Experiencer (u_4237 / "female.n.02"  :Name (u_4241 / Liisa))  :Stimulus (u_4236 / "noise.n.01")  :Time (u_4238 / "time.n.08"  :TPR (u_4239 / now))))
+
+(u_4250 / box  :member (u_4247 / "person.n.01"  :EQU (u_4248 / speaker)  :Experiencer-of (u_4246 / "see.v.01"  :Stimulus (u_4245 / "entity.n.01")  :Stimulus-of (u_4249 / "ashamed.a.01"  :Experiencer u_4247  :Time (u_4251 / "time.n.08"  :EQU (u_4252 / now))  :member-of (u_4253 / box  :NEGATION-of u_4250)))))
+
+(u_4260 / box  :member (u_4255 / "have.v.02"  :Theme (u_4256 / "subscriber.n.01"  :Quantity (u_4257 / "?"))  :Pivot (u_4254 / "magazine.n.02")  :Time (u_4258 / "time.n.08"  :EQU (u_4259 / now))))
+
+(u_4261 / box  :NEGATION (u_4267 / "person.n.01"  :member (u_4264 / "person.n.01"  :EQU (u_4265 / speaker)  :Agent-of (u_4266 / "talk.v.01"  :Context (u_4263 / "english.n.01")  :member-of (u_4262 / box  :NEGATION-of u_4267)))))
+
+(u_4274 / box  :member (u_4272 / "have_on.v.01"  :Pivot (u_4271 / "male.n.02")  :Theme (u_4270 / "hat.n.01")  :Time (u_4275 / "time.n.08"  :EQU (u_4273 / now))))
+
+(u_4282 / box  :member (u_4281 / "be.v.08"  :Theme (u_4279 / "male.n.02")  :Co-Theme (u_4277 / "person.n.01"  :Role (u_4278 / england))  :Time (u_4283 / "time.n.08"  :EQU (u_4280 / now))))
+
+(u_4292 / box  :member (u_4286 / "give.v.03"  :Agent (u_4287 / "person.n.01"  :EQU (u_4288 / speaker))  :Recipient (u_4289 / "person.n.01"  :EQU (u_4293 / hearer))  :Theme (u_4285 / "book.n.02")  :Time (u_4290 / "time.n.08"  :TSU (u_4291 / now))))
+
+(u_4299 / box  :member (u_4297 / "anorexic.a.01"  :Time (u_4296 / "time.n.08"  :EQU (u_4298 / now))  :Attribute-of (u_4295 / "female.n.02")))
+
+(u_4307 / box  :member (u_4305 / "person.n.01"  :EQU (u_4306 / "have.v.16")  :Time (u_4303 / "time.n.08"  :DayOfWeek (u_4304 / Today)  :TSU (u_4302 / now)))  :CONTINUATION (u_4308 / box  :member (u_4301 / "hay_pain.n.01")))
+
+(u_4315 / box  :member (u_4316 / "afraid.a.01"  :Experiencer (u_4310 / "person.n.01")  :Stimulus (u_4311 / "male.n.02"  :Name (u_4312 / Tom))  :Time (u_4313 / "time.n.08"  :EQU (u_4314 / now))))
+
+(u_4327 / box  :member (u_4323 / "have.v.01"  :Pivot (u_4322 / "person.n.01"  :EQU (u_4325 / speaker))  :Theme (u_4320 / "email.n.01"  :Attribute (u_4324 / "new.a.01"  :member-of u_4327))  :Time (u_4328 / "time.n.08"  :EQU (u_4326 / now)))  :Theme-of (u_4321 / "address.n.02"  :User (u_4329 / speaker)))
+
+(u_4333 / box  :member (u_4332 / "try.v.01"  :Agent (u_4330 / "male.n.02")  :Time (u_4334 / "time.n.08"  :EQU (u_4331 / now))))
+
+(u_4343 / box  :member (u_4340 / "cover.v.02"  :Theme (u_4337 / "snow.n.02")  :Destination (u_4338 / "summit.n.01"  :Part-of (u_4339 / "mountain.n.01"))  :Time (u_4341 / "time.n.08"  :EQU (u_4342 / now))))
+
+(u_4360 / box  :member (u_4371 / "one-horned.a.01"  :Attribute-of (u_4357 / "appeal.n.01"  :Attribute (u_4364 / "new.a.01"  :member-of u_4360)  :Stimulus-of (u_4373 / "save.v.01"  :Experiencer u_4360  :Part (u_4358 / "s.n.01"  :Creator (u_4365 / "male.n.02"  :Name (u_4359 / "Simon and Sisco")))))  :Agent-of (u_4374 / "launch.v.03"  :Theme u_4360  :Time (u_4369 / "time.n.08"  :EQU (u_4361 / now))))  :Location (u_4368 / "country.n.02"  :Name (u_4362 / Nepal)  :Of-of (u_4363 / "government.n.01"  :Role-of (u_4367 / "person.n.01"  :Sub (u_4366 / "spank.v.01")  :Sub-of u_4360)))  :Degree (u_4375 / "critically.r.01")  :Experiencer-of (u_4372 / "endangered.a.01"  :Stimulus (u_4370 / "rhino..n.01")))
+
+(u_4384 / box  :member (u_4385 / "inhabit.v.01"  :Theme (u_4377 / "person.n.01"  :Quantity (u_4380 / "quantity.n.01"  :LES (u_4382 / "quantity.n.01"  :EQU (u_4381 / 3000))))  :Time (u_4379 / "time.n.08"  :EQU (u_4383 / now))  :Destination (u_4378 / "planet.n.01"  :Owner (u_4386 / speaker))))
+
+(u_4394 / box  :member (u_4391 / "happen.v.01"  :Theme (u_4389 / "entity.n.01"  :Attribute (u_4390 / "strange.a.01"  :member-of u_4394))  :Time (u_4392 / "time.n.08"  :EQU (u_4393 / now))))
+
+(u_4401 / box  :member (u_4399 / "jot_down.v.01"  :Agent (u_4397 / "male.n.02"  :Name (u_4398 / Tom)  :User-of (u_4396 / "notebook.n.01"  :Destination-of u_4399))  :Theme (u_4395 / "entity.n.01")  :Time (u_4402 / "time.n.08"  :TPR (u_4400 / now))))
+
+(u_4415 / box  :member (u_4414 / "lend.v.02"  :Agent (u_4410 / "person.n.01"  :EQU (u_4408 / speaker))  :Theme (u_4406 / "book.n.01"  :Topic (u_4407 / "country.n.02"  :Name (u_4413 / Germany)))  :Recipient (u_4411 / "male.n.02"  :Name (u_4412 / Tom))  :Time (u_4416 / "time.n.08"  :TPR (u_4409 / now))))
+
+(u_4425 / box  :member (u_4423 / "last.v.01"  :Theme (u_4419 / "rain.n.01")  :Time (u_4426 / "time.n.08"  :TPR (u_4422 / now))  :Value (u_4420 / "measure.n.02"  :Quantity (u_4424 / 5)  :Unit (u_4421 / "day.n.01"))))
+
+(u_4433 / box  :member (u_4432 / "bake.v.02"  :Agent (u_4430 / "female.n.02")  :Product (u_4429 / "apple_pie.n.01")  :Time (u_4434 / "time.n.08"  :TPR (u_4431 / now))))
+
+(u_4445 / box  :member (u_4439 / "rub.v.01"  :Agent (u_4441 / "male.n.02"  :Name (u_4443 / Tom))  :Experiencer (u_4438 / "foot.n.01"  :Attribute (u_4442 / "sore.a.01"  :member-of u_4445)  :Part-of (u_4444 / speaker))  :Time (u_4446 / "time.n.08"  :TPR (u_4440 / now))))
+
+(u_4452 / box  :member (u_4450 / "design.v.02"  :Agent (u_4448 / "male.n.02"  :Name (u_4449 / Tom))  :Theme (u_4447 / "building.n.01")  :Time (u_4453 / "time.n.08"  :TPR (u_4451 / now))))
+
+(u_4464 / box  :member (u_4462 / "begin.v.01"  :Time (u_4461 / "time.n.08"  :TPR (u_4463 / now))  :Part-of (u_4465 / "glow.v.01"  :Experiencer (u_4460 / "cheek.n.01"  :Part-of (u_4459 / "female.n.02"))  :Stimulus (u_4458 / "shame.n.01"))))
+
+(u_4470 / box  :NEGATION (u_4480 / "person.n.01"  :member (u_4477 / "person.n.01"  :Role (u_4479 / "friend.n.01"  :Of (u_4475 / speaker))  :Experiencer-of (u_4473 / "like.v.03"  :Stimulus (u_4476 / "male.n.02"  :Name (u_4472 / Tom))  :Time (u_4474 / "time.n.08"  :EQU (u_4478 / now))  :member-of (u_4471 / box  :NEGATION-of u_4480)))))
+
+(u_4488 / box  :member (u_4486 / "stick.v.01"  :Agent (u_4483 / "male.n.02"  :Part (u_4484 / "ear.n.01"  :Destination-of u_4486)  :User-of (u_4485 / "pencil.n.01"  :Theme-of u_4486))  :Time (u_4489 / "time.n.08"  :TPR (u_4487 / now))))
+
+(u_4495 / box  :member (u_4493 / "own.v.01"  :Pivot (u_4491 / "male.n.02"  :Name (u_4492 / Tom))  :Theme (u_4490 / "oil_dealership.n.01")  :Time (u_4496 / "time.n.08"  :EQU (u_4494 / now))))
+
+(u_4507 / box  :member (u_4503 / "start.v.01"  :Time (u_4504 / "time.n.08"  :TPR (u_4502 / now))  :Part-of (u_4508 / "bark.v.04"  :Agent (u_4501 / "dog.n.01")  :Recipient (u_4505 / "male.n.02"  :Name (u_4506 / Tom)))))
+
+(u_4520 / box  :member (u_4524 / "stop_out.v.01"  :Time (u_4526 / "time.n.08"  :TPR (u_4523 / now))  :Part-of (u_4528 / "pick_up.v.01"  :Agent (u_4525 / "entity.n.01"  :Sub (u_4527 / "male.n.02"  :Name (u_4518 / Tom))  :Sub (u_4529 / "female.n.02"  :Name (u_4519 / Mary)))  :Theme (u_4516 / "person.n.01"  :Role (u_4517 / "hitchhiker.n.01"))  :Time (u_4522 / "time.n.08"  :TPR (u_4521 / now)))))
+
+(u_4535 / box  :member (u_4532 / "green.a.01"  :Time (u_4533 / "time.n.08"  :EQU (u_4534 / now))  :Colour-of (u_4531 / "tree.n.01")))
+
+(u_4542 / box  :member (u_4540 / "buy.v.01"  :Agent (u_4539 / "male.n.02")  :Theme (u_4538 / "thimble.n.01")  :Time (u_4543 / "time.n.08"  :TPR (u_4541 / now))))
+
+(u_4548 / box  :member (u_4547 / "vanish.v.01"  :Theme (u_4544 / "person.n.01"  :Role (u_4545 / "prisoner.n.01"))  :Time (u_4549 / "time.n.08"  :TPR (u_4546 / now))))
+
+(u_4556 / box  :member (u_4554 / "win.v.01"  :Agent (u_4553 / "person.n.01")  :Theme (u_4552 / "silver_medal.n.01")  :Time (u_4557 / "time.n.08"  :TPR (u_4555 / now))))
+
+(u_4566 / box  :member (u_4568 / "look.v.02"  :Theme (u_4561 / "cloud.n.01")  :Time (u_4567 / "time.n.08"  :EQU (u_4565 / now))  :Goal (u_4562 / "flock.n.01"  :Theme (u_4564 / "sheep.n.01"  :Colour (u_4563 / "white.a.01")))))
+
+(u_4574 / box  :member (u_4575 / "slice.v.03"  :Agent (u_4570 / "woman.n.01")  :Patient (u_4571 / "dinosaur.n.01")  :Time (u_4572 / "time.n.08"  :EQU (u_4573 / now))))
+
+(u_4586 / box  :member (u_4580 / "innocent.a.01"  :Time (u_4587 / "time.n.08"  :EQU (u_4584 / now))  :Attribute-of (u_4582 / "person.n.01"  :EQU (u_4583 / speaker)  :Attribute (u_4578 / "young.a.01"  :Value (u_4581 / "+")  :Time (u_4585 / "time.n.08"  :TPR (u_4579 / now))  :member-of u_4586))))
+
+(u_4594 / box  :member (u_4595 / "have.v.06"  :Agent (u_4591 / "person.n.01"  :EQU (u_4592 / speaker))  :Patient (u_4589 / "breakfast.n.01")  :Time (u_4590 / "time.n.08"  :TPR (u_4596 / now)  :ClockTime (u_4593 / "07:30"))))
+
+(u_4602 / box  :member (u_4603 / "kill.v.01"  :Agent (u_4598 / "person.n.01"  :EQU (u_4599 / speaker))  :Patient (u_4597 / "male.n.02")  :Time (u_4600 / "time.n.08"  :TSU (u_4601 / now))))
+
+(u_4615 / box  :member (u_4613 / "clean_out.v.01"  :Agent (u_4611 / "male.n.02"  :Name (u_4612 / Tom)  :User-of (u_4607 / "bank_account.n.01"  :Source-of u_4613))  :Time (u_4616 / "time.n.08"  :TPR (u_4614 / now)))  :Theme-of (u_4608 / "disappear.v.01"  :Time (u_4609 / "time.n.08"  :TPR (u_4610 / now))))
+
+(u_4627 / box  :member (u_4623 / "based.a.02"  :Theme (u_4620 / "entity.n.01"  :Sub (u_4621 / "company.n.01")  :Sub (u_4622 / _))  :Time (u_4624 / "time.n.08"  :EQU (u_4625 / now))  :Location (u_4626 / "city.n.01"  :Name (u_4628 / Bombay))))
+
+(u_4636 / box  :member (u_4634 / "chase.v.01"  :Agent (u_4633 / "male.n.02")  :Theme (u_4631 / "person.n.01"  :Role (u_4632 / "thief.n.01"))  :Time (u_4637 / "time.n.08"  :TPR (u_4635 / now))))
+
+(u_4643 / box  :member (u_4644 / "study.v.05"  :Agent (u_4639 / "male.n.02")  :Time (u_4641 / "time.n.08"  :EQU (u_4642 / now))  :Location (u_4640 / "library.n.03")))
+
+(u_4651 / box  :member (u_4653 / "dream.v.01"  :Experiencer (u_4648 / "person.n.01"  :EQU (u_4649 / speaker))  :Stimulus (u_4646 / "person.n.01"  :EQU (u_4652 / hearer))  :Time (u_4647 / "time.n.08"  :TPR (u_4650 / now))))
+
+(u_4662 / box  :member (u_4660 / "curable.a.01"  :Time (u_4658 / "time.n.08"  :EQU (u_4661 / now))  :Attribute-of (u_4657 / "fissure.n.01"  :Attribute (u_4659 / "anal.a.01"  :member-of u_4662))))
+
+(u_4667 / box  :member (u_4668 / "turn_up.v.01"  :Patient (u_4663 / "male.n.02"  :Name (u_4664 / Tom))  :Time (u_4665 / "time.n.08"  :TPR (u_4666 / now))))
+
+(u_4675 / box  :member (u_4673 / "steal.v.01"  :Agent (u_4676 / "person.n.01"  :Role (u_4672 / "runner.n.01"))  :Theme (u_4671 / "third_base.n.01")  :Time (u_4677 / "time.n.08"  :TPR (u_4674 / now))))
+
+(u_4684 / box  :member (u_4681 / "go.v.01"  :Theme (u_4679 / "male.n.02")  :Time (u_4682 / "time.n.08"  :EQU (u_4683 / now))  :Destination (u_4680 / "concert.n.01")))
+
+(u_4692 / box  :member (u_4687 / "person.n.01"  :Role (u_4695 / now  :Of (u_4688 / "person.n.01"  :Role (u_4689 / "king.n.03"  :Of (u_4698 / "state.n.04"  :Name (u_4690 / Italy))))  :Order (u_4693 / 1))  :Time (u_4699 / "time.n.08"  :TPR (u_4696 / now)  :MonthOfYear (u_4691 / 10)  :YearOfCentury (u_4694 / 1946)  :DayOfMonth (u_4697 / 25))))
+
+(u_4710 / box  :member (u_4709 / "write.v.02"  :Agent (u_4703 / "male.n.02")  :Recipient (u_4707 / "person.n.01"  :EQU (u_4708 / speaker))  :Time (u_4711 / "time.n.08"  :TPR (u_4705 / now))  :Asset (u_4706 / "measure.n.02"  :Quantity (u_4712 / 5)  :Unit (u_4704 / "letter.n.01"))))
+
+(u_4720 / box  :member (u_4719 / "win.v.01"  :Agent (u_4715 / "female.n.02")  :Theme (u_4716 / "competition.n.02"  :Quantity (u_4718 / "+"))  :Time (u_4721 / "time.n.08"  :TPR (u_4717 / now))))
+
+(u_4725 / box  :member (u_4724 / "germinate.v.01"  :Patient (u_4722 / "seed.n.01")  :Time (u_4726 / "time.n.08"  :TPR (u_4723 / now))))
+
+(u_4733 / box  :member (u_4734 / "drunk.a.01"  :Experiencer (u_4729 / "person.n.01"  :EQU (u_4730 / speaker))  :Time (u_4731 / "time.n.08"  :EQU (u_4732 / now))  :Value (u_4728 / "measure.n.02"  :Quantity (u_4735 / -))))
+
+(u_4741 / box  :member (u_4740 / "fly.v.01"  :Theme (u_4737 / "male.n.02")  :Time (u_4742 / "time.n.08"  :TPR (u_4739 / now))  :Destination (u_4738 / "city.n.01"  :Name (u_4743 / Paris))))
+
+(u_4750 / box  :member (u_4748 / "male.n.02"  :Name (u_4749 / Tom)  :Attribute (u_4746 / "tall.a.01"  :Time (u_4747 / "time.n.08"  :EQU (u_4751 / now))  :member-of (u_4752 / box  :NEGATION-of u_4750))))
+
+(u_4758 / box  :member (u_4756 / "kind.a.01"  :Time (u_4755 / "time.n.08"  :EQU (u_4757 / now))  :Attribute-of (u_4754 / "female.n.02")))
+
+(u_4765 / box  :member (u_4762 / "go.v.01"  :Theme (u_4760 / "female.n.02")  :Time (u_4763 / "time.n.08"  :EQU (u_4764 / now))  :Destination (u_4761 / "city.n.01"  :Name (u_4766 / Ooita))))
+
+(u_4769 / box  :NEGATION (u_4776 / box  :member (u_4772 / "house.n.01"  :Pivot-of (u_4774 / "have.v.01"  :Theme (u_4771 / "garden.n.01")  :Time (u_4775 / "time.n.08"  :TPR (u_4773 / now))  :member-of (u_4770 / box  :NEGATION-of u_4776)))))
+
+(u_4784 / box  :member (u_4783 / "apologize.v.01"  :Agent (u_4781 / "male.n.02")  :Recipient (u_4779 / "person.n.01"  :Role (u_4780 / "employee.n.01"))  :Time (u_4785 / "time.n.08"  :TPR (u_4782 / now))))
+
+(u_4791 / box  :member (u_4789 / "peel.v.01"  :Agent (u_4787 / "male.n.02"  :Name (u_4788 / Tom))  :Patient (u_4786 / "apple.n.01")  :Time (u_4792 / "time.n.08"  :TPR (u_4790 / now))))
+
+(u_4797 / box  :NEGATION (u_4806 / box  :NEGATION (u_4801 / box  :member (u_4798 / "person.n.01"  :Location (u_4807 / "city.n.01"  :Name (u_4808 / Boston))  :Experiencer-of (u_4804 / "like.v.03"  :Stimulus (u_4802 / "person.n.01"  :EQU (u_4803 / speaker))  :Time (u_4800 / "time.n.08"  :EQU (u_4805 / now))  :member-of (u_4799 / box  :NEGATION-of u_4801))))))
+
+(u_4816 / box  :member (u_4814 / "drop_out.v.01"  :Agent (u_4811 / "person.n.01"  :EQU (u_4812 / speaker))  :Theme (u_4810 / "person.n.01")  :Time (u_4817 / "time.n.08"  :TPR (u_4815 / now))  :Source (u_4813 / Kanda)))
+
+(u_4823 / box  :member (u_4822 / "be.v.08"  :Theme (u_4824 / "female.n.02")  :Co-Theme (u_4819 / "person.n.01"  :Role (u_4820 / "graphic_designer.n.01"))  :Time (u_4825 / "time.n.08"  :EQU (u_4821 / now))))
+
+(u_4831 / box  :member (u_4829 / "hide.v.02"  :Agent (u_4827 / "squirrel.n.01")  :Time (u_4832 / "time.n.08"  :TPR (u_4830 / now))  :Location (u_4828 / "branch.n.02")))
+
+(u_4838 / box  :member (u_4836 / "nod.v.02"  :Agent (u_4834 / "male.n.02"  :Name (u_4835 / Tom))  :Time (u_4839 / "time.n.08"  :TPR (u_4837 / now))  :Manner (u_4833 / "hesitantly.r.02")))
+
+(u_4841 / box  :NEGATION (u_4847 / box  :member (u_4845 / "want.v.01"  :Experiencer (u_4843 / "person.n.01")  :Stimulus (u_4842 / "entity.n.01")  :Time (u_4846 / "time.n.08"  :EQU (u_4844 / now)))))
+
+(u_4854 / box  :member (u_4852 / "slow.a.01"  :Time (u_4851 / "time.n.08"  :EQU (u_4853 / now))  :Attribute-of (u_4849 / "person.n.01"  :Role (u_4850 / "pineapple.n.02"))))
+
+(u_4860 / box  :member (u_4861 / "make.v.06"  :Product (u_4856 / "bridge.n.01")  :Time (u_4858 / "time.n.08"  :EQU (u_4859 / now))  :Material (u_4857 / "wood.n.01")))
+
+(u_4867 / box  :member (u_4865 / "listen.v.03"  :Agent (u_4863 / "person.n.01"  :EQU (u_4864 / speaker))  :Theme (u_4862 / "music.n.01")  :Time (u_4868 / "time.n.08"  :TPR (u_4866 / now))))
+
+(u_4875 / box  :member (u_4873 / "dye.v.01"  :Agent (u_4870 / "female.n.02"  :Name (u_4876 / Mary)  :Part (u_4871 / "hair.n.01"  :Colour (u_4872 / "blue.a.01"  :Result-of u_4873)  :Patient-of u_4873))  :Time (u_4877 / "time.n.08"  :TPR (u_4874 / now))))
+
+(u_4894 / box  :member (u_4895 / "be.v.02"  :Co-Theme (u_4890 / "person.n.01"  :Name (u_4891 / "?")  :Theme-of (u_4887 / "do.v.02"  :Agent (u_4884 / "entity.n.01"  :Theme-of u_4895)  :Recipient u_4895  :Time (u_4889 / "time.n.08"  :TPR (u_4888 / now))))  :Time (u_4886 / "time.n.08"  :TPR (u_4893 / now))  :Result (u_4892 / "name.n.01"  :EQU (u_4885 / "Éamonn"))))
+
+(u_4901 / box  :member (u_4899 / "book.v.03"  :Agent (u_4897 / "person.n.01"  :EQU (u_4898 / speaker))  :Theme (u_4896 / "seat.n.01")  :Time (u_4902 / "time.n.08"  :TPR (u_4900 / now))))
+
+(u_4913 / box  :member (u_4909 / "be.v.03"  :Theme (u_4906 / "person.n.01"  :Quantity (u_4914 / "quantity.n.01"  :APX (u_4907 / "quantity.n.01"  :EQU (u_4910 / 1000000))))  :Time (u_4911 / "time.n.08"  :EQU (u_4912 / now))  :Location (u_4908 / "world.n.01")))
+
+(u_4917 / box  :member (u_4915 / "heater.n.01"  :Theme-of (u_4916 / "work.v.04"  :Time (u_4918 / "time.n.08"  :EQU (u_4919 / now))  :member-of (u_4920 / box  :NEGATION-of u_4917))))
+
+(u_4931 / box  :Theme (u_4934 / "be.v.03"  :Theme (u_4926 / "earthquake.n.01")  :Agent (u_4930 / "according.a.02"  :Source (u_4927 / "newspaper.n.01"))  :Time (u_4932 / "time.n.08"  :TPR (u_4933 / now))  :Location (u_4928 / "country.n.02"  :Name (u_4935 / Mexico)))  :Co-Theme (u_4929 / unknown_ref))
+
+(u_4943 / box  :member (u_4945 / "watch.v.01"  :Theme (u_4939 / "film.n.01"  :Quantity (u_4940 / "?"))  :Agent (u_4937 / "person.n.01"  :EQU (u_4944 / hearer))  :Time (u_4941 / "time.n.08"  :TPR (u_4942 / now))  :Causer (u_4938 / "yesterday.n.01")))
+
+(u_4954 / box  :member (u_4955 / "rob.v.01"  :Theme (u_4948 / "money.n.01"  :Theme-of (u_4949 / "home.n.01"  :Destination-of u_4955))  :Agent (u_4950 / "female.n.02")  :Time (u_4952 / "time.n.08"  :TPR (u_4953 / now))  :Location (u_4951 / "way.n.01")))
+
+(u_4964 / box  :member (u_4960 / "read.v.01"  :Agent (u_4961 / "female.n.02")  :Recipient (u_4963 / "letter.n.01"  :Creator (u_4959 / "male.n.02"))  :Time (u_4965 / "time.n.08"  :TPR (u_4962 / now))))
+
+(u_4968 / box  :NEGATION (u_4974 / box  :member (u_4971 / "swan.n.01"  :Colour (u_4970 / "white.a.01"  :Time (u_4972 / "time.n.08"  :EQU (u_4973 / now))  :member-of (u_4969 / box  :NEGATION-of u_4974)))))
+
+(u_4984 / box  :member (u_4982 / "be.v.03"  :Theme (u_4978 / "camera.n.01")  :Quantity (u_4981 / "time.n.08"  :APX (u_4980 / "quantity.n.01"  :EQU (u_4983 / 3000)))  :Location (u_4979 / "city.n.01"  :Name (u_4985 / Urumqi))))
+
+(u_4998 / box  :member (u_4994 / "consist.v.03"  :Theme (u_4997 / "vocabulary.n.01"  :Creator (u_4995 / "male.n.02"  :Name (u_4996 / Goethe))  :Attribute (u_4992 / "personal.a.01"  :member-of u_4998))  :Time (u_4999 / "time.n.08"  :TPR (u_4993 / now))  :Value (u_4990 / "measure.n.02"  :Unit (u_4991 / "word.n.01"))))
+
+(u_5004 / box  :member (u_5006 / "play.v.05"  :Theme (u_5001 / "ball.n.01")  :Agent (u_5005 / "cat.n.01")  :Time (u_5002 / "time.n.08"  :EQU (u_5003 / now))))
+
+(u_5018 / box  :member (u_5016 / "marry.v.01"  :Agent (u_5012 / "male.n.02"  :Name (u_5015 / Tom))  :Co-Agent (u_5011 / "girl.n.01"  :Attribute (u_5014 / "rich.a.01"  :member-of u_5018))  :Time (u_5019 / "time.n.08"  :TPR (u_5017 / now))  :Source (u_5013 / "city.n.01"  :Name (u_5020 / Boston))))
+
+(u_5027 / box  :member (u_5029 / "bewitch.v.01"  :Agent (u_5024 / "smile.n.01"  :Creator (u_5023 / "male.n.02"))  :Patient (u_5025 / "female.n.02")  :Time (u_5028 / "time.n.08"  :TPR (u_5026 / now))))
+
+(u_5039 / box  :member (u_5037 / "own.v.01"  :Pivot (u_5035 / "male.n.02"  :Name (u_5036 / Tom))  :Theme (u_5032 / "entity.n.01"  :Quantity (u_5033 / "house.n.01"  :Quantity (u_5040 / 2))  :Sub (u_5034 / "boat.n.01"))  :Time (u_5041 / "time.n.08"  :EQU (u_5038 / now))))
+
+(u_5048 / box  :member (u_5049 / "sting.v.02"  :Agent (u_5043 / "bee.n.01")  :Experiencer (u_5044 / "male.n.02"  :Name (u_5045 / Tom))  :Time (u_5046 / "time.n.08"  :TPR (u_5047 / now))))
+
+(u_5060 / box  :member (u_5055 / "old.a.01"  :Theme (u_5056 / "person.n.01"  :EQU (u_5057 / speaker))  :Co-Theme (u_5052 / "apple.n.01"  :Quantity (u_5054 / "measure.n.02"  :Quantity (u_5061 / 2)  :Unit (u_5053 / "kilo.n.01")))  :Time (u_5058 / "time.n.08"  :TSU (u_5059 / now))))
+
+(u_5067 / box  :member (u_5068 / "burrow.v.01"  :Agent (u_5063 / "badger.n.02")  :Patient (u_5064 / "hole.n.01")  :Time (u_5065 / "time.n.08"  :EQU (u_5066 / now))))
+
+(u_5075 / box  :member (u_5074 / "cross.v.01"  :Theme (u_5072 / "person.n.01"  :EQU (u_5073 / speaker))  :Time (u_5076 / "time.n.08"  :TPR (u_5071 / now))  :Path (u_5070 / "street.n.01")))
+
+(u_5085 / box  :member (u_5083 / "compose.v.02"  :Agent (u_5081 / "person.n.01"  :Name (u_5082 / "?"))  :Time (u_5086 / "time.n.08"  :TPR (u_5084 / now))  :Result (u_5087 / "painting.n.01"  :Name (u_5080 / "Concierto & Lomb"))  :Result (u_5079 / "music.n.01"  :Name (u_5088 / Aranjuez))))
+
+(u_5094 / box  :member (u_5090 / "old.a.01"  :Value (u_5091 / "?")  :Time (u_5092 / "time.n.08"  :EQU (u_5093 / now))  :Attribute-of (u_5089 / "tree.n.01")))
+
+(u_5100 / box  :member (u_5101 / "make.v.06"  :Product (u_5096 / "desk.n.01")  :Time (u_5098 / "time.n.08"  :EQU (u_5099 / now))  :Material (u_5097 / "wood.n.01")))
+
+(u_5107 / box  :member (u_5105 / "close.v.01"  :Agent (u_5104 / "male.n.02")  :Patient (u_5103 / "door.n.01")  :Time (u_5108 / "time.n.08"  :TPR (u_5106 / now))))
+
+(u_5114 / box  :member (u_5115 / "board_up.v.01"  :Patient (u_5111 / "window.n.01"  :Attribute (u_5116 / "broken.a.01"  :member-of u_5114))  :Time (u_5112 / "time.n.08"  :TPR (u_5113 / now))))
+
+(u_5124 / box  :member (u_5122 / "person.n.01"  :EQU (u_5123 / speaker)  :Experiencer-of (u_5121 / "see.v.01"  :Stimulus (u_5119 / "giraffe.n.01")  :Time (u_5120 / "time.n.08"  :TPR (u_5125 / now))  :member-of (u_5126 / box  :NEGATION-of u_5124))))
+
+(u_5139 / box  :member (u_5133 / "play.v.01"  :Theme (u_5131 / "poker.n.01")  :Agent (u_5134 / "entity.n.01"  :Sub (u_5135 / "male.n.02"  :Name (u_5136 / Tom))  :Sub (u_5140 / "female.n.02"  :Name (u_5137 / Mary)))  :Time (u_5138 / "time.n.08"  :EQU (u_5132 / now))))
+
+(u_5146 / box  :member (u_5144 / "dislike.v.01"  :Experiencer (u_5142 / "male.n.02"  :Name (u_5143 / Tom))  :Stimulus (u_5141 / "lie.n.01")  :Time (u_5147 / "time.n.08"  :EQU (u_5145 / now))))
+
+(u_5162 / box  :member (u_5163 / "tell.v.02"  :Agent (u_5153 / "female.n.02")  :Time (u_5160 / "time.n.08"  :TPR (u_5161 / now))  :Goal (u_5155 / "wash.v.03"  :Source (u_5154 / "dish.n.01")))  :Recipient-of (u_5157 / "pout.v.01"  :Agent (u_5156 / "female.n.02")  :Time (u_5158 / "time.n.08"  :TPR (u_5159 / now))))
+
+(u_5175 / box  :member (u_5173 / "buy.v.01"  :Agent (u_5171 / "female.n.02"  :Name (u_5170 / Karen))  :Theme (u_5169 / "entity.n.01"  :Quantity (u_5172 / "quantity.n.01"  :EQU (u_5176 / "+")))  :Time (u_5177 / "time.n.08"  :TPR (u_5174 / now))  :Location (u_5178 / "flea_market.n.01")))
+
+(u_5186 / box  :member (u_5188 / "be.v.01"  :Theme (u_5182 / "country.n.02"  :Name (u_5187 / Switzerland))  :Co-Theme (u_5181 / "country.n.01"  :Attribute (u_5184 / "beautiful.a.01"  :member-of u_5186))  :Time (u_5183 / "time.n.08"  :EQU (u_5185 / now))))
+
+(u_5194 / box  :member (u_5191 / "pregnant.a.01"  :Time (u_5192 / "time.n.08"  :EQU (u_5193 / now))  :Attribute-of (u_5190 / "female.n.02"  :Name (u_5195 / Mary))))
+
+(u_5204 / box  :member (u_5201 / "lie.v.02"  :Theme (u_5200 / "book.n.01"  :Theme (u_5198 / "dancing.n.01"))  :Time (u_5202 / "time.n.08"  :EQU (u_5203 / now))  :Location (u_5199 / "desk.n.01")))
+
+(u_5208 / box  :member (u_5209 / "bored.a.01"  :Experiencer (u_5205 / "person.n.01")  :Time (u_5206 / "time.n.08"  :EQU (u_5207 / now))))
+
+(u_5214 / box  :member (u_5215 / "breathe.v.01"  :Agent (u_5210 / "person.n.01"  :EQU (u_5211 / speaker))  :Time (u_5212 / "time.n.08"  :TPR (u_5213 / now))))
+
+(u_5223 / box  :member (u_5221 / "be.v.08"  :Theme (u_5220 / "person.n.01"  :Role (u_5219 / "policeman.n.01"))  :Co-Theme (u_5218 / "duty.n.02")  :Time (u_5224 / "time.n.08"  :EQU (u_5222 / now))))
+
+(u_5235 / box  :member (u_5233 / "person.n.01"  :EQU (u_5234 / speaker)  :Agent-of (u_5230 / "drink.v.01"  :Patient (u_5228 / "fluid.n.01"  :Asset (u_5229 / "measure.n.02"  :Unit (u_5231 / "ounce.n.01")  :Quantity (u_5236 / 30))  :Attribute (u_5232 / "day.n.01"))  :member-of (u_5237 / box  :NECESSITY-of u_5235))))
+
+(u_5243 / box  :member (u_5241 / "like.v.02"  :Experiencer (u_5239 / "person.n.01"  :EQU (u_5240 / speaker))  :Stimulus (u_5238 / "dragon_music.n.01")  :Time (u_5244 / "time.n.08"  :EQU (u_5242 / now))))
+
+(u_5250 / box  :member (u_5248 / "contentious.a.01"  :Time (u_5247 / "time.n.08"  :EQU (u_5249 / now))  :Attribute-of (u_5246 / "person.n.01"  :EQU (u_5251 / hearer))))
+
+(u_5268 / box  :member (u_5265 / "take.v.09"  :Agent (u_5261 / "child.n.01")  :Theme (u_5258 / "entity.n.01")  :Time (u_5269 / "time.n.08"  :TPR (u_5266 / now))  :Sub (u_5267 / _)  :Destination (u_5259 / "pond.n.01"  :Attribute (u_5262 / "frozen.a.01"  :member-of u_5268))  :Beneficiary-of (u_5260 / "make.v.15"  :Product u_5268  :Time (u_5264 / "time.n.08"  :TPR (u_5263 / now)))))
+
+(u_5280 / box  :member (u_5279 / "chat.v.01"  :Agent (u_5272 / "entity.n.01"  :Sub (u_5276 / "male.n.02"  :Name (u_5277 / Tom))  :Sub (u_5281 / "female.n.02"  :Name (u_5278 / Mary)))  :Time (u_5275 / "time.n.08"  :TPR (u_5274 / now))  :Topic (u_5273 / "weather.n.01")))
+
+(u_5285 / box  :member (u_5283 / "female.n.02"  :Patient-of (u_5284 / "let_up.v.01"  :Time (u_5286 / "time.n.08"  :EQU (u_5287 / now))  :member-of (u_5288 / box  :NEGATION-of u_5285))))
+
+(u_5298 / box  :member (u_5297 / "be.v.02"  :Theme (u_5293 / "person.n.01"  :Name (u_5294 / "?"))  :Co-Theme (u_5295 / "male.n.02"  :Name (u_5296 / Vlad))  :Time (u_5299 / "time.n.08"  :EQU (u_5292 / now))))
+
+(u_5306 / box  :member (u_5304 / "buy.v.01"  :Agent (u_5303 / "female.n.02")  :Theme (u_5302 / "dictionary.n.01")  :Time (u_5307 / "time.n.08"  :TPR (u_5305 / now))))
+
+(u_5315 / box  :member (u_5313 / "dirty.a.01"  :Time (u_5312 / "time.n.08"  :EQU (u_5314 / now))  :Attribute-of (u_5311 / "shoe.n.01"  :User (u_5310 / "female.n.02"  :Name (u_5316 / Mary)))))
+
+(u_5322 / box  :member (u_5324 / "kind.a.01"  :Beneficiary (u_5317 / "female.n.02"  :Name (u_5323 / Mary))  :Time (u_5320 / "time.n.08"  :EQU (u_5321 / now))  :Attribute-of (u_5318 / "male.n.02"  :Name (u_5319 / Tom))))
+
+(u_5335 / box  :member (u_5333 / "be.v.03"  :Theme (u_5328 / "person.n.01"  :Role (u_5329 / "student.n.01"))  :Source (u_5331 / "country.n.02"  :Name (u_5334 / america))  :Time (u_5330 / "time.n.08"  :EQU (u_5332 / now))))
+
+(u_5345 / box  :member (u_5342 / "break.v.05"  :Theme (u_5339 / "toy.n.01"  :User (u_5338 / "female.n.02")  :Of-of (u_5341 / "little_sister.n.01"  :Role-of (u_5340 / "person.n.01"  :Co-Theme-of u_5342)))  :Time (u_5343 / "time.n.08"  :TPR (u_5344 / now))))
+
+(u_5355 / box  :member (u_5353 / "look_on.v.01"  :Agent (u_5351 / "person.n.01"  :EQU (u_5352 / speaker))  :Theme (u_5348 / "entity.n.01"  :Quantity (u_5349 / "liar.n.01")  :Sub (u_5350 / "cheat.n.01"))  :Time (u_5356 / "time.n.08"  :EQU (u_5354 / now))))
+
+(u_5367 / box  :member (u_5377 / "hear.v.01"  :Experiencer (u_5373 / "male.n.02"  :Name (u_5365 / Tom))  :Stimulus (u_5372 / "phone.n.01")  :Time (u_5370 / "time.n.08"  :TPR (u_5375 / now))  :Manner (u_5369 / "all_of_a_soon.r.01"))  :ATTRIBUTION (u_5368 / box  :member (u_5374 / "answer.v.01"  :Agent (u_5371 / "male.n.02")  :Theme (u_5364 / "entity.n.01")  :Time (u_5376 / "time.n.08"  :TPR (u_5366 / now)))))
+
+(u_5390 / box  :member (u_5389 / "land.v.02"  :Theme (u_5383 / "robin.n.01"  :Attribute (u_5387 / "pretty.a.01"  :member-of u_5390))  :Time (u_5391 / "time.n.08"  :TPR (u_5388 / now))  :Destination (u_5386 / "windowsill.n.01"  :Part-of (u_5385 / "room.n.01"  :User (u_5384 / speaker)))))
+
+(u_5406 / box  :member (u_5403 / "be.v.03"  :Theme (u_5398 / "woman.n.01")  :Time (u_5407 / "time.n.08"  :EQU (u_5404 / now)))  :CONTRAST (u_5399 / box  :member (u_5408 / "speak.v.03"  :Agent (u_5400 / "female.n.02")  :Theme (u_5405 / "chinese.n.01")  :Time (u_5401 / "time.n.08"  :EQU (u_5402 / now)))))
+
+(u_5417 / box  :member (u_5413 / "suffer.v.02"  :Experiencer (u_5415 / "person.n.01"  :Role (u_5418 / "grandfather.n.01"  :Of (u_5414 / speaker)))  :Stimulus (u_5411 / "hypertension.n.01")  :Time (u_5412 / "time.n.08"  :EQU (u_5416 / now))))
+
+(u_5429 / box  :member (u_5427 / "buy.v.01"  :Agent (u_5424 / "female.n.02"  :User-of (u_5426 / _  :Location-of u_5427))  :Theme (u_5423 / "entity.n.01")  :Time (u_5430 / "time.n.08"  :TPR (u_5428 / now))  :Location (u_5425 / "butcher.n.01")))
+
+(u_5437 / box  :member (u_5435 / "love.v.01"  :Experiencer (u_5434 / "female.n.02")  :Stimulus (u_5433 / "chocolate.n.02")  :Time (u_5438 / "time.n.08"  :EQU (u_5436 / now))))
+
+(u_5447 / box  :member (u_5446 / "offer.v.02"  :Agent (u_5443 / "female.n.02")  :Beneficiary (u_5444 / "person.n.01"  :EQU (u_5445 / speaker))  :Theme (u_5442 / "beer.n.01")  :Time (u_5449 / "time.n.08"  :TPR (u_5448 / now))))
+
+(u_5457 / box  :member (u_5458 / "kill.v.01"  :Patient (u_5452 / "person.n.01"  :Role (u_5453 / "wife.n.01"  :Of (u_5451 / "male.n.02")))  :Time (u_5454 / "time.n.08"  :TPR (u_5455 / now))  :Causer (u_5456 / "accident.n.01")))
+
+(u_5464 / box  :member (u_5465 / "make.v.06"  :Product (u_5460 / "bag.n.01")  :Time (u_5462 / "time.n.08"  :EQU (u_5463 / now))  :Material (u_5461 / "leather.n.01")))
+
+(u_5471 / box  :member (u_5473 / "surprise.v.01"  :Experiencer (u_5467 / "person.n.01"  :EQU (u_5468 / speaker))  :Stimulus (u_5466 / "female.n.02"  :Name (u_5472 / Emily))  :Time (u_5469 / "time.n.08"  :TSU (u_5470 / now))))
+
+(u_5479 / box  :member (u_5477 / "bright.a.03"  :Time (u_5476 / "time.n.08"  :EQU (u_5478 / now))  :Degree (u_5480 / "very.r.01")  :Attribute-of (u_5475 / "female.n.02")))
+
+(u_5486 / box  :member (u_5484 / "dumb.a.01"  :Time (u_5483 / "time.n.08"  :EQU (u_5485 / now))  :Attribute-of (u_5482 / "male.n.02")))
+
+(u_5494 / box  :member (u_5490 / "crazy.a.01"  :Time (u_5489 / "time.n.08"  :EQU (u_5493 / now))  :Value (u_5495 / "measure.n.02"  :Quantity (u_5496 / -))  :Attribute-of (u_5491 / "male.n.02"  :Name (u_5492 / Tom))))
+
+(u_5509 / box  :member (u_5503 / "call.v.01"  :Theme (u_5504 / "city.n.01"  :Name (u_5505 / Kuchiwa))  :Location (u_5506 / "city.n.01"  :Name (u_5510 / Hiroshima)))  :SOURCE (u_5511 / box  :member (u_5502 / "be.v.03"  :Theme (u_5501 / "place.n.02")  :Time (u_5507 / "time.n.08"  :EQU (u_5508 / now)))))
+
+(u_5517 / box  :member (u_5515 / _  :Quantity (u_5516 / 2)  :Location (u_5512 / "other_floor.n.01")  :Part-of (u_5513 / "person.n.01"  :Role (u_5514 / "friend.n.01"  :Of (u_5518 / hearer)))))
+
+(u_5528 / box  :member (u_5526 / "male.n.02"  :Name (u_5527 / Tom)  :Agent-of (u_5530 / "share.v.01"  :Theme (u_5522 / "photo.n.01"  :Attribute (u_5525 / "public.a.01"  :Value (u_5529 / "+")))  :Time (u_5524 / "time.n.08"  :TPR (u_5523 / now))  :member-of (u_5531 / box  :NEGATION-of u_5528))))
+
+(u_5539 / box  :member (u_5534 / _  :Theme (u_5535 / "person.n.01"  :EQU (u_5536 / speaker))  :Time (u_5537 / "time.n.08"  :TSU (u_5538 / now))  :Location (u_5533 / "lab.n.01")))
+
+(u_5554 / box  :member (u_5556 / "have.v.16"  :Experiencer (u_5551 / "male.n.02")  :Stimulus (u_5545 / "cold.n.01")  :Time (u_5550 / "time.n.08"  :TPR (u_5553 / now)))  :CONTRAST (u_5547 / box  :member (u_5555 / "go.v.01"  :Theme (u_5546 / "male.n.02")  :Time (u_5549 / "time.n.08"  :TPR (u_5552 / now))  :Destination (u_5548 / "work.n.03"))))
+
+(u_5560 / box  :member (u_5562 / "talk.v.01"  :Agent (u_5557 / "person.n.01"  :EQU (u_5561 / hearer))  :Time (u_5558 / "time.n.08"  :EQU (u_5559 / now))))
+
+(u_5568 / box  :member (u_5570 / "entity.n.01"  :Agent (u_5564 / "entity.n.01")  :Theme-of (u_5569 / "be.v.01"  :Co-Theme u_5568  :Time (u_5566 / "time.n.08"  :EQU (u_5565 / now))))  :Attribute (u_5567 / "special.a.01"))
+
+(u_5582 / box  :member (u_5579 / "pick.v.02"  :Agent (u_5576 / "male.n.02"  :Name (u_5578 / Tom))  :Theme (u_5575 / "glass.n.02"  :Attribute (u_5577 / "broken.a.01"  :member-of u_5582))  :Time (u_5583 / "time.n.08"  :TPR (u_5580 / now))  :Source (u_5581 / "floor.n.01")))
+
+(u_5592 / box  :member (u_5589 / "wait.v.01"  :Theme (u_5586 / _  :Quantity (u_5587 / "quantity.n.01"  :EQU (u_5593 / "+")))  :Time (u_5590 / "time.n.08"  :TPR (u_5591 / now))  :Destination (u_5588 / "male.n.02")))
+
+(u_5601 / box  :member (u_5597 / "person.n.01"  :Agent-of (u_5598 / "wear.v.01"  :Theme (u_5599 / "pajamas.n.01")  :Time (u_5602 / "time.n.08"  :EQU (u_5600 / now))  :member-of (u_5603 / box  :NEGATION-of u_5601))))
+
+(u_5617 / box  :member (u_5619 / "perfect.a.01"  :Experiencer (u_5608 / "person.n.01"  :EQU (u_5618 / hearer))  :Stimulus (u_5609 / "job.n.01")  :Time (u_5615 / "time.n.08"  :EQU (u_5616 / now)))  :Stimulus-of (u_5611 / "convinced.a.01"  :Experiencer (u_5613 / "person.n.01"  :EQU (u_5614 / speaker))  :Time (u_5612 / "time.n.08"  :EQU (u_5610 / now))))
+
+(u_5632 / box  :member (u_5629 / "busy.a.01"  :Time (u_5627 / "time.n.08"  :EQU (u_5631 / now))  :Attribute-of (u_5624 / "line.n.01"))  :Stimulus-of (u_5625 / "afraid.a.01"  :Experiencer (u_5626 / "person.n.01"  :EQU (u_5630 / speaker))  :Time (u_5633 / "time.n.08"  :EQU (u_5628 / now))))
+
+(u_5640 / box  :member (u_5638 / "reek.v.01"  :Agent (u_5637 / "person.n.01"  :EQU (u_5641 / hearer))  :Theme (u_5636 / "alcohol.n.01")  :Time (u_5642 / "time.n.08"  :EQU (u_5639 / now))))
+
+(u_5653 / box  :member (u_5654 / "be.v.01"  :Theme (u_5647 / "entity.n.01")  :Co-Theme (u_5651 / "bridge.n.01"  :Attribute (u_5648 / "long.a.02"  :Value (u_5652 / "+")))  :Time (u_5649 / "time.n.08"  :EQU (u_5650 / now))))
+
+(u_5669 / box  :member (u_5670 / "find.v.01"  :Agent (u_5665 / "person.n.01"  :Role (u_5662 / "guard.n.01"))  :Theme (u_5667 / "blade.n.01"  :Creator (u_5661 / "hacksaw.n.02"))  :Time (u_5671 / "time.n.08"  :TPR (u_5668 / now))  :Location (u_5663 / "pocket.n.01"  :User (u_5666 / "person.n.01"  :Role (u_5664 / "prisoner.n.01")))))
+
+(u_5680 / box  :member (u_5678 / "plant.v.01"  :Agent (u_5676 / "female.n.02")  :Theme (u_5675 / "rose.n.01")  :Time (u_5681 / "time.n.08"  :TPR (u_5679 / now))  :Location (u_5677 / "garden.n.01")))
+
+(u_5688 / box  :member (u_5686 / "uncork.v.01"  :Agent (u_5685 / "female.n.02")  :Theme (u_5684 / "bottle.n.01")  :Time (u_5689 / "time.n.08"  :TPR (u_5687 / now))))
+
+(u_5697 / box  :member (u_5693 / "live.v.01"  :Theme (u_5691 / "female.n.02"  :Name (u_5698 / "Duke Freelon"))  :Location (u_5692 / "location.n.01"  :Name (u_5694 / "?"))  :Time (u_5695 / "time.n.08"  :EQU (u_5696 / now))))
+
+(u_5705 / box  :member (u_5702 / "be.v.03"  :Theme (u_5700 / "error.n.01")  :Time (u_5703 / "time.n.08"  :EQU (u_5704 / now))  :Location (u_5701 / "bill.n.02")))
+
+(u_5713 / box  :member (u_5712 / "be.v.01"  :Theme (u_5709 / "entity.n.01")  :Co-Theme (u_5708 / "puppy.n.01"  :Attribute (u_5711 / "lovely.a.01"  :member-of u_5713))  :Time (u_5714 / "time.n.08"  :EQU (u_5710 / now))))
+
+(u_5727 / box  :member (u_5725 / "train.v.01"  :Agent (u_5724 / "person.n.01"  :Role (u_5721 / "researcher.n.01"))  :Theme (u_5720 / "monkey.n.01")  :Time (u_5728 / "time.n.08"  :TPR (u_5726 / now))  :Agent-of (u_5722 / "play.v.01"  :Theme (u_5723 / "video_music.n.01"))))
+
+(u_5737 / box  :member (u_5735 / "want.v.01"  :Pivot (u_5733 / "male.n.02"  :Name (u_5734 / Tom)  :Theme-of (u_5731 / "walk.v.01"  :Theme-of u_5735))  :Time (u_5732 / "time.n.08"  :EQU (u_5736 / now))))
+
+(u_5746 / box  :member (u_5743 / "jot.v.01"  :Theme (u_5740 / "note.n.01")  :Time (u_5744 / "time.n.08"  :EQU (u_5745 / now))  :Manner (u_5741 / "directly.r.01")  :Destination (u_5742 / "envelope.n.01")))
+
+(u_5753 / box  :member (u_5750 / "steal.v.01"  :Theme (u_5749 / "entity.n.01"  :Sub-of (u_5748 / "money.n.01"  :Owner (u_5754 / speaker)))  :Time (u_5751 / "time.n.08"  :TPR (u_5752 / now))))
+
+(u_5764 / box  :member (u_5765 / "bear.v.02"  :Patient (u_5756 / "female.n.02")  :Time (u_5762 / "time.n.08"  :TPR (u_5763 / now)  :YearOfCentury (u_5761 / 195X)))  :Time (u_5760 / "time.n.08"  :TPR (u_5759 / now)  :YearOfCentury (u_5758 / _)  :DayOfMonth (u_5757 / 23)  :MonthOfYear (u_5766 / 3)))
+
+(u_5778 / box  :member (u_5776 / "be.v.02"  :Theme (u_5774 / "entity.n.01"  :EQU (u_5775 / "?"))  :Co-Theme (u_5770 / "hotel.n.01"  :Location (u_5779 / "city.n.01"  :Name (u_5780 / Boston))  :Stimulus-of (u_5773 / "favorite.a.02"  :Experiencer (u_5771 / hearer)  :member-of u_5778))  :Time (u_5772 / "time.n.08"  :EQU (u_5777 / now))))
+
+(u_5791 / box  :member (u_5788 / "male.n.02"  :Name (u_5789 / Tom)  :Attribute (u_5786 / "tall.a.01"  :Time (u_5787 / "time.n.08"  :EQU (u_5792 / now))  :Degree (u_5790 / "as.r.01"  :Theme u_5788  :Co-Theme (u_5785 / "female.n.02"  :Name (u_5793 / Mary)))  :member-of (u_5794 / box  :NEGATION-of u_5791))))
+
+(u_5805 / box  :member (u_5803 / "want.v.01"  :Pivot (u_5801 / "person.n.01"  :EQU (u_5802 / speaker)  :Theme-of (u_5800 / "go.v.01"  :Destination (u_5797 / "island.n.01"  :Name (u_5798 / Bali))  :Theme-of u_5803))  :Time (u_5799 / "time.n.08"  :EQU (u_5804 / now))))
+
+(u_5812 / box  :member (u_5808 / "cancel.v.01"  :Theme (u_5809 / "alert.n.01"  :Theme (u_5807 / "tsunami.n.01"))  :Time (u_5810 / "time.n.08"  :TPR (u_5811 / now))))
+
+(u_5825 / box  :member (u_5826 / "wear.v.02"  :Theme (u_5823 / "shorts.n.01"  :Creator (u_5817 / china))  :Agent (u_5819 / "person.n.01"  :Role (u_5818 / "cyclist.n.01"))  :Time (u_5821 / "time.n.08"  :EQU (u_5824 / now)))  :Product-of (u_5822 / "make.v.06"  :Material (u_5820 / "spandex.n.01")))
+
+(u_5834 / box  :member (u_5832 / "begin.v.01"  :Time (u_5831 / "time.n.08"  :TPR (u_5833 / now))  :Part-of (u_5836 / "learn.v.01"  :Agent (u_5829 / "person.n.01"  :EQU (u_5835 / hearer))  :Topic (u_5830 / "esperanto.n.01"))))
+
+(u_5845 / box  :member (u_5846 / "die.v.01"  :Patient (u_5841 / "male.n.02"  :Name (u_5842 / "Marty Dillinger"))  :Manner (u_5840 / "manner.n.01"  :EQU (u_5839 / "?"))  :Time (u_5843 / "time.n.08"  :TPR (u_5844 / now))))
+
+(u_5855 / box  :member (u_5853 / "hate.v.01"  :Experiencer (u_5850 / "person.n.01"  :Role (u_5851 / "parent.n.01"  :Of (u_5852 / "male.n.02")))  :Stimulus (u_5849 / "male.n.02")  :Time (u_5856 / "time.n.08"  :EQU (u_5854 / now))))
+
+(u_5863 / box  :member (u_5861 / "bring_up.v.01"  :Agent (u_5860 / "female.n.02")  :Theme (u_5859 / "child.n.02"  :Quantity (u_5864 / 4))  :Time (u_5865 / "time.n.08"  :TPR (u_5862 / now))))
+
+(u_5875 / box  :member (u_5873 / "person.n.01"  :EQU (u_5874 / speaker)  :Experiencer-of (u_5870 / "remember.v.01"  :Stimulus (u_5872 / "name.n.01"  :Bearer (u_5869 / "male.n.02"))  :Time (u_5876 / "time.n.08"  :EQU (u_5871 / now))  :member-of (u_5877 / box  :NEGATION-of u_5875))))
+
+(u_5888 / box  :member (u_5897 / "proficient.a.02"  :Theme (u_5885 / "english.n.01")  :Time (u_5895 / "time.n.08"  :EQU (u_5887 / now))  :Attribute-of (u_5896 / "male.n.02"))  :CONSEQUENCE (u_5889 / box  :member (u_5892 / "employ.v.01"  :Theme (u_5893 / "male.n.02")  :Agent (u_5894 / "person.n.01"  :EQU (u_5886 / speaker))  :Time (u_5890 / "time.n.08"  :TSU (u_5891 / now)))))
+
+(u_5909 / box  :member (u_5916 / "say.v.01"  :Agent (u_5913 / "person.n.01"  :EQU (u_5910 / hearer))  :Time (u_5907 / "time.n.08"  :TPR (u_5906 / now)))  :ATTRIBUTION (u_5911 / box  :member (u_5917 / "be.v.02"  :Co-Theme (u_5905 / "name.n.01"  :EQU (u_5908 / Tom))  :Theme (u_5914 / "name.n.01"  :Bearer (u_5904 / "male.n.02"))  :Time (u_5915 / "time.n.08"  :TPR (u_5912 / now)))))
+
+(u_5927 / box  :member (u_5928 / "cost.v.01"  :Theme (u_5922 / "book.n.02")  :Time (u_5924 / "time.n.08"  :EQU (u_5926 / now))  :Value (u_5923 / "measure.n.02"  :Quantity (u_5925 / 4)  :Unit (u_5929 / "dollar.n.01"))))
+
+(u_5937 / box  :member (u_5933 / "stoic.a.01"  :Time (u_5932 / "time.n.08"  :EQU (u_5936 / now))  :Attribute-of (u_5934 / "male.n.02"  :Name (u_5935 / Tom))))
+
+(u_5943 / box  :member (u_5944 / "bustling_on.v.02"  :Agent (u_5939 / "female.n.02")  :Time (u_5941 / "time.n.08"  :EQU (u_5942 / now))  :Location (u_5940 / "kitchen.n.01")))
+
+(u_5953 / box  :member (u_5954 / "belong.v.05"  :Theme (u_5950 / "male.n.02"  :Name (u_5951 / "David Cameron"))  :Time (u_5946 / "time.n.08"  :EQU (u_5952 / now))  :Goal (u_5948 / "party.n.01"  :Name (u_5947 / "Conservative Party")  :Location (u_5949 / "country.n.02"  :Name (u_5955 / uk)))))
+
+(u_5960 / box  :member (u_5961 / "belong.v.05"  :Theme (u_5957 / "male.n.02"  :Name (u_5958 / "David Jong"))  :Time (u_5956 / "time.n.08"  :EQU (u_5959 / now))))
+
+(u_5969 / box  :member (u_5967 / "be.v.03"  :Theme (u_5965 / "person.n.01"  :EQU (u_5966 / speaker))  :Time (u_5970 / "time.n.08"  :EQU (u_5968 / now))  :Source (u_5964 / "country.n.02"  :Name (u_5963 / Ecuador))))
+
+(u_5975 / box  :member (u_5973 / "Read.v.05"  :Theme (u_5972 / "manual.n.01"  :Attribute (u_5974 / "fucking.a.01"  :member-of u_5975))))
+
+(u_5983 / box  :member (u_5979 / "male.n.02"  :Pivot-of (u_5981 / "want.v.01"  :Theme (u_5980 / "entity.n.01"  :Instance-of (u_5982 / "flower.n.01"))  :Time (u_5984 / "time.n.08"  :EQU (u_5985 / now))  :member-of (u_5986 / box  :NEGATION-of u_5983))))
+
+(u_5996 / box  :member (u_5990 / "old.a.01"  :Theme (u_5992 / "person.n.01"  :EQU (u_5993 / speaker))  :Time (u_5994 / "time.n.08"  :EQU (u_5995 / now))  :Value (u_5991 / "measure.n.02"  :Unit (u_5989 / "year.n.01")  :Quantity (u_5997 / 19))))
+
+(u_6005 / box  :member (u_6001 / "old.a.01"  :Value (u_6003 / "+")  :Time (u_6004 / "time.n.08"  :TPR (u_6002 / now))  :Degree (u_6006 / "very.r.01")  :Attribute-of (u_6000 / "male.n.02")))
+
+(u_6010 / box  :member (u_6011 / "bark.v.04"  :Agent (u_6007 / "dog.n.01")  :Time (u_6008 / "time.n.08"  :EQU (u_6009 / now))))
+
+(u_6019 / box  :member (u_6021 / "afraid.a.01"  :Experiencer (u_6020 / box  :NEQ (u_6015 / "person.n.01"  :EQU (u_6016 / speaker)))  :Stimulus (u_6013 / "person.n.01"  :Role (u_6014 / "doctor.n.01"))  :Time (u_6017 / "time.n.08"  :TPR (u_6018 / now))))
+
+(u_6027 / box  :member (u_6028 / "have.v.16"  :Experiencer (u_6023 / "male.n.02"  :Name (u_6024 / Tom))  :Stimulus (u_6022 / "heart_attack.n.01")  :Time (u_6025 / "time.n.08"  :EQU (u_6026 / now))))
+
+(u_6035 / box  :member (u_6032 / "be.v.01"  :Theme (u_6033 / "entity.n.01")  :Co-Theme (u_6031 / "surprise.n.01"  :Attribute (u_6034 / "happy.a.01"  :member-of u_6035))))
+
+(u_6041 / box  :member (u_6039 / "embrace.v.01"  :Experiencer (u_6037 / "male.n.02"  :Name (u_6038 / Tom))  :Stimulus (u_6036 / "female.n.02"  :Name (u_6042 / Marie))  :Time (u_6043 / "time.n.08"  :EQU (u_6040 / now))))
+
+(u_6053 / box  :member (u_6051 / "complain.v.01"  :Agent (u_6050 / "person.n.01"  :Role (u_6054 / "father.n.01"  :Of (u_6048 / speaker)))  :Theme (u_6047 / "noise.n.01")  :Time (u_6049 / "time.n.08"  :TPR (u_6052 / now))  :Causer (u_6055 / "traffic_game.n.01")))
+
+(u_6064 / box  :member (u_6062 / "consume.v.01"  :Experiencer (u_6060 / "car.n.01")  :Stimulus (u_6059 / "fuel.n.01"  :Quantity (u_6061 / "quantity.n.01"  :EQU (u_6065 / "+")))  :Time (u_6066 / "time.n.08"  :EQU (u_6063 / now))))
+
+(u_6075 / box  :member (u_6072 / "hard.a.01"  :Degree (u_6070 / "more.r.01"  :Theme (u_6071 / "book.n.01"  :Attribute u_6072)  :Co-Theme (u_6069 / "book.n.01"))  :Time (u_6073 / "time.n.08"  :EQU (u_6074 / now))))
+
+(u_6083 / box  :member (u_6081 / "do.v.02"  :Agent (u_6079 / "male.n.02"  :Name (u_6080 / Tom))  :Theme (u_6078 / "dish.n.01")  :Recipient (u_6077 / "female.n.02"  :Name (u_6084 / Mary))  :Time (u_6085 / "time.n.08"  :TPR (u_6082 / now))))
+
+(u_6091 / box  :member (u_6089 / "rattle.v.01"  :Agent (u_6088 / "storm.n.01")  :Patient (u_6087 / "shutter.n.01")  :Time (u_6092 / "time.n.08"  :TPR (u_6090 / now))))
+
+(u_6102 / box  :member (u_6104 / "found.v.01"  :Theme (u_6098 / "company.n.01"  :Name (u_6099 / _))  :Agent (u_6096 / "entity.n.01"  :Extent (u_6097 / "score.n.03"  :Value (u_6103 / _)))  :Time (u_6100 / "time.n.08"  :TPR (u_6101 / now))))
+
+(u_6109 / box  :member (u_6107 / "cheer.v.01"  :Agent (u_6105 / "male.n.02"  :Name (u_6106 / Tom))  :Time (u_6110 / "time.n.08"  :TPR (u_6108 / now))))
+
+(u_6116 / box  :member (u_6113 / "paraplegic.a.01"  :Time (u_6114 / "time.n.08"  :EQU (u_6115 / now))  :Attribute-of (u_6112 / "male.n.02")))
+
+(u_6123 / box  :member (u_6124 / "allergic.a.02"  :Experiencer (u_6120 / "squirrel.n.01")  :Stimulus (u_6119 / "nut.n.01")  :Time (u_6121 / "time.n.08"  :EQU (u_6122 / now))))
+
+(u_6131 / box  :member (u_6129 / "be.v.03"  :Theme (u_6126 / "entity.n.01")  :Time (u_6132 / "time.n.08"  :EQU (u_6130 / now))  :Location (u_6128 / "location.n.01"  :SZN (u_6127 / "chair.n.01"))))
+
+(u_6140 / box  :member (u_6149 / "assure.v.01"  :Agent (u_6146 / "person.n.01"  :EQU (u_6138 / speaker))  :Recipient (u_6145 / "person.n.01"  :EQU (u_6141 / hearer))  :Theme (u_6137 / "error.n.01")  :Time (u_6147 / "time.n.08"  :EQU (u_6139 / now))  :Theme-of (u_6144 / "happen.v.01"  :Time (u_6148 / "time.n.08"  :TSU (u_6143 / now))  :member-of (u_6142 / box  :NEGATION-of u_6140))))
+
+(u_6157 / box  :member (u_6155 / "be.v.03"  :Theme (u_6152 / "boy.n.01"  :Attribute (u_6154 / "little.a.03"  :member-of u_6157))  :Time (u_6158 / "time.n.08"  :EQU (u_6156 / now))  :Location (u_6153 / "zoo.n.01")))
+
+(u_6163 / box  :member (u_6162 / "ache.v.03"  :Patient (u_6159 / "head.n.01"  :Part-of (u_6161 / speaker))  :Time (u_6164 / "time.n.08"  :EQU (u_6160 / now))))
+
+(u_6169 / box  :member (u_6171 / "look.v.02"  :Theme (u_6166 / "cut.n.01"  :Attribute (u_6167 / "infected.a.01"  :Attribute-of u_6171))  :Time (u_6170 / "time.n.08"  :EQU (u_6168 / now))))
+
+(u_6175 / box  :NEGATION (u_6181 / box  :member (u_6180 / "change.v.01"  :Agent (u_6177 / "person.n.01")  :Patient (u_6176 / "entity.n.01")  :Time (u_6178 / "time.n.08"  :TSU (u_6179 / now)))))
+
+(u_6189 / box  :member (u_6186 / "feel.v.03"  :Experiencer (u_6184 / "female.n.02"  :Experiencer-of (u_6190 / "tired.a.01"  :Degree (u_6185 / "kind_of.r.01")  :Stimulus-of u_6186))  :Time (u_6187 / "time.n.08"  :TPR (u_6188 / now))))
+
+(u_6208 / box  :member (u_6210 / "be.v.01"  :Theme (u_6209 / "male.n.02")  :Co-Theme (u_6199 / "boy.n.01"  :Attribute (u_6206 / "good.a.01"  :member-of u_6208))  :Time (u_6202 / "time.n.08"  :EQU (u_6207 / now)))  :Attribute (u_6200 / "entity.n.01")  :Attribute (u_6205 / "strong.a.01"  :Time (u_6201 / "time.n.08"  :EQU (u_6204 / now))  :Degree (u_6203 / "very.r.01")))
+
+(u_6216 / box  :member (u_6213 / "male.n.02"  :Name (u_6214 / Tom)  :Agent-of (u_6215 / "speak.v.01"  :Co-Agent (u_6212 / "female.n.02"  :Name (u_6219 / Mary))  :Time (u_6217 / "time.n.08"  :EQU (u_6218 / now))  :member-of (u_6220 / box  :NEGATION-of u_6216))))
+
+(u_6229 / box  :member (u_6226 / "put.v.01"  :Agent (u_6224 / "male.n.02"  :Name (u_6225 / Tom))  :Theme (u_6222 / "thermometer.n.01")  :Time (u_6230 / "time.n.08"  :TPR (u_6227 / now))  :Location (u_6228 / "location.n.01"  :SZN (u_6223 / "arm.n.01"))))
+
+(u_6238 / box  :member (u_6234 / "be.v.03"  :Theme (u_6239 / "person.n.01"  :Role (u_6233 / "student.n.01")  :Quantity (u_6235 / -))  :Time (u_6236 / "time.n.08"  :EQU (u_6237 / now))  :Location (u_6240 / "schoolyard.n.01")))
+
+(u_6251 / box  :member (u_6248 / "buy.v.01"  :Agent (u_6246 / "person.n.01"  :EQU (u_6247 / speaker))  :Theme (u_6244 / "dress.n.01")  :Time (u_6252 / "time.n.08"  :TPR (u_6249 / now))  :Asset (u_6253 / "price.n.02"  :Attribute (u_6245 / "low.a.01"  :Value (u_6250 / "+")))))
+
+(u_6260 / box  :member (u_6256 / "hotel.n.01"  :Theme-of (u_6258 / "accommodate.v.04"  :Value (u_6261 / "person.n.01"  :Role (u_6257 / "guest.n.01")  :Quantity (u_6259 / 500))  :member-of (u_6262 / box  :POSSIBILITY-of u_6260))))
+
+(u_6268 / box  :member (u_6269 / "peel.v.01"  :Agent (u_6264 / "person.n.01"  :EQU (u_6265 / speaker))  :Patient (u_6263 / "apple.n.01")  :Time (u_6266 / "time.n.08"  :EQU (u_6267 / now))))
+
+(u_6274 / box  :member (u_6272 / "person.n.01"  :EQU (u_6273 / speaker)  :Experiencer-of (u_6271 / "flunk.v.01"  :Time (u_6275 / "time.n.08"  :TPR (u_6276 / now))  :member-of (u_6277 / box  :NEGATION-of u_6274))))
+
+(u_6287 / box  :member (u_6286 / "buy.v.01"  :Agent (u_6284 / "male.n.02"  :Name (u_6285 / Brian))  :Beneficiary (u_6281 / "female.n.02"  :Name (u_6288 / Kate))  :Theme (u_6282 / "lipstick.n.01")  :Time (u_6289 / "time.n.08"  :TPR (u_6283 / now))))
+
+(u_6301 / box  :member (u_6294 / "think.v.01"  :Experiencer (u_6297 / "person.n.01"  :EQU (u_6298 / speaker))  :Time (u_6295 / "time.n.08"  :EQU (u_6296 / now)))  :ATTRIBUTION (u_6304 / box  :member (u_6303 / "jealous.a.01"  :Experiencer (u_6293 / "person.n.01"  :EQU (u_6302 / hearer))  :Time (u_6299 / "time.n.08"  :EQU (u_6300 / now)))))
+
+(u_6310 / box  :member (u_6308 / "like.v.02"  :Experiencer (u_6306 / "male.n.02"  :Name (u_6307 / Tom))  :Stimulus (u_6305 / "vanilla_ice_cream.n.01")  :Time (u_6311 / "time.n.08"  :EQU (u_6309 / now))))
+
+(u_6317 / box  :member (u_6315 / "seal.v.01"  :Agent (u_6313 / "male.n.02"  :Name (u_6314 / Tom))  :Patient (u_6312 / "envelope.n.01")  :Time (u_6318 / "time.n.08"  :TPR (u_6316 / now))))
+
+(u_6328 / box  :member (u_6325 / "fly.v.01"  :Theme (u_6322 / "airplane.n.01")  :Time (u_6324 / "time.n.08"  :TPR (u_6329 / now)  :YearOfCentury (u_6326 / 1903))  :Attribute (u_6323 / "seconds.n.01"  :Quantity (u_6327 / 5))))
+
+(u_6336 / box  :member (u_6334 / "adore.v.01"  :Experiencer (u_6333 / "female.n.02")  :Stimulus (u_6332 / "cat.n.01")  :Time (u_6337 / "time.n.08"  :EQU (u_6335 / now))))
+
+(u_6348 / box  :member (u_6350 / "begin.v.01"  :Time (u_6342 / "time.n.08"  :TPR (u_6345 / now))  :Manner (u_6343 / "all_of_a_sudden.r.01")  :Part-of (u_6344 / "sing.v.02"  :Agent (u_6347 / "person.n.01"  :Role (u_6349 / "mother.n.01"  :Of (u_6346 / speaker))))))
+
+(u_6359 / box  :member (u_6358 / "time.n.08"  :Theme (u_6354 / "person.n.01"  :EQU (u_6360 / hearer))  :Time (u_6361 / "time.n.08"  :TPR (u_6356 / now))  :Source (u_6355 / "location.n.01"  :Name (u_6362 / "?")  :Part-of (u_6357 / "world.n.04"))))
+
+(u_6371 / box  :member (u_6369 / "be.v.03"  :Theme (u_6366 / "person.n.01"  :EQU (u_6372 / hearer))  :Time (u_6373 / "time.n.08"  :TPR (u_6368 / now))  :Source (u_6374 / "location.n.01"  :Name (u_6370 / "?")  :Part-of (u_6367 / "earth.n.01"))))
+
+(u_6383 / box  :member (u_6384 / "dye.v.01"  :Agent (u_6378 / "person.n.01"  :EQU (u_6379 / speaker))  :Patient (u_6376 / "hair.n.01"  :Colour (u_6377 / "brown.a.01"  :Result-of u_6384)  :Part-of (u_6380 / speaker))  :Time (u_6381 / "time.n.08"  :EQU (u_6382 / now))))
+
+(u_6393 / box  :member (u_6390 / "old.a.01"  :Theme (u_6388 / "male.n.02"  :Name (u_6389 / Tom))  :Time (u_6391 / "time.n.08"  :TPR (u_6392 / now))  :Value (u_6394 / "measure.n.02"  :Quantity (u_6395 / 9)  :Unit (u_6387 / "year.n.01"))))
+
+(u_6404 / box  :member (u_6401 / "person.n.01"  :EQU (u_6402 / speaker)  :Agent-of (u_6403 / "work.v.02"  :Time (u_6405 / "time.n.08"  :EQU (u_6400 / now))  :member-of (u_6406 / box  :NEGATION (u_6407 / box  :member u_6401)  :NEGATION-of u_6404))))
+
+(u_6414 / box  :member (u_6415 / "play.v.07"  :Theme (u_6411 / "piano.n.01")  :Agent (u_6410 / "person.n.01")  :Time (u_6412 / "time.n.08"  :EQU (u_6413 / now))))
+
+(u_6423 / box  :member (u_6421 / "aim.v.01"  :Agent (u_6420 / "person.n.01"  :Role (u_6419 / "hunter.n.01"))  :Theme (u_6418 / "elephant.n.01")  :Time (u_6424 / "time.n.08"  :TPR (u_6422 / now))))
+
+(u_6432 / box  :member (u_6431 / "have.v.01"  :Pivot (u_6427 / "person.n.01")  :Theme (u_6428 / "time.n.02"  :Quantity (u_6430 / "+"))  :Time (u_6433 / "time.n.08"  :EQU (u_6429 / now))))
+
+(u_6444 / box  :member (u_6445 / "take.v.07"  :Theme (u_6437 / "journey.n.01")  :Agent (u_6440 / "person.n.01"  :EQU (u_6441 / speaker))  :Location (u_6439 / "location.n.01"  :Name (u_6438 / "?"))  :Time (u_6442 / "time.n.08"  :EQU (u_6443 / now))))
+
+(u_6452 / box  :member (u_6449 / "fly.v.01"  :Theme (u_6446 / now  :EQU (u_6453 / hearer))  :Time (u_6450 / "time.n.08"  :EQU (u_6451 / now))  :SZN (u_6448 / "range.n.04"  :Name (u_6447 / Alps))))
+
+(u_6459 / box  :member (u_6457 / "pull.v.08"  :Agent (u_6455 / "person.n.01"  :EQU (u_6456 / speaker))  :Patient (u_6454 / "muscle.n.01")  :Time (u_6460 / "time.n.08"  :TPR (u_6458 / now))))
+
+(u_6470 / box  :member (u_6466 / "be.v.03"  :Theme (u_6464 / "tattoo.n.01"  :Quantity (u_6465 / "quantity.n.01"  :EQU (u_6471 / "+")))  :Time (u_6468 / "time.n.08"  :EQU (u_6469 / now))  :Location (u_6472 / "body.n.01"  :Part-of (u_6467 / "female.n.02"))))
+
+(u_6479 / box  :member (u_6478 / "leave.v.01"  :Theme (u_6475 / "ship.n.01")  :Time (u_6480 / "time.n.08"  :TPR (u_6476 / now))  :Manner (u_6477 / "quantity.n.01")  :Source (u_6481 / "pier.n.01")))
+
+(u_6490 / box  :member (u_6488 / "wrap.v.01"  :Agent (u_6484 / "female.n.02"  :User-of (u_6486 / "sandwich.n.01"  :Theme-of u_6488  :Theme-of (u_6485 / "wrap.n.01"  :MadeOf (u_6487 / "plastic.n.01")  :Destination-of u_6488)))  :Time (u_6491 / "time.n.08"  :TPR (u_6489 / now))))
+
+(u_6500 / box  :member (u_6502 / "happen.v.01"  :Theme (u_6495 / "coincidence.n.01"  :Quantity (u_6498 / "quantity.n.01"  :EQU (u_6501 / "+")))  :Time (u_6496 / "time.n.08"  :EQU (u_6499 / now))  :Location (u_6497 / "book.n.02")))
+
+(u_6513 / box  :member (u_6507 / "person.n.01"  :EQU (u_6515 / hearer)  :Theme-of (u_6510 / "be.v.01"  :Co-Theme (u_6514 / "person.n.01"  :Role (u_6508 / "girlfriend.n.02"  :Of (u_6512 / speaker)))  :Time (u_6509 / "time.n.08"  :EQU (u_6511 / now))  :member-of (u_6516 / box  :NEGATION-of u_6513))))
+
+(u_6525 / box  :member (u_6523 / "serve.v.02"  :Agent (u_6520 / "female.n.02")  :Theme (u_6519 / "coffee.n.01")  :Recipient (u_6521 / "person.n.01"  :EQU (u_6522 / speaker))  :Time (u_6526 / "time.n.08"  :TPR (u_6524 / now))))
+
+(u_6535 / box  :member (u_6533 / "learn.v.01"  :Agent (u_6531 / "person.n.01"  :EQU (u_6532 / speaker))  :Time (u_6536 / "time.n.08"  :TPR (u_6534 / now))  :Topic (u_6529 / "russian.n.01")  :EQU-of (u_6530 / "terra_incognita.n.01"  :Theme (u_6528 / "french.n.01")  :member-of (u_6537 / box  :NEGATION-of u_6535))))
+
+(u_6543 / box  :member (u_6542 / "smoke.v.01"  :Patient (u_6540 / "male.n.02"  :Name (u_6541 / "fucking.a.01"))  :Time (u_6544 / "time.n.08"  :EQU (u_6539 / now))))
+
+(u_6551 / box  :member (u_6552 / "be.v.01"  :Theme (u_6548 / "bird.n.01")  :Co-Theme (u_6547 / "wagtail.n.01")  :Time (u_6549 / "time.n.08"  :EQU (u_6550 / now))))
+
+(u_6557 / box  :member (u_6555 / "hesitate.v.01"  :Agent (u_6553 / "male.n.02")  :Time (u_6558 / "time.n.08"  :TPR (u_6556 / now))  :Duration (u_6554 / "moment.n.02")))
+
+(u_6568 / box  :member (u_6571 / "take.v.18"  :Theme (u_6562 / "earring.n.01"  :User (u_6566 / hearer))  :Agent (u_6564 / "person.n.01"  :EQU (u_6570 / hearer))  :Location (u_6563 / "location.n.01"  :EQU (u_6565 / "?"))  :Time (u_6567 / "time.n.08"  :TPR (u_6569 / now))))
+
+(u_6583 / box  :member (u_6580 / "take_place.v.01"  :Theme (u_6576 / "entity.n.01"  :Sub (u_6584 / "union.n.01")  :Sub (u_6585 / "state.n.03"  :Name (u_6581 / Scotland))  :Topic (u_6577 / "country.n.02"  :Name (u_6582 / England)))  :Time (u_6579 / "time.n.08"  :TPR (u_6586 / now)  :YearOfCentury (u_6578 / 1706))))
+
+(u_6597 / box  :member (u_6595 / "faint.v.03"  :Agent (u_6590 / "person.n.01"  :Role (u_6591 / "actress.n.01"))  :Time (u_6598 / "time.n.08"  :TPR (u_6596 / now))  :Manner (u_6592 / "right.r.02")  :Location (u_6594 / "middle.n.01"  :Part-of (u_6593 / "play.n.01"))))
+
+(u_6617 / box  :member (u_6612 / "angry.a.01"  :Time (u_6625 / "time.n.08"  :EQU (u_6616 / now))  :Attribute-of (u_6610 / "person.n.01"  :Duration (u_6620 / "measure.n.02"  :Quantity (u_6618 / 3)  :Unit (u_6611 / "measure.n.02"))  :Attribute (u_6614 / "frustrated.a.01"  :Time (u_6619 / "time.n.08"  :EQU (u_6613 / now))  :member-of u_6617)))  :Co-Theme-of (u_6615 / "last.v.01"  :Theme (u_6624 / "inflation.n.01")  :MadeOf (u_6621 / "gallop_bomb.n.01")  :Time (u_6623 / "time.n.08"  :TPR (u_6622 / now))))
+
+(u_6636 / box  :member (u_6637 / "run.v.03"  :Theme (u_6632 / "bank.n.02")  :Agent (u_6630 / "person.n.01"  :Role (u_6631 / "citizen.n.01")  :Attribute (u_6634 / "private.a.01"  :member-of u_6636))  :Time (u_6633 / "time.n.08"  :TPR (u_6635 / now))))
+
+(u_6641 / box  :member (u_6640 / "roar.v.02"  :Agent (u_6638 / "lion.n.01")  :Time (u_6642 / "time.n.08"  :EQU (u_6639 / now))))
+
+(u_6652 / box  :member (u_6648 / "cost.v.01"  :Theme (u_6645 / "carrot.n.01")  :Value (u_6647 / "measure.n.02"  :Unit (u_6649 / "?")  :Quantity (u_6650 / "?"))  :Time (u_6651 / "time.n.08"  :EQU (u_6646 / now))))
+
+(u_6660 / box  :member (u_6669 / "visit.v.01"  :Agent (u_6665 / "person.n.01"  :EQU (u_6664 / speaker))  :Co-Agent (u_6667 / "male.n.02"  :Name (u_6658 / Tom))  :Location (u_6666 / "city.n.01"  :Name (u_6661 / Boston))  :Time (u_6668 / "time.n.08"  :TPR (u_6659 / now)  :TAB (u_6656 / "measure.n.02"  :TAB (u_6663 / now)  :Unit (u_6657 / "year.n.01")  :Quantity (u_6662 / 2)))))
+
+(u_6674 / box  :member (u_6675 / "bear.v.02"  :Patient (u_6670 / "male.n.02"  :Name (u_6671 / "George Washington"))  :Time (u_6672 / "time.n.08"  :TPR (u_6676 / now)  :YearOfCentury (u_6673 / 1822))))
+
+(u_6684 / box  :member (u_6682 / "uncork.v.01"  :Agent (u_6680 / "male.n.02"  :Name (u_6681 / Tom)  :Part (u_6679 / "tooth.n.01"  :Instrument-of u_6682))  :Patient (u_6678 / "bottle.n.01")  :Time (u_6685 / "time.n.08"  :TPR (u_6683 / now))))
+
+(u_6696 / box  :member (u_6698 / "be.v.01"  :Theme (u_6692 / "company.n.01"  :Name (u_6691 / Dagbladet))  :Co-Theme (u_6690 / "newspaper.n.02"  :Location (u_6694 / "country.n.02"  :Name (u_6697 / norway)))  :Time (u_6693 / "time.n.08"  :EQU (u_6695 / now))))
+
+(u_6705 / box  :member (u_6703 / "speak.v.03"  :Agent (u_6702 / "female.n.02")  :Theme (u_6701 / "portuguese.n.01")  :Time (u_6706 / "time.n.08"  :EQU (u_6704 / now))))
+
+(u_6714 / box  :member (u_6712 / "pour.v.01"  :Agent (u_6710 / "person.n.01"  :EQU (u_6711 / speaker))  :Theme (u_6708 / "water.n.06")  :Time (u_6715 / "time.n.08"  :TPR (u_6713 / now))  :Destination (u_6709 / "bucket.n.01")))
+
+(u_6723 / box  :member (u_6722 / "be.v.03"  :Theme (u_6717 / "house.n.01"  :Owner (u_6724 / speaker))  :Time (u_6725 / "time.n.08"  :EQU (u_6721 / now))  :Location (u_6718 / "northeast.n.04"  :Of (u_6719 / "sculpture.n.01"  :Name (u_6720 / _)))))
+
+(u_6737 / box  :member (u_6733 / "solve.v.01"  :Theme (u_6728 / "problem.n.02")  :Time (u_6735 / "time.n.08"  :TPR (u_6736 / now))  :Duration (u_6729 / "measure.n.02"  :Unit (u_6730 / "hour.n.01")  :Duration (u_6732 / "measure.n.02"  :Unit (u_6731 / "quantity.n.01")  :Quantity (u_6734 / "0.5")))))
+
+(u_6743 / box  :member (u_6744 / "eat.v.01"  :Agent (u_6739 / "male.n.02"  :Name (u_6740 / Tom))  :Patient (u_6738 / "sandwich.n.01")  :Time (u_6741 / "time.n.08"  :TPR (u_6742 / now))))
+
+(u_6754 / box  :member (u_6753 / "take.v.24"  :Agent (u_6751 / "person.n.01"  :Role (u_6749 / "doctor.n.01"))  :Theme (u_6748 / "pulse.n.01"  :Part-of (u_6752 / speaker))  :Time (u_6755 / "time.n.08"  :TPR (u_6750 / now))))
+
+(u_6766 / box  :member (u_6774 / "tell.v.02"  :Agent (u_6773 / "male.n.02"  :Name (u_6764 / Tom))  :Recipient (u_6776 / "person.n.01")  :Time (u_6772 / "time.n.08"  :TPR (u_6771 / now)))  :ATTRIBUTION (u_6767 / box  :member (u_6775 / "lose.v.05"  :Agent (u_6763 / _  :Owner-of (u_6777 / "watch.n.01"  :Theme-of u_6775))  :Time (u_6768 / "time.n.08"  :TPR (u_6765 / now))  :Time (u_6770 / "person.n.01"  :TPR (u_6769 / now)))))
+
+(u_6785 / box  :member (u_6784 / "beg.v.02"  :Agent (u_6782 / "male.n.02"  :Name (u_6783 / Tom)  :Theme-of (u_6780 / "stay.v.02"  :Topic-of u_6784))  :Recipient (u_6779 / "female.n.02"  :Name (u_6786 / Mary))  :Time (u_6787 / "time.n.08"  :TPR (u_6781 / now))))
+
+(u_6800 / box  :member (u_6809 / "burst.v.02"  :Theme (u_6798 / "girl.n.01"  :Attribute (u_6807 / "little.a.03"  :member-of u_6800)  :Experiencer-of (u_6804 / "moved.a.01"  :Stimulus u_6800  :Degree (u_6802 / "deeply.r.01")))  :Time (u_6810 / "time.n.08"  :TPR (u_6799 / now))  :Result (u_6803 / "tear.n.01"))  :Experiencer-of (u_6811 / "pitiful.a.01"  :Stimulus (u_6808 / "story.n.01"  :Creator (u_6806 / "man.n.01"  :Attribute (u_6805 / "old.a.01"  :Value (u_6801 / "+"))))))
+
+(u_6818 / box  :member (u_6816 / "complain.v.01"  :Agent (u_6815 / "male.n.02")  :Theme (u_6814 / "noise.n.01")  :Time (u_6819 / "time.n.08"  :TPR (u_6817 / now))))
+
+(u_6829 / box  :member (u_6826 / "damage.v.02"  :Patient (u_6823 / "home.n.01"  :Quantity (u_6830 / "quantity.n.01"  :APX (u_6825 / "quantity.n.01"  :EQU (u_6831 / 100))))  :Time (u_6827 / "time.n.08"  :TPR (u_6828 / now))  :Causer (u_6824 / "flood.n.01")))
+
+(u_6840 / box  :member (u_6841 / "see.v.07"  :Experiencer (u_6837 / "person.n.01"  :EQU (u_6838 / speaker))  :Stimulus (u_6834 / "entity.n.01")  :Time (u_6836 / "time.n.08"  :TPR (u_6839 / now))  :Instrument (u_6835 / "tv.n.01")))
+
+(u_6843 / box  :NEGATION (u_6847 / "person.n.01"  :member (u_6846 / "make.v.08"  :Agent (u_6845 / "person.n.01")  :Theme (u_6844 / "mistake.n.01"))))
+
+(u_6854 / box  :member (u_6855 / "bear.v.02"  :Patient (u_6850 / "person.n.01"  :EQU (u_6851 / speaker))  :Time (u_6852 / "time.n.08"  :TPR (u_6853 / now))  :Location (u_6849 / "city.n.01"  :Name (u_6856 / Osaka))))
+
+(u_6862 / box  :member (u_6860 / "male.n.02"  :Name (u_6861 / Tom)  :Experiencer-of (u_6859 / "mad.a.05"  :Stimulus (u_6858 / "person.n.01"  :EQU (u_6865 / hearer))  :Time (u_6863 / "time.n.08"  :EQU (u_6864 / now))  :member-of (u_6866 / box  :NEGATION-of u_6862))))
+
+(u_6872 / box  :member (u_6870 / "out.r.01"  :Time (u_6869 / "time.n.08"  :EQU (u_6871 / now))  :Attribute-of (u_6868 / "female.n.02")))
+
+(u_6882 / box  :member (u_6880 / "be.v.13"  :Theme (u_6874 / "entity.n.01")  :Time (u_6883 / "time.n.08"  :TPR (u_6879 / now))  :Value (u_6876 / "measure.n.02"  :Unit (u_6878 / "dollar.n.01")  :Quantity (u_6877 / "quantity.n.01"  :LES (u_6875 / "quantity.n.01"  :EQU (u_6881 / 15))))))
+
+(u_6889 / box  :member (u_6891 / "speak.v.01"  :Agent (u_6885 / "person.n.01"  :EQU (u_6886 / speaker))  :Co-Agent (u_6884 / "female.n.02"  :Name (u_6890 / Paola))  :Time (u_6887 / "time.n.08"  :TSU (u_6888 / now))))
+
+(u_6898 / box  :member (u_6896 / "pile_up.v.01"  :Agent (u_6894 / "sheet.n.02"  :User (u_6895 / speaker))  :Time (u_6899 / "time.n.08"  :TPR (u_6897 / now))  :Location (u_6893 / "desk.n.01"  :User (u_6892 / speaker))))
+
+(u_6904 / box  :member (u_6905 / "die.v.01"  :Patient (u_6901 / "male.n.02"  :Name (u_6902 / _))  :Time (u_6900 / "time.n.08"  :TPR (u_6906 / now)  :YearOfCentury (u_6903 / 1799))))
+
+(u_6912 / box  :member (u_6913 / "tired.a.01"  :Experiencer (u_6908 / "person.n.01"  :EQU (u_6909 / speaker))  :Time (u_6910 / "time.n.08"  :TPR (u_6911 / now))  :Degree (u_6914 / "very.r.01")))
+
+(u_6918 / box  :member (u_6916 / "be.v.01"  :Theme (u_6917 / "entity.n.01")  :Co-Theme (u_6915 / "hype.n.01")))
+
+(u_6926 / box  :member (u_6928 / "like.v.03"  :Experiencer (u_6921 / "person.n.01"  :EQU (u_6927 / hearer))  :Stimulus (u_6923 / "person.n.01"  :EQU (u_6924 / speaker))  :Time (u_6925 / "time.n.08"  :EQU (u_6922 / now))))
+
+(u_6938 / box  :member (u_6933 / "female.n.02"  :Name (u_6941 / Wendy)  :Experiencer-of (u_6934 / "interested.a.01"  :Stimulus (u_6937 / "festival.n.02"  :Source (u_6936 / "country.n.02"  :Name (u_6939 / japan)))  :Time (u_6940 / "time.n.08"  :TPR (u_6935 / now))  :Degree (u_6942 / "always.r.01")  :member-of (u_6943 / box  :NEGATION-of u_6938))))
+
+(u_6950 / box  :member (u_6948 / "plant.v.01"  :Agent (u_6946 / "male.n.02"  :Name (u_6947 / Tom)  :User-of (u_6945 / "yard.n.01"  :Destination-of u_6948))  :Theme (u_6944 / "apple_juice.n.01"  :Quantity (u_6951 / 3))  :Time (u_6952 / "time.n.08"  :TPR (u_6949 / now))))
+
+(u_6964 / box  :member (u_6971 / "person.n.01"  :EQU (u_6963 / speaker))  :Attribute (u_6961 / _  :POSSIBILITY (u_6966 / box  :member (u_6962 / "lift.v.03"  :Theme (u_6968 / "entity.n.01")  :Agent u_6964  :member-of (u_6970 / box  :NEGATION-of u_6966))))  :Experiencer-of (u_6969 / "heavy.a.01"  :Stimulus (u_6960 / "stone.n.01")  :Time (u_6972 / "time.n.08"  :TPR (u_6965 / now))  :Degree (u_6967 / "so.r.01")))
+
+(u_6978 / box  :member (u_6976 / "interesting.a.01"  :Time (u_6975 / "time.n.08"  :EQU (u_6977 / now))  :Degree (u_6979 / "kind_of.r.01")  :Attribute-of (u_6974 / "entity.n.01")))
+
+(u_6983 / box  :member (u_6981 / "person.n.01"  :EQU (u_6982 / speaker)  :Experiencer-of (u_6986 / "thirsty.a.02"  :Time (u_6984 / _  :EQU (u_6985 / now))  :member-of (u_6987 / "always.r.01"  :NEGATION-of u_6983))))
+
+(u_6998 / box  :member (u_6997 / "be.v.01"  :Theme (u_6994 / "entity.n.01")  :Co-Theme (u_6991 / "cliche.n.01")  :Time (u_7000 / "time.n.08"  :EQU (u_6995 / now)))  :CONTRAST (u_6992 / box  :member (u_6996 / "true.a.01"  :Time (u_6993 / "time.n.08"  :EQU (u_6999 / now))  :Attribute-of (u_7001 / "entity.n.01"))))
+
+(u_7007 / box  :member (u_7005 / "originate.v.01"  :Agent (u_7003 / "male.n.02"  :Name (u_7004 / Freud))  :Theme (u_7002 / "psychoanalysis.n.01")  :Time (u_7008 / "time.n.08"  :TPR (u_7006 / now))))
+
+(u_7012 / box  :member (u_7011 / "red.a.01"  :Colour-of (u_7010 / "apple.n.01"))  :Time (u_7013 / "time.n.08"  :EQU (u_7014 / now)))
+
+(u_7020 / box  :member (u_7018 / "write.v.01"  :Agent (u_7015 / "female.n.02")  :Time (u_7021 / "time.n.08"  :EQU (u_7017 / now))  :Topic (u_7016 / "country.n.02"  :Name (u_7019 / Lanka))))
+
+(u_7033 / box  :member (u_7031 / "say.v.01"  :Agent (u_7036 / "male.n.02")  :Time (u_7029 / "time.n.08"  :TPR (u_7032 / now)))  :ATTRIBUTION (u_7037 / box  :member (u_7030 / "grow_up.v.01"  :Patient (u_7026 / "male.n.02")  :Time (u_7034 / "time.n.08"  :TPR (u_7028 / now))  :Location (u_7027 / "country.n.02"  :Name (u_7035 / Tunisia)))))
+
+(u_7046 / box  :member (u_7044 / "whisper.v.01"  :Agent (u_7040 / "female.n.02")  :Time (u_7047 / "time.n.08"  :TPR (u_7045 / now))  :Topic (u_7041 / "entity.n.01")  :Destination (u_7043 / "ear.n.01"  :Part-of (u_7042 / "male.n.02"))))
+
+(u_7056 / box  :member (u_7054 / "person.n.01"  :EQU (u_7055 / speaker)  :Theme-of (u_7052 / "be.v.01"  :Co-Theme (u_7050 / "person.n.01"  :Role (u_7051 / "vegetarian.n.01"))  :Time (u_7053 / "time.n.08"  :EQU (u_7057 / now))  :member-of (u_7058 / box  :NEGATION-of u_7056))))
+
+(u_7064 / box  :member (u_7065 / "hooked_on.v.01"  :Experiencer (u_7060 / "male.n.02"  :Name (u_7061 / Tom))  :Stimulus (u_7059 / "cigarette.n.01")  :Time (u_7062 / "time.n.08"  :EQU (u_7063 / now))))
+
+(u_7071 / box  :member (u_7073 / "saw.v.01"  :Agent (u_7072 / "man.n.01")  :Patient (u_7068 / "log.n.01")  :Time (u_7069 / "time.n.08"  :EQU (u_7070 / now))))
+
+(u_7080 / box  :member (u_7075 / "tired.a.01"  :Experiencer (u_7076 / "male.n.02"  :Name (u_7077 / Tom)  :Agent-of (u_7081 / "speak.v.02"  :Stimulus-of u_7075))  :Time (u_7078 / "time.n.08"  :TPR (u_7079 / now))))
+
+(u_7092 / box  :member (u_7090 / "invest.v.01"  :Agent (u_7089 / "company.n.01")  :Theme (u_7086 / "money.n.01"  :Quantity (u_7088 / "quantity.n.01"  :EQU (u_7093 / "+")))  :Time (u_7094 / "time.n.08"  :TPR (u_7091 / now))  :Destination (u_7087 / "project.n.01")))
+
+(u_7102 / box  :member (u_7099 / "black.a.01"  :Time (u_7100 / "time.n.08"  :EQU (u_7101 / now))  :Colour-of (u_7098 / "pen.n.01"  :User (u_7097 / "female.n.02"  :Name (u_7103 / Anna)))))
+
+(u_7111 / box  :member (u_7108 / "kidnap.v.01"  :Theme (u_7106 / "person.n.01"  :Role (u_7107 / "son.n.01"  :Of (u_7104 / "person.n.01"  :Role (u_7105 / "king.n.01"))))  :Time (u_7109 / "time.n.08"  :TPR (u_7110 / now))))
+
+(u_7119 / box  :member (u_7115 / "slow.a.04"  :Time (u_7118 / "time.n.08"  :EQU (u_7116 / now))  :Attribute-of (u_7114 / "pulse.n.01"  :Part-of (u_7117 / speaker))))
+
+(u_7125 / box  :member (u_7126 / "kill.v.01"  :Patient (u_7121 / "male.n.02"  :Name (u_7122 / "Nancy DePrisco"))  :Time (u_7123 / "time.n.08"  :TPR (u_7124 / now))  :Location (u_7120 / "country.n.02"  :Name (u_7127 / Mexico))))
+
+(u_7133 / box  :member (u_7131 / "have.v.02"  :Pivot (u_7129 / "cat.n.01")  :Theme (u_7130 / "ear.n.01"  :Quantity (u_7134 / 2))  :Time (u_7135 / "time.n.08"  :EQU (u_7132 / now))))
+
+(u_7143 / box  :member (u_7141 / "count.v.01"  :Agent (u_7139 / "male.n.02"  :Name (u_7140 / Tom))  :Theme (u_7137 / "flower.n.01")  :Time (u_7144 / "time.n.08"  :TPR (u_7142 / now))  :Location (u_7138 / "garden.n.01")))
+
+(u_7156 / box  :member (u_7150 / "quality.n.01"  :Attribute (u_7155 / "good.a.01"  :Time (u_7159 / "time.n.08"  :EQU (u_7153 / now))  :Degree (u_7152 / "very.r.01")  :member-of (u_7160 / box  :NEGATION-of u_7156)))  :Experiencer-of (u_7154 / "low.a.01"  :Stimulus (u_7151 / "price.n.01")  :Time (u_7157 / "time.n.08"  :EQU (u_7158 / now))))
+
+(u_7172 / box  :member (u_7181 / "be.v.02"  :Theme (u_7185 / "entity.n.01")  :Co-Theme (u_7177 / "jewel.n.01"  :User (u_7180 / "person.n.01"  :Name (u_7183 / "?")))  :Time (u_7179 / "time.n.08"  :EQU (u_7178 / now)))  :ATTRIBUTION (u_7174 / box  :member (u_7175 / "be.v.02"  :Theme (u_7176 / "entity.n.01")  :Co-Theme (u_7182 / "fault.n.01"  :Creator (u_7170 / "female.n.02"  :Name (u_7173 / Taninna)))  :Time (u_7184 / "time.n.08"  :EQU (u_7171 / now)))))
+
+(u_7192 / box  :member (u_7190 / "be.v.01"  :Theme (u_7189 / "entity.n.01")  :Co-Theme (u_7188 / "idea.n.01"  :Attribute (u_7191 / "nice.a.01"  :member-of u_7192))))
+
+(u_7206 / box  :member (u_7204 / "appoint.v.02"  :Agent (u_7197 / "government.n.01")  :Theme (u_7202 / "male.n.02"  :Name (u_7203 / Brown)  :Title (u_7200 / "mr.n.01")  :Of-of (u_7201 / "ambassador.n.03"  :Destination (u_7199 / "country.n.02"  :Name (u_7198 / Peru))  :Result-of u_7204))  :Time (u_7207 / "time.n.08"  :TPR (u_7205 / now))))
+
+(u_7216 / box  :member (u_7215 / "order.v.02"  :Agent (u_7217 / "male.n.02")  :Beneficiary (u_7213 / "person.n.01"  :EQU (u_7214 / speaker))  :Theme (u_7211 / "steak.n.01")  :Time (u_7218 / "time.n.08"  :TPR (u_7212 / now))))
+
+(u_7224 / box  :member (u_7225 / "ride.v.01"  :Theme (u_7220 / "water.n.06")  :Agent (u_7221 / "woman.n.01")  :Time (u_7222 / "time.n.08"  :EQU (u_7223 / now))))
+
+(u_7236 / box  :member (u_7234 / "fail.v.01"  :Agent (u_7229 / "male.n.02"  :Agent-of (u_7238 / "catch.v.08"  :Theme (u_7230 / "train.n.01"  :Value (u_7231 / "measure.n.02"  :Unit (u_7233 / "percent.n.01")  :Quantity (u_7237 / "8:30")))  :Theme-of u_7234))  :Time (u_7232 / "time.n.08"  :TPR (u_7235 / now))))
+
+(u_7244 / box  :member (u_7242 / "win.v.01"  :Agent (u_7240 / "person.n.01"  :EQU (u_7241 / speaker))  :Theme (u_7239 / "lottery.n.01")  :Time (u_7245 / "time.n.08"  :TPR (u_7243 / now))))
+
+(u_7255 / box  :member (u_7254 / "person.n.01"  :Role (u_7257 / "little_sister.n.01"  :Of (u_7253 / speaker)))  :Theme-of (u_7250 / "go.v.01"  :Time (u_7249 / "time.n.08"  :EQU (u_7256 / now))  :Destination (u_7252 / "nursery_tale.n.01")  :Destination (u_7251 / "school.n.02")))
+
+(u_7264 / box  :member (u_7262 / "be.v.01"  :Theme (u_7261 / "entity.n.01")  :Co-Theme (u_7260 / "flower.n.01"  :Attribute (u_7263 / "pretty.a.01"  :member-of u_7264))))
+
+(u_7270 / box  :member (u_7271 / "be.v.01"  :Theme (u_7269 / "entity.n.01")  :Co-Theme (u_7267 / "place.n.01"  :Attribute (u_7268 / "great.a.01"  :member-of u_7270))))
+
+(u_7278 / box  :member (u_7276 / "have.v.01"  :Pivot (u_7274 / "person.n.01"  :EQU (u_7275 / speaker))  :Theme (u_7272 / "tumbler.n.01"  :MadeOf (u_7273 / "plastic.n.01"))  :Time (u_7279 / "time.n.08"  :EQU (u_7277 / now))))
+
+(u_7285 / box  :member (u_7283 / "have.v.16"  :Experiencer (u_7281 / "person.n.01"  :EQU (u_7282 / speaker))  :Stimulus (u_7280 / "nosebleed.n.01")  :Time (u_7286 / "time.n.08"  :EQU (u_7284 / now))))
+
+(u_7297 / box  :member (u_7295 / "borrow.v.01"  :Agent (u_7298 / "person.n.01"  :EQU (u_7294 / speaker))  :Theme (u_7289 / "screwdriver.n.01")  :Recipient (u_7290 / "person.n.01"  :Role (u_7291 / "friend.n.01"  :Of (u_7292 / "person.n.01"  :EQU (u_7293 / speaker))))  :Time (u_7299 / "time.n.08"  :TPR (u_7296 / now))))
+
+(u_7304 / box  :member (u_7301 / "time.n.08"  :TPR (u_7303 / now)  :ClockTime (u_7302 / "02:30")  :Part-of (u_7300 / "morning.n.01")))
+
+(u_7314 / box  :member (u_7312 / "scale.v.01"  :Theme (u_7310 / "person.n.01"  :EQU (u_7311 / speaker))  :Time (u_7315 / "time.n.08"  :TPR (u_7309 / now))  :Frequency (u_7307 / "time.n.01"  :Quantity (u_7313 / 3)))  :Path (u_7308 / "mountain.n.01"  :Name (u_7316 / "Mt. Fuji")))
+
+(u_7326 / box  :member (u_7325 / "be.v.02"  :Theme (u_7323 / "entity.n.01"  :EQU (u_7324 / "?"))  :Co-Theme (u_7320 / "exchange_rate.n.01"  :Theme (u_7322 / "yuan.n.01")  :Co-Theme (u_7319 / "dollar.n.01"))  :Time (u_7327 / "time.n.08"  :EQU (u_7321 / now))))
+
+(u_7337 / box  :member (u_7336 / "be.v.02"  :Theme (u_7331 / "entity.n.01")  :Co-Theme (u_7333 / "ring.n.08"  :User (u_7334 / "person.n.01"  :Name (u_7335 / "?")))  :Time (u_7338 / "time.n.08"  :EQU (u_7332 / now))))
+
+(u_7346 / box  :member (u_7343 / "stop.v.02"  :Time (u_7341 / "time.n.08"  :TPR (u_7342 / now))  :Part-of (u_7347 / "dig.v.02"  :Agent (u_7344 / "male.n.02"  :Name (u_7345 / Tom)))))
+
+(u_7356 / box  :member (u_7352 / "suffer.v.02"  :Experiencer (u_7354 / "person.n.01"  :Role (u_7357 / "grandmother.n.01"  :Of (u_7353 / speaker)))  :Stimulus (u_7350 / "osteoporosis.n.01")  :Time (u_7351 / "time.n.08"  :EQU (u_7355 / now))))
+
+(u_7368 / box  :member (u_7367 / "be.v.01"  :Agent (u_7364 / "person.n.01"  :EQU (u_7365 / hearer))  :Theme (u_7363 / "number.n.04"))  :CONTINUATION (u_7369 / box  :member (u_7361 / "girl.n.01"  :Attribute (u_7362 / "young.a.01"  :Value (u_7366 / "+")))))
+
+(u_7381 / box  :member (u_7383 / "support.v.02"  :Theme (u_7378 / "entity.n.01")  :Co-Theme (u_7384 / "suspicion.n.01")  :Time (u_7388 / "time.n.08"  :EQU (u_7379 / now)))  :ATTRIBUTION (u_7382 / box  :member (u_7387 / "involve.v.02"  :Theme (u_7385 / "person.n.01"  :Role (u_7377 / "employee.n.01"))  :Agent (u_7376 / "crime.n.01")  :Time (u_7386 / "time.n.08"  :TPR (u_7380 / now)))))
+
+(u_7396 / box  :member (u_7395 / "break_out.v.01"  :Theme (u_7391 / "fire.n.01")  :Time (u_7397 / "time.n.08"  :TPR (u_7394 / now))  :Location (u_7393 / "middle.n.01"  :Part-of (u_7392 / "city.n.01"))))
+
+(u_7403 / box  :member (u_7401 / "fan.v.01"  :Agent (u_7400 / "wind.n.01")  :Patient (u_7399 / "flame.n.01")  :Time (u_7404 / "time.n.08"  :TPR (u_7402 / now))))
+
+(u_7412 / box  :member (u_7411 / "emerge.v.01"  :Theme (u_7407 / "political_food.n.01"  :Quantity (u_7410 / "+")  :Attribute (u_7408 / "new.a.01"  :member-of u_7412))  :Time (u_7413 / "time.n.08"  :TPR (u_7409 / now))))
+
+(u_7422 / box  :member (u_7421 / "be.v.02"  :Theme (u_7419 / "entity.n.01"  :EQU (u_7420 / "?"))  :Co-Theme (u_7418 / "last_name.n.01"  :Bearer (u_7416 / "female.n.02"  :Name (u_7423 / Madonna)))  :Time (u_7424 / "time.n.08"  :EQU (u_7417 / now))))
+
+(u_7435 / box  :member (u_7439 / "thank.v.01"  :Agent (u_7442 / "person.n.01"  :EQU (u_7433 / speaker))  :Recipient (u_7440 / "female.n.02")  :Time (u_7445 / "time.n.08"  :TPR (u_7438 / now)))  :ATTRIBUTION (u_7436 / box  :member (u_7443 / "stick.v.01"  :Agent (u_7441 / "entity.n.01")  :Theme (u_7431 / "rose.n.01")  :Time (u_7444 / "time.n.08"  :TPR (u_7434 / now))  :Destination (u_7432 / "button-hole.n.01"  :User (u_7437 / speaker)))))
+
+(u_7454 / box  :member (u_7449 / "arrive.v.01"  :Theme (u_7451 / "male.n.02"  :Name (u_7452 / Tom))  :Destination (u_7448 / "work.n.02")  :Time (u_7450 / "time.n.08"  :TPR (u_7455 / now)  :ClockTime (u_7453 / "14:30"))))
+
+(u_7461 / box  :member (u_7463 / "fire.v.02"  :Theme (u_7457 / "person.n.01"  :EQU (u_7462 / hearer))  :Agent (u_7458 / "person.n.01")  :Time (u_7459 / "time.n.08"  :TPR (u_7460 / now))))
+
+(u_7474 / box  :member (u_7476 / "high.a.02"  :Theme (u_7481 / "mountain.n.01"  :Name (u_7472 / "Mt. Fuji"))  :Co-Theme (u_7470 / "mountain.n.01"  :Attribute (u_7482 / "high.a.01"  :Degree (u_7471 / "most.r.01"))  :Location (u_7480 / "country.n.02"  :Name (u_7475 / Japan)))  :Time (u_7483 / "time.n.08"  :EQU (u_7473 / now))  :Value (u_7478 / "measure.n.02"  :Quantity (u_7479 / 8586)  :Unit (u_7477 / "meter.n.01"))))
+
+(u_7489 / box  :member (u_7487 / "be.v.01"  :Theme (u_7490 / "entity.n.01")  :Co-Theme (u_7486 / "city.n.01"  :Attribute (u_7488 / "beautiful.a.01"  :member-of u_7489))))
+
+(u_7497 / box  :member (u_7494 / "good.a.01"  :Time (u_7493 / "time.n.08"  :TPR (u_7496 / now))  :Degree (u_7498 / "very.r.01")  :Attribute-of (u_7495 / "concert.n.01"  :Creator (u_7492 / "male.n.02"))))
+
+(u_7503 / box  :member (u_7501 / "wiggle.v.01"  :Agent (u_7499 / "female.n.02"  :Part (u_7500 / "toe.n.01"  :Patient-of u_7501))  :Time (u_7504 / "time.n.08"  :TPR (u_7502 / now))))
+
+(u_7515 / box  :member (u_7509 / "person.n.01"  :Role (u_7510 / "doctor.n.01"))  :Agent-of (u_7513 / "do.v.02"  :Theme (u_7512 / "operation.n.01")  :Time (u_7516 / "time.n.08"  :TPR (u_7517 / now))  :Duration (u_7514 / "measure.n.02"  :Quantity (u_7518 / 12)  :Unit (u_7511 / "hour.n.01"))))
+
+(u_7532 / box  :member (u_7525 / "entity.n.01"  :Experiencer-of (u_7530 / "anticipate.v.01"  :Stimulus (u_7527 / "happen.v.01"  :Time (u_7526 / "time.n.08"  :TPR (u_7528 / now)))  :Time (u_7529 / "time.n.08"  :TPR (u_7531 / now))  :member-of (u_7535 / box  :NEGATION-of u_7532)))  :Time (u_7533 / speaker  :TPR (u_7534 / now)))
+
+(u_7542 / box  :member (u_7543 / "parking.a.12"  :Theme (u_7537 / "car.n.01")  :Agent (u_7538 / "male.n.02"  :Name (u_7539 / Tom))  :Time (u_7540 / "time.n.08"  :EQU (u_7541 / now))))
+
+(u_7552 / box  :member (u_7550 / "hug.v.01"  :Agent (u_7547 / "person.n.01"  :EQU (u_7546 / speaker))  :Co-Agent (u_7548 / "male.n.02"  :Name (u_7549 / Tom))  :Time (u_7553 / "time.n.08"  :TPR (u_7551 / now))))
+
+(u_7559 / box  :member (u_7557 / "person.n.01"  :EQU (u_7558 / speaker)  :Agent-of (u_7556 / "tighten.v.01"  :Patient (u_7555 / "bolt.n.01")  :member-of (u_7560 / box  :NECESSITY-of u_7559))))
+
+(u_7567 / box  :member (u_7566 / "be.v.01"  :Theme (u_7564 / "person.n.01"  :EQU (u_7568 / hearer))  :Co-Theme (u_7562 / "person.n.01"  :Role (u_7563 / "wizard.n.02"))  :Time (u_7569 / "time.n.08"  :EQU (u_7565 / now))))
+
+(u_7576 / box  :member (u_7574 / "person.n.01"  :EQU (u_7575 / speaker)  :Agent-of (u_7573 / "print.v.01"  :Theme (u_7572 / "page.n.02"  :Quantity (u_7577 / 12))  :member-of (u_7578 / box  :NECESSITY-of u_7576))))
+
+(u_7584 / box  :member (u_7582 / "wrong.a.01"  :Time (u_7581 / "time.n.08"  :EQU (u_7583 / now))  :Degree (u_7585 / "totally.r.01")  :Attribute-of (u_7580 / "entity.n.01")))
+
+(u_7592 / box  :member (u_7588 / "depart.v.01"  :Theme (u_7587 / "train.n.01")  :Time (u_7590 / "time.n.08"  :EQU (u_7591 / now)  :ClockTime (u_7589 / "07:15"))))
+
+(u_7601 / box  :member (u_7602 / "trust.v.01"  :Experiencer (u_7597 / "person.n.01"  :EQU (u_7596 / speaker))  :Stimulus (u_7598 / "male.n.02"  :Name (u_7599 / Tom))  :Time (u_7595 / "time.n.08"  :TPR (u_7600 / now))))
+
+(u_7606 / box  :member (u_7607 / "purr.v.02"  :Agent (u_7603 / "tiger.n.02")  :Time (u_7605 / "time.n.08"  :EQU (u_7604 / now))))
+
+(u_7616 / box  :member (u_7612 / "have.v.01"  :Agent (u_7614 / "person.n.01"  :Role (u_7618 / "aunt.n.01"  :Of (u_7613 / speaker)))  :Patient (u_7610 / "kid.n.01"  :Quantity (u_7617 / 4))  :Time (u_7611 / "time.n.08"  :TPR (u_7615 / now))))
+
+(u_7624 / box  :member (u_7622 / "play.v.01"  :Agent (u_7620 / "person.n.01"  :EQU (u_7621 / speaker))  :Theme (u_7619 / _)  :Time (u_7625 / "time.n.08"  :EQU (u_7623 / now))))
+
+(u_7638 / box  :member (u_7632 / "love.v.01"  :Experiencer (u_7633 / "entity.n.01"  :Sub (u_7634 / "male.n.02"  :Name (u_7635 / Tom))  :Time (u_7636 / "person.n.01"  :EQU (u_7637 / now)))  :Stimulus (u_7630 / _)  :Time (u_7639 / "time.n.08"  :EQU (u_7631 / now))))
+
+(u_7645 / box  :member (u_7643 / "buy.v.01"  :Agent (u_7641 / "male.n.02"  :Name (u_7642 / Tom))  :Theme (u_7640 / "newspaper.n.01")  :Time (u_7646 / "time.n.08"  :TPR (u_7644 / now))))
+
+(u_7653 / box  :member (u_7652 / "tell.v.02"  :Agent (u_7648 / "person.n.01")  :Recipient (u_7650 / "person.n.01")  :Time (u_7654 / "time.n.08"  :TPR (u_7651 / now))  :Frequency (u_7649 / "time.n.01"  :Quantity (u_7655 / 1000000))))
+
+(u_7663 / box  :CONTRAST-of (u_7669 / box  :member (u_7666 / "say.v.01"  :Agent (u_7659 / "male.n.02")  :Time (u_7668 / "time.n.08"  :EQU (u_7664 / now))  :Attribute (u_7665 / "true.a.01"  :Time (u_7662 / "time.n.08"  :EQU (u_7667 / now))  :member-of (u_7661 / box  :NEGATION-of u_7669)))  :NEGATION-of (u_7660 / "entity.n.01")))
+
+(u_7675 / box  :member (u_7676 / "eat.v.01"  :Agent (u_7671 / "person.n.01"  :EQU (u_7672 / speaker))  :Patient (u_7670 / "cucumber.n.01")  :Time (u_7673 / "time.n.08"  :EQU (u_7674 / now))))
+
+(u_7690 / box  :member (u_7683 / "entity.n.01"  :Sub (u_7686 / "portrait.n.01")  :Sub (u_7685 / "lithography.n.01"))  :Theme-of (u_7689 / "recover.v.01"  :Time (u_7691 / "time.n.08"  :TPR (u_7692 / now)))  :Agent-of (u_7688 / "use.v.01"  :Theme (u_7687 / "lossing_machine.n.01")  :Source (u_7684 / _)))
+
+(u_7703 / box  :member (u_7704 / "attached.a.04"  :Experiencer (u_7700 / "female.n.02")  :Stimulus (u_7697 / "person.n.01"  :Role (u_7698 / "parent.n.01"  :Of (u_7696 / _)))  :Time (u_7701 / "time.n.08"  :EQU (u_7702 / now))  :Degree (u_7699 / "deeply.r.01")))
+
+(u_7715 / box  :member (u_7708 / "female.n.02"  :Attribute (u_7714 / "punctual.a.01"  :Time (u_7711 / "time.n.08"  :EQU (u_7716 / now))  :Degree (u_7712 / "as.r.01"  :Theme u_7708  :Co-Theme (u_7709 / "person.n.01"  :Role (u_7710 / "little_sister.n.01"  :Of (u_7713 / "female.n.02"  :EQU u_7708))))  :member-of (u_7717 / box  :NEGATION-of u_7715))))
+
+(u_7723 / box  :member (u_7722 / "be.v.03"  :Theme (u_7719 / "book.n.02")  :Time (u_7724 / "time.n.08"  :EQU (u_7721 / now))  :Location (u_7720 / "table.n.02")))
+
+(u_7734 / box  :member (u_7730 / "have.v.01"  :Pivot (u_7731 / "person.n.01"  :EQU (u_7735 / hearer))  :Theme (u_7729 / "laugh.n.01"  :Attribute (u_7732 / "funny.a.01"  :member-of u_7734))  :Time (u_7736 / "time.n.08"  :EQU (u_7733 / now))))
+
+(u_7746 / box  :member (u_7744 / "buy.v.01"  :Agent (u_7742 / "person.n.01"  :EQU (u_7743 / speaker))  :Theme (u_7739 / "sweater.n.01"  :Colour (u_7741 / "red.a.01"))  :Time (u_7747 / "time.n.08"  :TPR (u_7745 / now))  :Location (u_7740 / "shop.n.01")))
+
+(u_7757 / box  :member (u_7752 / "male.n.02"  :Experiencer-of (u_7753 / "know.v.01"  :Stimulus (u_7758 / "send.v.03"  :Agent (u_7755 / "person.n.01"  :Name (u_7756 / "?"))  :Theme (u_7754 / "entity.n.01")  :Time (u_7760 / "time.n.08"  :EQU (u_7759 / now)))  :member-of (u_7761 / box  :NEGATION-of u_7757))))
+
+(u_7768 / box  :member (u_7769 / "cancel.v.01"  :Patient (u_7763 / "trip.n.01")  :Time (u_7766 / "time.n.08"  :TPR (u_7767 / now))  :Causer (u_7764 / "storm.n.01"  :Attribute (u_7765 / "terrible.a.01"  :member-of u_7768))))
+
+(u_7778 / box  :member (u_7773 / "be.v.08"  :Theme (u_7774 / "person.n.01"  :EQU (u_7775 / speaker))  :Co-Theme (u_7771 / "person.n.01"  :Role (u_7772 / "cop.n.01"))  :Time (u_7776 / "time.n.08"  :TPR (u_7777 / now))))
+
+(u_7784 / box  :member (u_7786 / "buy.v.01"  :Theme (u_7780 / "orange.n.01"  :Quantity (u_7781 / "?"))  :Agent (u_7779 / "person.n.01"  :EQU (u_7785 / hearer))  :Time (u_7782 / "time.n.08"  :TPR (u_7783 / now))))
+
+(u_7794 / box  :member (u_7789 / "steal.v.01"  :Beneficiary (u_7790 / "person.n.01"  :EQU (u_7791 / speaker))  :Theme (u_7788 / "pen.n.01"  :Owner (u_7795 / speaker))  :Time (u_7792 / "time.n.08"  :TPR (u_7793 / now))))
+
+(u_7804 / box  :member (u_7803 / "be.v.02"  :Theme (u_7801 / "male.n.02"  :Name (u_7802 / Tom))  :Co-Theme (u_7798 / "person.n.01"  :Role (u_7799 / "ex-boyfriend.n.01"  :Of (u_7797 / "female.n.02"  :Name (u_7805 / Mary))))  :Time (u_7806 / "time.n.08"  :EQU (u_7800 / now))))
+
+(u_7817 / box  :member (u_7810 / "confuse.v.01"  :Agent (u_7809 / "person.n.01"  :EQU (u_7818 / hearer))  :Recipient (u_7812 / "person.n.01"  :EQU (u_7811 / speaker))  :Theme (u_7813 / "male.n.02"  :Name (u_7814 / Tom))  :Time (u_7815 / "time.n.08"  :EQU (u_7816 / now))))
+
+(u_7825 / box  :member (u_7822 / "be.v.03"  :Theme (u_7820 / "washing_machine.n.01")  :Time (u_7823 / "time.n.08"  :EQU (u_7824 / now))  :Location (u_7821 / "house.n.01")))
+
+(u_7832 / box  :member (u_7831 / "ask.v.02"  :Agent (u_7829 / "person.n.01")  :Recipient (u_7828 / "male.n.02")  :Time (u_7833 / "time.n.08"  :TPR (u_7830 / now))))
+
+(u_7841 / box  :member (u_7836 / "clever.a.02"  :Time (u_7837 / "time.n.08"  :EQU (u_7840 / now))  :Attribute-of (u_7838 / "male.n.02"  :Name (u_7839 / John))))
+
+(u_7845 / box  :member (u_7843 / "be.v.01"  :Theme (u_7844 / "entity.n.01")  :Co-Theme (u_7842 / "mess.n.01")))
+
+(u_7852 / box  :member (u_7849 / "bustling.a.01"  :Theme (u_7847 / "shopper.n.01")  :Location (u_7848 / "street.n.01")  :Time (u_7850 / "time.n.08"  :TPR (u_7851 / now))))
+
+(u_7858 / box  :member (u_7859 / "play.v.07"  :Theme (u_7854 / "flute.n.01")  :Agent (u_7855 / "girl.n.01")  :Time (u_7856 / "time.n.08"  :EQU (u_7857 / now))))
+
+(u_7870 / box  :member (u_7873 / "remind.v.01"  :Stimulus (u_7867 / "cottage.n.01")  :Experiencer (u_7879 / "bear.v.02"  :Patient (u_7876 / "person.n.01"  :EQU (u_7868 / speaker))  :Time (u_7878 / "time.n.08"  :TPR (u_7869 / now))  :member-of u_7870)  :Theme (u_7875 / "person.n.01"  :EQU (u_7874 / speaker))  :Time (u_7871 / "time.n.08"  :EQU (u_7872 / now)))  :Title (u_7877 / "person.n.01"))
+
+(u_7885 / box  :member (u_7886 / "ache.v.03"  :Agent (u_7881 / "person.n.01"  :EQU (u_7882 / speaker))  :Patient (u_7880 / "cigarette.n.01")  :Time (u_7883 / "time.n.08"  :TPR (u_7884 / now))))
+
+(u_7900 / box  :member (u_7901 / "arrest.v.01"  :Patient (u_7893 / "male.n.02")  :Time (u_7898 / "time.n.08"  :TPR (u_7899 / now)))  :EXPLANATION (u_7903 / box  :member (u_7896 / "steal.v.01"  :Agent (u_7894 / "male.n.02")  :Theme (u_7897 / "money.n.01")  :Time (u_7895 / "time.n.08"  :TPR (u_7902 / now)))))
+
+(u_7909 / box  :member (u_7907 / "ready.a.01"  :Time (u_7906 / "time.n.08"  :EQU (u_7908 / now))  :Attribute-of (u_7905 / "person.n.01"  :EQU (u_7910 / hearer))))
+
+(u_7921 / box  :member (u_7920 / "marry.v.02"  :Agent (u_7914 / "male.n.02"  :Of-of (u_7916 / "daughter.n.01"  :Role-of (u_7918 / "person.n.01"  :Co-Agent-of u_7920)))  :Co-Theme (u_7917 / "person.n.01"  :Role (u_7915 / "lawyer.n.01"))  :Time (u_7922 / "time.n.08"  :TPR (u_7919 / now))))
+
+(u_7927 / box  :member (u_7924 / "watch.v.01"  :Theme (u_7923 / "person.n.01"  :EQU (u_7928 / hearer))  :Time (u_7925 / "time.n.08"  :EQU (u_7926 / now))))
+
+(u_7940 / box  :member (u_7938 / "be.v.02"  :Theme (u_7936 / "entity.n.01"  :EQU (u_7937 / "?"))  :Co-Theme (u_7932 / "town.n.01"  :Location (u_7935 / "country.n.02"  :Name (u_7941 / "United States"))  :Stimulus-of (u_7934 / "favorite.a.02"  :Experiencer (u_7933 / hearer)  :member-of u_7940))  :Time (u_7942 / "time.n.08"  :EQU (u_7939 / now))))
+
+(u_7948 / box  :member (u_7946 / "help.v.01"  :Agent (u_7944 / "person.n.01"  :Name (u_7945 / "?"))  :Co-Agent (u_7943 / "female.n.02")  :Time (u_7949 / "time.n.08"  :TPR (u_7947 / now))))
+
+(u_7956 / box  :member (u_7957 / "plant.v.01"  :Theme (u_7951 / "rice.n.01")  :Agent (u_7953 / "person.n.01"  :Role (u_7952 / "peasant.n.01"))  :Time (u_7954 / "time.n.08"  :TPR (u_7955 / now))))
+
+(u_7965 / box  :member (u_7963 / "attack.v.01"  :Agent (u_7962 / "hornet.n.01"  :Quantity (u_7961 / "swarm.n.02"))  :Patient (u_7960 / "child.n.01")  :Time (u_7966 / "time.n.08"  :TPR (u_7964 / now))))
+
+(u_7975 / box  :member (u_7973 / "draw.v.02"  :Agent (u_7971 / "male.n.02"  :Name (u_7972 / Tom))  :Time (u_7976 / "time.n.08"  :TPR (u_7974 / now))  :Result (u_7968 / "straw.n.02"  :Attribute (u_7970 / "short.a.02"  :Degree (u_7969 / "most.r.01")))))
+
+(u_7981 / box  :member (u_7982 / "puzzled.a.01"  :Experiencer (u_7977 / "male.n.02"  :Name (u_7978 / Tom))  :Time (u_7979 / "time.n.08"  :EQU (u_7980 / now))))
+
+(u_7996 / box  :member (u_7992 / "be.v.03"  :Theme (u_7988 / "woman.n.01"  :Attribute (u_7994 / "beautiful.a.01"  :member-of u_7996))  :Time (u_7991 / "time.n.08"  :TPR (u_7995 / now))  :Part (u_7990 / "hair.n.01"  :Colour (u_7993 / "black.a.01"))  :Location (u_7989 / "park.n.02")))
+
+(u_8000 / box  :member (u_7998 / "hang_up.v.02"  :Agent (u_7997 / "male.n.02")  :Time (u_8001 / "time.n.08"  :TPR (u_7999 / now))))
+
+(u_8010 / box  :member (u_8012 / "be.v.02"  :Co-Theme (u_8005 / "score.n.03"  :Value (u_8008 / "1:1"))  :Theme (u_8009 / "score.n.01")  :Time (u_8011 / "time.n.08"  :TPR (u_8006 / now))  :Attribute (u_8007 / "final.a.01"  :member-of u_8010)))
+
+(u_8019 / box  :member (u_8016 / "person.n.01"  :EQU (u_8017 / speaker)  :Theme-of (u_8020 / "be.v.03"  :Time (u_8021 / "time.n.08"  :TPR (u_8018 / now))  :Location (u_8022 / "city.n.01"  :Name (u_8023 / Oslo))  :member-of (u_8024 / box  :NEGATION-of u_8019))))
+
+(u_8030 / box  :member (u_8027 / "intelligent.a.01"  :Time (u_8028 / "time.n.08"  :EQU (u_8029 / now))  :Degree (u_8031 / "very.r.01")  :Attribute-of (u_8026 / "female.n.02")))
+
+(u_8039 / box  :member (u_8034 / "waterproof.a.01"  :Time (u_8035 / "time.n.08"  :EQU (u_8038 / now))  :Attribute-of (u_8036 / "watch.n.01"  :User (u_8037 / speaker))))
+
+(u_8045 / box  :member (u_8044 / _  :Theme (u_8041 / "entity.n.01"  :User-of (u_8042 / "wound.n.01"  :Source-of u_8044))  :Time (u_8046 / "time.n.08"  :TPR (u_8043 / now))))
+
+(u_8050 / box  :member (u_8049 / "jump.v.01"  :Theme (u_8047 / "price.n.01")  :Time (u_8051 / "time.n.08"  :TPR (u_8048 / now))))
+
+(u_8058 / box  :member (u_8056 / "have.v.01"  :Pivot (u_8054 / "person.n.01"  :EQU (u_8055 / speaker))  :Theme (u_8052 / "person.n.01"  :Role (u_8053 / "friend.n.01"))  :Time (u_8059 / "time.n.08"  :EQU (u_8057 / now))))
+
+(u_8067 / box  :member (u_8065 / "teach.v.01"  :Agent (u_8063 / "male.n.02"  :Name (u_8064 / Tom))  :Time (u_8068 / "time.n.08"  :TPR (u_8066 / now))  :Location (u_8061 / "university.n.03"  :Name (u_8062 / Harvard))))
+
+(u_8075 / box  :member (u_8072 / "old.a.02"  :Theme (u_8069 / "house.n.01")  :Time (u_8073 / "time.n.08"  :EQU (u_8074 / now))  :Value (u_8070 / "measure.n.02"  :Unit (u_8071 / "year.n.01"))))
+
+(u_8087 / box  :member (u_8083 / "buy.v.01"  :Agent (u_8089 / "female.n.02"  :Name (u_8082 / Mary))  :Theme (u_8085 / "handbag.n.01"  :Creator (u_8081 / "company.n.01"  :Name (u_8088 / Gucci))  :Attribute (u_8084 / _  :member-of u_8087))  :Time (u_8090 / "time.n.08"  :TPR (u_8086 / now))))
+
+(u_8109 / box  :member (u_8113 / "elect.v.01"  :Theme (u_8115 / "election.n.01"  :Agent-of (u_8119 / 1941  :Theme u_8113  :Co-Agent (u_8121 / _  :Goal (u_8117 / "party.n.01"  :Name (u_8120 / "Conservative Party"))  :Goal (u_8122 / "party.n.01"  :Name (u_8116 / "Simon and Radical")))))  :Time (u_8110 / "time.n.08"  :TPR (u_8127 / now)  :YearOfCentury (u_8125 / 2005)  :MonthOfYear (u_8124 / 1))  :Time (u_8114 / "time.n.08"  :TPR (u_8112 / now)  :YearOfCentury (u_8123 / 1968))  :Result (u_8111 / "president.n.01")  :Agent-of (u_8135 / _  :Theme u_8109  :Location (u_8118 / "country.n.02"  :Name (u_8126 / Chile))))  :Title (u_8130 / "captain.n.01")  :Agent-of (u_8129 / "emerge.v.02"  :Theme (u_8133 / "party.n.01"  :Attribute (u_8131 / "quantity.n.01"  :Degree (u_8132 / "most.r.01")))  :Time (u_8134 / "time.n.08"  :TPR (u_8128 / now))))
+
+(u_8145 / box  :member (u_8143 / "take_place.v.01"  :Theme (u_8138 / "landing.n.04"  :Location (u_8140 / "state.n.01"  :Name (u_8146 / Normandy)))  :Time (u_8142 / "time.n.08"  :TPR (u_8139 / now)  :MonthOfYear (u_8144 / 6)  :YearOfCentury (u_8141 / 1944))))
+
+(u_8154 / box  :member (u_8150 / "small.a.01"  :Value (u_8152 / "+")  :Time (u_8153 / "time.n.08"  :EQU (u_8151 / now))  :Degree (u_8155 / "quite.r.01")  :Attribute-of (u_8149 / "room.n.01")))
+
+(u_8166 / box  :member (u_8162 / "high.a.02"  :Theme (u_8160 / "mountain.n.01"  :Name (u_8161 / Kanchenjunga))  :Time (u_8163 / "time.n.08"  :EQU (u_8164 / now))  :Value (u_8165 / "measure.n.02"  :Quantity (u_8167 / 8586)  :Unit (u_8159 / "meter.n.01"))))
+
+(u_8174 / box  :member (u_8170 / "person.n.01"  :Role (u_8171 / "official.n.01")  :Experiencer-of (u_8176 / "understand.v.03"  :Stimulus (u_8172 / "finance.n.01")  :Time (u_8175 / "time.n.08"  :EQU (u_8173 / now))  :member-of (u_8177 / box  :NEGATION-of u_8174))))
+
+(u_8188 / box  :member (u_8187 / "time.n.08"  :Theme (u_8184 / "person.n.01"  :EQU (u_8185 / speaker))  :Co-Theme (u_8186 / "person.n.01"  :Role (u_8189 / "fool.n.01"  :Of (u_8183 / speaker)))  :Time (u_8182 / "time.n.08"  :TPR (u_8190 / now))))
+
+(u_8201 / box  :member (u_8202 / "open.v.01"  :Agent (u_8197 / "man.n.01")  :Patient (u_8195 / "soda.n.01")  :Time (u_8199 / "time.n.08"  :EQU (u_8200 / now))  :Agent-of (u_8198 / "drinking.v.01"  :Patient (u_8196 / "entity.n.01"))))
+
+(u_8209 / box  :member (u_8207 / "kiss.v.01"  :Agent (u_8206 / "male.n.02")  :Co-Agent (u_8205 / "female.n.02")  :Time (u_8210 / "time.n.08"  :TPR (u_8208 / now))))
+
+(u_8216 / box  :member (u_8214 / "have.v.16"  :Experiencer (u_8212 / "person.n.01"  :EQU (u_8213 / speaker))  :Stimulus (u_8211 / "tennis_ball.n.01")  :Time (u_8217 / "time.n.08"  :EQU (u_8215 / now))))
+
+(u_8227 / box  :member (u_8225 / "put.v.01"  :Agent (u_8223 / "male.n.02"  :Name (u_8224 / Tom))  :Theme (u_8220 / "bandage.n.01")  :Time (u_8228 / "time.n.08"  :TPR (u_8226 / now))  :Destination (u_8221 / "cut.n.01"  :Part-of (u_8222 / "female.n.02"  :Name (u_8229 / Mary)))))
+
+(u_8239 / box  :member (u_8234 / "sit.v.01"  :Theme (u_8235 / "male.n.02"  :Name (u_8236 / Tom))  :Time (u_8237 / "time.n.08"  :TPR (u_8238 / now))  :Location (u_8231 / "riverbank.n.01")  :Duration (u_8232 / "measure.n.02"  :Quantity (u_8240 / 12)  :Unit (u_8233 / "hour.n.01"))))
+
+(u_8254 / box  :member (u_8247 / "fast.a.02"  :Theme (u_8252 / "find.v.03"  :Agent (u_8250 / "person.n.01"  :EQU (u_8251 / hearer))  :Theme (u_8245 / "clock.n.01"))  :Time (u_8255 / "time.n.08"  :EQU (u_8253 / now))  :Value (u_8248 / "measure.n.02"  :Quantity (u_8249 / 10)  :Unit (u_8246 / "minute.n.01"))))
+
+(u_8263 / box  :member (u_8260 / "married.a.01"  :Time (u_8261 / "time.n.08"  :EQU (u_8262 / now))  :Attribute-of (u_8258 / "person.n.01"  :EQU (u_8259 / speaker))))
+
+(u_8271 / box  :member (u_8269 / "clear.v.02"  :Agent (u_8268 / "test.n.01")  :Theme (u_8267 / "charge.n.01")  :Recipient (u_8272 / "male.n.02")  :Time (u_8273 / "time.n.08"  :TPR (u_8270 / now))))
+
+(u_8279 / box  :member (u_8275 / "male.n.02"  :Theme-of (u_8278 / "jogging.v.01"  :Location (u_8277 / "location.n.01"  :SZN (u_8276 / "park.n.02"))  :member-of (u_8280 / box  :POSSIBILITY-of u_8279))))
+
+(u_8286 / box  :member (u_8284 / "dark-skinned.a.01"  :Time (u_8283 / "time.n.08"  :EQU (u_8285 / now))  :Attribute-of (u_8282 / "female.n.02")))
+
+(u_8294 / box  :member (u_8292 / "accompany.v.03"  :Agent (u_8288 / "female.n.02")  :Theme (u_8290 / "person.n.01"  :EQU (u_8291 / speaker))  :Time (u_8295 / "time.n.08"  :TPR (u_8293 / now))  :Instrument (u_8289 / "piano.n.01")))
+
+(u_8306 / box  :member (u_8300 / "twitch.v.01"  :Theme (u_8299 / "eye.n.01"  :Attribute (u_8301 / "right.a.01"  :member-of u_8306)  :Part-of (u_8302 / "male.n.02"  :Name (u_8303 / Tom)))  :Time (u_8304 / "time.n.08"  :EQU (u_8305 / now))))
+
+(u_8311 / box  :member (u_8312 / "location.n.01"  :NEQ (u_8307 / "scarf.n.01")  :Value (u_8308 / "measure.n.02"  :Unit (u_8309 / "neck.n.01")  :Quantity (u_8310 / 24))))
+
+(u_8320 / box  :member (u_8317 / "google.v.01"  :Agent (u_8318 / "person.n.01"  :EQU (u_8319 / hearer))  :Theme (u_8315 / "male.n.02")  :Time (u_8321 / "time.n.08"  :TPR (u_8316 / now))))
+

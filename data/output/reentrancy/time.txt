@@ -1,0 +1,687 @@
+p10/d2418
+It's October the third.
+['s1', 's1']
+(b0 / box
+	:member (s0 / time.n.08
+		:EQU "now"
+		:EQU (s1 / time.n.08
+			:MonthOfYear "10"
+			:DayOfMonth "3"))
+	:member s1
+	:member (s2 / time.n.08
+		:EQU s1))
+
+p82/d2547
+I was born on 18th March 1994.
+['s0', 's1', 's4', 's5', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / bear.v.02
+		:Patient s0
+		:Time s1
+		:Time (s4 / time.n.08
+			:MonthOfYear "3"
+			:EQU (s5 / time.n.08
+				:YearOfCentury "1994")))
+	:member (s3 / time.n.08
+		:DayOfMonth "18"
+		:EQU s4)
+	:member s4
+	:member s5)
+
+p40/d2608
+I'll see you tomorrow at school.
+['see.v.08', 's0', 's1', 's3', 's4', 's6', 's7', 'school.n.02', 's6']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:TSU "now")
+	:member (s2 / see.v.08
+		:Theme s0
+		:Time s1
+		:Co-Theme (s3 / person.n.01
+			:EQU "hearer")
+		:Time (s4 / time.n.08
+			:TIN (s6 / day.n.03))
+		:Location (s7 / school.n.02))
+	:member s3
+	:member s4
+	:member (s5 / day.n.03
+		:TCT "now"
+		:TAB s6)
+	:member s6
+	:member s7)
+
+p36/d3238
+I was born in Osaka on March 5, 1977.
+['s0', 's1', 's3', 's5', 's6', 's5']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / bear.v.02
+		:Patient s0
+		:Time s1
+		:Location (s3 / city.n.01
+			:Name "Osaka")
+		:Time (s5 / time.n.08
+			:DayOfMonth "5"
+			:EQU (s6 / time.n.08
+				:YearOfCentury "1977")))
+	:member s3
+	:member (s4 / time.n.08
+		:MonthOfYear "3"
+		:EQU s5)
+	:member s5
+	:member s6)
+
+p62/d1823
+I was born on the 22 of November 1948.
+['s0', 's1', 's3', 's5', 's3']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / bear.v.02
+		:Patient s0
+		:Time s1
+		:Time (s3 / time.n.08
+			:DayOfMonth "22"
+			:EQU (s5 / time.n.08
+				:YearOfCentury "1948")))
+	:member s3
+	:member (s4 / time.n.08
+		:MonthOfYear "11"
+		:EQU s3)
+	:member s5)
+
+p42/d1518
+I was born on the twenty-second of June in 1974.
+['s0', 's1', 's3', 's3', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / bear.v.02
+		:Patient s0
+		:Time s1
+		:Time (s3 / time.n.08
+			:DayOfMonth "22"))
+	:member s3
+	:member (s4 / time.n.08
+		:MonthOfYear "6"
+		:EQU s3)
+	:member (s5 / time.n.08
+		:YearOfCentury "1974"
+		:EQU s4))
+
+p68/d0760
+Kofi Annan was elected in the January 30 ballot.
+['s0', 's1', 's5', 's3', 's3']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Kofi Annan")
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / elect.v.01
+		:Theme s0
+		:Time s1
+		:Context (s5 / ballot.n.02
+			:Time (s3 / time.n.08
+				:MonthOfYear "1")))
+	:member s3
+	:member (s4 / time.n.08
+		:DayOfMonth "30"
+		:EQU s3)
+	:member s5)
+
+p32/d1658
+Subway fares will be raised as of April 1st, 1999.
+['subway_fare.n.01', 's0', 's1', 's4', 's5', 's4']
+(b0 / box
+	:member (s0 / subway_fare.n.01)
+	:member (s1 / time.n.08
+		:TSU "now")
+	:member (s2 / raise.v.01
+		:Patient s0
+		:Time s1
+		:Start (s4 / time.n.08
+			:DayOfMonth "1"
+			:EQU (s5 / time.n.08
+				:YearOfCentury "1999")))
+	:member (s3 / time.n.08
+		:MonthOfYear "4"
+		:EQU s4)
+	:member s4
+	:member s5)
+
+p95/d0760
+New elections in Côte d'Ivoire will take place on July 14.
+['s2', 's1', 's3', 's5', 's7', 's7']
+(b0 / box
+	:member (s0 / new.a.05
+		:Attribute-of (s1 / election.n.01
+			:Location (s2 / country.n.02
+				:Name "Côte d'Ivoire")))
+	:member s1
+	:member s2
+	:member (s3 / time.n.08
+		:TSU "now")
+	:member (s4 / take_place.v.01
+		:Theme s1
+		:Time s3
+		:EQU (s5 / entity.n.01)
+		:Time (s7 / time.n.08
+			:DayOfMonth "14"))
+	:member s5
+	:member (s6 / time.n.08
+		:MonthOfYear "7"
+		:EQU s7)
+	:member s7)
+
+p90/d0064
+General elections were held in Chile on 30 October 1932. Arturo Alessandri of the Liberal Party was elected president, whilst the Conservative Party and Radical Party emerged as the largest parties in the Chamber of Deputies.
+['s13', 's16', 's18', 's7', 's9', 's11', 's0', 's1', 's3', 's5', 's6', 's5']
+(b0 / box
+	:CONTINUATION (b1 / box
+		:CONTRAST (b2 / box
+			:member (s12 / party.n.01
+				:Name "Conservative Party")
+			:member (s13 / entity.n.01
+				:Sub s12
+				:Sub (s14 / party.n.01
+					:Name "Radical Party"))
+			:member s14
+			:member (s15 / emerge.v.05
+				:Theme s13
+				:Time (s16 / time.n.08
+					:TPR "now")
+				:Attribute (s19 / party.n.01
+					:Attribute (s17 / large.a.01
+						:Degree (s18 / most.r.01))
+					:Part-of (s20 / organization.n.01
+						:Name "Chamber of Deputies")))
+			:member s16
+			:member s17
+			:member s18
+			:member s19
+			:member s20)
+		:member (s7 / male.n.02
+			:Name "Arturo Alessandri"
+			:Part-of (s8 / party.n.01
+				:Name "Liberal Party"))
+		:member s8
+		:member (s9 / time.n.08
+			:TPR "now")
+		:member (s10 / elect.v.01
+			:Theme s7
+			:Time s9
+			:Result (s11 / president.n.03))
+		:member s11)
+	:member (s0 / general_election.n.01)
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / hold.v.03
+		:Theme s0
+		:Time s1
+		:Location (s3 / country.n.02
+			:Name "Chile")
+		:Time (s5 / time.n.08
+			:MonthOfYear "10"
+			:EQU (s6 / time.n.08
+				:YearOfCentury "1932")))
+	:member s3
+	:member (s4 / time.n.08
+		:DayOfMonth "30"
+		:EQU s5)
+	:member s5
+	:member s6)
+
+p13/d3497
+I was born on March 22, 1962.
+['s0', 's1', 's4', 's5', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / bear.v.02
+		:Patient s0
+		:Time s1
+		:Time (s4 / time.n.08
+			:DayOfMonth "22"
+			:EQU (s5 / time.n.08
+				:YearOfCentury "1962")))
+	:member (s3 / time.n.08
+		:MonthOfYear "3"
+		:EQU s4)
+	:member s4
+	:member s5)
+
+p46/d0880
+I will arrive on 23rd of May.
+['s0', 's1', 's3', 's3']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:TSU "now")
+	:member (s2 / arrive.v.01
+		:Theme s0
+		:Time s1
+		:Time (s3 / time.n.08
+			:DayOfMonth "23"
+			:MonthOfYear "5"))
+	:member s3
+	:member (s4 / time.n.08
+		:EQU s3))
+
+p86/d2745
+He was born on July 28th, 1888.
+['s0', 's1', 's4', 's4', 's4']
+(b0 / box
+	:member (s0 / male.n.02)
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / bear.v.02
+		:Patient s0
+		:Time s1
+		:Time (s4 / time.n.08
+			:DayOfMonth "28"))
+	:member (s3 / time.n.08
+		:MonthOfYear "7"
+		:EQU s4)
+	:member s4
+	:member (s5 / time.n.08
+		:YearOfCentury "1888"
+		:EQU s4))
+
+p63/d1588
+I was born on February 14, 1960.
+['s0', 's1', 's4', 's4', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / bear.v.02
+		:Patient s0
+		:Time s1
+		:Time (s4 / time.n.08
+			:DayOfMonth "14"))
+	:member (s3 / time.n.08
+		:MonthOfYear "2"
+		:EQU s4)
+	:member s4
+	:member (s5 / time.n.08
+		:YearOfCentury "1960"
+		:EQU s4))
+
+p04/d3485
+Galileo died on January 8, 1642.
+['s0', 's2', 's4', 's5', 's4']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Galileo")
+	:member (s1 / die.v.01
+		:Patient s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Time (s4 / time.n.08
+			:DayOfMonth "8"
+			:EQU (s5 / time.n.08
+				:YearOfCentury "1642")))
+	:member s2
+	:member (s3 / time.n.08
+		:MonthOfYear "1"
+		:EQU s4)
+	:member s4
+	:member s5)
+
+p69/d2817
+I was born on January 2 in 1968.
+['s0', 's1', 's4', 's4', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / bear.v.02
+		:Patient s0
+		:Time s1
+		:Time (s4 / time.n.08
+			:DayOfMonth "2"))
+	:member (s3 / time.n.08
+		:MonthOfYear "1"
+		:EQU s4)
+	:member s4
+	:member (s5 / time.n.08
+		:YearOfCentury "1968"
+		:EQU s4))
+
+p14/d3340
+Tom visited Mary on October 20th.
+['s0', 's2', 's3', 's5', 's5']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Tom")
+	:member (s1 / visit.v.07
+		:Theme s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Location (s3 / female.n.02
+			:Name "Mary")
+		:Time (s5 / time.n.08
+			:DayOfMonth "20"))
+	:member s2
+	:member s3
+	:member (s4 / time.n.08
+		:MonthOfYear "10"
+		:EQU s5)
+	:member s5)
+
+p64/d0895
+I was born on October 10th, 1972.
+['s0', 's1', 's4', 's4', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / bear.v.02
+		:Patient s0
+		:Time s1
+		:Time (s4 / time.n.08
+			:DayOfMonth "10"))
+	:member (s3 / time.n.08
+		:MonthOfYear "10"
+		:EQU s4)
+	:member s4
+	:member (s5 / time.n.08
+		:YearOfCentury "1972"
+		:EQU s4))
+
+p53/d1419
+I was born on the 31st of May in 1940.
+['s0', 's1', 's3', 's3', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / bear.v.02
+		:Patient s0
+		:Time s1
+		:Time (s3 / time.n.08
+			:DayOfMonth "31"))
+	:member s3
+	:member (s4 / time.n.08
+		:MonthOfYear "5"
+		:EQU s3)
+	:member (s5 / time.n.08
+		:YearOfCentury "1940"
+		:EQU s4))
+
+p02/d3279
+Sadako Sasaki died on October 25, 1955.
+['s0', 's2', 's4', 's5', 's4']
+(b0 / box
+	:member (s0 / female.n.02
+		:Name "Sadako Sasaki")
+	:member (s1 / die.v.01
+		:Patient s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Time (s4 / time.n.08
+			:DayOfMonth "25"
+			:EQU (s5 / time.n.08
+				:YearOfCentury "1955")))
+	:member s2
+	:member (s3 / time.n.08
+		:MonthOfYear "10"
+		:EQU s4)
+	:member s4
+	:member s5)
+
+p53/d3134
+George Washington was born on 22nd February 1732.
+['s0', 's1', 's4', 's5', 's4']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "George Washington")
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / bear.v.02
+		:Patient s0
+		:Time s1
+		:Time (s4 / time.n.08
+			:MonthOfYear "2"
+			:EQU (s5 / time.n.08
+				:YearOfCentury "1732")))
+	:member (s3 / time.n.08
+		:DayOfMonth "22"
+		:EQU s4)
+	:member s4
+	:member s5)
+
+p05/d1390
+Which female tennis player was stabbed in the back with a knife on April 30, 1993?
+['s2', 'stab.v.01', 's1', 's3', 's5', 's6', 's8', 's9', 's8']
+(b0 / box
+	:member (s0 / female.n.02
+		:Attribute-of (s1 / person.n.01
+			:Name "?"
+			:Role (s2 / tennis_player.n.01)))
+	:member s1
+	:member s2
+	:member (s3 / time.n.08
+		:TPR "now")
+	:member (s4 / stab.v.01
+		:Patient s1
+		:Time s3
+		:Location (s5 / back.n.01)
+		:Instrument (s6 / knife.n.02)
+		:Time (s8 / time.n.08
+			:DayOfMonth "30"
+			:EQU (s9 / time.n.08
+				:YearOfCentury "1993")))
+	:member s5
+	:member s6
+	:member (s7 / time.n.08
+		:MonthOfYear "4"
+		:EQU s8)
+	:member s8
+	:member s9)
+
+p39/d0065
+Parliamentary elections were held in Greece on 22 September 1996. The ruling Panhellenic Socialist Movement (PASOK) of Costas Simitis was re-elected, defeating the liberal-conservative New Democracy party of Miltiadis Evert.
+['s8', 's9', 's9', 's12', 's14', 's9', 's17', 's16', 's1', 's2', 's4', 's6', 's7', 's6']
+(b0 / box
+	:CONTINUATION (b1 / box
+		:member (s8 / ruling.a.01
+			:Name "Panhellenic Socialist Movement"
+			:Part (s11 / male.n.02
+				:Name "Costas Simitis"))
+		:member (s9 / party.n.01
+			:EQU s8)
+		:member (s10 / party.n.01
+			:Name "PASOK"
+			:EQU s9)
+		:member s11
+		:member (s12 / time.n.08
+			:TPR "now")
+		:member (s13 / reelect.v.01
+			:Theme s9
+			:Time s12
+			:Manner (s14 / defeat.v.01
+				:Agent s9
+				:Co-Agent (s17 / party.n.01
+					:EQU (s16 / party.n.01
+						:Name "New Democracy")
+					:Part (s18 / male.n.02
+						:Name "Miltiadis Evert"))))
+		:member s14
+		:member (s15 / liberal-conservative.a.01
+			:Attribute-of s17)
+		:member s16
+		:member s17
+		:member s18)
+	:member (s0 / parliamentary.a.01
+		:Attribute-of (s1 / election.n.01))
+	:member s1
+	:member (s2 / time.n.08
+		:TPR "now")
+	:member (s3 / hold.v.03
+		:Theme s1
+		:Time s2
+		:Location (s4 / country.n.02
+			:Name "Greece")
+		:Time (s6 / time.n.08
+			:MonthOfYear "9"
+			:EQU (s7 / time.n.08
+				:YearOfCentury "1996")))
+	:member s4
+	:member (s5 / time.n.08
+		:DayOfMonth "22"
+		:EQU s6)
+	:member s6
+	:member s7)
+
+p00/d1643
+He is leaving Chicago tomorrow.
+['s0', 's1', 's3', 's4', 's6', 's6']
+(b0 / box
+	:member (s0 / male.n.02)
+	:member (s1 / time.n.08
+		:TSU "now")
+	:member (s2 / leave.v.01
+		:Theme s0
+		:Time s1
+		:Source (s3 / city.n.01
+			:Name "Chicago")
+		:Time (s4 / time.n.08
+			:TIN (s6 / day.n.03)))
+	:member s3
+	:member s4
+	:member (s5 / day.n.03
+		:TCT "now"
+		:TAB s6)
+	:member s6)
+
+p52/d1439
+Pinocchio says: "Now my nose will grow."
+['say.v.01', 's0', 's2', 's2', 's3', 's5', 's6']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Pinocchio")
+	:member (s1 / say.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Proposition (b1 / box
+			:member (s3 / time.n.08
+				:EQU "now"
+				:EQU s2)
+			:member (s4 / person.n.01
+				:EQU "speaker")
+			:member (s5 / nose.n.01
+				:Part-of s4)
+			:member (s6 / time.n.08
+				:TSU "now")
+			:member (s7 / grow.v.02
+				:Time s3
+				:Patient s5
+				:Time s6)))
+	:member s2)
+
+p09/d2150
+According to the paper, it will snow tomorrow.
+['s1', 'snow.v.01', 's2', 's3', 's5', 's7', 's7']
+(b0 / box
+	:member (s0 / according.a.02
+		:Source (s1 / paper.n.03)
+		:Proposition (b1 / box
+			:member (s2 / entity.n.01)
+			:member (s3 / time.n.08
+				:TSU "now")
+			:member (s4 / snow.v.01
+				:EQU s2
+				:Time s3
+				:Time (s5 / time.n.08
+					:TIN (s7 / day.n.03)))
+			:member s5
+			:member (s6 / day.n.03
+				:TCT "now"
+				:TAB s7)
+			:member s7))
+	:member s1)
+
+p38/d1694
+She's leaving for Tokyo tomorrow.
+['s0', 's1', 's3', 's4', 's6', 's6']
+(b0 / box
+	:member (s0 / female.n.02)
+	:member (s1 / time.n.08
+		:TSU "now")
+	:member (s2 / leave.v.01
+		:Theme s0
+		:Time s1
+		:Destination (s3 / city.n.01
+			:Name "Tokyo")
+		:Time (s4 / time.n.08
+			:TIN (s6 / day.n.03)))
+	:member s3
+	:member s4
+	:member (s5 / day.n.03
+		:TCT "now"
+		:TAB s6)
+	:member s6)
+
+p96/d2725
+The ship sails for Honolulu tomorrow.
+['ship.n.01', 'sail.v.01', 's0', 's2', 's3', 's4', 's6', 's6']
+(b0 / box
+	:member (s0 / ship.n.01)
+	:member (s1 / sail.v.01
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Destination (s3 / city.n.01
+			:Name "Honolulu")
+		:Time (s4 / time.n.08
+			:TIN (s6 / day.n.03)))
+	:member s2
+	:member s3
+	:member s4
+	:member (s5 / day.n.03
+		:TCT "now"
+		:TAB s6)
+	:member s6)
+
+p75/d0760
+The Macdonough left Hawaii on 10 August.
+['s0', 's2', 's3', 's5', 's5']
+(b0 / box
+	:member (s0 / vehicle.n.01
+		:Name "Macdonough")
+	:member (s1 / leave.v.01
+		:Theme s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Source (s3 / island.n.01
+			:Name "Hawaii")
+		:Time (s5 / time.n.08
+			:MonthOfYear "8"))
+	:member s2
+	:member s3
+	:member (s4 / time.n.08
+		:DayOfMonth "10"
+		:EQU s5)
+	:member s5)

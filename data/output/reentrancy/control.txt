@@ -1,0 +1,405 @@
+p11/d3264
+I want to marry Martyna.
+['s0', 's2', 's3', 's0', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / want.v.01
+		:Pivot s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s3 / marry.v.01
+			:Agent s0
+			:Co-Agent (s4 / female.n.02
+				:Name "Martyna")))
+	:member s2
+	:member s3
+	:member s4)
+
+p29/d2782
+Nobody tried to help Tom.
+['s0', 's2', 's3', 's0', 's4']
+(b0 / box
+	:NEGATION (b1 / box
+		:member (s0 / person.n.01)
+		:member (s1 / try.v.01
+			:Agent s0
+			:Time (s2 / time.n.08
+				:TPR "now")
+			:Theme (s3 / help.v.01
+				:Agent s0
+				:Beneficiary (s4 / male.n.02
+					:Name "Tom")))
+		:member s2
+		:member s3
+		:member s4))
+
+p98/d3056
+Do you want to play shogi?
+['s0', 's1', 's3', 's4', 's1', 's5', 'shogi.n.01']
+(b0 / box
+	:member (s0 / time.n.08
+		:EQU "now")
+	:member (s1 / person.n.01
+		:EQU "hearer")
+	:member (s2 / want.v.01
+		:Time s0
+		:Pivot s1
+		:Time (s3 / time.n.08
+			:EQU "now")
+		:Theme (s4 / play.v.01
+			:Agent s1
+			:Theme (s5 / shogi.n.01)))
+	:member s3
+	:member s4
+	:member s5)
+
+p10/d2732
+I wanted to run away with Tom.
+['s0', 's2', 's3', 's0', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / want.v.01
+		:Pivot s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Theme (s3 / run_away.v.01
+			:Theme s0
+			:Co-Agent (s4 / male.n.02
+				:Name "Tom")))
+	:member s2
+	:member s3
+	:member s4)
+
+p25/d0893
+Nobody intends to erect a wall.
+['s0', 's2', 's3', 's0', 's4']
+(b0 / box
+	:NEGATION (b1 / box
+		:member (s0 / person.n.01)
+		:member (s1 / intend.v.01
+			:Agent s0
+			:Time (s2 / time.n.08
+				:EQU "now")
+			:Topic (s3 / erect.v.01
+				:Agent s0
+				:Product (s4 / wall.n.04)))
+		:member s2
+		:member s3
+		:member s4))
+
+p26/d2077
+I want to go to America someday.
+['s0', 's2', 's3', 's0', 's4', 's5']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / want.v.01
+		:Pivot s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s3 / go.v.01
+			:Theme s0
+			:Destination (s4 / country.n.02
+				:Name "America")
+			:Time (s5 / time.n.08
+				:TSU "now")))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+p05/d1550
+I want to buy a dozen doughnuts.
+['s0', 's2', 's3', 's0', 's5', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / want.v.01
+		:Pivot s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s3 / buy.v.01
+			:Agent s0
+			:Theme (s5 / doughnut.n.02
+				:Quantity (s4 / quantity.n.01
+					:EQU "12"))))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+p90/d2395
+I want to complain about the service.
+['s0', 's2', 's3', 's0', 's4', 'service.n.01']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / want.v.01
+		:Pivot s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s3 / complain.v.01
+			:Agent s0
+			:Theme (s4 / service.n.01)))
+	:member s2
+	:member s3
+	:member s4)
+
+p39/d3188
+We plan to drink champagne at midnight.
+['s0', 's2', 's3', 's0', 's4', 's5']
+(b0 / box
+	:member (s0 / person.n.01
+		:Sub "speaker")
+	:member (s1 / plan.v.01
+		:Agent s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Topic (s3 / drink.v.01
+			:Agent s0
+			:Patient (s4 / champagne.n.01)
+			:Time (s5 / time.n.08
+				:ClockTime "00:00")))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+p17/d2808
+I prefer to go by subway, rather than by train.
+['s3', 's0', 's4', 'subway.n.01', 's6', 's0', 's2', 's3']
+(b0 / box
+	:NEGATION (b1 / box
+		:member (s5 / entity.n.01
+			:EQU (s3 / go.v.01
+				:Theme (s0 / person.n.01
+					:EQU "speaker")
+				:Instrument (s4 / subway.n.01))
+			:Instrument (s6 / train.n.01))
+		:member s6)
+	:member s0
+	:member (s1 / prefer.v.01
+		:Experiencer s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Stimulus s3)
+	:member s2
+	:member s3
+	:member s4)
+
+p60/d3499
+I want to go to Bali.
+['s0', 's2', 's3', 's0', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / want.v.01
+		:Pivot s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s3 / go.v.01
+			:Theme s0
+			:Destination (s4 / island.n.01
+				:Name "Bali")))
+	:member s2
+	:member s3
+	:member s4)
+
+p97/d0898
+I want to go to Japan.
+['s0', 's2', 's3', 's0', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / want.v.01
+		:Pivot s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s3 / go.v.01
+			:Theme s0
+			:Destination (s4 / country.n.02
+				:Name "Japan")))
+	:member s2
+	:member s3
+	:member s4)
+
+p75/d2971
+Everybody wants to go.
+['s0', 's2', 's3', 's0']
+(b0 / box
+	:NEGATION (b1 / box
+		:NEGATION (b2 / box
+			:member (s1 / want.v.01
+				:Pivot (s0 / person.n.01)
+				:Time (s2 / time.n.08
+					:EQU "now")
+				:Theme (s3 / go.v.03
+					:Theme s0))
+			:member s2
+			:member s3)
+		:member s0))
+
+p50/d3044
+I want to kill somebody.
+['s0', 's2', 's3', 's0', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / want.v.01
+		:Pivot s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s3 / kill.v.01
+			:Agent s0
+			:Patient (s4 / person.n.01)))
+	:member s2
+	:member s3
+	:member s4)
+
+p16/d3231
+I want to marry Heather.
+['s0', 's2', 's3', 's0', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / want.v.01
+		:Pivot s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s3 / marry.v.01
+			:Agent s0
+			:Co-Agent (s4 / female.n.02
+				:Name "Heather")))
+	:member s2
+	:member s3
+	:member s4)
+
+p63/d2525
+I want to buy a dozen bananas.
+['s0', 's2', 's3', 's0', 's5', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / want.v.01
+		:Pivot s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s3 / buy.v.01
+			:Agent s0
+			:Theme (s5 / banana.n.01
+				:Quantity (s4 / quantity.n.01
+					:EQU "6"))))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)
+
+p60/d0775
+I'm very sensitive to cold. May I have another blanket?
+['s5', 's8', 's8', 'sensitive.a.01', 's0', 's1', 's2', 's4']
+(b0 / box
+	:CONTINUATION (b1 / box
+		:POSSIBILITY (b2 / box
+			:member (s5 / person.n.01
+				:EQU "speaker")
+			:member (s6 / have.v.01
+				:Pivot s5
+				:Theme (s8 / blanket.n.01))
+			:member (s7 / blanket.n.01
+				:NEQ s8)
+			:member s8))
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:EQU "now")
+	:member (s2 / very.r.01)
+	:member (s3 / sensitive.a.01
+		:Experiencer s0
+		:Time s1
+		:Degree s2
+		:Stimulus (s4 / cold.n.02))
+	:member s4)
+
+p43/d2796
+Ivan IV (Ivan the Terrible) forced many Tatars to convert from Islam to Christianity.
+['s0', 's0', 's3', 's4', 's5', 's6', 's4', 's7', 's8']
+(b0 / box
+	:member (s0 / male.n.02
+		:Name "Ivan IV")
+	:member (s1 / male.n.02
+		:Name "Ivan the Terrible"
+		:EQU s0)
+	:member (s2 / force.v.01
+		:Agent s0
+		:Time (s3 / time.n.08
+			:TPR "now")
+		:Patient (s4 / person.n.01
+			:Quantity "+"
+			:Role (s5 / tatar.n.01))
+		:Result (s6 / convert.v.03
+			:Patient s4
+			:Start (s7 / islam.n.02)
+			:Result (s8 / christianity.n.01)))
+	:member s3
+	:member s4
+	:member s5
+	:member s6
+	:member s7
+	:member s8)
+
+p98/d3222
+All of a sudden, I saw a hare running across the field.
+['see.v.01', 's0', 's1', 's3', 's4', 's4', 's6']
+(b0 / box
+	:member (s0 / all_of_a_sudden.r.02)
+	:member (s1 / person.n.01
+		:EQU "speaker")
+	:member (s2 / see.v.01
+		:Manner s0
+		:Experiencer s1
+		:Time (s3 / time.n.08
+			:TPR "now")
+		:Stimulus (s4 / hare.n.01))
+	:member s3
+	:member s4
+	:member (s5 / run.v.01
+		:Theme s4
+		:Path (s6 / field.n.01))
+	:member s6)
+
+p76/d1456
+I wanna see them!
+['s0', 's2', 's3', 'see.v.01', 's0', 's4']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / want.v.01
+		:Pivot s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Theme (s3 / see.v.01
+			:Experiencer s0
+			:Stimulus (s4 / entity.n.01)))
+	:member s2
+	:member s3
+	:member s4)
+
+p88/d2738
+What do you wanna eat?
+['s1', 's2', 's4', 's0', 's2']
+(b0 / box
+	:member (s0 / entity.n.01
+		:EQU "?")
+	:member (s1 / time.n.08
+		:EQU "now")
+	:member (s2 / person.n.01
+		:EQU "hearer")
+	:member (s3 / want.v.01
+		:Time s1
+		:Pivot s2
+		:Theme (s4 / eat.v.02
+			:Patient s0
+			:Agent s2))
+	:member s4)

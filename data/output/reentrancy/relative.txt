@@ -1,0 +1,199 @@
+p55/d0872
+Everyone who knew him admired him.
+['s0', 's5', 's6', 's3', 's0', 's2', 's3']
+(b0 / box
+	:NEGATION (b1 / box
+		:NEGATION (b2 / box
+			:member (s4 / admire.v.01
+				:Experiencer (s0 / person.n.01)
+				:Time (s5 / time.n.08
+					:TPR "now")
+				:Stimulus (s6 / male.n.02
+					:ANA (s3 / male.n.02)))
+			:member s5
+			:member s6)
+		:member s0
+		:member (s1 / know.v.04
+			:Experiencer s0
+			:Time (s2 / time.n.08
+				:TPR "now")
+			:Stimulus s3)
+		:member s2
+		:member s3))
+
+p05/d3085
+My aunt, who lives in Tokyo, sent me a beautiful blouse.
+['s2', 's0', 's1', 's3', 's5', 's6', 's1', 's8', 's9', 's11']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / person.n.01
+		:Role (s2 / aunt.n.01
+			:Of s0))
+	:member s2
+	:member (s3 / entity.n.01
+		:EQU s1)
+	:member (s4 / live.v.01
+		:Theme s3
+		:Time (s5 / time.n.08
+			:EQU "now")
+		:Location (s6 / city.n.01
+			:Name "Tokyo"))
+	:member s5
+	:member s6
+	:member (s7 / send.v.03
+		:Agent s1
+		:Time (s8 / time.n.08
+			:TPR "now")
+		:Destination (s9 / person.n.01
+			:EQU "speaker")
+		:Theme (s11 / blouse.n.01))
+	:member s8
+	:member s9
+	:member (s10 / beautiful.a.01
+		:Attribute-of s11)
+	:member s11)
+
+p96/d3182
+Yesterday I met two Americans who're bicycling through Japan.
+['s2', 's1', 's0', 's3', 's5', 's7', 's6', 's8', 's7', 's9', 's11']
+(b0 / box
+	:member (s0 / time.n.08
+		:TIN (s2 / day.n.03
+			:TAB (s1 / day.n.03
+				:TCT "now")))
+	:member s1
+	:member s2
+	:member (s3 / person.n.01
+		:EQU "speaker")
+	:member (s4 / meet.v.01
+		:Time s0
+		:Agent s3
+		:Time (s5 / time.n.08
+			:TPR "now")
+		:Co-Agent (s7 / person.n.01
+			:Quantity (s6 / quantity.n.01
+				:EQU "2")
+			:Source (s8 / country.n.02
+				:Name "america")))
+	:member s5
+	:member s6
+	:member s7
+	:member s8
+	:member (s9 / time.n.08
+		:EQU "now")
+	:member (s10 / bicycle.v.01
+		:Theme s7
+		:Time s9
+		:Path (s11 / country.n.02
+			:Name "Japan"))
+	:member s11)
+
+p84/d1183
+In 1961, these machines were replaced by new machines developed with the company's know-how.
+['s0', 's1', 's2', 's5', 's5', 's8', 's7']
+(b0 / box
+	:member (s0 / time.n.08
+		:YearOfCentury "1961")
+	:member (s1 / machine.n.01)
+	:member (s2 / time.n.08
+		:TPR "now")
+	:member (s3 / replace.v.01
+		:Time s0
+		:Theme s1
+		:Time s2
+		:Co-Theme (s5 / machine.n.01))
+	:member (s4 / new.a.05
+		:Attribute-of s5)
+	:member s5
+	:member (s6 / develop.v.01
+		:Product s5
+		:Material (s8 / know-how.n.01
+			:Creator (s7 / company.n.01)))
+	:member s7
+	:member s8)
+
+p17/d1391
+What was the first film directed by John Milius?
+['s0', 's2', 's3', 's3', 's5']
+(b0 / box
+	:member (s0 / entity.n.01
+		:Name "?")
+	:member (s1 / be.v.02
+		:Theme s0
+		:Time (s2 / time.n.08
+			:TPR "now")
+		:Co-Theme (s3 / film.n.01
+			:Order "1"))
+	:member s2
+	:member s3
+	:member (s4 / direct.v.03
+		:Theme s3
+		:Agent (s5 / male.n.02
+			:Name "John Milius"))
+	:member s5)
+
+p60/d3423
+Rugby is a sport which is never called off by rain.
+['s3', 's4', 's6', 's0', 's2', 's3']
+(b0 / box
+	:NEGATION (b1 / box
+		:member (s4 / time.n.08
+			:EQU "now")
+		:member (s5 / call_off.v.01
+			:Theme (s3 / sport.n.01)
+			:Time s4
+			:Causer (s6 / rain.n.01))
+		:member s6)
+	:member (s0 / rugby.n.01)
+	:member (s1 / be.v.01
+		:Theme s0
+		:Time (s2 / time.n.08
+			:EQU "now")
+		:Co-Theme s3)
+	:member s2
+	:member s3)
+
+p78/d0768
+I was rereading the letters you sent to me.
+['s0', 's1', 's3', 'send.v.03', 's3', 's4', 's6', 's7']
+(b0 / box
+	:member (s0 / person.n.01
+		:EQU "speaker")
+	:member (s1 / time.n.08
+		:TPR "now")
+	:member (s2 / reread.v.01
+		:Agent s0
+		:Time s1
+		:Theme (s3 / letter.n.01))
+	:member s3
+	:member (s4 / person.n.01
+		:EQU "hearer")
+	:member (s5 / send.v.03
+		:Theme s3
+		:Agent s4
+		:Time (s6 / time.n.08
+			:TPR "now")
+		:Recipient (s7 / person.n.01
+			:EQU "speaker"))
+	:member s6
+	:member s7)
+
+p74/d1479
+Do you have anything less expensive?
+['s0', 's1', 's3', 's3', 's4']
+(b0 / box
+	:member (s0 / time.n.08
+		:EQU "now")
+	:member (s1 / person.n.01
+		:EQU "hearer")
+	:member (s2 / have.v.01
+		:Time s0
+		:Pivot s1
+		:Theme (s3 / entity.n.01))
+	:member s3
+	:member (s4 / less.r.01
+		:Theme s3)
+	:member (s5 / expensive.a.01
+		:Attribute-of s3
+		:Degree s4))

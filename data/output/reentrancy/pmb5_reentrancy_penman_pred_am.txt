@@ -1,0 +1,2817 @@
+(s976 / female.n.02
+      :Bearer-of (s973 / name.n.01)
+      :ANA-of (s975 / female.n.02
+                    :member-of (b978 / box
+                                     :member (s974 / Ask.v.01
+                                                   :Agent s975
+                                                   :Recipient s973
+                                                   :Time s979)
+                                     :member s976
+                                     :member s973
+                                     :member (s979 / time.n.08
+                                                   :EQU now))))
+
+(s2313 / time.n.08
+       :TPR now
+       :member-of (b2317 / box
+                         :member (s2312 / enjoy.v.01
+                                        :Time s2313)
+                         :member (s2316 / female.n.02
+                                        :Experiencer-of s2312
+                                        :ANA-of s2314)
+                         :member (s2314 / female.n.02
+                                        :Name Mary
+                                        :Stimulus-of s2312)))
+
+(s2853 / time.n.08
+       :ClockTime "00:00"
+       :EQU-of (s2851 / time.n.08
+                      :member-of (b2855 / box
+                                        :member s2853)
+                      :EQU now))
+
+(b2950 / box
+       :member (s2948 / thirsty.a.02)
+       :member (s2944 / hungry.a.01
+                      :Time (s2945 / time.n.08
+                                   :EQU now)
+                      :Experiencer s2946)
+       :member (s2951 / time.n.08
+                      :EQU now
+                      :Time-of s2948)
+       :member (s2946 / person.n.01
+                      :Experiencer-of s2948
+                      :EQU speaker)
+       :member s2945)
+
+(s2975 / horse.n.01
+       :Source-of (s2973 / fall_off.v.07
+                         :Time (s2974 / time.n.08
+                                      :TPR now)
+                         :Theme s2978)
+       :member-of (b2979 / box
+                         :member s2974
+                         :member s2973
+                         :member s2976
+                         :member (s2978 / female.n.02))
+       :User (s2976 / female.n.02
+                    :ANA s2978))
+
+(s3424 / time.n.08
+       :EQU now
+       :member-of (b3426 / box
+                         :member (s3425 / film.n.01
+                                        :Attribute s3427)
+                         :member s3423
+                         :member (s3427 / novel-based.a.01))
+       :Time-of (s3422 / be.v.01
+                       :Co-Theme s3425
+                       :member-of b3426
+                       :Theme (s3423 / entity.n.01)))
+
+(b3471 / box
+       :member (s3468 / female.n.02
+                      :Part (s3464 / hair.n.01
+                                   :Colour s3470))
+       :member (s3472 / time.n.08
+                      :TPR now
+                      :Time-of (s3465 / dye.v.01
+                                      :Result (s3470 / blue.a.01)
+                                      :Agent (s3466 / female.n.02
+                                                    :ANA s3468
+                                                    :Name Mary)
+                                      :Patient s3464))
+       :member s3465
+       :member s3464
+       :member s3470
+       :member s3466)
+
+(b3631 / box
+       :member (s3626 / female.n.02
+                      :Name Martyna
+                      :Co-Agent-of (s3632 / marry.v.01
+                                          :Theme-of (s3627 / want.v.01
+                                                           :Time s3625)
+                                          :Agent s3628))
+       :member (s3625 / time.n.08
+                      :EQU now)
+       :member s3627
+       :member (s3628 / person.n.01
+                      :Pivot-of s3627
+                      :EQU speaker)
+       :member s3632)
+
+(b3795 / box
+       :member (s3794 / movie.n.01
+                      :Attribute (s3796 / novel-based.a.01))
+       :member (s3793 / time.n.08
+                      :Time-of s3792
+                      :EQU now)
+       :member (s3797 / entity.n.01)
+       :member s3796
+       :member (s3792 / be.v.01
+                      :Co-Theme s3794
+                      :Theme s3797))
+
+(b3970 / box
+       :member (s3971 / file.v.01
+                      :Agent (s3967 / female.n.02
+                                    :ANA (s3969 / female.n.02)
+                                    :Name Mary)
+                      :Time (s3965 / time.n.08
+                                   :member-of b3970
+                                   :EQU now)
+                      :Patient s3964)
+       :member s3967
+       :member (s3964 / nail.n.01
+                      :Part-of s3969)
+       :member s3969)
+
+(s4000 / male.n.02
+       :member-of (b4004 / box
+                         :member (s4003 / time.n.08
+                                        :TPR now)
+                         :NEGATION-of (b4002 / box)
+                         :member (s3998 / time.n.08
+                                        :Agent (s3996 / person.n.01)
+                                        :Proposition (b3997 / box
+                                                            :member s3995)
+                                        :Time s4003)
+                         :member s3996)
+       :Name Tom
+       :Patient-of (s3995 / help.v.01))
+
+(s4197 / play.v.01
+       :Agent (s4194 / person.n.01
+                     :member-of (b4200 / box
+                                       :member s4197
+                                       :member s4195
+                                       :member (s4198 / shogus.n.01)
+                                       :member s4196)
+                     :EQU hearer
+                     :Pivot-of (s4195 / want.v.01
+                                      :Time (s4196 / time.n.08
+                                                   :EQU now)))
+       :Theme s4198
+       :Theme-of s4195)
+
+(b4691 / box
+       :member (s4685 / beard.n.01
+                      :Attribute (s4692 / fake.a.01)
+                      :Part-of (s4690 / male.n.02))
+       :member s4692
+       :member (s4687 / remove.v.01
+                      :Time (s4686 / time.n.08
+                                   :TPR now)
+                      :Agent (s4688 / male.n.02
+                                    :ANA s4690
+                                    :Name Tom)
+                      :Theme s4685)
+       :member s4686
+       :member s4690
+       :member s4688)
+
+(b4702 / box
+       :member (s4696 / time.n.08
+                      :Time-of (s4695 / be.v.02
+                                      :Co-Theme s4697)
+                      :EQU now)
+       :member (b4704 / box
+                      :Theme s4695
+                      :member (s4698 / city.n.01
+                                     :Name Marseille
+                                     :Co-Theme-of b4704))
+       :member s4695
+       :member (s4697 / city.n.01
+                      :Name Paris)
+       :member (s4701 / entity.n.01
+                      :Theme-of s4695))
+
+(s4748 / time.n.08
+       :EQU now
+       :member-of (b4752 / box
+                         :member s4749
+                         :member s4751)
+       :Time-of (s4751 / be.v.01
+                       :Co-Theme (b4747 / box
+                                        :EQU b4752
+                                        :member (s4750 / entity.n.01)
+                                        :EQU s4750)
+                       :Theme (s4749 / baby.n.01)))
+
+(s5313 / find.v.01
+       :Theme (s5316 / money.n.01
+                     :member-of (b5317 / box
+                                       :member s5313
+                                       :member s5314
+                                       :member s5315
+                                       :member s5318)
+                     :Attribute (s5318 / steal.v.01))
+       :Time (s5314 / time.n.08
+                    :TPR now)
+       :Agent (s5315 / person.n.01))
+
+(s5550 / skirt.n.01
+       :User (s5552 / female.n.02
+                    :ANA-of (s5548 / female.n.02))
+       :member-of (b5554 / box
+                         :member (s5551 / time.n.08
+                                        :TPR now)
+                         :member s5555
+                         :member s5549
+                         :member s5552
+                         :member s5547
+                         :member s5548)
+       :Colour (s5555 / white.a.01)
+       :Colour (s5549 / red.a.01)
+       :Patient-of (s5547 / dye.v.01
+                          :Result s5549
+                          :Time s5551
+                          :Agent s5548))
+
+(b5598 / box
+       :member (s5595 / male.n.02
+                      :Name Mike
+                      :Agent-of (s5590 / call.v.03
+                                       :Time s5593
+                                       :Theme s5592
+                                       :Result s5594)
+                      :ANA s5597)
+       :member (s5593 / time.n.08
+                      :EQU now)
+       :member (s5592 / dog.n.01
+                      :Owner s5597)
+       :member (s5597 / male.n.02)
+       :member s5590
+       :member (s5594 / name.n.01
+                      :EQU Pochi))
+
+(b5828 / box
+       :member (s5822 / drive.v.03
+                      :Agent s5823
+                      :Theme s5825
+                      :Time s5824
+                      :Destination (s5829 / city.n.01
+                                          :Name Yokohama))
+       :member (s5823 / male.n.02
+                      :ANA (s5826 / male.n.02))
+       :member (s5825 / car.n.01
+                      :User s5826)
+       :member (s5824 / time.n.08
+                      :TPR now)
+       :member s5826
+       :member s5829)
+
+(b5970 / box
+       :member (s5968 / male.n.02
+                      :ANA-of (s5965 / male.n.02
+                                     :Part s5964))
+       :member (s5963 / undress.v.02
+                      :Agent s5968
+                      :Patient s5966
+                      :Instrument s5964
+                      :Time s5971)
+       :member (s5966 / person.n.01
+                      :EQU speaker)
+       :member (s5964 / eye.n.01)
+       :member s5965
+       :member (s5971 / time.n.08
+                      :TPR now))
+
+(s5982 / run_away.v.01
+       :Co-Theme (s5975 / male.n.02
+                        :member-of (b5981 / box
+                                          :member (s5978 / time.n.08
+                                                         :TPR now)
+                                          :member s5976
+                                          :member s5979)
+                        :Name Tom)
+       :Theme-of (s5976 / want.v.01
+                        :Time s5978
+                        :Pivot s5979)
+       :Theme (s5979 / person.n.01
+                     :EQU speaker)
+       :member-of b5981)
+
+(s6060 / person.n.01
+       :EQU speaker
+       :member-of (b6064 / box
+                         :member (s6062 / time.n.08
+                                        :TPR now)
+                         :member (s6059 / time.n.08
+                                        :EQU-of (s6058 / time.n.08
+                                                       :MonthOfYear 3)
+                                        :YearOfCentury 1994)
+                         :member s6058)
+       :Patient-of (s6056 / bear.v.02
+                          :Time s6062
+                          :member-of b6064
+                          :Time s6058))
+
+(s6310 / talk.v.01
+       :Time (s6311 / time.n.08
+                    :EQU now)
+       :member-of (b6316 / box
+                         :member s6311)
+       :Agent (s6313 / kid.n.01
+                     :member-of (b6315 / box
+                                       :NEGATION b6316
+                                       :member s6312)
+                     :NEQ-of (s6312 / child.n.01)))
+
+(s6489 / be.v.02
+       :Theme (s6488 / female.n.02
+                     :member-of (b6493 / box
+                                       :member (s6484 / person.n.01
+                                                      :Role s6486)
+                                       :member (s6486 / actor.n.01)
+                                       :member (s6491 / person.n.01
+                                                      :EQU speaker)
+                                       :member (s6490 / favorite.a.02
+                                                      :Stimulus s6484
+                                                      :Experiencer s6491)
+                                       :member s6487
+                                       :member s6489)
+                     :Name "Liu Reno")
+       :Co-Theme s6484
+       :Time (s6487 / time.n.08
+                    :EQU now))
+
+(s6549 / invite.v.01
+       :Recipient (s6551 / male.n.02
+                         :member-of (b6553 / box
+                                           :member (s6555 / time.n.08
+                                                          :EQU now)
+                                           :CONSEQUENCE (b6556 / box
+                                                               :member (s6548 / male.n.02
+                                                                              :ANA s6551
+                                                                              :Theme-of (s6547 / come.v.02))
+                                                               :POSSIBILITY (b6550 / box
+                                                                                   :member s6547))
+                                           :member s6549
+                                           :member s6546))
+       :Agent (s6546 / person.n.01
+                     :EQU hearer)
+       :Time s6555)
+
+(b6568 / box
+       :NEGATION (b6570 / box
+                        :member (s6564 / person.n.01)
+                        :member (s6563 / intend.v.01
+                                       :Proposition (b6562 / box
+                                                           :member (s6561 / erect.v.01
+                                                                          :Theme s6565
+                                                                          :Agent s6566)
+                                                           :member (s6566 / person.n.01))
+                                       :Agent s6564
+                                       :Time s6569)
+                        :member (s6565 / wall.n.01)
+                        :member (s6569 / time.n.08
+                                       :TPR now)))
+
+(b6623 / box
+       :member (s6618 / day.n.03
+                      :TIN-of (s6615 / time.n.08))
+       :member (s6617 / day.n.03
+                      :TAB s6618
+                      :TCT now)
+       :member (s6622 / male.n.02)
+       :member (s6624 / leave.v.01
+                      :Time s6615
+                      :Time (s6619 / time.n.08
+                                   :EQU now)
+                      :Source s6616
+                      :Theme s6622)
+       :member (s6616 / city.n.01
+                      :Name Chicago)
+       :member s6615
+       :member s6619)
+
+(b6694 / box
+       :member (s6697 / talk.v.01
+                      :Agent (s6698 / male.n.02
+                                    :Name Tom)
+                      :Time s6701)
+       :member (s6701 / time.n.08
+                      :EQU now)
+       :member (s6695 / male.n.02
+                      :ANA s6698
+                      :Theme-of s6697)
+       :NEGATION-of (b6702 / box
+                           :member (s6696 / time.n.08)
+                           :NEGATION-of (b6700 / box))
+       :member s6698)
+
+(b6841 / box
+       :member (s6843 / want.v.01
+                      :Time (s6848 / time.n.08
+                                   :EQU now)
+                      :Theme (s6842 / chance.n.01
+                                    :NEQ-of (s6844 / round.n.09)))
+       :member (s6845 / person.n.01
+                      :Pivot-of s6843)
+       :member s6842
+       :NEGATION-of (b6849 / box
+                           :member s6848
+                           :NEGATION-of (b6847 / box))
+       :member s6844)
+
+(b6881 / box
+       :member (s6887 / country.n.02
+                      :Name America)
+       :member (s6883 / want.v.01
+                      :Time (s6885 / time.n.08
+                                   :EQU now)
+                      :Pivot s6888
+                      :Theme s6889)
+       :member (s6888 / person.n.01
+                      :Theme-of (s6889 / go.v.01
+                                       :Destination s6887
+                                       :Time (s6886 / tuesday
+                                                    :TIN (s6878 / day.n.03))
+                                       :member-of b6881)
+                      :EQU speaker)
+       :member (s6877 / day.n.03
+                      :TCT now
+                      :TAB s6878)
+       :member s6886
+       :member s6885
+       :member s6878)
+
+(s6928 / want.v.01
+       :Time (s6921 / time.n.08
+                    :EQU now)
+       :member-of (b6926 / box
+                         :member s6921
+                         :member s6920
+                         :member s6919
+                         :member s6924)
+       :Theme (s6919 / buy.v.01
+                     :Theme (s6924 / doughnut.n.01
+                                   :Quantity (s6920 / quantity.n.01
+                                                    :EQU 12))
+                     :Agent s6922)
+       :Pivot (s6922 / person.n.01
+                     :EQU speaker
+                     :member-of b6926))
+
+(b7108 / box
+       :member (s7104 / favorite.a.02
+                      :Experiencer (s7100 / person.n.01
+                                          :EQU hearer)
+                      :Stimulus (s7107 / commercial.n.01))
+       :member (s7101 / be.v.02
+                      :Theme (s7105 / entity.n.01
+                                    :member-of b7108
+                                    :Name ?)
+                      :Co-Theme s7107
+                      :Time s7102)
+       :member s7107
+       :member s7100
+       :member (s7102 / time.n.08
+                      :EQU now))
+
+(b7120 / box
+       :member (s7122 / time.n.08
+                      :TPR now
+                      :Time-of s7118)
+       :member (s7115 / person.n.01
+                      :EQU speaker)
+       :member (s7118 / show.v.04
+                      :Recipient s7115
+                      :Agent s7114
+                      :Theme s7113)
+       :member (s7114 / male.n.02
+                      :ANA (s7117 / male.n.02)
+                      :Name Damon)
+       :member (s7113 / phone_album.n.01
+                      :User s7117)
+       :member s7117)
+
+(b7131 / box
+       :member (s7128 / chopin.n.01)
+       :member (s7126 / time.n.08
+                      :EQU now)
+       :member (s7132 / play.v.05
+                      :Theme s7128)
+       :member (s7129 / love.v.01
+                      :Time s7126
+                      :Stimulus s7132)
+       :member (s7127 / person.n.01
+                      :Experiencer-of s7129))
+
+(s7208 / see.v.08
+       :Time (s7207 / time.n.08
+                    :member-of (b7203 / box
+                                      :member s7208
+                                      :member (s7196 / person.n.01
+                                                     :EQU hearer)
+                                      :member (s7201 / day.n.03
+                                                     :TAB-of (s7197 / day.n.03
+                                                                    :TCT now))
+                                      :member s7198
+                                      :member s7206
+                                      :member (s7200 / school.n.02)
+                                      :member s7197)
+                    :TSU now)
+       :Time (s7198 / time.n.08
+                    :TIN s7201)
+       :Co-Agent s7196
+       :Agent (s7206 / person.n.01
+                     :EQU speaker)
+       :Location s7200)
+
+(b7440 / box
+       :member (s7436 / time.n.08
+                      :Time-of (s7441 / leave.v.01
+                                      :Time s7442
+                                      :Destination s7434
+                                      :Theme s7437)
+                      :TSU now)
+       :member (s7433 / day.n.03
+                      :TCT now
+                      :TAB s7439)
+       :member (s7439 / day.n.03
+                      :TIN-of s7442)
+       :member (s7442 / time.n.08)
+       :member (s7434 / city.n.01
+                      :Name Tokyo)
+       :member s7441
+       :member (s7437 / female.n.02))
+
+(s7534 / be.v.03
+       :Location (s7531 / city.n.01
+                        :Name ?)
+       :Time (s7537 / time.n.08
+                    :EQU now)
+       :member-of (b7536 / box
+                         :member s7531
+                         :member s7537
+                         :member s7533)
+       :Theme (s7533 / river.n.01))
+
+(s7543 / room.n.01
+       :User (s7550 / female.n.02
+                    :member-of (b7549 / box
+                                      :member s7543
+                                      :member (s7544 / time.n.08
+                                                     :EQU now)
+                                      :member (s7551 / time.n.08
+                                                     :EQU now)))
+       :Location-of (s7542 / study.v.05
+                           :Agent (s7545 / female.n.02
+                                         :ANA s7550
+                                         :Name Mary
+                                         :member-of b7549)
+                           :member-of b7549
+                           :Time s7544
+                           :Time s7551))
+
+(s7659 / believe.v.01
+       :Experiencer (s7655 / person.n.01
+                           :member-of (b7651 / box
+                                             :member s7659
+                                             :member (s7653 / male.n.02
+                                                            :ANA (s7658 / male.n.02
+                                                                        :Stimulus-of (s7646 / trust.v.01
+                                                                                            :Time (s7647 / time.n.08
+                                                                                                         :TPR now)
+                                                                                            :Experiencer s7656
+                                                                                            :member-of b7649)))
+                                             :member s7657
+                                             :CONTINUATION-of (b7649 / box
+                                                                     :member (s7656 / person.n.01
+                                                                                    :EQU speaker)
+                                                                     :member s7658
+                                                                     :member s7647))
+                           :EQU speaker)
+       :Stimulus s7653
+       :Time (s7657 / time.n.08
+                    :TPR now))
+
+(b7845 / box
+       :member (s7838 / be.v.01
+                      :Time (s7839 / time.n.08
+                                   :EQU now)
+                      :Theme s7837
+                      :Co-Theme s7842)
+       :member (s7841 / favorite.a.02
+                      :Stimulus s7837
+                      :Experiencer (s7836 / person.n.01
+                                          :EQU hearer))
+       :member (s7837 / entity.n.01)
+       :member (s7842 / entity.n.01
+                      :Name ?)
+       :member (s7844 / book.n.01
+                      :Instance s7837)
+       :member s7839
+       :member s7836)
+
+(b7913 / box
+       :NEGATION (b7903 / box
+                        :member (s7908 / admire.v.01
+                                       :Experiencer (s7905 / know.v.01
+                                                           :Experiencer s7910
+                                                           :Stimulus (s7909 / male.n.02)
+                                                           :Time s7907)
+                                       :Stimulus s7902
+                                       :Time s7906)
+                        :member (s7902 / male.n.02
+                                       :ANA s7909)
+                        :member s7905
+                        :member (s7906 / time.n.08
+                                       :TPR now)
+                        :member (s7907 / time.n.08
+                                       :TPR now))
+       :member (s7910 / person.n.01)
+       :NEGATION-of (b7911 / box)
+       :member s7909)
+
+(b8051 / box
+       :member (s8045 / classmate.n.01
+                      :Of (s8049 / female.n.02)
+                      :Role-of s8044)
+       :member (s8044 / person.n.01)
+       :member (s8047 / female.n.02
+                      :Name Mary
+                      :Patient-of s8052
+                      :ANA s8049)
+       :member (s8052 / bully.v.01
+                      :Time (s8046 / time.n.08
+                                   :TPR now)
+                      :Agent s8044)
+       :member s8046
+       :member s8049)
+
+(s8057 / be.v.01
+       :Time (s8058 / time.n.08
+                    :EQU now)
+       :member-of (b8064 / box
+                         :member s8058
+                         :member s8056
+                         :member s8055
+                         :member s8060
+                         :member s8063
+                         :member s8061)
+       :Co-Theme (s8061 / entity.n.01
+                        :EQU ?)
+       :Theme (s8056 / entity.n.01
+                     :Stimulus-of (s8060 / favorite.a.02
+                                         :Experiencer (s8055 / person.n.01
+                                                             :EQU hearer))
+                     :Instance-of (s8063 / apple.n.01)))
+
+(b8488 / box
+       :NEGATION (b8489 / box
+                        :member (s8482 / ashamed.a.01
+                                       :Time s8483
+                                       :Experiencer s8485
+                                       :Stimulus s8486)
+                        :member (s8483 / time.n.08
+                                       :EQU now)
+                        :member (s8484 / male.n.02
+                                       :Creator-of (s8486 / misconduct.n.01)
+                                       :ANA s8485)
+                        :member s8486)
+       :member (s8485 / male.n.02))
+
+(s8606 / male.n.02
+       :member-of (b8608 / box
+                         :member (s8604 / person.n.01
+                                        :EQU speaker)
+                         :member (s8600 / favorite.a.02
+                                        :Stimulus (s8607 / author.n.01)
+                                        :Experiencer s8604)
+                         :member (s8601 / be.v.02
+                                        :Theme s8606
+                                        :Time (s8602 / time.n.08
+                                                     :EQU now)
+                                        :Co-Theme s8607)
+                         :member s8607
+                         :member s8602)
+       :Name "Graham Harper")
+
+(b8672 / box
+       :member (s8666 / female.n.02
+                      :Name Emily)
+       :member (s8665 / textbook.n.02
+                      :Source s8664
+                      :User s8669)
+       :member (s8669 / female.n.02)
+       :member (s8664 / country.n.02
+                      :Name (s8673 / georgian.n.02))
+       :member (s8670 / lend.v.02
+                      :Time (s8675 / time.n.08
+                                   :TPR now)
+                      :Agent s8666
+                      :Theme s8665)
+       :member s8673
+       :member (s8667 / person.n.01
+                      :EQU speaker
+                      :Recipient-of s8670)
+       :member s8675)
+
+(s8833 / person.n.01
+       :Pivot-of (s8832 / want.v.01
+                        :Time (s8835 / time.n.08
+                                     :EQU now)
+                        :member-of b8838
+                        :Theme s8831)
+       :EQU speaker
+       :member-of (b8838 / box
+                         :member (s8836 / service.n.01
+                                        :Theme-of (s8831 / complain.v.01
+                                                         :member-of b8838
+                                                         :Agent s8833))
+                         :member s8835))
+
+(s8861 / kill.v.01
+       :Patient (s8865 / male.n.02
+                       :ANA-of (s8862 / male.n.02
+                                      :member-of (b8864 / box
+                                                        :member s8865
+                                                        :member s8867)
+                                      :Name "Yukio Monroe"))
+       :Time (s8867 / time.n.08
+                    :TPR now)
+       :Time (s8860 / time.n.08
+                    :YearOfCentury 1970
+                    :member-of b8864)
+       :member-of b8864
+       :Agent b8864)
+
+(b8962 / box
+       :member (s8968 / city.n.01
+                      :Location-of (s8957 / bear.v.02
+                                          :Patient (s8969 / person.n.01
+                                                          :EQU speaker)
+                                          :Time (s8970 / time.n.08
+                                                       :TPR now))
+                      :Name Osaka)
+       :member (s8966 / time.n.08
+                      :EQU (s8958 / time.n.08
+                                  :EQU (s8959 / time.n.08
+                                              :YearOfCentury 1977)
+                                  :DayOfMonth 5
+                                  :Time-of s8957)
+                      :MonthOfYear 3)
+       :member s8959
+       :member s8957
+       :member s8969
+       :member s8958
+       :member s8970)
+
+(b8987 / box
+       :member (s8984 / squirrel.n.01
+                      :Agent-of (s8990 / stuffed.a.01
+                                       :Theme s8995
+                                       :Time s8985)
+                      :Owner (s8995 / female.n.02)
+                      :Theme-of (s8992 / call.v.01
+                                       :Result s8996
+                                       :member-of b8987
+                                       :Time s8993
+                                       :Agent s8994))
+       :member (s8993 / time.n.08
+                      :TPR now)
+       :member s8990
+       :member (s8996 / name.n.01
+                      :EQU Tom)
+       :member s8995
+       :member (s8985 / time.n.08
+                      :TPR now)
+       :member (s8994 / female.n.02
+                      :ANA s8995
+                      :Name Mary))
+
+(s9008 / time.n.08
+       :TSU now
+       :Time-of (s9003 / sail.v.01
+                       :Theme (s9005 / ship.n.01)
+                       :Destination (s9001 / city.n.01
+                                           :Name Honolulu)
+                       :Time s8999)
+       :member-of (b9007 / box
+                         :member s9005
+                         :member s9003
+                         :member (s9002 / day.n.03
+                                        :TIN-of (s8999 / time.n.08)
+                                        :TAB-of s9000)
+                         :member (s9000 / day.n.03
+                                        :TCT now)
+                         :member s9001
+                         :member s8999))
+
+(b9060 / box
+       :member (s9053 / time.n.08
+                      :EQU-of (s9055 / entity.n.01
+                                     :Time-of (s9050 / bear.v.02
+                                                     :Time s9058
+                                                     :Patient s9056)
+                                     :DayOfMonth 18
+                                     :MonthOfYear 3
+                                     :member-of b9060)
+                      :YearOfCentury 1948)
+       :member (s9052 / time.n.08
+                      :EQU s9055)
+       :member (s9058 / time.n.08
+                      :TPR now)
+       :member s9050
+       :member (s9056 / person.n.01
+                      :EQU speaker))
+
+(s9182 / male.n.02
+       :ANA-of (s9181 / male.n.02
+                      :Part (s9180 / arm.n.01
+                                   :SZN-of (s9179 / location.n.01))
+                      :member-of (b9185 / box
+                                        :member (s9184 / thermometer.n.01)
+                                        :member s9182
+                                        :member s9180
+                                        :member s9178
+                                        :member s9177
+                                        :member s9179))
+       :Name Tom
+       :Agent-of (s9177 / put.v.01
+                        :Time (s9178 / time.n.08
+                                     :TPR now)
+                        :Theme s9184
+                        :Location s9179))
+
+(b9316 / box
+       :member (s9315 / candy.n.01)
+       :member (s9313 / male.n.02
+                      :Name "John Reagan"
+                      :Experiencer-of s9308)
+       :member (s9309 / be.v.02
+                      :Co-Theme s9315
+                      :Theme s9311
+                      :Time s9310)
+       :member (s9310 / time.n.08
+                      :EQU now)
+       :member (s9311 / entity.n.01
+                      :EQU ?)
+       :member (s9308 / favorite.a.02
+                      :Stimulus s9315))
+
+(b9475 / box
+       :member (s9471 / person.n.01
+                      :Sub speaker)
+       :member (s9473 / plan.v.01
+                      :Agent s9471
+                      :Time s9476)
+       :member (s9476 / time.n.08
+                      :EQU now)
+       :member (s9469 / drink.v.01
+                      :Patient s9468
+                      :Agent s9473
+                      :Time s9477)
+       :member (s9468 / champagne.n.01)
+       :member (s9477 / time.n.08
+                      :ClockTime "00:00"))
+
+(s9528 / kill.v.01
+       :Time (s9527 / time.n.08
+                    :YearOfCentury 1890)
+       :Agent (s9529 / male.n.02
+                     :ANA (s9531 / male.n.02
+                                 :member-of (b9533 / box
+                                                   :member s9527
+                                                   :member s9528
+                                                   :member s9534))
+                     :Name "Vincent Caine"
+                     :member-of b9533)
+       :Time (s9534 / time.n.08
+                    :TPR now)
+       :Patient s9531)
+
+(s9559 / male.n.02
+       :Name Pinocchio
+       :Agent-of (s9563 / say.v.01
+                        :Proposition (b9556 / box
+                                            :member (s9564 / time.n.08
+                                                           :Time-of (s9551 / grow.v.32
+                                                                           :Patient (s9552 / nose.n.01))
+                                                           :TSU now)
+                                            :member (s9562 / now
+                                                           :Part s9552
+                                                           :Sub speaker)
+                                            :member s9551
+                                            :member s9552)
+                        :Time (s9558 / time.n.08
+                                     :EQU ":")
+                        :Time (s9565 / time.n.08
+                                     :EQU now))
+       :member-of (b9555 / box
+                         :member s9563
+                         :member s9558
+                         :member s9565))
+
+(b9779 / box
+       :member (s9775 / goal_pole.n.01)
+       :member (s9778 / soccer_ball.n.01
+                      :Theme-of (s9780 / roll.v.01
+                                       :Time s9776
+                                       :Destination s9775))
+       :member s9780
+       :member (s9776 / time.n.08
+                      :EQU now))
+
+(b10243 / box
+        :member (s10253 / pence.n.01
+                        :Theme-of (s10251 / offer.v.02
+                                          :Time (s10254 / time.n.08
+                                                        :TPR now)
+                                          :Agent (s10252 / person.n.01
+                                                         :EQU speaker)
+                                          :Beneficiary s10249)
+                        :Quantity s10240)
+        :member (s10240 / quantity.n.01
+                        :EQU 50)
+        :member s10254
+        :member s10252
+        :CONTINUATION (b10244 / box
+                              :member (s10246 / time.n.08
+                                              :TPR now)
+                              :member (s10247 / accept.v.02
+                                              :Time s10246
+                                              :Agent s10245)
+                              :member s10245)
+        :member (s10249 / male.n.02
+                        :ANA-of (s10245 / male.n.02))
+        :member s10251)
+
+(s10336 / person.n.01
+        :member-of (b10330 / box
+                           :member (s10337 / send.v.03
+                                           :Time s10338
+                                           :Part s10326
+                                           :Agent s10325
+                                           :Recipient s10336)
+                           :member (s10333 / person.n.01
+                                           :Agent-of (s10335 / reread.v.01
+                                                             :Time s10332
+                                                             :Theme s10326)
+                                           :EQU speaker)
+                           :member (s10326 / letter.n.01)
+                           :member (s10338 / time.n.08
+                                           :TPR now)
+                           :member (s10332 / time.n.08
+                                           :TPR now)
+                           :member (s10325 / person.n.01
+                                           :EQU hearer)
+                           :member s10335)
+        :EQU speaker)
+
+(s10363 / in_public.r.01
+        :member-of (b10368 / box
+                           :member (s10359 / male.n.02
+                                           :ANA (s10364 / male.n.02
+                                                        :Name Tom
+                                                        :member-of b10366))
+                           :member (s10360 / wife.n.01
+                                           :Of s10359
+                                           :Role-of s10358)
+                           :member (s10358 / person.n.01)
+                           :member (s10367 / time.n.08
+                                           :EQU now)
+                           :NEGATION-of (b10366 / box)
+                           :member s10362)
+        :Manner-of (s10362 / quarrel.v.01
+                           :Agent s10364
+                           :Time s10367
+                           :Co-Agent s10358))
+
+(b10441 / box
+        :member (s10434 / person.n.01
+                        :Role (s10435 / author.n.01
+                                      :Of s10439))
+        :member (s10439 / person.n.01
+                        :EQU speaker)
+        :member (s10432 / favorite.a.02
+                        :Experiencer s10439
+                        :Stimulus s10434)
+        :member (s10433 / be.v.02
+                        :Theme (s10436 / male.n.02
+                                       :Name "Graham Garcia Marquez"
+                                       :member-of b10441)
+                        :Co-Theme s10434
+                        :Time s10438)
+        :member (s10438 / time.n.08
+                        :EQU now)
+        :member s10435)
+
+(b10454 / box
+        :member (s10449 / old.a.01)
+        :member (s10451 / male.n.02
+                        :ANA s10453
+                        :Name Lincoln)
+        :member (s10455 / island.n.01
+                        :Experiencer (s10453 / male.n.02)
+                        :Of-of (s10448 / opponent.n.01)
+                        :Attribute s10449)
+        :member (s10450 / time.n.08
+                        :TPR now)
+        :member (s10446 / welcome.v.02
+                        :Agent s10451
+                        :Time s10450
+                        :Theme s10447)
+        :member (s10447 / person.n.01
+                        :Role s10448)
+        :member s10453
+        :member s10448)
+
+(s10655 / time.n.08
+        :EQU now
+        :Time-of (s10656 / live.v.01
+                         :Theme (s10658 / person.n.01
+                                        :EQU speaker)
+                         :member-of b10654
+                         :Location s10660
+                         :Time (s10653 / time.n.08
+                                       :EQU now))
+        :member-of (b10654 / box
+                           :CONTRAST-of (b10651 / box
+                                                :member (s10663 / time.n.08
+                                                                :Time-of (s10662 / be.v.03
+                                                                                 :Theme (s10661 / person.n.01
+                                                                                                :EQU speaker)
+                                                                                 :Source s10646)
+                                                                :EQU now)
+                                                :member (s10646 / city.n.01
+                                                                :Name Hiroshima)
+                                                :member s10661
+                                                :member s10662)
+                           :member (s10660 / city.n.01
+                                           :Name Tokyo)
+                           :member s10658
+                           :member s10653))
+
+(s10708 / time.n.08
+        :EQU now
+        :member-of (b10712 / box
+                           :member (s10710 / drink.v.01
+                                           :Agent (s10707 / person.n.01
+                                                          :Theme-of (s10713 / walk.v.01))
+                                           :Patient (s10711 / orange_juice.n.01)
+                                           :Time s10708)
+                           :member s10707
+                           :member s10713
+                           :member s10711))
+
+(s10814 / squirrelfish.n.01
+        :Theme-of (s10808 / buy.v.01
+                          :Time s10809)
+        :member-of (b10815 / box
+                           :member s10808
+                           :member (s10810 / aquarium.n.01
+                                           :Destination-of s10808
+                                           :User s10811)
+                           :member (s10812 / male.n.02
+                                           :ANA-of (s10811 / male.n.02)
+                                           :Agent-of s10808
+                                           :Name Tom)
+                           :member (s10809 / time.n.08
+                                           :TPR now)
+                           :member s10811))
+
+(b10901 / box
+        :Quantity (b10893 / box
+                          :member (s10895 / train.n.01)
+                          :APX 1000)
+        :member (s10897 / person.n.01
+                        :EQU speaker)
+        :member (s10896 / time.n.08
+                        :EQU now)
+        :member (s10894 / prefer.v.01
+                        :Pivot s10897
+                        :Time s10896)
+        :member (s10902 / go.v.01
+                        :Instrument s10899
+                        :Instrument s10895
+                        :Theme s10897
+                        :Theme-of s10894)
+        :member (s10899 / subway.n.01))
+
+(s11043 / person.n.01
+        :EQU speaker
+        :member-of (b11047 / box
+                           :member (s11042 / time.n.08
+                                           :YearOfCentury 1974)
+                           :member s11037
+                           :member (s11045 / time.n.08
+                                           :TPR now
+                                           :Time-of s11037)
+                           :member (s11039 / time.n.08
+                                           :EQU s11041)
+                           :member s11041)
+        :Patient-of (s11037 / bear.v.02
+                            :Time (s11041 / twenty-second.n.01
+                                          :DayOfMonth 1
+                                          :MonthOfYear 6
+                                          :Time s11042)))
+
+(b11059 / box
+        :member (s11057 / time.n.08
+                        :TPR now)
+        :member (s11053 / quantity.n.01
+                        :Quantity-of (s11052 / ballot.n.01
+                                             :Order 1)
+                        :EQU 30)
+        :member (s11055 / male.n.02
+                        :Theme-of (s11060 / elect.v.01
+                                          :Time s11057
+                                          :Context s11052)
+                        :Name (s11056 / entity.n.01))
+        :member (s11054 / time.n.08
+                        :EQU s11052
+                        :MonthOfYear 3)
+        :member s11060
+        :member s11056
+        :member s11052)
+
+(b11209 / box
+        :member (s11215 / time.n.08
+                        :EQU now)
+        :member (s11216 / city.n.01
+                        :Name Tokyo)
+        :CONTRAST-of (b11218 / box
+                             :member (s11217 / be.v.03
+                                             :Time s11219
+                                             :Source (s11205 / city.n.01
+                                                             :Name Hokkaido)
+                                             :Theme s11210)
+                             :member (s11210 / female.n.02)
+                             :member s11205)
+        :member (s11212 / live.v.01
+                        :Location s11216
+                        :Time (s11214 / time.n.08
+                                      :EQU now)
+                        :Theme s11217
+                        :Time s11215)
+        :member (s11219 / time.n.08
+                        :EQU now)
+        :member s11214)
+
+(s11274 / time.n.08
+        :TSU now
+        :Time-of (s11273 / raise.v.02
+                         :Time (s11271 / time.n.08
+                                       :DayOfMonth s11276)
+                         :Theme (s11280 / fare.n.03
+                                        :Theme mexico))
+        :member-of (b11279 / box
+                           :member s11273
+                           :member (s11276 / time.n.08)
+                           :member (s11272 / time.n.08
+                                           :YearOfCentury 1999
+                                           :EQU-of s11271)
+                           :member (s11275 / time.n.08
+                                           :EQU s11271
+                                           :MonthOfYear 4)
+                           :member s11271
+                           :member s11280))
+
+(s11413 / stick.v.01
+        :Time (s11414 / time.n.08
+                      :TPR now)
+        :Agent (s11424 / person.n.01
+                       :Agent-of (s11422 / thank.v.01
+                                         :Recipient (s11425 / female.n.02)
+                                         :Time (s11426 / time.n.08
+                                                       :TPR now))
+                       :EQU speaker)
+        :Destination (s11418 / button-hole.n.01
+                             :User s11417)
+        :Theme (s11421 / rose.n.01)
+        :member-of (b11419 / box
+                           :member (s11417 / person.n.01
+                                           :EQU speaker)
+                           :member s11414
+                           :member s11424
+                           :member s11418
+                           :member s11425
+                           :member s11421
+                           :member s11426
+                           :member s11422))
+
+(b11581 / box
+        :member (s11582 / run.v.01
+                        :Path (s11577 / field.n.01)
+                        :Theme (s11580 / hare.n.01)
+                        :Stimulus-of (s11574 / see.v.01
+                                             :Experiencer s11578
+                                             :Manner s11576))
+        :member (s11575 / time.n.08
+                        :TPR now
+                        :Time-of s11574)
+        :member (s11576 / all_of_a_sudden.r.02)
+        :member (s11578 / person.n.01
+                        :EQU speaker)
+        :member s11577
+        :member s11574
+        :member s11580)
+
+(s11627 / person.n.01
+        :EQU speaker
+        :Beneficiary-of (s11632 / send.v.03
+                                :member-of (b11631 / box
+                                                   :member (s11625 / aunt.n.01
+                                                                   :Role-of (s11624 / person.n.01)
+                                                                   :Of s11637)
+                                                   :member (s11637 / person.n.01
+                                                                   :EQU speaker)
+                                                   :member s11627
+                                                   :member (s11623 / city.n.01
+                                                                   :Name Tokyo)
+                                                   :member s11634
+                                                   :member (s11638 / live.v.01
+                                                                   :Location s11623
+                                                                   :Theme s11624
+                                                                   :Time s11639)
+                                                   :member s11636
+                                                   :member s11629
+                                                   :member (s11639 / time.n.08
+                                                                   :EQU now)
+                                                   :Agent-of s11632
+                                                   :member s11624)
+                                :Theme (s11636 / blouse.n.01
+                                               :Attribute (s11634 / beautiful.a.01))
+                                :Time (s11629 / time.n.08
+                                              :TPR now)))
+
+(s11652 / male.n.02
+        :Theme-of (s11645 / crawl.v.01
+                          :Time s11649
+                          :Destination s11650)
+        :member-of (b11655 / box
+                           :member s11645
+                           :member (s11654 / cover.n.01
+                                           :Content (s11647 / male.n.02
+                                                            :ANA s11652)
+                                           :Theme-of s11646)
+                           :member s11647
+                           :member s11646
+                           :member (s11650 / bed.n.01)
+                           :member (s11649 / time.n.08
+                                           :TPR now)
+                           :member (s11651 / time.n.08
+                                           :TPR now))
+        :Agent-of (s11646 / entity.n.01
+                          :Time s11651)
+        :Name Tom)
+
+(b11667 / box
+        :member (s11661 / parallel.v.01
+                        :Co-Theme (s11660 / neck.n.01)
+                        :Theme s11663
+                        :Time s11665)
+        :member (s11666 / male.n.02)
+        :member (s11662 / person.n.01
+                        :Part s11660
+                        :Role s11664)
+        :member (s11663 / background.n.01
+                        :Attribute (s11668 / humble.a.01))
+        :member (s11664 / predecessor.n.01
+                        :Of s11666)
+        :member (s11665 / time.n.08
+                        :EQU now)
+        :member (s11659 / male.n.02
+                        :Part s11663
+                        :ANA s11666)
+        :member s11668
+        :member s11660)
+
+(s11748 / take_place.v.01
+        :Theme (s11746 / election.n.01
+                       :member-of (b11745 / box
+                                          :member (s11739 / time.n.08
+                                                          :EQU-of (s11742 / time.n.08
+                                                                          :MonthOfYear 3)
+                                                          :DayOfMonth 14)
+                                          :member s11737
+                                          :member s11742
+                                          :member s11748
+                                          :member s11744
+                                          :member (s11740 / time.n.08
+                                                          :TSU now))
+                       :Location (s11737 / country.n.02
+                                         :Name "Côte d\Ivoire"))
+        :Time s11739
+        :EQU (s11744 / entity.n.01)
+        :Time s11740)
+
+(s11764 / jump.v.01
+        :Time (s11765 / time.n.08
+                      :EQU now)
+        :member-of (b11758 / box
+                           :member (s11759 / time.n.08
+                                           :NEGATION (b11760 / box
+                                                             :member s11766))
+                           :member s11765
+                           :member (s11761 / child.n.01
+                                           :Agent-of (s11755 / wear.v.01
+                                                             :Theme s11766
+                                                             :Time s11763))
+                           :member (s11763 / time.n.08
+                                           :EQU now)
+                           :member s11755
+                           :member s11767)
+        :NEGATION s11759
+        :Location (s11757 / rock.n.01
+                          :member-of b11758)
+        :Theme (s11766 / jacket.n.01
+                       :Colour (s11767 / yellow.a.01)))
+
+(b11862 / box
+        :member (s11855 / day.n.03
+                        :TAB-of (s11856 / day.n.03
+                                        :TIN-of (s11857 / time.n.08))
+                        :TCT now)
+        :member (s11867 / meet.v.01
+                        :Agent s11870
+                        :Co-Agent (s11854 / bike.v.01
+                                          :Agent s11871
+                                          :Destination s11853
+                                          :Time s11865)
+                        :Source (s11861 / country.n.02
+                                        :Name america
+                                        :Quantity (s11864 / quantity.n.01
+                                                          :EQU 2))
+                        :Time s11857
+                        :Time s11872)
+        :member (s11871 / person.n.01)
+        :member (s11870 / person.n.01
+                        :EQU speaker)
+        :member (s11853 / country.n.02
+                        :Name Japan)
+        :member s11856
+        :member s11857
+        :member s11854
+        :member s11861
+        :member (s11872 / time.n.08
+                        :TPR now)
+        :member s11864
+        :member (s11865 / time.n.08
+                        :EQU now))
+
+(b11957 / box
+        :member (s11960 / time.n.08
+                        :Time-of (s11951 / believe.v.01
+                                         :Proposition (b11959 / box
+                                                              :member (s11954 / object.n.01
+                                                                              :Theme-of (s11955 / be.v.01
+                                                                                                :Co-Theme s11958
+                                                                                                :Time s11963))
+                                                              :member (s11958 / entity.n.03
+                                                                              :Creator s11962)
+                                                              :member (s11962 / ufo.n.01)
+                                                              :member s11955
+                                                              :member (s11963 / time.n.08
+                                                                              :TPR now)))
+                        :TPR now)
+        :member (s11961 / person.n.01
+                        :Sub speaker
+                        :Agent-of s11951)
+        :member s11951)
+
+(s12015 / be.v.01
+        :Theme (s12022 / entity.n.01)
+        :member-of (b12013 / box
+                           :member s12022
+                           :member s12020
+                           :member (s12014 / great.a.01)
+                           :member (s12019 / entity.n.01
+                                           :Theme s12022
+                                           :Time s12021
+                                           :Co-Theme s12010)
+                           :member (s12017 / writer.n.01)
+                           :member (s12021 / time.n.08
+                                           :TPR now)
+                           :member (s12023 / great.a.01)
+                           :member (s12010 / person.n.01
+                                           :Attribute s12023
+                                           :Role s12011)
+                           :member (s12011 / statesman.n.01)
+                           :member s12018)
+        :Co-Theme (s12018 / person.n.01
+                          :Attribute s12014
+                          :Role s12017)
+        :Time (s12020 / time.n.08
+                      :TPR now))
+
+(s12100 / wedding.n.08
+        :Theme-of (s12084 / wear.v.01
+                          :Agent (s12098 / male.n.02
+                                         :Name Tom
+                                         :member-of (b12099 / box
+                                                            :NEGATION b12094))
+                          :Time (s12097 / time.n.08
+                                        :TPR now))
+        :member-of (b12085 / box
+                           :member (s12089 / notice.v.02
+                                           :Stimulus (s12087 / circle.n.01
+                                                             :Location s12086
+                                                             :Colour s12101)
+                                           :Experiencer (s12091 / female.n.02
+                                                                :Name Mary)
+                                           :Time s12090)
+                           :member (s12090 / time.n.08
+                                           :TPR now)
+                           :CONTRAST-of (b12094 / box
+                                                :member (s12101 / white.a.01)
+                                                :member s12084
+                                                :member s12097
+                                                :member (s12088 / male.n.02
+                                                                :Part s12086
+                                                                :ANA s12098)
+                                                :member (s12086 / finger.n.01)
+                                                :member s12087
+                                                :member s12091)))
+
+(s12122 / machine.n.01
+        :Attribute (s12123 / new.a.01)
+        :member-of (b12113 / box
+                           :member s12123
+                           :member (s12117 / develop.v.01
+                                           :Time s12119
+                                           :Agent s12110
+                                           :Beneficiary s12121)
+                           :member (s12111 / time.n.08
+                                           :YearOfCentury 1961)
+                           :member (s12119 / time.n.08
+                                           :TPR now)
+                           :member (s12116 / company.n.01)
+                           :member (s12120 / time.n.08
+                                           :TPR now)
+                           :member s12110
+                           :member (s12121 / know-how.n.02
+                                           :Creator s12116)
+                           :member (s12115 / machine.n.01))
+        :Agent-of (s12110 / replace.v.01
+                          :Time s12111
+                          :Time s12120
+                          :Theme s12115))
+
+(s12185 / large.a.01
+        :Degree (s12184 / most.r.01)
+        :Attribute-of (s12172 / party.n.01
+                              :member-of (b12158 / box
+                                                 :member s12185
+                                                 :member s12184
+                                                 :member (s12180 / male.n.02
+                                                                 :Name (s12169 / entity.n.01)
+                                                                 :Theme-of (s12165 / elect.v.01
+                                                                                   :member-of (b12163 / box
+                                                                                                      :member (s12173 / time.n.08
+                                                                                                                      :TPR now)
+                                                                                                      :member s12167
+                                                                                                      :member s12159
+                                                                                                      :member s12182
+                                                                                                      :CONTINUATION-of (b12157 / box
+                                                                                                                               :member (s12161 / election.n.01
+                                                                                                                                               :Theme-of (s12170 / hold.v.03
+                                                                                                                                                                 :Time s12188
+                                                                                                                                                                 :Time s12166
+                                                                                                                                                                 :Location s12160))
+                                                                                                                               :member s12170
+                                                                                                                               :member (s12160 / country.n.02
+                                                                                                                                               :Name Chile)
+                                                                                                                               :member (s12164 / time.n.08
+                                                                                                                                               :YearOfCentury 2007)
+                                                                                                                               :member (s12188 / time.n.08
+                                                                                                                                               :MonthOfYear 12
+                                                                                                                                               :EQU s12164)
+                                                                                                                               :member (s12166 / time.n.08
+                                                                                                                                               :TPR now))
+                                                                                                      :member s12171)
+                                                                                   :Time (s12167 / time.n.08
+                                                                                                 :TPR now)
+                                                                                   :Agent b12157))
+                                                 :member s12168
+                                                 :member s12186
+                                                 :member s12169
+                                                 :member (s12181 / entity.n.01
+                                                                 :Result (s12171 / president.n.03))
+                                                 :member s12174)
+                              :Part-of (s12168 / "Red Deputies"
+                                               :EQU-of (s12186 / time.n.08
+                                                               :DayOfMonth 12))
+                              :Sub (s12159 / male.n.02
+                                           :Name "Conservative Party")
+                              :CONTRAST b12158
+                              :Theme-of (s12182 / emerge.v.02
+                                                :Time s12173
+                                                :Agent s12181)
+                              :Time s12186
+                              :Sub (s12174 / Radical_hat.n.01)))
+
+(s481 / marry.v.01
+      :Co-Agent (s482 / male.n.02
+                      :ANA-of (s480 / male.n.02)
+                      :member-of b484)
+      :Time (s485 / time.n.08
+                  :member-of (b484 / box
+                                   :member s481
+                                   :member s480)
+                  :TPR now)
+      :Agent s480)
+
+(s951 / person.n.01
+      :Stimulus-of (s947 / see.v.01
+                         :Experiencer s948
+                         :Theme-of s954)
+      :member-of (b953 / box
+                       :member (s954 / want.v.01
+                                     :Pivot (s948 / person.n.01
+                                                  :EQU speaker)
+                                     :Time (s950 / time.n.08
+                                                 :EQU now))
+                       :member s947
+                       :member s948
+                       :member s950))
+
+(s2163 / time.n.08
+       :member-of (b2168 / box
+                         :member (s2164 / want.v.01
+                                        :Time s2163
+                                        :Theme s2169
+                                        :Pivot s2165)
+                         :member (s2165 / person.n.01
+                                        :Theme-of (s2169 / go.v.01
+                                                         :Destination s2161)
+                                        :EQU speaker)
+                         :member (s2161 / city.n.01
+                                        :Name Bali)
+                         :member s2169)
+       :EQU now)
+
+(b2453 / box
+       :member (s2454 / go.v.01
+                      :Theme-of (s2448 / want.v.01
+                                       :Time (s2446 / time.n.08
+                                                    :EQU now)
+                                       :Pivot (s2450 / person.n.01
+                                                     :EQU speaker))
+                      :Theme s2450
+                      :Destination s2447)
+       :member (s2447 / country.n.02
+                      :Name Japan)
+       :member s2450
+       :member s2448
+       :member s2446)
+
+(b2470 / box
+       :member (s2464 / person.n.01
+                      :EQU hearer
+                      :Agent-of (s2466 / eat.v.02
+                                       :Theme-of (s2465 / want.v.01
+                                                        :Location s2467
+                                                        :Time s2472
+                                                        :Pivot s2464)))
+       :member s2466
+       :member (s2472 / time.n.08
+                      :EQU now)
+       :member (s2467 / entity.n.01
+                      :Name ?)
+       :member s2465)
+
+(s2608 / go.v.01
+       :member-of (b2606 / box
+                         :member s2607
+                         :member (s2609 / person.n.01)
+                         :member (s2612 / time.n.08
+                                        :EQU now
+                                        :Time-of s2607)
+                         :NEGATION-of (b2613 / box
+                                             :NEGATION-of (b2611 / box)))
+       :Theme (s2607 / want.v.01
+                     :Agent s2609))
+
+(s2638 / male.n.02
+       :ANA (s2640 / male.n.02)
+       :member-of (b2641 / box
+                         :member s2640
+                         :member (s2636 / time.n.08
+                                        :TPR now)
+                         :member s2635
+                         :member s2637)
+       :Name Chris
+       :Agent-of (s2635 / swing.v.01
+                        :Theme (s2637 / sword.n.01
+                                      :User s2640)
+                        :Time s2636))
+
+(s3413 / want.v.01
+       :Pivot (s3414 / person.n.01
+                     :EQU speaker)
+       :Time (s3412 / time.n.08
+                    :member-of (b3418 / box
+                                      :member (s3416 / person.n.01)
+                                      :member s3414
+                                      :member s3413
+                                      :member s3419)
+                    :EQU now)
+       :Theme (s3419 / kill.v.01
+                     :Agent s3414
+                     :Patient s3416))
+
+(s3472 / time.n.08
+       :Time-of (s3476 / want.v.01
+                       :Pivot (s3474 / person.n.01
+                                     :EQU speaker
+                                     :member-of b3478
+                                     :Agent-of s3479)
+                       :Theme (s3479 / marry.v.01
+                                     :member-of b3478
+                                     :Co-Agent s3473))
+       :member-of (b3478 / box
+                         :member s3476
+                         :member (s3473 / female.n.02
+                                        :Name Heather))
+       :EQU now)
+
+(b4870 / box
+       :member (s4865 / kill.v.01
+                      :Time (s4871 / time.n.08
+                                   :TPR now
+                                   :member-of b4870)
+                      :Patient s4868)
+       :member (s4866 / male.n.02
+                      :ANA (s4868 / male.n.02)
+                      :Agent-of s4865
+                      :Name "George Dazai")
+       :member s4868)
+
+(b4932 / box
+       :member (s4934 / cook.v.01
+                      :Product s4931
+                      :Agent s4927
+                      :Time (s4929 / time.n.08
+                                   :TPR now))
+       :member (s4931 / entity.n.01)
+       :member (s4928 / person.n.01
+                      :EQU (s4927 / person.n.01
+                                  :EQU hearer))
+       :member s4927
+       :member s4929)
+
+(s4937 / unscrew.v.01
+       :Agent (s4938 / female.n.02
+                     :Name Mary
+                     :member-of (b4942 / box
+                                       :member s4943
+                                       :member s4936
+                                       :member s4937
+                                       :member s4940)
+                     :ANA (s4940 / female.n.02))
+       :Time (s4943 / time.n.08
+                    :TPR now)
+       :Patient (s4936 / lipstick.n.01
+                       :User s4940))
+
+(s5220 / town.n.01
+       :Co-Theme-of (s5214 / be.v.02
+                           :Time (s5215 / time.n.08
+                                        :EQU now)
+                           :Theme (s5219 / city.n.01
+                                         :Name Dublin))
+       :Stimulus-of (s5213 / favourite.a.02
+                           :Experiencer (s5217 / person.n.01
+                                               :EQU speaker))
+       :member-of (b5221 / box
+                         :member s5215
+                         :member s5214
+                         :member s5217
+                         :member s5213
+                         :member s5219))
+
+(b5442 / box
+       :member (s5438 / time.n.08
+                      :EQU now)
+       :member (s5439 / entity.n.01
+                      :EQU ?)
+       :member (s5436 / be.v.01
+                      :Co-Theme s5439
+                      :Theme s5441
+                      :Time s5438)
+       :member (s5441 / cartoon.n.01
+                      :Stimulus-of (s5435 / favorite.a.02
+                                          :member-of b5442
+                                          :Experiencer s5434))
+       :member (s5434 / person.n.01
+                      :EQU hearer))
+
+(s5449 / male.n.02
+       :ANA (s5451 / male.n.02
+                   :User-of (s5448 / office.n.01
+                                   :User-of (s5447 / entity.n.01
+                                                   :Patient-of (s5446 / unlock.v.01
+                                                                      :Agent s5449))))
+       :Name Tom
+       :member-of (b5453 / box
+                         :member s5448
+                         :member s5451
+                         :member s5447
+                         :member (s5454 / time.n.08
+                                        :TPR now
+                                        :Time-of s5446)
+                         :member s5446))
+
+(s5672 / time.n.08
+       :Time-of (s5670 / bear.v.02
+                       :member-of (b5680 / box
+                                         :member s5672
+                                         :member (s5675 / time.n.08
+                                                        :MonthOfYear 3
+                                                        :EQU s5672)
+                                         :member s5676
+                                         :member s5678
+                                         :member s5673)
+                       :Patient (s5676 / person.n.01
+                                       :EQU speaker)
+                       :Time (s5678 / time.n.08
+                                    :TPR now))
+       :DayOfMonth 22
+       :EQU (s5673 / time.n.08
+                   :YearOfCentury 1962))
+
+(b5719 / box
+       :member (s5718 / time.n.08
+                      :TSU now)
+       :member (s5720 / arrive.v.01
+                      :Time s5718)
+       :member (s5716 / person.n.01
+                      :Theme-of s5720
+                      :EQU speaker)
+       :member (s5714 / entity.n.01
+                      :ClockTime "23:00"
+                      :Time-of s5720
+                      :Finish s5712)
+       :member (s5712 / time.n.08
+                      :MonthOfYear 6))
+
+(s5761 / be.v.02
+       :Time (s5762 / time.n.08
+                    :EQU now
+                    :member-of (b5767 / box
+                                      :member (s5764 / person.n.01
+                                                     :EQU speaker
+                                                     :Experiencer-of s5760)
+                                      :member s5761
+                                      :member (s5760 / preferred.a.02)
+                                      :member s5766
+                                      :member s5763))
+       :Co-Theme (s5766 / sport.n.01
+                        :Stimulus-of s5760)
+       :Theme (s5763 / tennis.n.01))
+
+(s5954 / person.n.01
+       :EQU speaker
+       :Pivot-of (s5953 / want.v.01
+                        :Theme (s5950 / buy.v.01
+                                      :Agent s5954
+                                      :member-of (b5958 / box
+                                                        :member (s5956 / banana.n.02
+                                                                       :Quantity s5951)
+                                                        :member s5954
+                                                        :member s5953
+                                                        :member (s5951 / quantity.n.01
+                                                                       :EQU 12)
+                                                        :member s5952)
+                                      :Theme s5956)
+                        :Time (s5952 / time.n.08
+                                     :EQU now)))
+
+(s5995 / be.v.01
+       :Time (s5994 / time.n.08
+                    :EQU now)
+       :Co-Theme (s5998 / word.n.01
+                        :Attribute (s6001 / overused.a.01))
+       :Theme (s5997 / awesome.a.01
+                     :EQU 27)
+       :member-of (b6000 / box
+                         :member s5998
+                         :member s5997
+                         :member s6001
+                         :member s5994))
+
+(s6302 / kill.v.01
+       :Agent (s6303 / female.n.02
+                     :ANA (s6305 / female.n.02)
+                     :Name Himekusa)
+       :member-of (b6307 / box
+                         :member (s6308 / time.n.08
+                                        :TPR now)
+                         :member s6303
+                         :member s6305)
+       :Patient s6305
+       :Time s6308)
+
+(s6331 / time.n.08
+       :EQU now
+       :Time-of (s6330 / be.v.01
+                       :Co-Theme s6334
+                       :Theme s6336)
+       :member-of (b6337 / box
+                         :member (s6334 / entity.n.01
+                                        :EQU ?)
+                         :member (s6329 / person.n.01
+                                        :EQU hearer)
+                         :member (s6336 / fast_food.n.01)
+                         :member (s6333 / favorite.a.02
+                                        :Stimulus s6336
+                                        :Experiencer s6329)
+                         :member s6330))
+
+(b6455 / box
+       :member (s6448 / time.n.08
+                      :Time-of (s6446 / bear.v.02
+                                      :Time s6449
+                                      :Patient s6453)
+                      :EQU-of (s6450 / time.n.08
+                                     :MonthOfYear 8)
+                      :DayOfMonth 28th
+                      :EQU s6451)
+       :member (s6451 / time.n.08
+                      :YearOfCentury 1888)
+       :member (s6453 / male.n.02)
+       :member s6446
+       :member (s6449 / time.n.08
+                      :TPR now)
+       :member s6450)
+
+(b6815 / box
+       :member (s6805 / bear.v.02
+                      :Patient (s6811 / person.n.01
+                                      :EQU speaker
+                                      :member-of b6815)
+                      :Time s6813)
+       :member (s6808 / time.n.08
+                      :EQU-of (s6807 / time.n.08
+                                     :DayOfMonth 14
+                                     :Time-of s6805
+                                     :member-of b6815
+                                     :EQU-of s6810)
+                      :YearOfCentury 1960)
+       :member (s6813 / time.n.08
+                      :TPR now)
+       :member (s6810 / time.n.08
+                      :MonthOfYear 4))
+
+(b6917 / box
+       :member (s6911 / wrap.v.02
+                      :Time (s6912 / time.n.08
+                                   :TPR now)
+                      :Theme s6916
+                      :Agent s6913
+                      :Destination s6915)
+       :member (s6915 / towel.n.01)
+       :member (s6913 / female.n.02
+                      :ANA s6916
+                      :Name Mary)
+       :member (s6916 / female.n.02)
+       :member s6912)
+
+(s6999 / male.n.02
+       :Name Galileo
+       :Patient-of (s7002 / die.v.01
+                          :Time s6996
+                          :Time s7004)
+       :member-of (b7003 / box
+                         :member (s6995 / time.n.08
+                                        :MonthOfYear 8)
+                         :member s7002
+                         :member (s6996 / time.n.08
+                                        :EQU s6997
+                                        :EQU-of s6995
+                                        :DayOfMonth 8)
+                         :member (s7004 / time.n.08
+                                        :TPR now)
+                         :member (s6997 / time.n.08
+                                        :YearOfCentury 1642)))
+
+(s7056 / bear.v.02
+       :Time (s7057 / time.n.08
+                    :member-of (b7066 / box
+                                      :member (s7062 / person.n.01
+                                                     :EQU speaker)
+                                      :member s7064
+                                      :member (s7059 / time.n.08
+                                                     :DayOfMonth 2)
+                                      :member (s7061 / time.n.08
+                                                     :YearOfCentury 1968
+                                                     :Time-of s7059)
+                                      :member s7056)
+                    :MonthOfYear 1
+                    :Time s7059)
+       :Time (s7064 / time.n.08
+                    :TPR now)
+       :Patient s7062)
+
+(s7103 / suffer.v.02
+       :Time (s7106 / time.n.08
+                    :member-of (b7109 / box
+                                      :member (s7104 / person.n.01
+                                                     :Experiencer-of s7103
+                                                     :EQU speaker)
+                                      :member s7103
+                                      :member s7110
+                                      :member s7107)
+                    :EQU now)
+       :Stimulus (s7107 / itching.n.02
+                        :Attribute (s7110 / anal.a.01)))
+
+(s7319 / time.n.08
+       :Time-of (s7316 / visit.v.03
+                       :Agent (s7314 / male.n.02
+                                     :Name Tom)
+                       :Co-Agent (s7311 / female.n.02
+                                        :Name Mary)
+                       :Time s7310)
+       :TPR now
+       :member-of (b7318 / box
+                         :member s7311
+                         :member (s7310 / time.n.08
+                                        :DayOfMonth 10)
+                         :member s7316
+                         :member (s7313 / time.n.08
+                                        :EQU s7310
+                                        :MonthOfYear 7)
+                         :member s7314))
+
+(b7341 / box
+       :member (s7337 / person.n.01
+                      :Patient-of (s7331 / bear.v.02
+                                         :Time (s7339 / time.n.08
+                                                      :TPR now)
+                                         :Time s7332)
+                      :EQU speaker)
+       :member (s7332 / time.n.08
+                      :EQU-of (s7336 / time.n.08
+                                     :MonthOfYear 10)
+                      :DayOfMonth 10th)
+       :member (s7334 / time.n.08
+                      :EQU s7332
+                      :YearOfCentury 1972)
+       :member s7336
+       :member s7339
+       :member s7331)
+
+(b7565 / box
+       :member (s7561 / favorite.a.02
+                      :Experiencer s7556)
+       :member (s7557 / be.v.02
+                      :Co-Theme s7562
+                      :Time s7559)
+       :member (s7560 / song.n.01
+                      :Stimulus-of s7561
+                      :Creator s7564
+                      :Theme-of s7557)
+       :member (s7564 / beatle.n.02)
+       :member (s7562 / entity.n.01
+                      :Name ?)
+       :member (s7559 / time.n.08
+                      :EQU now)
+       :member (s7556 / person.n.01
+                      :EQU hearer))
+
+(s7631 / entity.n.01
+       :Theme-of (s7630 / be.v.01
+                        :Co-Theme (s7628 / novel.n.01
+                                         :member-of b7633
+                                         :Attribute (s7634 / interesting.a.01))
+                        :Time (s7629 / time.n.08
+                                     :EQU now))
+       :member-of (b7633 / box
+                         :member s7630
+                         :member s7629
+                         :member s7634))
+
+(s7710 / time.n.08
+       :EQU now
+       :Time-of (s7712 / popular.a.01
+                       :Degree (s7705 / more.r.01
+                                      :Co-Theme s7707
+                                      :member-of b7711
+                                      :Theme s7706)
+                       :Attribute-of (s7706 / female.n.02
+                                            :Name Sachiko))
+       :member-of (b7711 / box
+                         :member s7712
+                         :member (s7707 / female.n.02
+                                        :Name Judy)
+                         :member s7706))
+
+(s7715 / person.n.01
+       :EQU hearer
+       :Experiencer-of (s7719 / favorite.a.02
+                              :member-of (b7723 / box
+                                                :member s7715
+                                                :member (s7717 / time.n.08
+                                                               :EQU now)
+                                                :member (s7720 / entity.n.01
+                                                               :Name ?)
+                                                :member (s7716 / be.v.01
+                                                               :Co-Theme s7720
+                                                               :Time s7717
+                                                               :Theme "Walt Disney"))
+                              :Stimulus "Walt Disney"))
+
+(b7792 / box
+       :member (s7793 / male.n.02
+                      :ANA (s7800 / male.n.02
+                                  :Sub s7788))
+       :NEGATION (b7801 / box
+                        :member (s7799 / know.v.04
+                                       :Time (s7795 / time.n.08
+                                                    :EQU now
+                                                    :member-of b7801)
+                                       :Experiencer s7793
+                                       :Stimulus s7797)
+                        :member (s7797 / person.n.01
+                                       :EQU speaker))
+       :CONTRAST-of (b7791 / box
+                           :member (s7802 / time.n.08
+                                          :Time-of (s7796 / know.v.04
+                                                          :Experiencer (s7798 / person.n.01
+                                                                              :member-of b7791
+                                                                              :EQU speaker)
+                                                          :Stimulus s7788)
+                                          :EQU now)
+                           :member (s7788 / entity.n.01)
+                           :member s7800
+                           :member s7796))
+
+(b8165 / box
+       :member (s8158 / entity.n.01
+                      :Stimulus-of (s8161 / favorite.a.02
+                                          :Experiencer s8157
+                                          :member-of b8165)
+                      :Theme-of s8159)
+       :member (s8157 / person.n.01
+                      :EQU hearer)
+       :member (s8160 / time.n.08
+                      :Time-of (s8159 / be.v.01
+                                      :member-of b8165
+                                      :Co-Theme s8162)
+                      :EQU now)
+       :member (s8164 / sushi.n.01
+                      :Instance s8158)
+       :member (s8162 / entity.n.01
+                      :EQU ?))
+
+(s8184 / be.v.01
+       :Time (s8185 / time.n.08
+                    :member-of (b8190 / box
+                                      :member (s8181 / person.n.01
+                                                     :EQU hearer)
+                                      :member s8184
+                                      :member (s8186 / entity.n.01
+                                                     :EQU ?)
+                                      :member s8183
+                                      :member s8189
+                                      :member s8188)
+                    :EQU now)
+       :Theme (s8183 / entity.n.01
+                     :Stimulus-of (s8189 / favorite.a.02
+                                         :Experiencer s8181)
+                     :Instance-of (s8188 / candy.n.01))
+       :Co-Theme s8186)
+
+(b8207 / box
+       :member (s8201 / take_off.v.06
+                      :Agent (s8204 / male.n.02
+                                    :ANA (s8206 / male.n.02
+                                                :User-of (s8203 / vest.n.01
+                                                                :Attribute s8208
+                                                                :member-of b8207))
+                                    :Name Tom)
+                      :Theme s8203
+                      :Time s8202)
+       :member (s8208 / bullet-proof.a.01)
+       :member s8206
+       :member s8204
+       :member (s8202 / time.n.08
+                      :TPR now))
+
+(s8295 / be.v.01
+       :Time (s8296 / time.n.08
+                    :member-of (b8301 / box
+                                      :member (s8294 / entity.n.01)
+                                      :member (s8300 / sandwich.n.01
+                                                     :Instance s8294)
+                                      :member (s8293 / favorite.a.02
+                                                     :Stimulus s8294
+                                                     :Experiencer s8298)
+                                      :member (s8298 / person.n.01
+                                                     :EQU speaker)
+                                      :member s8297
+                                      :member s8295)
+                    :EQU now)
+       :Theme (s8297 / entity.n.01)
+       :Co-Theme s8294)
+
+(b8311 / box
+       :member (s8306 / design.v.01
+                      :Agent (s8308 / female.n.02
+                                    :ANA (s8310 / female.n.02
+                                                :Beneficiary-of s8305)
+                                    :member-of b8311
+                                    :Name Mayuko)
+                      :Time (s8312 / time.n.08
+                                   :TPR now)
+                      :Product s8305)
+       :member (s8305 / dress.n.01)
+       :member s8312
+       :member s8310)
+
+(b8351 / box
+       :member (s8344 / person.n.01
+                      :Sub (b8349 / box
+                                  :member (s8350 / hump.n.01)
+                                  :member s8353)
+                      :Theme-of (s8352 / entity.n.01
+                                       :Co-Theme s8350))
+       :member (s8348 / spider.n.01
+                      :Pivot-of s8346)
+       :member (s8345 / time.n.08
+                      :Time-of (s8346 / have.v.01
+                                      :Theme s8344)
+                      :EQU now)
+       :member s8346
+       :member s8352
+       :Quantity (s8353 / quantity.n.01
+                        :EQU 2))
+
+(b8435 / box
+       :member (s8429 / entity.n.01
+                      :Name-of (s8430 / male.n.02
+                                      :member-of b8435))
+       :member (s8427 / writer.n.01
+                      :Role-of (s8426 / person.n.01))
+       :member (s8431 / be.v.02
+                      :Theme s8430
+                      :Time s8428
+                      :Co-Theme s8426)
+       :member s8426
+       :member (s8433 / person.n.01
+                      :EQU speaker
+                      :Experiencer-of s8432)
+       :member (s8432 / favourite.a.02
+                      :Stimulus s8426)
+       :member (s8428 / time.n.08
+                      :EQU now))
+
+(s8480 / have.v.01
+       :Agent (s8479 / person.n.01
+                     :EQU hearer
+                     :member-of b8485)
+       :Time (s8481 / time.n.08
+                    :EQU now)
+       :Theme (s8482 / entity.n.01
+                     :Theme-of (s8483 / less.r.01
+                                      :Degree-of s8486)
+                     :member-of b8485
+                     :Attribute (s8486 / expensive.a.01))
+       :member-of (b8485 / box
+                         :member s8483
+                         :member s8481
+                         :member s8486))
+
+(b8705 / box
+       :member (s8700 / female.n.02
+                      :EQU b8702)
+       :POSSIBILITY (b8702 / box
+                           :member (s8699 / move.v.01
+                                          :Theme s8703
+                                          :Agent (s8701 / female.n.02
+                                                        :Name Nancy)))
+       :member (s8703 / desk.n.01)
+       :NEGATION-of (b8704 / box
+                           :member s8701))
+
+(b8735 / box
+       :member (s8733 / hotel.n.01
+                      :Location s8729)
+       :member (s8726 / be.v.01
+                      :Time (s8727 / time.n.08
+                                   :EQU now)
+                      :Co-Theme s8731
+                      :Theme s8733)
+       :member (s8731 / entity.n.01
+                      :Name ?)
+       :member (s8728 / favorite.a.02
+                      :Experiencer (s8725 / person.n.01
+                                          :EQU hearer)
+                      :Stimulus s8733)
+       :member (s8729 / city.n.01
+                      :Name Boston)
+       :member s8727
+       :member s8725)
+
+(b8748 / box
+       :member (s8743 / time.n.08
+                      :EQU now)
+       :member (s8750 / prefer.v.01
+                      :Recipient (s8740 / person.n.01
+                                        :EQU hearer)
+                      :Time s8743
+                      :Theme s8742)
+       :member (s8742 / entity.n.01
+                      :NEQ (s8746 / beer.n.01
+                                  :Source (s8741 / country.n.02
+                                                 :Name germany))
+                      :Sub s8744)
+       :member (s8744 / belgian.n.02)
+       :member s8746
+       :member s8740
+       :member s8741)
+
+(s8794 / find.v.01
+       :Time (s8795 / time.n.08
+                    :TPR now)
+       :member-of (b8800 / box
+                         :member s8795
+                         :member s8796
+                         :member (s8801 / orphaned.a.01)
+                         :member s8798
+                         :member s8797)
+       :Agent (s8796 / female.n.02
+                     :Name Mary)
+       :Theme (s8798 / squirrel.n.01
+                     :Attribute (s8797 / baby.n.01)
+                     :Attribute s8801))
+
+(s8934 / bear.v.02
+       :Time (s8944 / time.n.08
+                    :member-of (b8938 / box
+                                      :member (s8945 / person.n.01
+                                                     :EQU speaker)
+                                      :member (s8941 / time.n.08
+                                                     :EQU s8944
+                                                     :MonthOfYear 5)
+                                      :member s8946
+                                      :member s8935)
+                    :DayOfMonth 18
+                    :MonthOfYear 3
+                    :EQU (s8935 / time.n.08
+                                :YearOfCentury 1940))
+       :Patient s8945
+       :member-of b8938
+       :Time (s8946 / time.n.08
+                    :TPR now))
+
+(s9158 / time.n.08
+       :YearOfCentury 1955
+       :EQU-of (s9160 / time.n.08
+                      :member-of (b9164 / box
+                                        :member (s9161 / male.n.02
+                                                       :Name "Nancy Sasaki")
+                                        :member s9158
+                                        :member (s9165 / die.v.01
+                                                       :Time s9160
+                                                       :Patient b9164
+                                                       :Time s9166)
+                                        :member (s9166 / time.n.08
+                                                       :TPR now)
+                                        :member s9157)
+                      :EQU-of (s9157 / time.n.08
+                                     :MonthOfYear 12)
+                      :DayOfMonth 25))
+
+(b9217 / box
+       :member (s9215 / male.n.02
+                      :Destination s9214
+                      :Name "NIKOLAI Harper")
+       :member (s9213 / entity.n.01)
+       :member (s9214 / company.n.01
+                      :Name s9213))
+
+(s9238 / drinking.v.04
+       :member-of (b9237 / box
+                         :member (s9233 / open.v.01
+                                        :Time (s9232 / time.n.08
+                                                     :EQU now)
+                                        :Agent s9234
+                                        :Patient s9236)
+                         :member (s9236 / soda.n.01)
+                         :member s9232
+                         :member (s9234 / man.n.01)
+                         :member s9231)
+       :Patient (s9231 / entity.n.01)
+       :Agent s9234)
+
+(b9261 / box
+       :member (s9255 / be.v.01
+                      :Theme s9253
+                      :Co-Theme s9258
+                      :Time (s9257 / time.n.08
+                                   :EQU now))
+       :member (s9253 / entity.n.01
+                      :Instance-of (s9260 / chocolate.n.02))
+       :member (s9254 / favorite.a.02
+                      :Experiencer (s9252 / person.n.01
+                                          :EQU hearer)
+                      :Stimulus s9253)
+       :member (s9258 / entity.n.01
+                      :EQU ?)
+       :member s9260
+       :member s9252
+       :member s9257)
+
+(s9527 / time.n.08
+       :TPR now
+       :Time-of (s9525 / leave.v.01
+                       :Finish (s9531 / time.n.08
+                                      :EQU-of (s9529 / time.n.08
+                                                     :DayOfMonth 1)
+                                      :MonthOfYear 6)
+                       :Theme (s9533 / team.n.01
+                                     :Name Macdonough
+                                     :member-of b9535)
+                       :Source (s9530 / city.n.01
+                                      :Name Hawaii))
+       :member-of (b9535 / box
+                         :member s9525
+                         :member s9529
+                         :member s9531
+                         :member s9530))
+
+(b9821 / box
+       :member (s9813 / instantly.r.01)
+       :member (s9820 / fall.v.03
+                      :Patient (s9818 / male.n.02
+                                      :Experiencer-of (s9815 / in_love.a.01
+                                                             :Stimulus (s9816 / female.n.02
+                                                                              :Name Juliet
+                                                                              :member-of b9821))
+                                      :Name Romeo)
+                      :Time (s9822 / time.n.08
+                                   :TPR now)
+                      :Manner s9813
+                      :Result s9815)
+       :member s9818
+       :member s9815
+       :member s9822)
+
+(s10140 / time.n.08
+        :TPR now
+        :Time-of (s10136 / come.v.02
+                         :Theme (b10145 / box
+                                        :member (s10137 / take_away.v.02
+                                                        :Time (s10138 / time.n.08
+                                                                      :TPR now)
+                                                        :Theme (s10139 / cow.n.01
+                                                                       :User s10142)
+                                                        :Agent s10146)
+                                        :member (s10144 / entity.n.01
+                                                        :Theme-of (s10146 / flying_saucer.n.01))
+                                        :member s10140
+                                        :member (s10142 / person.n.01
+                                                        :EQU speaker)
+                                        :member s10136
+                                        :member s10138
+                                        :member s10146
+                                        :member s10139)))
+
+(s10232 / time.n.08
+        :EQU now
+        :Time-of (s10237 / be.v.02
+                         :member-of (b10228 / box
+                                            :member (s10224 / person.n.01
+                                                            :EQU hearer
+                                                            :Agent-of (s10226 / support.v.01
+                                                                              :Time s10230
+                                                                              :Theme s10235))
+                                            :member s10232
+                                            :member (s10230 / time.n.08
+                                                            :EQU now)
+                                            :member (s10225 / entity.n.01)
+                                            :member (s10235 / male.n.02
+                                                            :Name s10225)
+                                            :Sub b10236
+                                            :member s10226)
+                         :Theme (b10236 / box)
+                         :Co-Theme (s10233 / male.n.02
+                                           :Name "George Obama"
+                                           :member-of b10228)))
+
+(s10448 / time.n.08
+        :EQU now
+        :Time-of (s10450 / be.v.02
+                         :Co-Theme (s10446 / person.n.01
+                                           :member-of (b10455 / box
+                                                              :member s10448
+                                                              :member (s10449 / entity.n.01)
+                                                              :member s10451
+                                                              :member (s10453 / person.n.01
+                                                                              :EQU speaker)
+                                                              :member s10452
+                                                              :member s10447)
+                                           :Role (s10447 / director.n.01)
+                                           :Stimulus-of (s10452 / favorite.a.02
+                                                                :Experiencer s10453))
+                         :Theme (s10451 / male.n.02
+                                        :Name s10449)
+                         :member-of b10455))
+
+(b10480 / box
+        :member (s10487 / time.n.08
+                        :Time-of (s10479 / love.v.01
+                                         :Experiencer (s10474 / person.n.01
+                                                              :Role s10475)
+                                         :Stimulus s10486)
+                        :EQU now)
+        :member (s10485 / person.n.01
+                        :EQU speaker
+                        :Of-of (s10475 / son.n.01))
+        :member (s10478 / entity.n.01)
+        :member s10479
+        :member (s10486 / art.n.01)
+        :member (s10484 / sport.n.01
+                        :Attribute s10482)
+        :member s10475
+        :member (s10482 / loving.a.01)
+        :Agent s10482
+        :member s10474
+        :Beneficiary s10479
+        :Theme s10478
+        :Time (s10483 / time.n.08
+                      :TPR now)
+        :member s10483)
+
+(b10546 / box
+        :member (s10537 / day.n.03)
+        :member (s10536 / snow.v.01
+                        :EQU (s10543 / entity.n.01
+                                     :member-of b10546)
+                        :Time (s10538 / time.n.08
+                                      :TSU now)
+                        :Time s10535)
+        :member (s10535 / time.n.08
+                        :TIN s10537)
+        :member (s10541 / day.n.03
+                        :TAB s10537
+                        :TCT now)
+        :member s10538
+        :Proposition-of (s10539 / according.a.02
+                                :member-of (b10544 / box)
+                                :Source (s10540 / paper.n.01
+                                                :member-of b10544)))
+
+(s10640 / be.v.03
+        :Location (s10625 / city.n.01
+                          :member-of (b10632 / box
+                                             :member s10639
+                                             :member (s10634 / time.n.08
+                                                             :TPR now)
+                                             :member s10629
+                                             :member s10640
+                                             :member s10641)
+                          :Name London)
+        :Time (s10641 / time.n.08
+                      :EQU now)
+        :Theme (s10639 / female.n.02
+                       :ANA-of (s10636 / female.n.02
+                                       :Agent-of (s10626 / study.v.05
+                                                         :Topic s10627
+                                                         :Time s10628))
+                       :Name Yoko)
+        :Agent-of (s10629 / China
+                          :Proposition (b10633 / box
+                                               :member (s10627 / english.n.01)
+                                               :member (s10628 / time.n.08
+                                                               :EQU now)
+                                               :member s10636
+                                               :member s10626)
+                          :Time s10634))
+
+(b10731 / box
+        :member (s10733 / entity.n.01
+                        :Stimulus-of (s10728 / like.v.02
+                                             :Time s10725
+                                             :Experiencer s10724))
+        :member (s10723 / wife.n.01
+                        :Role-of (s10724 / person.n.01)
+                        :Of (s10726 / male.n.02
+                                    :ANA s10727))
+        :member (s10725 / time.n.08
+                        :TPR now)
+        :member s10728
+        :EXPLANATION-of (b10729 / box
+                                :member (s10727 / male.n.02
+                                                :Agent-of (s10721 / buy.v.01
+                                                                  :Theme (s10734 / house.n.01)
+                                                                  :member-of b10729
+                                                                  :Time s10722))
+                                :member (s10722 / time.n.08
+                                                :TPR now)
+                                :member s10734)
+        :member s10724
+        :member s10726)
+
+(s10837 / entity.n.01
+        :EQU ?
+        :member-of (b10840 / box
+                           :member (s10841 / be.v.02
+                                           :Theme s10837
+                                           :Co-Theme b10840
+                                           :Time s10843)
+                           :member (s10843 / time.n.08
+                                           :TPR now)
+                           :member (s10835 / film.n.01
+                                           :Theme-of (s10833 / direct.v.03)
+                                           :Order 1)
+                           :member (s10838 / male.n.02
+                                           :Name "Jan De Milius"
+                                           :Agent-of s10833)
+                           :member s10833))
+
+(s10848 / male.n.02
+        :Name Tom
+        :member-of (b10851 / box
+                           :member (s10850 / migraine.n.01
+                                           :Stimulus-of (s10846 / suffer.v.02
+                                                                :Experiencer s10848
+                                                                :Time s10847
+                                                                :Duration s10845))
+                           :member (s10845 / year.n.01)
+                           :member (s10847 / time.n.08
+                                           :TPR now)
+                           :member s10846))
+
+(s10926 / time.n.08
+        :EQU-of (s10925 / time.n.08
+                        :MonthOfYear 3
+                        :member-of (b10931 / box
+                                           :member (s10922 / bear.v.02
+                                                           :Patient (s10927 / male.n.02
+                                                                            :Name "George Washington")
+                                                           :Time s10925
+                                                           :Time s10929)
+                                           :member s10926
+                                           :member (s10929 / time.n.08
+                                                           :TPR now)
+                                           :member s10927))
+        :YearOfCentury 1732)
+
+(s11101 / sport.n.01
+        :member-of (b11104 / box
+                           :member (s11105 / Rugby.n.01
+                                           :Theme-of (s11102 / be.v.01
+                                                             :Time s11106
+                                                             :Co-Theme s11101
+                                                             :member-of b11104))
+                           :NEGATION (b11107 / box
+                                             :member (s11097 / rain.n.01)
+                                             :member (s11100 / call_out.v.03
+                                                             :ESU s11097))
+                           :member (s11099 / time.n.08
+                                           :Name-of (s11098 / planet.n.03
+                                                            :Theme-of s11100))
+                           :member (s11106 / time.n.08
+                                           :EQU now)
+                           :member s11098))
+
+(s11171 / female.n.02
+        :Experiencer-of (s11163 / sensitive.a.03
+                                :Stimulus (s11173 / light.n.01)
+                                :Time s11167)
+        :member-of (b11165 / box
+                           :member (s11167 / time.n.08
+                                           :EQU now)
+                           :member s11173
+                           :member s11163
+                           :member s11166
+                           :member (s11172 / sunglasses.n.01)
+                           :CONTINUATION s11166
+                           :member s11175
+                           :member s11168
+                           :member (s11174 / female.n.02))
+        :Name Mary
+        :ANA-of (s11166 / female.n.02
+                        :member (s11168 / wear.v.02
+                                        :Time (s11175 / time.n.08
+                                                      :EQU now)
+                                        :Agent s11174
+                                        :Theme s11172)))
+
+(b11256 / box
+        :member (s11258 / country.n.02
+                        :Name "United States")
+        :member (s11252 / be.v.01
+                        :Theme (s11261 / entity.n.01
+                                       :Name ?)
+                        :Co-Theme s11263
+                        :Time s11253)
+        :member (s11260 / favorite.a.02
+                        :Stimulus (s11263 / town.n.01
+                                          :Location s11258
+                                          :Attribute s11264)
+                        :Experiencer s11251)
+        :member s11261
+        :member (s11251 / person.n.01
+                        :EQU hearer)
+        :member (s11264 / small.a.01
+                        :Value +)
+        :member s11263
+        :member (s11253 / time.n.08
+                        :EQU now))
+
+(s11289 / time.n.08
+        :EQU now
+        :member-of (b11285 / box
+                           :POSSIBILITY (b11286 / box
+                                                :member (s11288 / log.n.01
+                                                                :NEQ s11292)
+                                                :member (s11296 / person.n.01
+                                                                :Pivot-of (s11287 / have.v.01
+                                                                                  :Theme s11292)
+                                                                :EQU speaker)
+                                                :member (s11292 / blanket.n.01)
+                                                :member s11287)
+                           :member (s11293 / cold.a.01)
+                           :member s11295
+                           :member (s11291 / person.n.01
+                                           :EQU speaker))
+        :Time-of (s11283 / sensitive.a.03
+                         :Degree (s11295 / very.r.01)
+                         :member-of b11285
+                         :Experiencer s11291
+                         :Stimulus s11293))
+
+(b11633 / box
+        :member (s11635 / time.n.08
+                        :Time-of (s11634 / fluent.a.02)
+                        :TSU now)
+        :member (s11637 / person.n.01
+                        :EQU speaker
+                        :Attribute s11634)
+        :Theme-of (s11626 / become.v.01
+                          :Agent s11634)
+        :CONSEQUENCE-of (b11630 / box
+                                :member (s11638 / person.n.01
+                                                :EQU speaker
+                                                :Agent-of (s11627 / watch.v.01
+                                                                  :Theme s11639
+                                                                  :Time s11640
+                                                                  :Context s11625))
+                                :member (s11624 / quantity.n.01
+                                                :EQU 2000)
+                                :member (s11640 / time.n.08
+                                                :EQU now)
+                                :member (s11639 / movie.n.01
+                                                :Quantity s11624)
+                                :member (s11625 / english.n.03)
+                                :member s11627)
+        :member s11626
+        :member s11634)
+
+(s11669 / time.n.08
+        :EQU now
+        :Time-of (s11661 / be.v.01
+                         :Theme s11664
+                         :Co-Theme s11665)
+        :member-of (b11667 / box
+                           :member (s11662 / recognizable.a.02
+                                           :Degree (s11663 / easily.r.01)
+                                           :Attribute-of s11665)
+                           :member s11661
+                           :member (s11665 / butterfly.n.01
+                                           :Attribute (s11668 / beautiful.a.01))
+                           :member s11668
+                           :member (s11660 / peacock.n.01
+                                           :Creator-of (s11664 / entity.n.01))
+                           :member s11663
+                           :member s11664))
+
+(s11691 / pass.v.20
+        :Time (s11688 / time.n.08
+                      :TPR now)
+        :member-of (b11685 / box
+                           :member (s11689 / time.n.08
+                                           :TPR now)
+                           :member s11688
+                           :member (s11682 / kick.v.01
+                                           :Time (s11683 / time.n.08
+                                                         :TPR now)
+                                           :Theme s11692
+                                           :Agent s11699)
+                           :member (s11692 / ball.n.01
+                                           :Theme-of (s11694 / Beckham
+                                                             :Agent s11682))
+                           :member (s11681 / score.v.01
+                                           :Time s11689
+                                           :Theme s11698)
+                           :member (s11697 / company.n.01
+                                           :Name "Beckham. Tate")
+                           :Destination s11697
+                           :member (s11693 / time.n.08
+                                           :TPR now
+                                           :Time-of s11694)
+                           :member s11683
+                           :member s11694
+                           :member s11699)
+        :Theme (s11699 / ball.n.01)
+        :Agent (s11698 / male.n.02
+                       :Name "Carl Lampard"
+                       :member-of b11685))
+
+(s11735 / time.n.08
+        :TPR now
+        :member-of (b11731 / box
+                           :member (s11738 / knife.n.02)
+                           :member (s11737 / time.n.08
+                                           :MonthOfYear 4
+                                           :EQU (s11736 / time.n.08
+                                                        :DayOfMonth 30
+                                                        :EQU s11727))
+                           :member (s11726 / country.n.02
+                                           :Name (s11732 / female.n.02))
+                           :member (s11739 / tennis_player.n.01
+                                           :Source s11726)
+                           :member s11732
+                           :member (s11727 / time.n.08
+                                           :YearOfCentury 1993)
+                           :member (s11728 / back.n.01)
+                           :member s11736)
+        :Time-of (s11725 / stab.v.01
+                         :Instrument s11738
+                         :member-of b11731
+                         :Location s11728
+                         :Patient s11739
+                         :Time s11736))
+
+(s11755 / force.v.01
+        :member-of (b11751 / box
+                           :member (s11753 / entity.n.01
+                                           :Title "Ivan Brahe")
+                           :member (s11747 / person.n.01
+                                           :Quantity +
+                                           :Theme-of s11749
+                                           :Role (s11748 / person.n.01))
+                           :member (s11757 / latin.n.01)
+                           :member s11759
+                           :member (s11756 / Islam.n.01)
+                           :member s11760
+                           :member s11754
+                           :member s11748)
+        :Goal (s11749 / convert.v.01
+                      :Goal s11757
+                      :Manner s11756
+                      :member-of b11751)
+        :Agent (s11759 / entity.n.01
+                       :Attribute (s11760 / terrible.a.01)
+                       :Title s11753)
+        :Patient s11747
+        :Time (s11754 / time.n.08
+                      :TPR now))
+
+(s11831 / parliamentary.a.01
+        :Attribute-of (s11833 / election.n.02
+                              :Theme-of (s11854 / hold.v.03
+                                                :Location (s11828 / country.n.02
+                                                                  :Name Greece)
+                                                :Agent-of (s11844 / defeat.v.01
+                                                                  :Time (s11850 / time.n.08
+                                                                                :TPR now)
+                                                                  :Theme b11832
+                                                                  :Co-Agent (s11846 / male.n.02
+                                                                                    :Name "Jan De Evert"
+                                                                                    :Attribute s11848))
+                                                :Agent-of (s11855 / time.n.08
+                                                                  :Proposition (b11834 / box
+                                                                                       :member (s11842 / based.a.02
+                                                                                                       :Theme s11840)
+                                                                                       :member (s11847 / cd.n.04)
+                                                                                       :member s11840
+                                                                                       :member s11843)
+                                                                  :Time (s11827 / time.n.08
+                                                                                :TPR now)
+                                                                  :Time (s11830 / time.n.08
+                                                                                :EQU (s11843 / time.n.08
+                                                                                             :YearOfCentury 2007)
+                                                                                :DayOfMonth 12))
+                                                :Time s11835)
+                              :member-of (b11832 / box
+                                                 :member s11854
+                                                 :member s11831
+                                                 :CONTINUATION (b11838 / box
+                                                                       :member (s11852 / re-elected.a.01
+                                                                                       :Time s11841
+                                                                                       :Theme (s11840 / religion.n.02
+                                                                                                      :Name s11847))
+                                                                       :member s11850
+                                                                       :member (s11841 / time.n.08
+                                                                                       :TPR now)
+                                                                       :member s11846
+                                                                       :member s11844
+                                                                       :member s11855
+                                                                       :member s11827
+                                                                       :member s11830
+                                                                       :member (s11848 / liberal-conservative.a.02))
+                                                 :member (s11835 / time.n.08
+                                                                 :TPR now)
+                                                 :member s11828)))
+
