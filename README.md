@@ -36,6 +36,15 @@ conda create -n drsparsing python=3.9
 git clone https://github.com/xiulinyang/compositional_drs_parsing.git
 ```
 
+(3) clone other useful repositories for training and evaluation inside this repository.
+```
+cd compositional_drs_parsing
+git clone -b unsupervised2020 https://github.com/xiulinyang/am-parser.git
+git clone https://github.com/xiulinyang/am-tools.git
+git clone https://github.com/xiulinyang/SBN-evaluation-tool.git
+
+```
+
 Other useful repositories could be useful and we do not make changes to the code.
 * [Supar](https://github.com/yzhangcs/parser): to train the dependency parser
 * [vulcan](https://github.com/jgroschwitz/vulcan): to visualize AM-tree for error analysis
