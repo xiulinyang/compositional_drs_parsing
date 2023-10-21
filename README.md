@@ -117,10 +117,14 @@ $ python -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en -p model
     --embed glove-6b-100
 ```
 ### Mapping the scope back
+The dependency approach:
 ```
-python scope_match.py -i /split/parse/file -a /alignment/file -s /scope/parse/ -o /save/directory
+python scope_match.py -i /split/parse/file -a /alignment/file -s /scope/parse/ -o /save/directory/file
 ```
-
+The heuristics approach:
+```
+python sbn_postprocess.py -i /split/parse/file -o /save/directory/file
+```
 ### Evaluation
 The evaluation script should be run in the [SBN-Evaluation](https://github.com/xiulinyang/SBN-evaluation-tool) repository.
 ```
