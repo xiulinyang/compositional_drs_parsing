@@ -55,6 +55,7 @@ Other useful repositories could be useful and we do not make changes to the code
 ## Pipeline
 The pipeline works as below:
 ### Preprocessing
+#### Generate node-token alignment and Penman to train AM-Parser
 The preprocessing procedure is designed to transform SBNs into DRGs. Once the process is complete, you can expect three distinct outputs:
 1. Penman Notation File
 - **Location**: Stored under each specific file directory.
@@ -80,6 +81,14 @@ _Note that in PMB5, the test-long dataset hasn't been manually corrected yet and
 
 The split data has been generated in the ```data/data_split``` folder. If you need files for penman information, node-token alignment, and visualization data for each DRS, please contact me and I will send you a google drive link. 
 
+#### Generate scope annotation to train the dependency parser
+Run the following command to generate .conll file to train a dependency parser to learn scope information.
+
+```
+python scope_converter.py -i data_split/gold4/en_eval.txt (the data split file) -o scope_edge/eval4.conll (the output file) -v 4 (version of PMB)
+
+```
+
 ### Preprocessing data to convert DRGs to .amconll for training.
 To generate training data
 ```
@@ -98,6 +107,7 @@ java -cp build/libs/am-tools.jar de.saar.coli.amtools.decomposition.SourceAutoma
 python -u train.py </path/to/drs_scopeless5.jsonnet> -s <where to save the model>  -f --file-friendly-logging  -o ' {"trainer" : {"cuda_device" :  <your cuda device>  } }'
 ````
 ### Training Dependency Parser
+
 ```
 # biaffine
 $ python -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en -p model -f char  \
