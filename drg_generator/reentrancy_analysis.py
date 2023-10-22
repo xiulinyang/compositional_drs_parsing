@@ -77,22 +77,22 @@ def classify_reentrancy(path, penman, sent):
             others.append((path[i], s, penman[i]))
 
     return coref, time, coordination, verbalisation, control, relative, others
-train4 = "ud-boxer/ud_boxer/gold4/en_train.txt"
-train4_gold = 'ud-boxer/ud_boxer/gold4/gold_train.txt'
-dev4 = "ud-boxer/ud_boxer/data_split/gold4/en_dev.txt"
-dev4_gold = 'ud-boxer/ud_boxer/gold4/gold_dev.txt'
-test4 = "ud-boxer/ud_boxer/data_split/gold4/en_test.txt"
-test4_gold = 'ud-boxer/ud_boxer/gold4/gold_test.txt'
-eval4 = "ud-boxer/ud_boxer/data_split/gold4/en_eval.txt"
-eval4_gold = 'ud-boxer/ud_boxer/gold4/gold_eval.txt'
+train4 = "data/gold4/en_train.txt"
+train4_gold = 'data/gold4/gold_train.txt'
+dev4 = "data/data_split/gold4/en_dev.txt"
+dev4_gold = 'data/gold4/gold_dev.txt'
+test4 = "data/data_split/gold4/en_test.txt"
+test4_gold = 'data/gold4/gold_test.txt'
+eval4 = "data/data_split/gold4/en_eval.txt"
+eval4_gold = 'data/gold4/gold_eval.txt'
 
-dev4_pred_path = 'ud-boxer/ud_boxer/data_split/scopeless4/en_dev.txt'
-test4_pred_path = 'ud-boxer/ud_boxer/data_split/scopeless4/en_test.txt'
-eval4_pred_path = 'ud-boxer/ud_boxer/data_split/scopeless4/en_eval.txt'
+dev4_pred_path = 'data/data_split/scopeless4/en_dev.txt'
+test4_pred_path = 'data/data_split/scopeless4/en_test.txt'
+eval4_pred_path = 'data/data_split/scopeless4/en_eval.txt'
 
-dev4_pred = 'ud-boxer/ud_boxer/seq2seqoutput/4/udboxer_dev_gold.txt'
-test4_pred = 'ud-boxer/ud_boxer/seq2seqoutput/4/udboxer_test_gold.txt'
-eval4_pred = 'ud-boxer/ud_boxer/seq2seqoutput/4/udboxer_eval_gold.txt'
+dev4_pred = 'data/seq2seqoutput/4/udboxer_dev_gold.txt'
+test4_pred = 'data/seq2seqoutput/4/udboxer_test_gold.txt'
+eval4_pred = 'data/seq2seqoutput/4/udboxer_eval_gold.txt'
 
 # train4_sents, train4_paths, train4_penman=find_reentrancies_gold(train4,train4_gold, 'train')
 dev4_sents, dev4_paths, dev4_penman=find_reentrancies_gold(dev4,dev4_gold)

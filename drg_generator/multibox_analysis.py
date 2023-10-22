@@ -1,23 +1,23 @@
 from pathlib import Path
 
-pmb4_train = 'ud-boxer/ud_boxer/data_split/gold4/en_train.txt'
-pmb4_train_penman = 'ud-boxer/ud_boxerud_boxer/data_split/gold4/gold_train.txt'
-pmb4_dev = 'ud-boxer/ud_boxer/data_split/gold4/en_dev.txt'
-pmb4_dev_penman = 'ud-boxer/ud_boxer/data_split/gold4/gold_dev.txt'
-pmb4_test ='ud-boxer/ud_boxer/data_split/gold4/en_test.txt'
-pmb4_test_penman = 'ud-boxer/ud_boxer/data_split/gold4/gold_test.txt'
-pmb4_eval ='ud-boxer/ud_boxer/data_split/gold4/en_eval.txt'
-pmb4_eval_penman = 'ud-boxer/ud_boxer/data_split/gold4/gold_eval.txt'
+pmb4_train = 'data/data_split/gold4/en_train.txt'
+pmb4_train_penman = 'dataud_boxer/data_split/gold4/gold_train.txt'
+pmb4_dev = 'data/data_split/gold4/en_dev.txt'
+pmb4_dev_penman = 'data/data_split/gold4/gold_dev.txt'
+pmb4_test ='data/data_split/gold4/en_test.txt'
+pmb4_test_penman = 'data/data_split/gold4/gold_test.txt'
+pmb4_eval ='data/data_split/gold4/en_eval.txt'
+pmb4_eval_penman = 'data/data_split/gold4/gold_eval.txt'
 
 
-pmb5_train = 'ud-boxer/ud_boxer/data_split/gold5/en_train.txt'
-pmb5_train_penman= 'ud-boxer/ud_boxer/gold5/gold_train.txt'
-pmb5_dev ='ud-boxer/ud_boxer/data_split/gold5/en_dev.txt'
-pmb5_dev_penman = 'ud-boxer/ud_boxer/data_split/gold5/gold_dev.txt'
-pmb5_test ='ud-boxer/ud_boxer/data_split/gold4/en_test.txt'
-pmb5_test_penman = 'ud-boxer/ud_boxer/data_split/gold5/gold_test.txt'
-pmb5_testlong ='ud-boxer/ud_boxer/en_test_long.txt'
-pmb5_testlong_penman = 'ud-boxer/ud_boxer/gold5/gold_test_long.txt'
+pmb5_train = 'data/data_split/gold5/en_train.txt'
+pmb5_train_penman= 'data/gold5/gold_train.txt'
+pmb5_dev ='data/data_split/gold5/en_dev.txt'
+pmb5_dev_penman = 'data/data_split/gold5/gold_dev.txt'
+pmb5_test ='data/data_split/gold4/en_test.txt'
+pmb5_test_penman = 'data/data_split/gold5/gold_test.txt'
+pmb5_testlong ='data/en_test_long.txt'
+pmb5_testlong_penman = 'data/gold5/gold_test_long.txt'
 
 def get_multibox(gold_path, gold_penman, box1, box2='b10'):
     multi_path =[]
@@ -62,10 +62,10 @@ multi_gold4 = multi_penman_dev4+multi_penman_test4+multi_penman_eval4
 # multi_gold5 = multi_penman_dev5+multi_penman_test5
 
 gold_dev_output_path = '/ud_boxer/output/output_multibox/4/gold.txt'
-udboxer_dev ='ud-boxer/ud_boxer/seq2seqoutput/4/t5_dev_gold.txt'
-udboxer_test = 'ud-boxer/ud_boxer/seq2seqoutput/4/t5_test_gold.txt'
-udboxer_eval = 'ud-boxer/ud_boxer/seq2seqoutput/4/t5_test_gold.txt'
-udboxer_multioutput ='ud-boxer/ud_boxer/output_multibox/4/t5.txt'
+udboxer_dev ='data/seq2seqoutput/4/t5_dev_gold.txt'
+udboxer_test = 'data/seq2seqoutput/4/t5_test_gold.txt'
+udboxer_eval = 'data/seq2seqoutput/4/t5_test_gold.txt'
+udboxer_multioutput ='data/output_multibox/4/t5.txt'
 udboxer_dev_penman = get_pred(pmb4_dev, udboxer_dev, multi_path_dev4)
 udboxer_test_penman = get_pred(pmb4_test, udboxer_test, multi_path_test4)
 udboxer_eval_penman = get_pred(pmb4_eval, udboxer_eval, multi_path_eval4)
