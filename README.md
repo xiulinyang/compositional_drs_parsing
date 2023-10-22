@@ -1,13 +1,13 @@
 # Compositional DRS Parsing
 
 ## Overview
-This repository is for my master's thesis on compositional DRS parsing. It builds a system based on AM-Parser and is able to process the non-compositional and compositional information efficiently. 
+This repository contains my master's thesis project, which focuses on compositional Discourse Representation Structure (DRS) parsing. The project involves developing a system that utilizes AM-Parser, effectively handling both non-compositional and compositional information. Our system demonstrates enhanced capabilities in parsing longer and more complex sentences, delivering robust performance. Additionally, our system performs competitively in parsing elements like scope, coreference, and reentrancies, holding its own against other well-established baseline systems.
 
 ## Table of Contents
 - [Installation](#installation)
 - [Pipeline](#pipeline)
 - [Results](#results)
-- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 ## Installation
 What you need to make everything run smoothly.
@@ -36,6 +36,15 @@ conda create -n drsparsing python=3.9
 git clone https://github.com/xiulinyang/compositional_drs_parsing.git
 ```
 
+(3) clone other useful repositories for training and evaluation inside this repository.
+```
+cd compositional_drs_parsing
+git clone -b unsupervised2020 https://github.com/xiulinyang/am-parser.git
+git clone https://github.com/xiulinyang/am-tools.git
+git clone https://github.com/xiulinyang/SBN-evaluation-tool.git
+git clone https://github.com/yzhangcs/parser
+```
+
 Other useful repositories could be useful and we do not make changes to the code.
 * [Supar](https://github.com/yzhangcs/parser): to train the dependency parser
 * [vulcan](https://github.com/jgroschwitz/vulcan): to visualize AM-tree for error analysis
@@ -46,6 +55,7 @@ Other useful repositories could be useful and we do not make changes to the code
 ## Pipeline
 The pipeline works as below:
 ### Preprocessing
+#### Generate node-token alignment and Penman to train AM-Parser
 The preprocessing procedure is designed to transform SBNs into DRGs. Once the process is complete, you can expect three distinct outputs:
 1. Penman Notation File
 - **Location**: Stored under each specific file directory.
@@ -71,6 +81,14 @@ _Note that in PMB5, the test-long dataset hasn't been manually corrected yet and
 
 The split data has been generated in the ```data/data_split``` folder. If you need files for penman information, node-token alignment, and visualization data for each DRS, please contact me and I will send you a google drive link. 
 
+#### Generate scope annotation to train the dependency parser
+Run the following command to generate .conll file to train a dependency parser to learn scope information.
+
+```
+python scope_converter.py -i data_split/gold4/en_eval.txt (the data split file) -o scope_edge/eval4.conll (the output file) -v 4 (version of PMB)
+
+```
+
 ### Preprocessing data to convert DRGs to .amconll for training.
 To generate training data
 ```
@@ -89,6 +107,7 @@ java -cp build/libs/am-tools.jar de.saar.coli.amtools.decomposition.SourceAutoma
 python -u train.py </path/to/drs_scopeless5.jsonnet> -s <where to save the model>  -f --file-friendly-logging  -o ' {"trainer" : {"cuda_device" :  <your cuda device>  } }'
 ````
 ### Training Dependency Parser
+
 ```
 # biaffine
 $ python -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en -p model -f char  \
@@ -98,10 +117,14 @@ $ python -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-en -p model
     --embed glove-6b-100
 ```
 ### Mapping the scope back
+The dependency approach:
 ```
-python scope_match.py -i /split/file -a /alignment/file -s /scope/parse/ -o /save/directory
+python scope_match.py -i /split/parse/file -a /alignment/file -s /scope/parse/ -o /save/directory/file
 ```
-
+The heuristics approach:
+```
+python sbn_postprocess.py -i /split/parse/file -o /save/directory/file
+```
 ### Evaluation
 The evaluation script should be run in the [SBN-Evaluation](https://github.com/xiulinyang/SBN-evaluation-tool) repository.
 ```
@@ -132,4 +155,7 @@ bash evaluation.sh pred.txt gold.txt
 | **Gold+Silver(MUL)**      | DRS-MLM         | **94.7\|94.7** | **90.5\|90.5**  | **92.5\|92.5**  | 3%         | **94.4\|94.4**  | **88.7\|88.7**  | **91.5\|91.5**  | 4%          | **82.0\|81.9**  | 5.5\|5.7        | 10.2\|10.6      | 82%              |
 
 *SMATCH (left) and SMATCH++ (right) of all models on PMB4 (Top) and PMB5 (Bottom) Datasets - the model trained exclusively on gold data is denoted in bold, while the overall best-performing model is indicated with underlining.*
+
+## Result
+If you have any questions, please feel free to reach out to me at [xiulin.yang.compling@gmail.com](mailto:xiulin.yang.compling@gmail.com).
 
