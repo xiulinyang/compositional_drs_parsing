@@ -1,12 +1,12 @@
 # Compositional DRS Parsing
 
 ## Overview
-This repository contains my master's thesis project, which focuses on compositional Discourse Representation Structure (DRS) parsing. The project involves developing a system that utilizes AM-Parser, effectively handling both non-compositional and compositional information. Our system demonstrates enhanced capabilities in parsing longer and more complex sentences, delivering robust performance. Additionally, our system performs competitively in parsing elements like scope, coreference, and reentrancies, holding its own against other well-established baseline systems.
+This is the repository for the paper [Scope-enhanced Compositional Semantic Parsing for DRT](https://aclanthology.org/2024.emnlp-main.1093/).
+
 
 ## Table of Contents
 - [Installation](#installation)
 - [Pipeline](#pipeline)
-- [Results](#results)
 - [Contact](#contact)
 
 ## Installation
@@ -133,5 +133,26 @@ bash evaluation.sh pred.txt gold.txt
 ```
 
 ## Contact
+```
+@inproceedings{yang-etal-2024-scope,
+    title = "Scope-enhanced Compositional Semantic Parsing for {DRT}",
+    author = "Yang, Xiulin  and
+      Groschwitz, Jonas  and
+      Koller, Alexander  and
+      Bos, Johan",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.1093/",
+    doi = "10.18653/v1/2024.emnlp-main.1093",
+    pages = "19602--19616",
+    abstract = "Discourse Representation Theory (DRT) distinguishes itself from other semantic representation frameworks by its ability to model complex semantic and discourse phenomena through structural nesting and variable binding. While seq2seq models hold the state of the art on DRT parsing, their accuracy degrades with the complexity of the sentence, and they sometimes struggle to produce well-formed DRT representations. We introduce the AMS parser, a compositional, neurosymbolic semantic parser for DRT. It rests on a novel mechanism for predicting quantifier scope. We show that the AMS parser reliably produces well-formed outputs and performs well on DRT parsing, especially on complex sentences."
+}
+```
 If you have any questions, please feel free to reach out to me at [xiulin.yang.compling@gmail.com](mailto:xiulin.yang.compling@gmail.com).
 
