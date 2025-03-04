@@ -132,10 +132,6 @@ cd 2.evaluation-tool-detail
 bash evaluation.sh pred.txt gold.txt
 ```
 
-If you have questions, feel free to contact me: xiulin.yang.compling@gmail.com
-
-*SMATCH (left) and SMATCH++ (right) of all models on PMB4 (Top) and PMB5 (Bottom) Datasets - the model trained exclusively on gold data is denoted in bold, while the overall best-performing model is indicated with underlining.*
-
 ## Contact
 If you have any questions, please feel free to reach out to me at [xiulin.yang.compling@gmail.com](mailto:xiulin.yang.compling@gmail.com).
 
